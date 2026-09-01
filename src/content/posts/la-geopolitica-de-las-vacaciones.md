@@ -7,27 +7,26 @@ categoria: "análisis"
 image: "/og-preview.png"
 ---
 
-> **[ESTRUCTURA DEL POST — texto a desarrollar por el autor]**
->
-> Este es un párrafo de ejemplo a sustituir por el análisis completo. La
-> redacción final corresponderá al autor del proyecto y no debe atribuirse a
-> esta plantilla.
+## La responsabilidad no se va de vacaciones
 
-## Contexto
+En los micrófonos amigos de la **Cadena SER**, convertidos una vez más en altavoz de terciopelo y mullido acolchado para el poder, asistimos a la constatación de una huida en toda regla.
 
-<!-- Desarrollar: las declaraciones del presidente del Gobierno sobre su
-derecho a vacaciones, la reacción institucional y mediática. -->
+Ante las críticas por su prolongada ausencia institucional y su pasividad frente a la **gravísima crisis migratoria y de seguridad que devasta Ceuta**, el presidente del Gobierno se retrató sin ambages con una frase que resume su desapego:
 
-## El derecho al descanso
+> «Sé que para una parte importante de la población yo no debería tener derecho a tener vacaciones ni a ser presidente. He trabajado y he descansado. Es mi derecho».
 
-<!-- Desarrollar: el derecho al descanso como derecho fundamental, y cómo se
-equilibra con la responsabilidad del cargo público. -->
+Pretender despachar una emergencia nacional en nuestra frontera sur amparándose en que «es su derecho» vacacionar mientras arde una ciudad autónoma es **un insulto a la inteligencia de los ciudadanos** y una flagrante dejación de funciones.
 
-## La responsabilidad del cargo
+La responsabilidad institucional no es un empleo de oficina con horario flexible ni un contrato laboral al que se le puedan detraer días de asueto cuando las circunstancias geopolíticas apremian. Quien asume la jefatura del Ejecutivo ostenta una carga permanente de servicio público que no entiende de estío, treguas ni escapadas estivales, y mucho menos cuando el territorio nacional soporta una presión crítica.
 
-<!-- Desarrollar: análisis crítico de las declaraciones, la percepción pública
-y el contraste con la gestión. -->
+La autoridad se ejerce **veinticuatro horas al día, los trescientos sesenta y cinco días del año**, precisamente porque las crisis fronterizas, la seguridad nacional y la soberanía del Estado no conceden treguas ni entienden de retiros dorados protegidos por la complacencia mediática.
 
-## Conclusión
+Intentar disculpar la inacción ante un desafío de esta magnitud escudándose en agravios personales y en amparos radiofónicos demuestra una **alarmante desconexión con la realidad del país**. Mientras los ceutíes y las Fuerzas y Cuerpos de Seguridad del Estado afrontan situaciones límite en el Estrecho, el máximo responsable de conducir la política nacional reivindica su derecho al ocio.
 
-<!-- Desarrollar: síntesis y cierre. -->
+Un gobernante que prioriza su bienestar personal frente a una crisis territorial de esta gravedad despoja a su cargo de **toda autoridad moral**. La gobernanza exige presencia, pulso firme y un compromiso inquebrantable que no se toma vacaciones.
+
+**La irresponsabilidad, desgraciadamente, tampoco.**
+
+---
+
+*M. Castillo* · [mybloggingnotes@gmail.com](mailto:mybloggingnotes@gmail.com)
