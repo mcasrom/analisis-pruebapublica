@@ -9,7 +9,7 @@ const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.value
 const destacado = posts[0];
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
-<Layout title="Inicio" url="/">
+<Layout title="Inicio" url="/" wide>
   <!-- Hero -->
   <section class="py-12 text-center">
     <h1 class="font-serif text-5xl font-bold tracking-tight text-slate-900 dark:text-white">
