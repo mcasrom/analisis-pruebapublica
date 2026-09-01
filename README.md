@@ -43,3 +43,9 @@ pm2 start ecosystem.config.cjs --env production
 ## Contenido
 - Posts en `src/content/posts/*.md` (frontmatter: `title`, `description`, `pubDate`, `tags`, `image`, `categoria`).
 - El primer post (`la-geopolitica-de-las-vacaciones.md`) es una **estructura con párrafo placeholder** — el texto político lo redacta el autor.
+
+## Retención de datos
+- **SQLite local** (`data/analisis.db`): likes y comments. Comentarios quedan
+  `pendiente` hasta moderación (aprobado/rechazado). Crecimiento bajo.
+- Documento central del ecosistema con todas las políticas: ver `RETENCION.md`
+  en `mcasrom/nearme-osint`.
