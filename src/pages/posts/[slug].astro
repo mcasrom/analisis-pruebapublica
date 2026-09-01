@@ -18,6 +18,9 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+const todos = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const idx = todos.findIndex((p) => p.slug === post.slug);
+const siguiente = idx > 0 ? todos[idx - 1] : null;
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 const likes = getLikes(post.slug);
 const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}`;
@@ -71,6 +74,30 @@ const jsonLd = {
       <div class="prose-editorial mt-8">
         <Content />
       </div>
+
+      <div class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-slate-200 pt-6 dark:border-slate-800">
+        <a href={`https://wa.me/?text=${encodeURIComponent(`${post.data.title} — ` + postUrl)}`} target="_blank" rel="noopener noreferrer"
+          class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-accent-600 hover:text-accent-700 dark:border-slate-700 dark:text-slate-300 dark:hover:border-accent-400 dark:hover:text-accent-400">
+          📤 Compartir
+        </a>
+        <a href="https://ko-fi.com/m_castillo" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-full bg-[#13C3A5] px-5 py-2 text-sm font-bold text-white transition hover:brightness-110">
+          ☕ Invítame a un café
+        </a>
+      </div>
+
+      {siguiente && (
+        <a href={`/posts/${siguiente.slug}`} class="group mt-10 block rounded-2xl border border-slate-200 p-6 transition hover:border-accent-600 dark:border-slate-800 dark:hover:border-accent-400">
+          <span class="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">Siguiente artículo</span>
+          <h3 class="mt-2 font-serif text-xl font-bold text-slate-900 group-hover:text-accent-700 dark:text-white dark:group-hover:text-accent-400">
+            {siguiente.data.title}
+          </h3>
+          <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 dark:text-accent-400">
+            Leer
+            <span class="transition group-hover:translate-x-1">→</span>
+          </span>
+        </a>
+      )}
 
       <CommentList slug={post.slug} />
       <CommentForm slug={post.slug} />
