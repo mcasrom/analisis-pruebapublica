@@ -9,14 +9,14 @@ const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.value
 const destacado = posts[0];
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
-<Layout title="Geopolítica y análisis político" description="Blog de geopolítica y análisis político sin filiación. Contexto, datos y lectura crítica de la actualidad." url="/" wide>
+<Layout title="Geopolítica y análisis crítico del poder" description="Análisis crítico de la actualidad: contexto, datos y lectura del poder, sin filiación." url="/" wide>
   <!-- Hero -->
   <section class="py-12 text-center">
     <h1 class="font-serif text-5xl font-bold tracking-tight text-slate-900 dark:text-white">
       Análisis
     </h1>
     <p class="mx-auto mt-4 max-w-xl text-lg text-slate-600 dark:text-slate-300">
-      Geopolítica y análisis político. Contexto, datos y lectura crítica de la actualidad.
+      Análisis crítico de la actualidad: contexto, datos y lectura sin filiación.
     </p>
   </section>
 
