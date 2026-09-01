@@ -1,0 +1,23 @@
+---
+// src/components/CommentList.astro
+interface Props { slug: string }
+const { slug } = Astro.props;
+const { listComments } = await import('../lib/db');
+const comments = listComments(slug);
+const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<div data-comment-list data-slug={slug} class="mt-6">
+  <h4 class="mb-3 text-sm font-semibold text-neutral-500 dark:text-neutral-400">Comentarios ({comments.length})</h4>
+  {comments.length === 0 && <p class="text-sm text-neutral-400">Aún no hay comentarios aprobados.</p>}
+  <ul class="space-y-4">
+    {comments.map((c) => (
+      <li class="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
+        <div class="mb-1 flex items-baseline justify-between">
+          <span class="text-sm font-semibold text-neutral-900 dark:text-white">{c.autor}</span>
+          <time class="text-xs text-neutral-400" datetime={c.fecha}>{fmt.format(new Date(c.fecha))}</time>
+        </div>
+        <p class="text-sm text-neutral-700 dark:text-neutral-300">{c.texto}</p>
+      </li>
+    ))}
+  </ul>
+</div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://analisis.pruebapublica.com/sitemap-index.xml

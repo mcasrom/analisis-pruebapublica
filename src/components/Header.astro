@@ -1,0 +1,25 @@
+---
+// src/components/Header.astro
+import SocialIcons from './SocialIcons.astro';
+const nav = [
+  { href: '/', label: 'Inicio' },
+  { href: '/categorias', label: 'Categorías' },
+  { href: '/sobre', label: 'Sobre el proyecto' },
+  { href: '/contacto', label: 'Contacto' },
+];
+---
+<header class="border-b border-neutral-200 dark:border-neutral-800">
+  <div class="mx-auto flex max-w-4xl items-center justify-between px-4 py-5">
+    <a href="/" class="font-serif text-2xl font-bold tracking-tight text-neutral-900 dark:text-white">
+      Análisis
+    </a>
+    <nav class="flex items-center gap-6">
+      {nav.map((n) => (
+        <a href={n.href} class="hidden text-sm text-neutral-600 transition hover:text-amber-600 dark:text-neutral-300 dark:hover:text-amber-400 sm:block">
+          {n.label}
+        </a>
+      ))}
+      <SocialIcons />
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,33 @@
+---
+// src/pages/categorias/[categoria].astro
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const cats = [...new Set(posts.map((p) => p.data.categoria || 'análisis'))];
+  return cats.map((categoria) => ({ params: { categoria }, props: { categoria } }));
+}
+
+const { categoria } = Astro.props;
+const posts = (await getCollection('posts'))
+  .filter((p) => (p.data.categoria || 'análisis') === categoria)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Layout title={`Categoría: ${categoria}`} url={`/categorias/${categoria}`}>
+  <h1 class="font-serif text-4xl font-bold capitalize text-neutral-900 dark:text-white">{categoria}</h1>
+  <ul class="mt-8 divide-y divide-neutral-200 dark:divide-neutral-800">
+    {posts.map((p) => (
+      <li class="py-5">
+        <a href={`/posts/${p.slug}`} class="group block">
+          <span class="text-sm text-neutral-500">{fmt.format(p.data.pubDate)}</span>
+          <h2 class="mt-1 font-serif text-2xl font-bold text-neutral-900 group-hover:text-amber-700 dark:text-white dark:group-hover:text-amber-400">
+            {p.data.title}
+          </h2>
+          <p class="mt-1 text-neutral-600 dark:text-neutral-300">{p.data.description}</p>
+        </a>
+      </li>
+    ))}
+  </ul>
+</Layout>
