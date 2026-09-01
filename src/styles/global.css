@@ -7,6 +7,16 @@
 /* Tipografía: serif para titulares (editorial), sans-serif para cuerpo */
 @theme {
   --font-serif: Georgia, "Times New Roman", serif;
+  --color-accent-50: oklch(0.97 0.016 194);
+  --color-accent-100: oklch(0.94 0.028 192);
+  --color-accent-200: oklch(0.87 0.053 189);
+  --color-accent-300: oklch(0.77 0.083 186);
+  --color-accent-400: oklch(0.64 0.108 185);
+  --color-accent-500: oklch(0.55 0.106 185);
+  --color-accent-600: oklch(0.5 0.096 185);
+  --color-accent-700: oklch(0.44 0.08 185);
+  --color-accent-800: oklch(0.37 0.062 185);
+  --color-accent-900: oklch(0.31 0.046 186);
 }
 
 html {
@@ -15,6 +25,12 @@ html {
 
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f8fafc;
+}
+
+.dark body,
+[data-theme="dark"] body {
+  background: #0b1220;
 }
 
 /* Prose editorial para el contenido de posts */
@@ -32,14 +48,14 @@ body {
   margin: 0 0 1.1em;
 }
 .prose-editorial blockquote {
-  border-left: 3px solid #d97706;
+  border-left: 3px solid var(--color-accent-600);
   padding-left: 1rem;
   font-style: italic;
   color: #52525b;
   margin: 1.5em 0;
 }
 .prose-editorial a {
-  color: #d97706;
+  color: var(--color-accent-600);
   text-decoration: underline;
   text-underline-offset: 2px;
 }

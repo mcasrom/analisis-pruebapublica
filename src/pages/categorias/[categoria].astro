@@ -16,16 +16,16 @@ const posts = (await getCollection('posts'))
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 ---
 <Layout title={`Categoría: ${categoria}`} url={`/categorias/${categoria}`}>
-  <h1 class="font-serif text-4xl font-bold capitalize text-neutral-900 dark:text-white">{categoria}</h1>
-  <ul class="mt-8 divide-y divide-neutral-200 dark:divide-neutral-800">
+  <h1 class="font-serif text-4xl font-bold capitalize text-slate-900 dark:text-white">{categoria}</h1>
+  <ul class="mt-8 divide-y divide-slate-200 dark:divide-slate-800">
     {posts.map((p) => (
       <li class="py-5">
         <a href={`/posts/${p.slug}`} class="group block">
-          <span class="text-sm text-neutral-500">{fmt.format(p.data.pubDate)}</span>
-          <h2 class="mt-1 font-serif text-2xl font-bold text-neutral-900 group-hover:text-amber-700 dark:text-white dark:group-hover:text-amber-400">
+          <span class="text-sm text-slate-500">{fmt.format(p.data.pubDate)}</span>
+          <h2 class="mt-1 font-serif text-2xl font-bold text-slate-900 group-hover:text-accent-700 dark:text-white dark:group-hover:text-accent-400">
             {p.data.title}
           </h2>
-          <p class="mt-1 text-neutral-600 dark:text-neutral-300">{p.data.description}</p>
+          <p class="mt-1 text-slate-600 dark:text-slate-300">{p.data.description}</p>
         </a>
       </li>
     ))}

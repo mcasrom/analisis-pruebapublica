@@ -8,12 +8,12 @@ const { slug, initialCount } = Astro.props;
 ---
 <div class="flex items-center gap-2" data-like data-slug={slug}>
   <button data-like-btn
-    class="group inline-flex items-center gap-2 rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-neutral-600 transition hover:border-amber-600 hover:text-amber-700 active:scale-95 dark:border-neutral-700 dark:text-neutral-300 dark:hover:border-amber-400 dark:hover:text-amber-400"
+    class="group inline-flex items-center gap-2 rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-accent-600 hover:text-accent-700 active:scale-95 dark:border-slate-700 dark:text-slate-300 dark:hover:border-accent-400 dark:hover:text-accent-400"
     aria-label="Me gusta">
     <span data-like-icon class="text-base transition group-active:scale-125">♡</span>
     <span data-like-count>{initialCount}</span>
   </button>
-  <span class="text-xs text-neutral-400">me gusta</span>
+  <span class="text-xs text-slate-400">me gusta</span>
 </div>
 
 <script>
@@ -26,7 +26,7 @@ const { slug, initialCount } = Astro.props;
     const liked = new Set<string>(JSON.parse(localStorage.getItem('liked') || '[]'));
 
     function updateVisual() {
-      if (liked.has(slug)) { icon.textContent = '♥'; icon.classList.add('text-amber-600'); }
+      if (liked.has(slug)) { icon.textContent = '♥'; icon.classList.add('text-accent-600'); }
     }
     updateVisual();
 

@@ -12,17 +12,17 @@ for (const p of posts) {
 }
 ---
 <Layout title="Categorías" url="/categorias">
-  <h1 class="font-serif text-4xl font-bold text-neutral-900 dark:text-white">Categorías</h1>
+  <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">Categorías</h1>
   <div class="mt-8 space-y-10">
     {[...categorias.entries()].map(([cat, items]) => (
       <section>
-        <h2 class="mb-4 text-xl font-bold text-neutral-900 dark:text-white">
-          <a href={`/categorias/${cat}`} class="hover:text-amber-600 dark:hover:text-amber-400 capitalize">{cat}</a>
+        <h2 class="mb-4 text-xl font-bold text-slate-900 dark:text-white">
+          <a href={`/categorias/${cat}`} class="hover:text-accent-600 dark:hover:text-accent-400 capitalize">{cat}</a>
         </h2>
-        <ul class="divide-y divide-neutral-200 dark:divide-neutral-800">
+        <ul class="divide-y divide-slate-200 dark:divide-slate-800">
           {items.map((p) => (
             <li class="py-3">
-              <a href={`/posts/${p.slug}`} class="font-medium text-neutral-700 hover:text-amber-600 dark:text-neutral-200 dark:hover:text-amber-400">
+              <a href={`/posts/${p.slug}`} class="font-medium text-slate-700 hover:text-accent-600 dark:text-slate-200 dark:hover:text-accent-400">
                 {p.data.title}
               </a>
             </li>

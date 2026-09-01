@@ -3,20 +3,20 @@
 interface Props { slug: string }
 const { slug } = Astro.props;
 ---
-<div class="mt-8 border-t border-neutral-200 pt-6 dark:border-neutral-800">
-  <h3 class="mb-4 font-serif text-lg font-bold text-neutral-900 dark:text-white">Deja un comentario</h3>
+<div class="mt-8 border-t border-slate-200 pt-6 dark:border-slate-800">
+  <h3 class="mb-4 font-serif text-lg font-bold text-slate-900 dark:text-white">Deja un comentario</h3>
   <form data-comment-form data-slug={slug} class="space-y-3">
     <input name="autor" type="text" maxlength="80" placeholder="Tu nombre"
-      class="w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:border-amber-600 focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white"
+      class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-accent-600 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-white"
       required />
     <textarea name="texto" rows="4" maxlength="2000" placeholder="Tu comentario (se publica tras moderación)"
-      class="w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder-neutral-400 focus:border-amber-600 focus:outline-none dark:border-neutral-700 dark:bg-neutral-900 dark:text-white"
+      class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-accent-600 focus:outline-none dark:border-slate-700 dark:bg-slate-900 dark:text-white"
       required></textarea>
     <button type="submit"
-      class="rounded-lg bg-amber-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-amber-700">
+      class="rounded-lg bg-accent-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-accent-700">
       Enviar comentario
     </button>
-    <p data-msg class="text-sm text-neutral-500" role="status"></p>
+    <p data-msg class="text-sm text-slate-500" role="status"></p>
   </form>
 </div>
 
