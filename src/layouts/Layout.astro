@@ -28,13 +28,21 @@ const fullImage = image.startsWith('http') ? image : siteUrl + image;
 const fullUrl = url.startsWith('http') ? url : siteUrl + url;
 ---
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{fullTitle}</title>
   <meta name="description" content={trimmedDesc} />
   <meta name="google-site-verification" content="mlyuKtDMOhZ2x2lMrqr-MHT9LeUW8i6uEJw1Sv6AzNY" />
+
+  <!-- PWA -->
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Análisis" />
+  <link rel="manifest" href="/manifest.json" />
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="Análisis" />
@@ -55,7 +63,7 @@ const fullUrl = url.startsWith('http') ? url : siteUrl + url;
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <slot name="head" />
 </head>
-<body class="min-h-screen bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+<body class="min-h-screen antialiased">
   <Header />
   <main class={`mx-auto px-4 py-10 ${wide ? 'max-w-6xl' : 'max-w-4xl'}`}>
     <slot />

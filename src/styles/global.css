@@ -23,19 +23,44 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* ===== TEMAS ===== */
+
+/* Claro */
+html.light body,
+html:not([data-theme]) body {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   background: #ffffff;
   color: #1e293b;
 }
 
-.dark body,
-[data-theme="dark"] body {
+/* Sepia - ideal para lectura editorial */
+html.sepia body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #faf6f0;
+  color: #3d3225;
+}
+
+html.sepia .prose-editorial blockquote {
+  color: #6b5c4a;
+}
+
+html.sepia .prose-editorial a {
+  color: #8b5e3c;
+}
+
+/* Oscuro */
+html.dark body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   background: #0f172a;
   color: #f1f5f9;
 }
 
-/* Prose editorial para el contenido de posts */
+html.dark .prose-editorial blockquote {
+  color: #94a3b8;
+}
+
+/* ===== PROSE EDITORIAL ===== */
+
 .prose-editorial {
   font-size: 1.0625rem;
   line-height: 1.75;
@@ -56,13 +81,35 @@ body {
   color: #475569;
   margin: 1.5em 0;
 }
-
-.dark .prose-editorial blockquote,
-[data-theme="dark"] .prose-editorial blockquote {
-  color: #94a3b8;
-}
 .prose-editorial a {
   color: var(--color-accent-600);
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* ===== Bordes según tema ===== */
+
+html.sepia .border-slate-200 {
+  border-color: #e8dfd4;
+}
+
+html.sepia .bg-slate-100 {
+  background-color: #f0e8dc;
+}
+
+html.sepia .text-slate-500,
+html.sepia .text-slate-400 {
+  color: #8a7d6e;
+}
+
+html.sepia .text-slate-700 {
+  color: #4a3f32;
+}
+
+html.sepia .text-slate-900 {
+  color: #3d3225;
+}
+
+html.sepia .hover\:text-accent-600:hover {
+  color: var(--color-accent-600);
 }
