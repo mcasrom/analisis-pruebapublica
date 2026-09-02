@@ -25,12 +25,14 @@ html {
 
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  background: #f8fafc;
+  background: #ffffff;
+  color: #1e293b;
 }
 
 .dark body,
 [data-theme="dark"] body {
-  background: #0b1220;
+  background: #0f172a;
+  color: #f1f5f9;
 }
 
 /* Prose editorial para el contenido de posts */
@@ -51,8 +53,13 @@ body {
   border-left: 3px solid var(--color-accent-600);
   padding-left: 1rem;
   font-style: italic;
-  color: #52525b;
+  color: #475569;
   margin: 1.5em 0;
+}
+
+.dark .prose-editorial blockquote,
+[data-theme="dark"] .prose-editorial blockquote {
+  color: #94a3b8;
 }
 .prose-editorial a {
   color: var(--color-accent-600);
