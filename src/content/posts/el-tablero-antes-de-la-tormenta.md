@@ -87,3 +87,9 @@ Con este mapa como referencia, el próximo post entra en el episodio concreto qu
 ---
 
 *Fuentes: Estrategia de Acción Exterior de España 2025-2028; análisis del IEEE sobre el Magreb 2025; Política Exterior; The Diplomat in Spain; El Orden Mundial; El Confidencial.*
+
+---
+
+**Nota sobre el proceso de elaboración.** Este post ha sido generado con asistencia de inteligencia artificial generativa (GenAI) para la investigación, contraste de fuentes y redacción inicial. El contenido ha sido revisado, editado y validado por el autor. La firmante, **@pruebapublica**, asume la responsabilidad integral del análisis y las opiniones expresadas.
+
+**@pruebapublica** · analisis.pruebapublica.com
