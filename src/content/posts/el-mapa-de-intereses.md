@@ -32,6 +32,15 @@ Con este mapa como referencia, el análisis de cualquier episodio posterior —l
 
 ---
 
+## Herramientas para verificar
+
+El mapa de intereses se puede contrastar con datos reales de cada actor:
+
+- **[Country: ficha de cada país](https://country.viajeinteligencia.com)** — PIB, demografía, energía, comercio exterior de España, Marruecos, Argelia y Mauritania comparados.
+- **[Municipal: datos locales](https://municipal.viajeinteligencia.com)** — cuando la geopolítica impacta en un territorio concreto, los datos municipales dan la escala real.
+
+---
+
 *Fuentes: Estrategia de Acción Exterior de España 2025-2028; análisis del IEEE sobre el Magreb 2025; Política Exterior; The Diplomat in Spain; El Orden Mundial; El Confidencial.*
 
 ---

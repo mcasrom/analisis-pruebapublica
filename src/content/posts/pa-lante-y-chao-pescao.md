@@ -27,4 +27,13 @@ Si el patrimonio de todos se utiliza con criterios patrimonialistas y se despach
 
 ---
 
+## Herramientas para verificar
+
+El escrutinio de las políticas inmobiliarias se puede contrastar con datos reales:
+
+- **[Alquimetría: precios de alquiler por zona](https://alquimetria.viajeinteligencia.com)** — evolución histórica del alquiler en tu barrio o municipio. Sin filtros, sin agenda.
+- **[Municipal: datos del municipio](https://municipal.viajeinteligencia.com)** — población, servicios y demografía del territorio donde se ubica el inmueble.
+
+---
+
 *pruebapublica*

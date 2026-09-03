@@ -29,4 +29,13 @@ Un gobernante que prioriza su bienestar personal frente a una crisis territorial
 
 ---
 
+## Herramientas para verificar
+
+La crisis de Ceuta no es solo política: tiene datos verificables:
+
+- **[Municipal: Ceuta en datos](https://municipal.viajeinteligencia.com)** — población, presión sobre servicios públicos, evolución demográfica del territorio afectado.
+- **[Country: España vs Marruecos](https://country.viajeinteligencia.com)** — comparativa de indicadores que explican la asimetría del tablero.
+
+---
+
 *pruebapublica*

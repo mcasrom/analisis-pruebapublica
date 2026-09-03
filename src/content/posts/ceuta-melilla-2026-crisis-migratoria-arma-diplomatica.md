@@ -54,6 +54,16 @@ Tres ideas para cerrar el análisis:
 
 ---
 
+## Herramientas para verificar
+
+Los datos que sustancian este análisis se pueden contrastar con herramientas públicas:
+
+- **[Municipal: datos de Ceuta y Melilla](https://municipal.viajeinteligencia.com)** — población, densidad, servicios públicos y evolución demográfica de los dos enclaves.
+- **[Country: España y Marruecos en contexto](https://country.viajeinteligencia.com)** — indicadores comparativos de ambos países: PIB, demografía, energía, comercio.
+- **[Radar: detectar desinformación](https://radar.viajeinteligencia.com)** — cuando aparezcan titulares sobre la frontera, contrastar fuentes antes de compartir.
+
+---
+
 *Fuentes: Ministerio de Asuntos Exteriores, Ministerio del Interior, Euronews, Infobae, La Región, Moncloa.com, Catalunya Press, The Conversation, Wikipedia (Incidentes fronterizos España-Marruecos 2026).*
 
 ---
