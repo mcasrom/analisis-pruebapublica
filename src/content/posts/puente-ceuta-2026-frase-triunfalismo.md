@@ -46,15 +46,6 @@ Más allá del episodio concreto, el caso ilustra un riesgo estructural del esti
 
 ---
 
-## Herramientas para verificar
-
-Los datos de contexto de este análisis se pueden contrastar con herramientas públicas:
-
-- **[Municipal: datos de Ceuta](https://municipal.viajeinteligencia.com)** — población, presión sobre servicios y evolución demográfica de la ciudad autónoma afectada.
-- **[Country: España y Marruecos en contexto](https://country.viajeinteligencia.com)** — indicadores comparativos que ayudan a situar la asimetría del tablero.
-
----
-
 *Fuentes consultadas: El Faro de Ceuta, OKDiario, EDATV, El Debate, cuenta de X de Óscar Puente (@oscar_puente_), Agenda Pública, El Plural, ARA, Cronista.*
 
 ---
