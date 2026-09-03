@@ -2,27 +2,52 @@
 // src/components/Header.astro
 import SocialIcons from './SocialIcons.astro';
 import ThemeToggle from './ThemeToggle.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const ultimo = posts[0];
+
 const nav = [
   { href: '/', label: 'Inicio' },
   { href: '/categorias', label: 'Categorías' },
   { href: '/sobre', label: 'Sobre el proyecto' },
-  { href: '/contacto', label: 'Contacto' },
 ];
 ---
-<header class="border-b border-slate-200 dark:border-slate-800">
-  <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-6">
-    <a href="/" class="flex flex-col leading-none">
-      <span class="font-serif text-4xl font-bold tracking-tight text-slate-900 dark:text-white">Análisis</span>
-      <span class="mt-1 text-sm text-slate-500 dark:text-slate-400">Geopolítica y análisis crítico del poder</span>
+<header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
+    <a href="/" class="flex min-w-0 flex-col leading-none">
+      <span class="font-serif text-3xl font-bold tracking-tight text-slate-900 dark:text-white">Análisis</span>
+      <span class="mt-1 truncate text-xs text-slate-500 dark:text-slate-400">Geopolítica y poder en datos</span>
     </a>
-    <nav class="flex items-center gap-6">
+    <nav class="flex items-center gap-4 sm:gap-6">
       {nav.map((n) => (
         <a href={n.href} class="hidden text-sm text-slate-600 transition hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400 sm:block">
           {n.label}
         </a>
       ))}
+      <a
+        href="https://bsky.app/profile/pruebapublica.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hidden items-center gap-1.5 rounded-full bg-accent-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-accent-700 dark:hover:bg-accent-500 md:inline-flex"
+      >
+        Síguenos <span class="text-accent-200">🦋</span>
+      </a>
       <ThemeToggle />
       <SocialIcons />
     </nav>
   </div>
+  {ultimo && (
+    <div class="border-t border-slate-100 bg-slate-50/70 dark:border-slate-800 dark:bg-slate-800/40">
+      <div class="mx-auto flex max-w-6xl items-center gap-2 overflow-hidden px-4 py-1.5 text-xs">
+        <span class="shrink-0 font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">Último</span>
+        <a href={`/posts/${ultimo.slug}`} class="truncate text-slate-600 transition hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400">
+          {ultimo.data.title}
+        </a>
+        <a href={`/posts/${ultimo.slug}`} class="shrink-0 font-semibold text-accent-600 hover:text-accent-700 dark:text-accent-400 dark:hover:text-accent-300">
+          Leer →
+        </a>
+      </div>
+    </div>
+  )}
 </header>

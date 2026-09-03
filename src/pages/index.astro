@@ -11,13 +11,32 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', ye
 ---
 <Layout title="Geopolítica y análisis crítico del poder" description="Análisis crítico de la actualidad: contexto, datos y lectura del poder, sin filiación." url="/" wide>
   <!-- Hero -->
-  <section class="py-12 text-center">
-    <h1 class="font-serif text-5xl font-bold tracking-tight text-slate-900 dark:text-white">
-      Análisis
-    </h1>
-    <p class="mx-auto mt-4 max-w-xl text-lg text-slate-600 dark:text-slate-300">
-      Análisis crítico de la actualidad: contexto, datos y lectura sin filiación.
+  <section class="mx-auto max-w-3xl py-10 text-center">
+    <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">
+      Contexto · datos · lectura crítica
     </p>
+    <h1 class="mt-2 font-serif text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
+      Análisis crítico del poder y la geopolítica
+    </h1>
+    <p class="mx-auto mt-4 max-w-2xl text-lg text-slate-600 dark:text-slate-300">
+      Hechos verificables con fuente, separación entre dato y opinión, y una lectura que examina a todos los poderes por igual.
+    </p>
+    <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+      <a
+        href="#articulos"
+        class="rounded-full bg-accent-600 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-700 dark:hover:bg-accent-500"
+      >
+        Leer últimos análisis
+      </a>
+      <a
+        href="https://bsky.app/profile/pruebapublica.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rounded-full border border-slate-300 px-6 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-accent-600 hover:text-accent-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-accent-400 dark:hover:text-accent-400"
+      >
+        Síguenos en Bluesky
+      </a>
+    </div>
   </section>
 
   <div class="grid gap-10 lg:grid-cols-[1fr_320px]">
@@ -37,7 +56,7 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', ye
         </section>
       )}
 
-      <section>
+      <section id="articulos">
         <h2 class="mb-6 border-b border-slate-200 pb-2 font-serif text-2xl font-bold text-slate-900 dark:border-slate-800 dark:text-white">
           Artículos
         </h2>
