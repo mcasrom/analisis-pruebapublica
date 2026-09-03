@@ -1,0 +1,61 @@
+---
+// src/components/NewsletterForm.astro
+// Formulario de suscripción: guarda el email vía /api/subscribe.
+const { variante = 'inline' } = Astro.props as { variante?: 'inline' | 'card' };
+const titulo = 'Recibe los análisis en tu correo';
+const texto = 'Un email con cada artículo nuevo. Sin spam, date de baja cuando quieras.';
+---
+<div class="newsletter {variante === 'card' ? 'rounded-2xl border border-slate-200 p-6 dark:border-slate-800' : ''}">
+  <h3 class="font-serif text-xl font-bold text-slate-900 dark:text-white">{titulo}</h3>
+  <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">{texto}</p>
+  <form class="newsletter-form mt-4 flex flex-col gap-2 sm:flex-row" data-variante={variante}>
+    <input
+      type="email"
+      name="email"
+      required
+      placeholder="tu@email.com"
+      autocomplete="email"
+      class="w-full rounded-full border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition focus:border-accent-600 focus:ring-2 focus:ring-accent-600/30 dark:border-slate-700 dark:bg-slate-800 dark:text-white"
+    />
+    <button
+      type="submit"
+      class="shrink-0 rounded-full bg-accent-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-700 dark:hover:bg-accent-500"
+    >
+      Suscribirme
+    </button>
+  </form>
+  <p class="newsletter-msg mt-2 hidden text-sm font-medium"></p>
+</div>
+
+<script>
+  document.querySelectorAll('.newsletter-form').forEach((form) => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const emailInput = form.querySelector('input[name="email"]') as HTMLInputElement;
+      const wrap = form.closest('.newsletter') as HTMLElement;
+      const msg = wrap.querySelector('.newsletter-msg') as HTMLElement;
+      const email = emailInput.value.trim();
+      if (!email) return;
+      msg.className = 'newsletter-msg mt-2 text-sm font-medium';
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ email }),
+        });
+        const data = await res.json();
+        if (res.ok) {
+          msg.textContent = data.existia ? 'Ya estabas suscrito. ¡Gracias!' : '¡Listo! Te has suscrito. Revisa tu correo.';
+          msg.classList.add('text-accent-600', 'dark:text-accent-400');
+          emailInput.value = '';
+        } else {
+          msg.textContent = data.message || 'No se pudo suscribir. Inténtalo de nuevo.';
+          msg.classList.add('text-red-600', 'dark:text-red-400');
+        }
+      } catch {
+        msg.textContent = 'Error de conexión. Inténtalo de nuevo.';
+        msg.classList.add('text-red-600', 'dark:text-red-400');
+      }
+    });
+  });
+</script>

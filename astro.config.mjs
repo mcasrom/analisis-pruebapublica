@@ -9,6 +9,10 @@ export default defineConfig({
   site: 'https://analisis.pruebapublica.com',
   output: 'static',
   adapter: node({ mode: 'standalone' }),
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      filter: (page) => !page.includes('/admin/'),
+    }),
+  ],
   vite: { plugins: [tailwindcss()] },
 });

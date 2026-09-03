@@ -2,6 +2,7 @@
 // src/pages/index.astro
 import Layout from '../layouts/Layout.astro';
 import Sidebar from '../components/Sidebar.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
 import { getCollection } from 'astro:content';
 import { getLikes } from '../lib/db';
 
@@ -37,6 +38,10 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', ye
         Síguenos en Bluesky
       </a>
     </div>
+  </section>
+
+  <section class="mx-auto mb-12 max-w-2xl">
+    <NewsletterForm variante="card" />
   </section>
 
   <div class="grid gap-10 lg:grid-cols-[1fr_320px]">

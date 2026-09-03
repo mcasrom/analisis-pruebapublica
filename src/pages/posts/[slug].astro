@@ -5,6 +5,7 @@ import Sidebar from '../../components/Sidebar.astro';
 import LikeButton from '../../components/LikeButton.astro';
 import CommentForm from '../../components/CommentForm.astro';
 import CommentList from '../../components/CommentList.astro';
+import NewsletterForm from '../../components/NewsletterForm.astro';
 import { getCollection } from 'astro:content';
 import { getLikes } from '../../lib/db';
 
@@ -98,6 +99,10 @@ const jsonLd = {
           </span>
         </a>
       )}
+
+      <div class="mt-10">
+        <NewsletterForm variante="card" />
+      </div>
 
       <CommentList slug={post.slug} />
       <CommentForm slug={post.slug} />
