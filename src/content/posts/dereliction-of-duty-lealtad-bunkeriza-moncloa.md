@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["política", "seguridad nacional", "instituciones", "Ceuta", "Moncloa", "análisis"]
 categoria: "análisis"
-image: "/bunkerizacion.png"
+image: "/bunkerizacion-og.jpg"
 draft: false
 ---
 
