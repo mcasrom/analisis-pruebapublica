@@ -11,8 +11,30 @@ const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.value
 const destacado = posts[0];
 const lecturaDe = (p: (typeof posts)[number]) => (p.body ? readingTimeLabel(p.body) : '');
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const siteUrl = 'https://analisis.pruebapublica.com';
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Análisis',
+  url: siteUrl,
+  description: 'Análisis crítico de la actualidad: contexto, datos y lectura del poder, sin filiación.',
+  publisher: { '@type': 'Organization', name: 'Análisis', url: siteUrl },
+  blog: {
+    '@type': 'Blog',
+    blogPost: posts.map((p) => ({
+      '@type': 'BlogPosting',
+      headline: p.data.title,
+      datePublished: p.data.pubDate.toISOString(),
+      url: `${siteUrl}/posts/${p.slug}/`,
+      image: p.data.image ? `${siteUrl}${p.data.image}` : `${siteUrl}/og-preview.png`,
+      author: { '@type': 'Person', name: 'M. Castillo' },
+    })),
+  },
+};
 ---
 <Layout title="Geopolítica y análisis crítico del poder" description="Análisis crítico de la actualidad: contexto, datos y lectura del poder, sin filiación." url="/" wide>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />
   <!-- Hero -->
   <section class="mx-auto max-w-3xl py-10 text-center">
     <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">

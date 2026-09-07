@@ -28,16 +28,40 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', ye
 const likes = getLikes(post.slug);
 const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}`;
 
+// Serie Ceuta: posts hermanos por tag "Ceuta"
+const ceutaPosts = todos.filter((p) => p.data.tags.some((t) => t.toLowerCase() === 'ceuta'));
+const esCeuta = ceutaPosts.some((p) => p.slug === post.slug);
+const seriePos = ceutaPosts.findIndex((p) => p.slug === post.slug);
+
+// Compartir: X cuenta el enlace como 23 chars (t.co)
+const shareUrl = postUrl;
+const maxTitleLen = 140 - 23 - 3; // 114 (3 = comillas + espacio)
+const shareTitle = post.data.title.length > maxTitleLen
+  ? post.data.title.slice(0, maxTitleLen - 1) + '…'
+  : post.data.title;
+const shareText = encodeURIComponent(`"${shareTitle}" ${shareUrl}`);
+const shareX = `https://twitter.com/intent/tweet?text=${shareText}`;
+const shareBsky = `https://bsky.app/intent/compose?text=${shareText}`;
+
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'NewsArticle',
+  '@type': 'Article',
   headline: post.data.title,
   description: post.data.description,
   datePublished: post.data.pubDate.toISOString(),
-  image: post.data.image || 'https://analisis.pruebapublica.com/og-preview.png',
-  author: { '@type': 'Organization', name: 'Análisis' },
-  publisher: { '@type': 'Organization', name: 'Análisis', url: 'https://analisis.pruebapublica.com' },
-  mainEntityOfPage: postUrl,
+  dateModified: post.data.pubDate.toISOString(),
+  image: post.data.image ? `https://analisis.pruebapublica.com${post.data.image}` : 'https://analisis.pruebapublica.com/og-preview.png',
+  author: { '@type': 'Person', name: 'M. Castillo', url: 'https://analisis.pruebapublica.com' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Análisis',
+    url: 'https://analisis.pruebapublica.com',
+    logo: { '@type': 'ImageObject', url: 'https://analisis.pruebapublica.com/og-preview.png' },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+  keywords: post.data.tags.join(', '),
+  wordCount: post.body ? post.body.split(/\s+/).length : undefined,
+  timeRequired: lectura || undefined,
 };
 ---
 <Layout
@@ -86,15 +110,47 @@ const jsonLd = {
       </div>
 
       <div class="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-slate-200 pt-6 dark:border-slate-800">
-        <a href={`https://wa.me/?text=${encodeURIComponent(`${post.data.title} — ` + postUrl)}`} target="_blank" rel="noopener noreferrer"
-          class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-accent-600 hover:text-accent-700 dark:border-slate-700 dark:text-slate-300 dark:hover:border-accent-400 dark:hover:text-accent-400">
-          📤 Compartir
-        </a>
+        <div class="flex flex-wrap items-center gap-2">
+          <a href={`https://wa.me/?text=${encodeURIComponent(`${post.data.title} — ` + postUrl)}`} target="_blank" rel="noopener noreferrer"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-green-500 hover:text-green-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-green-400 dark:hover:text-green-400">
+            📲 WhatsApp
+          </a>
+          <a href={shareX} target="_blank" rel="noopener noreferrer"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-black hover:text-black dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-300 dark:hover:text-white">
+            ✕ X
+          </a>
+          <a href={shareBsky} target="_blank" rel="noopener noreferrer"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-sky-500 hover:text-sky-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-sky-400 dark:hover:text-sky-400">
+            🦋 Bluesky
+          </a>
+        </div>
         <a href="https://ko-fi.com/m_castillo" target="_blank" rel="noopener noreferrer"
           class="inline-flex items-center gap-2 rounded-full bg-[#13C3A5] px-5 py-2 text-sm font-bold text-white transition hover:brightness-110">
           ☕ Invítame a un café
         </a>
       </div>
+
+      {esCeuta && ceutaPosts.length > 1 && (
+        <div class="mt-10 rounded-2xl border border-dashed border-accent-300 bg-accent-50/50 p-6 dark:border-accent-700 dark:bg-accent-950/30">
+          <h3 class="text-sm font-semibold uppercase tracking-widest text-accent-700 dark:text-accent-300">
+            Crisis de Ceuta 2026 · Parte {seriePos + 1} de {ceutaPosts.length}
+          </h3>
+          <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">Serie de análisis sobre la crisis migratoria como arma diplomática</p>
+          <ul class="mt-3 space-y-1.5">
+            {ceutaPosts.map((p, i) => (
+              <li>
+                {p.slug === post.slug ? (
+                  <span class="text-sm font-semibold text-accent-700 dark:text-accent-300">{i + 1}. {p.data.title} ←</span>
+                ) : (
+                  <a href={`/posts/${p.slug}`} class="text-sm text-slate-600 hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400">
+                    {i + 1}. {p.data.title}
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {siguiente && (
         <a href={`/posts/${siguiente.slug}`} class="group mt-10 block rounded-2xl border border-slate-200 p-6 transition hover:border-accent-600 dark:border-slate-800 dark:hover:border-accent-400">
