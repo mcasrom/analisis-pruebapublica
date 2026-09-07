@@ -42,13 +42,24 @@ No es contenido viral ni sensacionalista. Los titulares no están diseñados par
 
 ## Qué encontrarás aquí
 
-La serie **Crisis de Ceuta 2026**: un análisis en siete entregas de la crisis migratoria como arma diplomática, desde el derecho internacional hasta el tablero de intereses que rodea la frontera sur. Una de las series más completas sobre el tema en español.
+Este blog no tiene un catálogo cerrado de temas. Lo que hay es un **prisma de análisis**: una lente con la que se examina cualquier asunto en el que el poder, los recursos o la infraestructura entren en juego. Si un tema se puede leer con esa lente — y casi todos se pueden — es candidato a aparecer aquí.
 
-Análisis de **defensa y gasto militar**: la evolución del gasto en defensa de España desde 1977 hasta hoy, comparado con el entorno europeo. Datos, no discursos.
+En la práctica, esa lente se aplica en tres planos:
 
-La **Doctrina Monroe** y su variante contemporánea: el "corolario Trump" a la doctrina original, y por qué la etiqueta "Donroe" merece ser analizada con rigor histórico.
+**Geopolítica del poder y la seguridad**: quién domina los espacios, cómo se ejerce la influencia y qué incentivos mueven a los actores. Desde la política exterior de Marruecos hasta la estrategia de defensa de España, desde el tablero europeo hasta las grandes potencias. Esto incluye, por ejemplo, la geopolítica **rusófona y de China**, la del **Cáucaso** o el auge de potencias intermedias.
 
-**Geopolítica cotidiana**: la geopolítica no vive solo en los ministerios. Vive en las vacaciones, en las fronteras, en los movimientos de turismo, en lainfraestructura. Aquí se analiza también eso.
+**Geopolítica de los recursos y la infraestructura**: el poder no vive solo en los ministerios. Vive en los **cables submarinos** que transportan los datos, en los **polos árticos** y sus rutas de navegación, en las cadenas de suministro, en los minerales raros, en el agua, en la energía y en los flujos de turismo. Aquí se vigila también ese plano físico sobre el que se apoya el poder.
+
+**Geopolítica de la tecnología**: la disputa por la **inteligencia artificial**, la computación, el chip, los datos y la soberanía digital es hoy un frente geopolítico de primer orden. Quién controla la tecnología controla el futuro; y eso se analiza aquí con el mismo método que cualquier otro tablero.
+
+Para que veas cómo se aplica el prisma, esto es lo que ya está publicado:
+
+- La serie **Crisis de Ceuta 2026**: un análisis en siete entregas de la crisis migratoria como arma diplomática, desde el derecho internacional hasta el tablero de intereses que rodea la frontera sur. Una de las series más completas sobre el tema en español.
+- Análisis de **defensa y gasto militar**: la evolución del gasto en defensa de España desde 1977 hasta hoy, comparado con el entorno europeo. Datos, no discursos.
+- La **Doctrina Monroe** y su variante contemporánea: el "corolario Trump" a la doctrina original, y por qué la etiqueta "Donroe" merece ser analizada con rigor histórico.
+- **Geopolítica cotidiana**: la geopolítica no vive solo en los ministerios. Vive en las vacaciones, en las fronteras, en los movimientos de turismo, en la infraestructura. Aquí se analiza también eso.
+
+Cable submarino, polo ártico, IA o cualquier otra línea que entre por el prisma: no está en esta lista porque aún no se ha publicado, no porque esté fuera. **La lista de ejemplos no es el límite de cobertura; es solo una muestra.**
 
 ## Fuentes y método
 
