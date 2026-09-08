@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["geopolítica", "España", "defensa", "OTAN", "gasto militar", "SIPRI", "estrategia", "Ucrania"]
 categoria: "análisis"
-image: "/sipri_vs_otan_espana_2014_2025.png"
+image: "/sipri_vs_otan-og.jpg"
 ---
 
 ## 1977–2025: casi medio siglo de política de defensa en una gráfica

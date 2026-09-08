@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["geopolítica", "España", "Marruecos", "Argelia", "Sáhara Occidental", "Magreb"]
 categoria: "análisis"
-image: "/mapadeinteresesgeopoliticos.png"
+image: "/mapadeintereses-og.jpg"
 draft: true
 ---
 
