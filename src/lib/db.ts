@@ -12,7 +12,10 @@ import crypto from 'node:crypto';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // La BD vive en el raíz del proyecto (data/), fuera de src y de public.
-const DATA_DIR = process.env.DATA_DIR || path.resolve(__dirname, '..', '..', 'data');
+// NOTA: se ancla a process.cwd() (el repo) para que sobreviva a los builds
+// (el chunk compilado vive en dist/server/chunks y un path relativo a él
+//  resolvería a dist/data, que astro build regenera vacío).
+const DATA_DIR = process.env.DATA_DIR || path.resolve(process.cwd(), 'data');
 const DB_PATH = path.join(DATA_DIR, 'analisis.db');
 
 let db: Database.Database | null = null;

@@ -30,6 +30,16 @@ const { slug, initialCount } = Astro.props;
     }
     updateVisual();
 
+    async function refreshCount() {
+      try {
+        const r = await fetch(`/api/like/${encodeURIComponent(slug)}`);
+        if (!r.ok) return;
+        const data = await r.json();
+        count.textContent = String(data.count);
+      } catch { /* sin red: mantener valor inicial */ }
+    }
+    refreshCount();
+
     btn?.addEventListener('click', async () => {
       if (liked.has(slug)) return;
       try {

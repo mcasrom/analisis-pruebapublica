@@ -1,9 +1,18 @@
 // src/pages/api/like/[slug].ts
 import type { APIRoute } from 'astro';
-import { addLike } from '../../../lib/db';
+import { addLike, getLikes } from '../../../lib/db';
 import { clientIp, jsonError, rateLimit } from '../../../lib/api';
 
 export const prerender = false;
+
+export const GET: APIRoute = ({ params, request }) => {
+  const slug = params.slug || '';
+  if (!slug) return jsonError({ request, params, props: {} } as any, 400, 'bad_slug', 'Falta el slug del post.');
+  const count = getLikes(slug);
+  return new Response(JSON.stringify({ ok: true, slug, count }), {
+    headers: { 'content-type': 'application/json; charset=utf-8' },
+  });
+};
 
 export const POST: APIRoute = ({ params, request }) => {
   const slug = params.slug || '';
