@@ -87,6 +87,62 @@ html.dark .prose-editorial blockquote {
   text-underline-offset: 2px;
 }
 
+/* ===== Tablas (prose editorial) ===== */
+.prose-editorial table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.4em 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.prose-editorial th {
+  text-align: left;
+  font-weight: 700;
+  padding: 0.55em 0.75em;
+  border-bottom: 2px solid var(--color-accent-600);
+  color: var(--color-accent-700);
+  letter-spacing: 0.01em;
+}
+.prose-editorial td {
+  padding: 0.55em 0.75em;
+  border-bottom: 1px solid #cbd5e1;
+  vertical-align: top;
+}
+.prose-editorial tbody tr:last-child td {
+  border-bottom: none;
+}
+.prose-editorial tbody tr:nth-child(even) td {
+  background: #f8fafc;
+}
+@media (max-width: 640px) {
+  .prose-editorial table {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
+  }
+}
+
+html.sepia .prose-editorial td {
+  border-bottom-color: #ddd0be;
+}
+html.sepia .prose-editorial tbody tr:nth-child(even) td {
+  background: #f2ebe0;
+}
+html.sepia .prose-editorial th {
+  color: #8b5e3c;
+}
+
+html.dark .prose-editorial td {
+  border-bottom-color: #334155;
+  color: #e2e8f0;
+}
+html.dark .prose-editorial tbody tr:nth-child(even) td {
+  background: #1e293b;
+}
+html.dark .prose-editorial th {
+  color: var(--color-accent-400);
+}
+
 /* ===== Bordes según tema ===== */
 
 html.sepia .border-slate-200 {
