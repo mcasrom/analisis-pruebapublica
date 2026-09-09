@@ -30,7 +30,7 @@ En ese punto, la lealtad deja de ser una virtud de servicio y se convierte en un
 
 La bunkerización no es necesariamente una habitación cerrada ni un círculo de confianza reducido. Es un proceso: la información que asciende llega modificada por el temor, la conveniencia o la expectativa de premio y castigo. Puede adoptar muchas formas:
 
-![Imagen generada con IA](/bunkerizacion.png)
+![Imagen generada con IA](/bunkerizacion.webp)
 
 - Informes que omiten el peor escenario para no parecer alarmistas.
 - Alertas técnicas rebajadas antes de alcanzar el nivel político.
@@ -58,7 +58,7 @@ La verdad útil no es una acumulación de informes ni una disputa ideológica: e
 
 **Quinto, evaluar.** Tras la emergencia, la obligación no termina con el restablecimiento del orden. Debe revisarse qué información existía, qué medidas funcionaron, dónde pudo fallar la coordinación y qué capacidades deben reforzarse. Una crisis mal evaluada es la preparación deficiente de la siguiente.
 
-La **Ley 36/2015, de 28 de septiembre, de Seguridad Nacional** establece un marco de anticipación, prevención y coordinación. Que exista el marco no demuestra que haya habido dejación; sí permite formular la pregunta legítima de cómo se aplicaron en la práctica esos mecanismos.
+La **[Ley 36/2015](https://www.boe.es/eli/es/l/2015/09/28/36), de 28 de septiembre, de Seguridad Nacional** establece un marco de anticipación, prevención y coordinación. Que exista el marco no demuestra que haya habido dejación; sí permite formular la pregunta legítima de cómo se aplicaron en la práctica esos mecanismos.
 
 ## El error de proteger el relato
 
@@ -80,7 +80,7 @@ La frontera no se protege solo con vallas, unidades desplegadas o acuerdos diplo
 
 ---
 
-*Referencias de esta opinión: **McMaster, H. R.**, Dereliction of Duty: Lyndon Johnson, Robert McNamara, the Joint Chiefs of Staff, and the Lies That Led to Vietnam (HarperCollins, 1997); **España**, Ley 36/2015, de 28 de septiembre, de Seguridad Nacional (BOE-A-2015-10389). Para la crónica y las fuentes de la crisis de Ceuta de julio de 2026, ver el resto de la serie en este blog.*
+*Referencias de esta opinión: **McMaster, H. R.**, Dereliction of Duty: Lyndon Johnson, Robert McNamara, the Joint Chiefs of Staff, and the Lies That Led to Vietnam (HarperCollins, 1997); **España**, [Ley 36/2015](https://www.boe.es/eli/es/l/2015/09/28/36), de 28 de septiembre, de Seguridad Nacional (BOE-A-2015-10389). Para la crónica y las fuentes de la crisis de Ceuta de julio de 2026, ver el resto de la serie en este blog.*
 
 ---
 

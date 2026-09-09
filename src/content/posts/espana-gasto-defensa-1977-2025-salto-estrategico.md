@@ -19,7 +19,7 @@ La imagen más significativa aparece al observar los extremos.
 
 España partía de niveles próximos al 3% del PIB en los primeros años de la democracia. Después inició una larga fase descendente que llevó el gasto hasta aproximadamente el 1% del PIB durante los años de austeridad.
 
-En 2025 se produce el movimiento inverso: SIPRI sitúa el gasto militar español en **40.200 millones de dólares y el 2,1% del PIB**, después de un incremento real del 50% respecto a 2024. Según SIPRI, es la primera vez desde 1994 que España supera el 2% del PIB con su metodología.
+En 2025 se produce el movimiento inverso: [SIPRI](https://www.sipri.org/databases/milex) sitúa el gasto militar español en **40.200 millones de dólares y el 2,1% del PIB**, después de un incremento real del 50% respecto a 2024. Según SIPRI, es la primera vez desde 1994 que España supera el 2% del PIB con su metodología.
 
 La cuestión, por tanto, no es simplemente cuánto gasta España.
 
@@ -145,7 +145,7 @@ España comenzó a acelerar programas de modernización y a incrementar sus comp
 
 El resultado es visible en los datos.
 
-SIPRI calcula que España alcanzó en 2025 los **40.200 millones de dólares**, un 50% más en términos reales que el año anterior, y un gasto equivalente al **2,1% del PIB**.
+[SIPRI](https://www.sipri.org/databases/milex) calcula que España alcanzó en 2025 los **40.200 millones de dólares**, un 50% más en términos reales que el año anterior, y un gasto equivalente al **2,1% del PIB**.
 
 Es un cambio de escala respecto al periodo inmediatamente anterior.
 
@@ -256,7 +256,11 @@ Y será también el indicador que permita saber si 2025 fue simplemente un salto
 
 ---
 
-*Fuente principal: SIPRI Military Expenditure Database (datos 1977-2025); OTAN, Defence Expenditure of NATO Countries. La serie de gasto como porcentaje del PIB combina SIPRI con las cifras de presupuestos de defensa españoles que el propio SIPRI armoniza para la comparación internacional.*
+### Fuentes
+
+* [SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex) — datos 1977-2025.
+* [OTAN, Defence Expenditure of NATO Countries](https://www.nato.int/cps/en/natohq/topics_111767.htm).
+* La serie de gasto como porcentaje del PIB combina SIPRI con las cifras de presupuestos de defensa españoles que el propio SIPRI armoniza para la comparación internacional.
 
 ---
 

@@ -28,7 +28,7 @@ El sociólogo **Pierre Bourdieu** añadió la pieza que falta: el poder **simbó
 
 La Administración Trump opera exactamente en ese registro. Y lo hace con un instrumento nuevo: **las imágenes generadas por IA**, que permiten producir "pruebas" visuales de realidades inexistentes al coste de un prompt.
 
-![Mapa de la "Gran América" de Trump: renombrados, mapas e imágenes generadas por IA como instrumento de presión geopolítica (2025-2026).](/expansionismo-trumpista-mapa.png)
+![Mapa de la "Gran América" de Trump: renombrados, mapas e imágenes generadas por IA como instrumento de presión geopolítica (2025-2026).](/expansionismo-trumpista-mapa.webp)
 
 *Cada punto del mapa corresponde a un gesto verificado y fechado en la cronología del apartado siguiente: desde la orden ejecutiva 14172 (golfo de América) hasta el mapa de septiembre de 2026 que llevó a Islandia a convocar al embajador estadounidense.*
 

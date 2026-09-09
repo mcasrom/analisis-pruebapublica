@@ -16,7 +16,7 @@ El petróleo sigue siendo el activo estratégico más disputado del siglo XXI. E
 
 El mapa de esta entrega localiza los puntos que estructuran el análisis. Debajo, los hechos documentados y, al final, los escenarios (claramente separados de los hechos).
 
-![Mapa de la geopolítica del petróleo 2026: Ormuz, Malaca, Venezuela, sanciones a Rusia y rutas alternativas.](/geopolitica-petroleo-mapa.png)
+![Mapa de la geopolítica del petróleo 2026: Ormuz, Malaca, Venezuela, sanciones a Rusia y rutas alternativas.](/geopolitica-petroleo-mapa.webp)
 
 ## 1. Producción y precios: OPEP+ en modo defensivo
 
@@ -113,11 +113,11 @@ Menos tensionado que Ormuz en 2026, pero crítico:
 
 ## Referencias documentales
 
-1. **EFE / NY Times** (2026). Decisión de la OPEP+ de mantener producción para octubre, 6 de septiembre de 2026.
-2. **El País / DW / Europa Press** (2025-2026). Paquetes 19-21 de sanciones de la UE a Rusia y tope al petróleo.
-3. **Infobae / CNN / BBC / RFI** (2026). Crisis del estrecho de Ormuz y precios del petróleo.
-4. **FMI / AIE** (2026). Proyecciones de demanda y precio medio del barril.
-5. **Wikipedia** (2026). "Ataque estadounidense a Venezuela de 2026", cronología de la Operación Resolución Absoluta.
+1. **EFE** ([efe.com](https://efe.com)) / **NY Times** ([nytimes.com](https://www.nytimes.com)) (2026). Decisión de la OPEP+ de mantener producción para octubre, 6 de septiembre de 2026.
+2. **El País** ([elpais.com](https://elpais.com)) / **DW** ([dw.com](https://www.dw.com)) / **Europa Press** ([europapress.es](https://www.europapress.es)) (2025-2026). Paquetes 19-21 de sanciones de la UE a Rusia y tope al petróleo.
+3. **Infobae** ([infobae.com](https://www.infobae.com)) / **CNN** ([cnn.com](https://www.cnn.com)) / **BBC** ([bbc.com](https://www.bbc.com)) / **RFI** ([rfi.fr](https://www.rfi.fr)) (2026). Crisis del estrecho de Ormuz y precios del petróleo.
+4. **[FMI](https://www.imf.org) / [AIE](https://www.iea.org)** (2026). Proyecciones de demanda y precio medio del barril.
+5. [Wikipedia](https://es.wikipedia.org) (2026). "Ataque estadounidense a Venezuela de 2026", cronología de la Operación Resolución Absoluta.
 
 ## Conclusión (lectura interpretativa)
 

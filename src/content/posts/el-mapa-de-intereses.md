@@ -16,7 +16,7 @@ Antes de entrar en cualquier episodio concreto —una crisis fronteriza, una dec
 
 El diagrama siguiente resume, en una sola vista, los tres objetivos geoestratégicos principales de cada uno de los ocho actores relevantes: España, Marruecos, Argelia y Mauritania como núcleo regional; el Frente Polisario como parte interesada directa en el Sáhara Occidental; y la Unión Europea, Estados Unidos y Rusia como potencias con intereses propios en la región.
 
-![Mapa de intereses geopolíticos en el Magreb occidental](/mapadeinteresesgeopoliticos.png)
+![Mapa de intereses geopolíticos en el Magreb occidental](/mapadeinteresesgeopoliticos.webp)
 
 ## Tres lecturas rápidas del mapa
 

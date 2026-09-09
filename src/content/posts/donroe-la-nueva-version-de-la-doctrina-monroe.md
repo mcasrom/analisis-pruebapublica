@@ -538,12 +538,12 @@ Y esa es la cuestión que habrá que observar en los próximos años.
 
 ### Fuentes principales
 
-* **Casa Blanca de Estados Unidos**, mensaje presidencial sobre el aniversario de la Doctrina Monroe, 2 de diciembre de 2025.
-* **National Security Strategy of the United States, 2025**, apartado *Western Hemisphere: The Trump Corollary to the Monroe Doctrine*.
-* **National Defense Strategy, 2026**, apartado *Trump Corollary to the Monroe Doctrine*.
-* **Instituto Español de Estudios Estratégicos (IEEE)**, análisis sobre la estrategia de la Administración Trump y sus implicaciones geopolíticas y marítimas.
-* **Reuters**, análisis sobre la nueva política estadounidense hacia el hemisferio occidental, julio de 2026.
-* **CNN**, reconstrucción del origen mediático del término *Donroe Doctrine*, enero de 2026.
+* **[Casa Blanca de Estados Unidos](https://www.whitehouse.gov)**, mensaje presidencial sobre el aniversario de la Doctrina Monroe, 2 de diciembre de 2025.
+* **National Security Strategy of the United States, 2025** ([whitehouse.gov](https://www.whitehouse.gov)), apartado *Western Hemisphere: The Trump Corollary to the Monroe Doctrine*.
+* **National Defense Strategy, 2026** ([defense.gov](https://www.defense.gov)), apartado *Trump Corollary to the Monroe Doctrine*.
+* **[Instituto Español de Estudios Estratégicos (IEEE)](https://www.ieee.es)**, análisis sobre la estrategia de la Administración Trump y sus implicaciones geopolíticas y marítimas.
+* **[Reuters](https://www.reuters.com)**, análisis sobre la nueva política estadounidense hacia el hemisferio occidental, julio de 2026.
+* **[CNN](https://www.cnn.com)**, reconstrucción del origen mediático del término *Donroe Doctrine*, enero de 2026.
 
 ---
 

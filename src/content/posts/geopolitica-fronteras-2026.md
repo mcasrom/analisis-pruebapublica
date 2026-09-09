@@ -24,7 +24,7 @@ En clave geopolítica, una frontera es tres escenarios a la vez:
 
 La idea clave es simple: quien controla el ritmo del cruce controla un instrumento de presión sobre el vecino. Por eso, algunas de las fronteras más "tranquilas" en apariencia son, en realidad, las más estratégicas.
 
-![Mapa de las fronteras con mayor brecha de renta del mundo (PPA, listas de Wikipedia/CIA World Factbook).](/geopolitica-fronteras-mapa.png)
+![Mapa de las fronteras con mayor brecha de renta del mundo (PPA, listas de Wikipedia/CIA World Factbook).](/geopolitica-fronteras-mapa.webp)
 
 ## 2. Las fronteras más desiguales del mundo
 
@@ -110,9 +110,9 @@ El mapa sigue mandando. Las fronteras más desiguales del mundo —del Golfo de 
 
 ## Referencias documentales
 
-1. **CIA World Factbook** (2017). PIB per cápita PPA: Corea del Norte ~1.700 $/Corea del Sur ~39.400 $; Arabia Saudí ~54.800 $/Yemen ~1.300 $; España ~38.300 $/Marruecos ~8.600 $.
-2. **Wikipedia** (2025). *List of bordering countries with greatest relative differences in GDP (PPP) per capita*: Arabia Saudí–Yemen 42x, Omán–Yemen 35x, Corea del Sur–Corea del Norte 23x, España–Marruecos ~4,4x, EEUU–México ~3x.
-3. **FMI, WEO 2024** (vía Visual Capitalist, 2024): PIB per cápita nominal: EE. UU. ~85.370 $; México ~15.250 $.
+1. [CIA World Factbook](https://www.cia.gov/the-world-factbook/) (2017). PIB per cápita PPA: Corea del Norte ~1.700 $/Corea del Sur ~39.400 $; Arabia Saudí ~54.800 $/Yemen ~1.300 $; España ~38.300 $/Marruecos ~8.600 $.
+2. [Wikipedia](https://en.wikipedia.org/wiki/List_of_bordering_countries_with_greatest_relative_differences_in_GDP_(PPP)_per_capita) (2025). *List of bordering countries with greatest relative differences in GDP (PPP) per capita*: Arabia Saudí–Yemen 42x, Omán–Yemen 35x, Corea del Sur–Corea del Norte 23x, España–Marruecos ~4,4x, EEUU–México ~3x.
+3. [FMI, WEO 2024](https://www.imf.org/en/Publications/WEO) (vía [Visual Capitalist](https://www.visualcapitalist.com/), 2024): PIB per cápita nominal: EE. UU. ~85.370 $; México ~15.250 $.
 4. **Gerber, J.** (2014). *Income in the Border Region, 1993–2010*, Federal Reserve Bank of Dallas: las brechas entre municipios fronterizos vecinos son ~1/3 de la brecha nacional EEUU–México (El Paso–Juárez ~20.326 $ vs. ~29.985 $ de la media).
 5. **PNUD** (2022). Informe de Desarrollo Humano: España ~puesto 27 (muy alto); Marruecos ~puesto 120 (medio).
 6. **Freedom House** (2022-2023). *Freedom in the World*: España "libre" (~90/100); Marruecos "parcialmente libre" (~35/100).

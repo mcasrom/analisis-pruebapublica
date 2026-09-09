@@ -16,7 +16,7 @@ Las migraciones no son solo un fenómeno social o humanitario: son un motor geop
 
 El mapa de esta entrega localiza los flujos históricos que estructuran el análisis y el punto donde convergen hoy: la frontera hispano-marroquí. Debajo, los hechos documentados por épocas y, al final, la lectura interpretativa y los contrapuntos.
 
-![Mapa de flujos migratorios históricos: grandes migraciones, era intercontinental, partición de India, descolonización y Ceuta 2026.](/geopolitica-migraciones-mapa.png)
+![Mapa de flujos migratorios históricos: grandes migraciones, era intercontinental, partición de India, descolonización y Ceuta 2026.](/geopolitica-migraciones-mapa.webp)
 
 ## 1. La migración como variable de poder
 
@@ -63,7 +63,7 @@ El siglo XX convierte la migración en un instrumento directo de reordenamiento 
 
 Tras la descolonización, la migración se convierte en un eje estructural de la geopolítica contemporánea:
 
-- El número de migrantes internacionales pasa de **153 millones en 1990 a 281 millones en 2020**, según la División de Población de Naciones Unidas (DAES); en 1970 eran 84 millones. En proporción, solo ha pasado del 2,3 % al 3,6 % de la población mundial: la migración crece en números absolutos, pero la mayoría de la humanidad sigue viviendo en su país de nacimiento.
+- El número de migrantes internacionales pasa de **153 millones en 1990 a 281 millones en 2020**, según la [División de Población de Naciones Unidas (DAES)](https://www.un.org/development/desa/pd/); en 1970 eran 84 millones. En proporción, solo ha pasado del 2,3 % al 3,6 % de la población mundial: la migración crece en números absolutos, pero la mayoría de la humanidad sigue viviendo en su país de nacimiento.
 - Asia, África y América Latina se consolidan como principales regiones de origen hacia la UE, Estados Unidos, Canadá y Australia.
 - La UE externaliza el control de fronteras a países de tránsito (Turquía, Libia, Marruecos), convirtiendo la migración en moneda de cambio en negociaciones sobre visados, fondos y seguridad.
 
@@ -73,7 +73,7 @@ Tras la descolonización, la migración se convierte en un eje estructural de la
 
 La crisis migratoria de Ceuta de julio de 2026 encaja en este patrón histórico: **[ya la hemos analizado en este blog](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)** en su dimensión bilateral, con la cronología completa que va de la noche del 30 de julio a la ofensiva diplomática marroquí de agosto. Aquí interesa encajarla en el arco histórico de esta serie.
 
-- **Días 30 y 31 de julio de 2026**: entrada masiva a nado por El Tarajal y Benzú. El Ministerio del Interior elevó la cifra oficial hasta **72.000 entradas irregulares** en apenas 24–48 horas, con primeras estimaciones de 40.000–49.000, y confirmó **al menos 86 muertos** (75 en aguas españolas + 11 reconocidas por Marruecos). Es el peor balance registrado nunca en la frontera hispano-marroquí, muy superior a la crisis de 2021 (6.000–9.000 entradas, dos muertos).
+- **Días 30 y 31 de julio de 2026**: entrada masiva a nado por El Tarajal y Benzú. El [Ministerio del Interior](https://www.interior.gob.es/) elevó la cifra oficial hasta **72.000 entradas irregulares** en apenas 24–48 horas, con primeras estimaciones de 40.000–49.000, y confirmó **al menos 86 muertos** (75 en aguas españolas + 11 reconocidas por Marruecos). Es el peor balance registrado nunca en la frontera hispano-marroquí, muy superior a la crisis de 2021 (6.000–9.000 entradas, dos muertos).
 - **Informe del CENIF a la Audiencia Nacional**: el Centro Nacional de Inmigración y Fronteras de la Policía Nacional remitió a la magistrada María Tardón un informe de 55 páginas —al que tuvo acceso El País el 2 de septiembre— que habla de «guiado activo» de la masa, «permisividad» de los agentes marroquíes y una «finalidad migratoria» que habría operado como «cobertura formal» para «dirigir un flujo masivo de personas a Ceuta».
 - **Matiz imprescindible (hipótesis, no hecho probado)**: el propio director general de la Policía, Francisco Pardo Piqueras, respondió al ministro del Interior que el informe **no atribuye a Marruecos la «planificación o ejecución»** de la crisis; fuentes del Gobierno subrayan que es un análisis de datos y un punto de partida para una eventual investigación judicial, no un documento operativo. Es decir: la lectura de «operación coordinada» existe, está documentada por la policía española, pero no es una conclusión judicial ni una atribución oficial al Estado marroquí. El análisis de este blog la trata como hipótesis razonable a la luz del patrón histórico —migración como instrumento de presión, activada según la coyuntura, como ya ocurrió en 2021—, no como hecho probado. El lector puede seguir la polémica sobre la autoría en la investigación abierta.
 
@@ -121,10 +121,10 @@ La segunda entrega de esta serie mirará las fronteras desde dentro: cómo se di
 
 ## Referencias documentales
 
-1. **Naciones Unidas, DAES** (2021). *Aspectos destacados de la Migración Internacional 2020*: 153 millones de migrantes en 1990, 281 millones en 2020 (84 millones en 1970; 3,6 % de la población mundial).
+1. [Naciones Unidas, DAES](https://www.un.org/development/desa/pd/) (2021). *Aspectos destacados de la Migración Internacional 2020*: 153 millones de migrantes en 1990, 281 millones en 2020 (84 millones en 1970; 3,6 % de la población mundial).
 2. **El País** (2026). *El informe de la Policía apunta que agentes marroquíes guiaron la entrada de migrantes a Ceuta*, 2 de septiembre de 2026 (informe del CENIF a la Audiencia Nacional, declaraciones de Pardo Piqueras, tres oleadas, cifra de más de 70.000 entradas).
 3. **La Razón / Newtral / esdiario** (2026). Contexto institucional del CENIF (unidad de la Policía Nacional, Comisaría General de Extranjería y Fronteras).
-4. **Ministerio del Interior** (2026). Cifra oficial de 72.000 entradas irregulares y balance de víctimas (75 en aguas españolas + 11 según Marruecos).
+4. [Ministerio del Interior](https://www.interior.gob.es/) (2026). Cifra oficial de 72.000 entradas irregulares y balance de víctimas (75 en aguas españolas + 11 según Marruecos).
 5. **Wikis / síntesis históricas** sobre grandes migraciones, partición de India (1947), desplazamientos forzados de posguerra y descolonización. Las cifras de movimientos antiguos son estimativas y se citan como tales.
 
 ---
