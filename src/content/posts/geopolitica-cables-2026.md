@@ -18,7 +18,7 @@ Fibra óptica, gasoductos, enlaces eléctricos, estaciones de amarre y buques de
 
 ## 1. El océano cableado: magnitudes
 
-Poco más del 1% del tráfico de datos intercontinental va por satélite: todo lo demás —el 99%, dato que recoge la FCC estadounidense— viaja por cables de fibra óptica tendidos en el fondo del mar ([Reuters](https://www.reuters.com/business/media-telecom/us-fcc-toughens-submarine-communication-cable-rules-2026-06-25/)). La edición de 2026 del mapa de [TeleGeography](https://submarine-cable-map-2026.telegeography.com/) contabiliza 694 sistemas de cable y 1.893 puntos de amarre activos o en construcción, con más de 1,5 millones de kilómetros de cable en servicio ([TeleGeography](https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions)). La inversión acompaña al volumen: unos 16.000 millones de dólares en nuevos cables previstos para 2026-2029, tras un 2025 en el que entraron en servicio unos 15 sistemas por valor aproximado de 3.200 millones ([TeleGeography](https://resources.telegeography.com/transport-networks-in-2026)).
+Menos del 1% del tráfico de datos intercontinental va por satélite: el resto —el 99%, dato que recoge la FCC estadounidense— viaja por cables de fibra óptica tendidos en el fondo del mar ([Reuters](https://www.reuters.com/business/media-telecom/us-fcc-toughens-submarine-communication-cable-rules-2026-06-25/)). La edición de 2026 del mapa de [TeleGeography](https://submarine-cable-map-2026.telegeography.com/) contabiliza 694 sistemas de cable y 1.893 puntos de amarre activos o en construcción, con más de 1,5 millones de kilómetros de cable en servicio ([TeleGeography](https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions)). La inversión acompaña al volumen: unos 16.000 millones de dólares en nuevos cables previstos para 2026-2029, tras un 2025 en el que entraron en servicio unos 15 sistemas por valor aproximado de 3.200 millones ([TeleGeography](https://resources.telegeography.com/transport-networks-in-2026)).
 
 | Magnitud | Valor | Fuente |
 |---|---:|---|
@@ -27,9 +27,9 @@ Poco más del 1% del tráfico de datos intercontinental va por satélite: todo l
 | Puntos de amarre | 1.893 | TeleGeography (2026) |
 | Cable en servicio | >1,5 millones km | TeleGeography |
 | Fallos anuales | 150-200 | ICPC / UIT |
-| Fallos por actividad humana (pesca, anclas) | >80% | ICPC / UIT |
+| Fallos por actividad humana (pesca, anclas) | ~2/3 | ICPC / UIT |
 
-La red es más robusta de lo que se cree y más vulnerable de lo que parece. Se registran entre 150 y 200 fallos al año, más del 80% causados por actividad humana ordinaria —sobre todo pesca de arrastre y anclas arrastradas—, no por sabotaje ([UIT, órgano asesor internacional](https://www.itu.int/digital-resilience/submarine-cables/)). La mayoría se repara sin que el usuario lo note, porque el tráfico se redirige por rutas alternativas. El problema geopolítico aparece cuando el daño es deliberado, se concentra en un mar concreto o afecta a un país con poca redundancia. Y ahí el registro desde 2022 es inequívoco.
+La red es más robusta de lo que se cree y más vulnerable de lo que parece. Se registran en torno a 150-200 fallos al año, y dos tercios de ellos los causan la pesca de arrastre y las anclas arrastradas —actividad humana ordinaria, no sabotaje— ([TeleGeography, con datos del ICPC](https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions)). La mayoría se repara sin que el usuario lo note, porque el tráfico se redirige por rutas alternativas. El problema geopolítico aparece cuando el daño es deliberado, se concentra en un mar concreto o afecta a un país con poca redundancia. Y ahí el registro desde 2022 es inequívoco.
 
 ## 2. Nord Stream: el precedente energético
 
