@@ -24,6 +24,18 @@ const lectura = post.body ? readingTimeLabel(post.body) : '';
 const todos = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const idx = todos.findIndex((p) => p.slug === post.slug);
 const siguiente = idx > 0 ? todos[idx - 1] : null;
+
+// Relacionado: el post (distinto) con más tags en común; empate -> más reciente.
+const tagsActuales = new Set(post.data.tags.map((t) => t.toLowerCase()));
+const relacionados = todos
+  .filter((p) => p.slug !== post.slug)
+  .map((p) => ({
+    p,
+    comunes: p.data.tags.filter((t) => tagsActuales.has(t.toLowerCase())).length,
+  }))
+  .filter((x) => x.comunes > 0 && x.p.slug !== (siguiente && siguiente.slug))
+  .sort((a, b) => b.comunes - a.comunes || b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf());
+const relacionado = relacionados.length ? relacionados[0].p : null;
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 const likes = getLikes(post.slug);
 const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}`;
@@ -205,17 +217,33 @@ const jsonLd = {
         </div>
       )}
 
-      {siguiente && (
-        <a href={`/posts/${siguiente.slug}`} class="group mt-10 block rounded-2xl border border-slate-200 p-6 transition hover:border-accent-600 dark:border-slate-800 dark:hover:border-accent-400">
-          <span class="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">Siguiente artículo</span>
-          <h3 class="mt-2 font-serif text-xl font-bold text-slate-900 group-hover:text-accent-700 dark:text-white dark:group-hover:text-accent-400">
-            {siguiente.data.title}
-          </h3>
-          <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 dark:text-accent-400">
-            Leer
-            <span class="transition group-hover:translate-x-1">→</span>
-          </span>
-        </a>
+      {(siguiente || relacionado) && (
+        <div class="mt-10 grid gap-4 sm:grid-cols-2">
+          {siguiente && (
+            <a href={`/posts/${siguiente.slug}`} class="group block rounded-2xl border border-slate-200 p-6 transition hover:border-accent-600 dark:border-slate-800 dark:hover:border-accent-400">
+              <span class="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">Siguiente artículo</span>
+              <h3 class="mt-2 font-serif text-xl font-bold text-slate-900 group-hover:text-accent-700 dark:text-white dark:group-hover:text-accent-400">
+                {siguiente.data.title}
+              </h3>
+              <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 dark:text-accent-400">
+                Leer
+                <span class="transition group-hover:translate-x-1">→</span>
+              </span>
+            </a>
+          )}
+          {relacionado && (
+            <a href={`/posts/${relacionado.slug}`} class="group block rounded-2xl border border-slate-200 p-6 transition hover:border-accent-600 dark:border-slate-800 dark:hover:border-accent-400">
+              <span class="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500">Leer también</span>
+              <h3 class="mt-2 font-serif text-xl font-bold text-slate-900 group-hover:text-accent-700 dark:text-white dark:group-hover:text-accent-400">
+                {relacionado.data.title}
+              </h3>
+              <span class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 dark:text-accent-400">
+                Leer
+                <span class="transition group-hover:translate-x-1">→</span>
+              </span>
+            </a>
+          )}
+        </div>
       )}
 
       <div class="mt-10">
