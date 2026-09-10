@@ -46,7 +46,7 @@ Más allá del episodio concreto, el caso ilustra un riesgo estructural del esti
 
 ---
 
-*Fuentes consultadas: El Faro de Ceuta, OKDiario, EDATV, El Debate, cuenta de X de Óscar Puente (@oscar_puente_), Agenda Pública, El Plural, ARA, Cronista.*
+*Fuentes consultadas: [El Faro de Ceuta](https://www.elfarodeceuta.es), [OKDiario](https://okdiario.com), EDATV, [El Debate](https://www.eldebate.com), cuenta de X de [Óscar Puente (@oscar_puente_)](https://x.com/oscar_puente_), Agenda Pública, [El Plural](https://www.elplural.com), [ARA](https://www.ara.cat), Cronista.*
 
 ---
 

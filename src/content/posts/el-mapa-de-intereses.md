@@ -41,7 +41,7 @@ El mapa de intereses se puede contrastar con datos reales de cada actor:
 
 ---
 
-*Fuentes: Estrategia de Acción Exterior de España 2025-2028; análisis del IEEE sobre el Magreb 2025; Política Exterior; The Diplomat in Spain; El Orden Mundial; El Confidencial.*
+*Fuentes: Estrategia de Acción Exterior de España 2025-2028 ([exteriores.gob.es](https://www.exteriores.gob.es)); análisis del [IEEE](https://www.ieee.es) sobre el Magreb 2025; [Política Exterior](https://www.politicaexterior.com); The Diplomat in Spain; [El Orden Mundial](https://elordenmundial.com); [El Confidencial](https://www.elconfidencial.com).*
 
 ---
 

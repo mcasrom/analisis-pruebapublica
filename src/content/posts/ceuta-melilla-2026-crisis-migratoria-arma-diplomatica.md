@@ -18,7 +18,7 @@ Es una relación que funciona con un «colchón de intereses» —cooperación e
 
 ## El hecho que lo desencadena todo: la noche del 30 de julio
 
-Cualquier análisis de lo ocurrido este verano tiene que empezar por un dato que muchas cronologías periodísticas tratan como un suceso aislado y que en realidad es la bisagra de toda la escalada posterior: entre el 30 y el 31 de julio de 2026, decenas de miles de personas cruzaron a nado hacia Ceuta bordeando los espigones fronterizos de El Tarajal y Benzú. El Ministerio del Interior elevó la cifra oficial hasta 72.000 entradas irregulares en apenas 24-48 horas —las primeras estimaciones hablaban de 40.000-49.000— y confirmó 75 muertes en aguas españolas, a las que se suman otras 11 reconocidas por Marruecos en su jurisdicción: un balance de al menos 86 fallecidos, el peor registrado nunca en la frontera hispano-marroquí y muy superior al de la crisis de 2021 —entre 6.000 y 9.000 entradas, dos muertos—.
+Cualquier análisis de lo ocurrido este verano tiene que empezar por un dato que muchas cronologías periodísticas tratan como un suceso aislado y que en realidad es la bisagra de toda la escalada posterior: entre el 30 y el 31 de julio de 2026, decenas de miles de personas cruzaron a nado hacia Ceuta bordeando los espigones fronterizos de El Tarajal y Benzú. El [Ministerio del Interior](https://www.interior.gob.es) elevó la cifra oficial hasta 72.000 entradas irregulares en apenas 24-48 horas —las primeras estimaciones hablaban de 40.000-49.000— y confirmó 75 muertes en aguas españolas, a las que se suman otras 11 reconocidas por Marruecos en su jurisdicción: un balance de al menos 86 fallecidos, el peor registrado nunca en la frontera hispano-marroquí y muy superior al de la crisis de 2021 —entre 6.000 y 9.000 entradas, dos muertos—.
 
 Ese contraste de magnitud importa: 2021 fue una crisis grave; 2026 ha sido, en términos humanos, una tragedia de otro orden.
 
@@ -64,7 +64,7 @@ Los datos que sustancian este análisis se pueden contrastar con herramientas p�
 
 ---
 
-*Fuentes: Ministerio de Asuntos Exteriores, Ministerio del Interior, Euronews, Infobae, La Región, Moncloa.com, Catalunya Press, The Conversation, Wikipedia (Incidentes fronterizos España-Marruecos 2026).*
+*Fuentes: [Ministerio de Asuntos Exteriores](https://www.exteriores.gob.es), [Ministerio del Interior](https://www.interior.gob.es), [Euronews](https://es.euronews.com), [Infobae](https://www.infobae.com), La Región, Moncloa.com, Catalunya Press, [The Conversation](https://theconversation.com), [Wikipedia](https://es.wikipedia.org).*
 
 ---
 
