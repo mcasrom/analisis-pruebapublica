@@ -38,15 +38,28 @@ Aquí es donde la lectura cambia de nivel. El informe de la OCDE no mide a las c
 
 | Comunidad | Lectura | Matemáticas | Ciencias | Variación ciencias vs 2022 |
 |---|---|---|---|---|
+| Asturias | 471 | 469 | 492 | −11 |
 | Madrid | 469 | 477 | 495 | −7 |
 | Castilla y León | 466 | 472 | 493 | −13 |
-| Asturias | 471 | 469 | 492 | −11 |
+| Cantabria | 461 | 470 | 490 | −14 |
 | Castilla-La Mancha | 461 | 462 | 485 | **+10** |
+| La Rioja | 461 | 462 | 484 | −16 |
+| Aragón | 461 | 462 | 482 | −17 |
+| Galicia | 454 | 466 | 486 | −20 |
+| Extremadura | 451 | 454 | 473 | −6 |
+| Región de Murcia | 448† | 447† | 470† | −12 |
+| Canarias | 445 | 442 | 469 | −4 |
+| Andalucía | 441 | 442 | 462 | −11 |
+| Islas Baleares | 441 | 449 | 471 | −11 |
+| Navarra | 441 | 462 | 472 | −17 |
 | Comunidad Valenciana | 424 | 435 | 450 | −33 |
 | País Vasco | 419 | 460 | 459 | −21 |
-| Cataluña | 473* | 474* | 502* | *excluida de comparaciones |
+| Cataluña | 473* | 474* | 502* | — |
 | Ceuta | 397 | 405 | 420 | — |
 | Melilla | 379 | 395 | 405 | — |
+
+\* Cataluña quedó fuera de las comparaciones por su alto porcentaje de alumnado excluido (23%), muy por encima del 5% que la OCDE recomienda como límite; sus datos no son comparables con los demás territorios ni con ediciones previas.
+† La Región de Murcia (13% de exclusiones) sí se incluye en las comparaciones, con la advertencia de la OCDE de que puede existir un sesgo por sobrestimación.
 
 Los extremos son elocuentes: **Madrid lidera en matemáticas (477) y ciencias (495)**; **Asturias, en lectura (471), pese a perder 26 puntos**; **Castilla y León mantiene su posición destacada** (493 en ciencias). El dato más llamativo es **Castilla-La Mancha, la única comunidad que mejora: +10 puntos en ciencias (de 475 a 485), por encima ya de la media española y de la propia OCDE**.
 
@@ -96,6 +109,6 @@ Y también conviene recordar lo que PISA sí mide y lo que no. No mide creativid
 - [ABC — Castilla-La Mancha, única que mejora](https://www.abc.es/espana/castilla-la-mancha/castillala-mancha-resiste-desplome-pisa-mejora-resultados-20260908112040-nt.html)
 - [Cadena SER — El mapa PISA por comunidades](https://cadenaser.com/nacional/2026/09/08/dime-donde-vives-y-te-dire-cuanto-sabes-la-comparativa-del-informe-pisa-por-regiones-cadena-ser/)
 
-> **Nota sobre el proceso de elaboración.** Este artículo se publica dos días después de la presentación de los resultados de PISA 2025. Todas las cifras citadas proceden de la nota oficial de la OCDE, del Ministerio de Educación o de las fuentes periodísticas enlazadas; las puntuaciones autonómicas son reconstrucciones regionales publicadas por esos medios y tienen el margen de error muestral de la prueba. Las tablas de comunidades se limitan a los territorios con datos contrastados y comparables en la prensa; Cataluña aparece marcada por estar excluida de las comparaciones oficiales. El análisis no atribuye responsabilidades políticas: separa hechos, hipótesis y proyecciones.
+> **Nota sobre el proceso de elaboración.** Este artículo se publica dos días después de la presentación de los resultados de PISA 2025. Todas las cifras citadas proceden de la nota oficial de la OCDE, del Ministerio de Educación o de las fuentes periodísticas enlazadas; las puntuaciones autonómicas son reconstrucciones regionales publicadas por esos medios y tienen el margen de error muestral de la prueba. La tabla de comunidades incluye las 17 comunidades autónomas y las dos ciudades autónomas; Cataluña aparece separada por estar excluida de las comparaciones oficiales y la Región de Murcia lleva la advertencia metodológica de la OCDE por su tasa de exclusiones. El análisis no atribuye responsabilidades políticas: separa hechos, hipótesis y proyecciones.
 >
 > @pruebapublica · analisis.pruebapublica.com
