@@ -7,7 +7,7 @@ assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["geopolítica", "España", "Marruecos", "Argelia", "Sáhara Occidental", "Magreb"]
 categoria: "análisis"
 image: "/mapadeintereses-og.jpg"
-draft: true
+draft: false
 ---
 
 ## Ocho actores, un mismo tablero
