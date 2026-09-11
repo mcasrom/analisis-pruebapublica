@@ -77,6 +77,21 @@ pm2 start ecosystem.config.cjs --env production
   nav y enlace en el footer. La portada incluye `SearchAction` en su JSON-LD
   (habilita el cuadro de búsqueda de sitelinks en Google).
 
+## SEO y captación
+- **Schema.org**: por post se emiten `Article` + `BreadcrumbList` (Inicio → etiqueta →
+  post) y, si el post declara `faq` en el frontmatter, `FAQPage` con contenido visible
+  ("Preguntas frecuentes"). La portada lleva `WebSite` + `Blog` + `SearchAction`.
+- **CTA de newsletter mid-post**: un plugin rehype (`src/lib/rehype-newsletter-cta.mjs`,
+  registrado en `astro.config.mjs`) inserta un formulario de suscripción tras el 2º
+  `<h2>` (o el 3er párrafo si no hay). Reutiliza las clases `.newsletter`/
+  `.newsletter-form` que el `<script>` de `NewsletterForm.astro` ya conecta, así que
+  funciona sin JS extra y no contamina el RSS.
+- **FAQ por post**: campo opcional `faq: [{ q, a }]` en el frontmatter → bloque visible
+  + `FAQPage`. Añadido a PISA, gasto en defensa y "Qué es la geopolítica".
+- **Cross-links del ecosistema**: la landing de viajeinteligencia.com (tarjeta en
+  "Análisis editorial" + footer), el radar de emergencias y las páginas de alquiler de
+  municipal enlazan a `analisis.pruebapublica.com` para dirigir tráfico al blog.
+
 ## Reglas editoriales
 - **Fuentes enlazadas**: toda afirmación factual con fuente lleva su URL real en
   el markdown (nunca inventada). Si no existe URL estable (libro clásico,
