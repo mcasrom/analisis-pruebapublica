@@ -13,6 +13,9 @@ dinámicos (likes/comentarios/suscripción) en Node, desplegado con Nginx + PM2.
   el build SSG no lo borre.
 - Endpoints API: `GET/POST /api/like/:slug`, `POST /api/comment/:slug`,
   `GET /api/comments/:slug`, `POST /api/subscribe`, `/api/admin/*`.
+- **Búsqueda estática** (sin backend): índice JSON generado en build
+  (`src/pages/buscar.json.ts` → `/buscar.json`) + página `/buscar` que filtra
+  client-side. Ver sección **Búsqueda**.
 - **Cross-CTA con el Radar FIMI**: los posts de temas cubiertos por el radar
   (`fimi.viajeinteligencia.com`) llevan un bloque "Este tema, en vivo" que
   deep-linkea al tema por hash; el radar enlaza de vuelta al análisis.
@@ -58,6 +61,34 @@ pm2 start ecosystem.config.cjs --env production
   temático por tags con ≥ 2 posts + sidebar con "Temas populares".
 - JSON-LD: `WebSite`/`Blog` en la portada + `Article` (autor Person, publisher
   con logo, `dateModified`, `wordCount`, `timeRequired`) por post.
+
+## Búsqueda
+- Página **`/buscar`**: buscador **client-side** (JS vanilla, sin dependencias ni
+  servicios externos). Filtra por título, descripción, etiquetas y cuerpo del
+  texto; insensible a acentos y mayúsculas; términos en AND; puntuación por
+  relevancia (título ×10, tags ×6, descripción ×3, cuerpo ×1); resaltado con
+  `<mark>`; estado vacío y `aria-live`; soporta `?q=` (compartible).
+- Índice: **`src/pages/buscar.json.ts`** genera `/buscar.json` en build-time
+  (~80 KB, una entrada por post con `slug, title, description, tags, categoria,
+  date, url, body`; el markdown se limpia a texto plano y se trunca a 3000 chars).
+  Se sirve como fichero estático desde `dist/client/`, así que **no requiere
+  backend**.
+- Accesos: icono de lupa en el header (siempre visible), entrada "Buscar" en el
+  nav y enlace en el footer. La portada incluye `SearchAction` en su JSON-LD
+  (habilita el cuadro de búsqueda de sitelinks en Google).
+
+## Reglas editoriales
+- **Fuentes enlazadas**: toda afirmación factual con fuente lleva su URL real en
+  el markdown (nunca inventada). Si no existe URL estable (libro clásico,
+  declaración oral), se cita en texto plano.
+- Frontmatter de la casa: `author: "M. Castillo"`, `assisted: "GenAI (...)"`,
+  `categoria: "análisis"` y `image:` de portada.
+- Cada post cierra con **nota sobre el proceso de elaboración** y firma
+  `@pruebapublica`; los ensayos de opinión se marcan explícitamente como tales.
+- `draft` **no está declarado** en `src/content.config.ts`, por lo que Astro lo
+  ignora (no filtra). Por consistencia, todos los posts publicados usan
+  `draft: false`; si algún día se quiere ocultar posts de verdad, hay que añadir
+  el campo al esquema y filtrar en index/[slug]/tags/categorias/rss/sitemap.
 
 ## Retención de datos
 - **SQLite local** (`data/analisis.db`): likes, comments y suscriptores.
