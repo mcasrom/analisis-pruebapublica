@@ -8,6 +8,7 @@ const ultimo = posts[0];
 
 const nav = [
   { href: '/', label: 'Inicio' },
+  { href: '/buscar', label: 'Buscar' },
   { href: '/categorias', label: 'Categorías' },
   { href: '/sobre', label: 'Sobre el proyecto' },
 ];
@@ -24,6 +25,17 @@ const nav = [
           {n.label}
         </a>
       ))}
+      <a
+        href="/buscar"
+        title="Buscar en el archivo"
+        aria-label="Buscar"
+        class="inline-flex items-center justify-center rounded-full border border-slate-200 bg-slate-100 p-2 text-slate-600 transition hover:bg-slate-200 hover:text-accent-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700 dark:hover:text-accent-400"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </a>
       <a
         href="https://bsky.app/profile/pruebapublica.bsky.social"
         target="_blank"
