@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import fs from 'node:fs';
 import path from 'node:path';
+import rehypeNewsletterCta from './src/lib/rehype-newsletter-cta.mjs';
 
 // Mapa slug -> pubDate (para lastmod real en el sitemap).
 // Se lee el frontmatter de cada post en build-time (sin dependencias extra).
@@ -38,5 +39,9 @@ export default defineConfig({
       },
     }),
   ],
+  markdown: {
+    // CTA de newsletter a mitad de cada artículo (tras el 2º <h2>).
+    rehypePlugins: [rehypeNewsletterCta],
+  },
   vite: { plugins: [tailwindcss()] },
 });

@@ -8,6 +8,13 @@ tags: ["geopolítica", "España", "defensa", "OTAN", "gasto militar", "SIPRI", "
 categoria: "análisis"
 image: "/sipri_vs_otan-og.jpg"
 draft: false
+faq:
+  - q: "¿Cuánto gasta España en defensa?"
+    a: "En 2025 España superó por primera vez desde 1994 el 2% del PIB en gasto en defensa, tras décadas de contención del esfuerzo militar."
+  - q: "¿Cuándo superó España el 2% del PIB en defensa?"
+    a: "En 2025, por primera vez desde 1994, según la serie que analiza el post desde 1977."
+  - q: "¿Qué fuentes usa el análisis del gasto en defensa?"
+    a: "La serie se basa en datos de SIPRI y de la OTAN sobre gasto en defensa como porcentaje del PIB."
 ---
 
 ## 1977–2025: casi medio siglo de política de defensa en una gráfica
