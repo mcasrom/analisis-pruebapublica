@@ -38,7 +38,7 @@ const relacionados = todos
 const relacionado = relacionados.length ? relacionados[0].p : null;
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 const likes = getLikes(post.slug);
-const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}`;
+const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}/`;
 
 // CTA cruzado blog → Radar FIMI: mapeo post → tema del radar (deep-link #tema)
 const fimiTemas = {
