@@ -12,6 +12,8 @@ draft: false
 
 > **Serie Geopolítica 101.** Este es el post 8 de la serie que comenzó con *¿Qué es la geopolítica?* y continúa con petróleo, cables submarinos, el Ártico, la IA, el espacio y PISA. En esta entrega examinamos cómo el comercio internacional se ha convertido en el campo de batalla de una nueva era de rivalidad estratégica.
 
+> **Complemento.** Este análisis tiene una segunda entrega centrada en la **economía política** (quién paga el arancel, quién gana) y la **historia larga** del impuesto: *[Quién paga el arancel: la economía política del impuesto que se volvió arma](/posts/quien-paga-el-arancel-2026/)*.
+
 El comercio ha sido, desde siempre, un instrumento de poder. Pero la velocidad y la escala con que se ha convertido en arma geopolítica en las últimas décadas tiene poco precedentes. El arancel —esa herramienta que durante siglos fue sinónimo de protección industrial— ha mutado: hoy es también medida punitiva, palanca diplomática y, en algunos casos, sustituto de la acción militar.
 
 Lo que está en juego no es solo el precio de las mercancías. Es la estructura misma del orden económico internacional que se construyó, en gran medida, sobre la promesa de que el intercambio reduciría la conflictividad entre naciones.
