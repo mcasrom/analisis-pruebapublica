@@ -7,7 +7,7 @@ export const prerender = false;
 const total = countSubscribers();
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 ---
-<Layout title="Suscriptores newsletter" url="/admin/suscriptores">
+<Layout title="Suscriptores newsletter" url="/admin/suscriptores/">
   <script>
     let secret = '';
     try { secret = localStorage.getItem('admin_secret') || ''; } catch (e) {}
