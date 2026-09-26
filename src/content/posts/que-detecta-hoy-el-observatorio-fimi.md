@@ -23,6 +23,8 @@ Hay una forma de valorar una herramienta de análisis que casi nunca se usa: pre
 
 Fecha del corte: **26 de septiembre de 2026, 17:14 UTC**. Versión del servicio: `v0.2-71-g4a17786`. Todos los datos citados se pueden reproducir contra la API pública, cuya dirección figura al final.
 
+> **Serie Observatorio FIMI** · [Qué vigila el radar FIMI](/posts/fimi-radar-que-vigila/) · [España ante las amenazas híbridas: qué puede ver y qué no](/posts/espana-amenazas-hibridas-radar-fimi/) · [Frontera Sur: lo que el radar ve (y lo que no)](/posts/frontera-sur-2026/) · [Ceuta, FIMI y la frontera informativa](/posts/ceuta-fimi-y-la-frontera-informativa/)
+
 ## El tamaño del corpus
 
 En este momento el sistema ha recogido **127.023 eventos** procedentes de **77 fuentes** —medios vía RSS, agregadores y cuentas de redes sociales—. Esos eventos se organizan en **9 temas activos**:
