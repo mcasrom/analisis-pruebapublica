@@ -153,6 +153,13 @@ Y para cualquier lector significa algo todavía más sencillo: cuando alguien no
 
 Porque quizá las llaves estén ahí. Pero también puede que estén en otro sitio. Y la honestidad del análisis empieza precisamente cuando somos capaces de decir cuál de las dos cosas sabemos realmente.
 
+## Sigue leyendo
+
+- [El caballo que aprendió a cantar](/posts/el-caballo-que-aprendio-a-cantar/) — el otro Nasrudín: por qué los problemas enquistados se aplazan en vez de cerrarse.
+- [Qué detecta hoy el Observatorio FIMI](/posts/que-detecta-hoy-el-observatorio-fimi/) — qué hay de verdad dentro de sus datos.
+- [Qué vigila el radar FIMI](/posts/fimi-radar-que-vigila/) — la metodología del observatorio, explicada.
+- [Frontera Sur: lo que el radar ve (y lo que no)](/posts/frontera-sur-2026/) — el método aplicado a un caso concreto.
+
 > **Nota de elaboración**: ensayo de método. Redacción asistida por IA y edición; los esquemas son propios. Enlaza con la serie Nasrudín y con la documentación pública del observatorio.
 
 **M. Castillo** · [@pruebapublica](https://mastodon.social/@PruebaPublica)
