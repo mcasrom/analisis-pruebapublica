@@ -47,6 +47,7 @@ const fimiTemas = {
   politica_nacional: { nombre: 'Política nacional', desc: 'señales de coordinación política en España' },
   eeuu_politica: { nombre: 'Política y desinformación EEUU', desc: 'interferencia electoral y desinformación en EEUU' },
   oriente_medio: { nombre: 'Oriente Medio (Israel-Irán-Gaza)', desc: 'manipulación informativa en conflicto' },
+  elecciones: { nombre: 'Elecciones e interferencia electoral', desc: 'coordinación y amplificación en procesos electorales' },
 };
 const fimiPostMap = {
   'ceuta-melilla-2026-crisis-migratoria-arma-diplomatica': 'frontera_sur',
@@ -66,6 +67,7 @@ const fimiPostMap = {
   'espana-gasto-defensa-1977-2025-salto-estrategico': 'politica_nacional',
   'ceuta-fimi-y-la-frontera-informativa': 'frontera_sur',
   'migracion-guerra-hibrida': 'frontera_sur',
+  'que-detecta-hoy-el-observatorio-fimi': 'elecciones',
 };
 const fimiTema = fimiPostMap[post.slug] ? fimiTemas[fimiPostMap[post.slug]] : null;
 

@@ -1,6 +1,6 @@
 ---
 title: "Qué detecta hoy el Observatorio FIMI: 907 grupos analizados y una sola sincronía entre cuentas"
-description: "Radiografía del Observatorio FIMI a 26 de septiembre de 2026: 127.023 eventos, 77 fuentes, 907 grupos, 90 en banda alta, 0 críticos y una única señal de sincronía entre cuentas distintas."
+description: "Radiografía del Observatorio FIMI a 26-sep-2026: 907 grupos, 90 en banda alta, 0 críticos y una sola señal de sincronía entre cuentas distintas."
 pubDate: 2026-09-26
 author: "M. Castillo"
 assisted: "GenAI (consulta de API y tratamiento de datos)"
