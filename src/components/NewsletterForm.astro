@@ -2,8 +2,8 @@
 // src/components/NewsletterForm.astro
 // Formulario de suscripción: guarda el email vía /api/subscribe.
 const { variante = 'inline' } = Astro.props as { variante?: 'inline' | 'card' };
-const titulo = 'Recibe los análisis en tu correo';
-const texto = 'Un email con cada artículo nuevo. Sin spam, date de baja cuando quieras.';
+const titulo = 'Geopolítica desde España, sin agenda';
+const texto = 'Un correo al mes con los análisis clave (y nada más). Gratis, sin spam; baja en un clic.';
 ---
 <div class="newsletter {variante === 'card' ? 'rounded-2xl border border-slate-200 p-6 dark:border-slate-800' : ''}">
   <h3 class="font-serif text-xl font-bold text-slate-900 dark:text-white">{titulo}</h3>

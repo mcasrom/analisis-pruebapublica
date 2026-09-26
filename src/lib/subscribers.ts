@@ -1,7 +1,7 @@
 // src/lib/subscribers.ts
 // Newsletter: suscripciones por email almacenadas localmente (SQLite).
 // Sin servicios externos. Tabla: subscribers (id, email, ip, confirmado,
-// fecha). Los emails se validan y normalizan.
+// fecha). Doble opt-in: alta con confirmado=0; se confirma vía /api/confirm.
 import { getDb } from './db';
 import crypto from 'node:crypto';
 
@@ -16,15 +16,22 @@ getDb().exec(`
 `);
 
 export function addSubscriber(email: string, ip: string): { id: string; fecha: string; existia: boolean } {
-  const id = crypto.randomUUID();
   const fecha = new Date().toISOString();
   const normalized = email.toLowerCase();
-  const exists = getDb().prepare('SELECT id FROM subscribers WHERE email = ?').get(normalized);
+  const exists = getDb().prepare('SELECT id FROM subscribers WHERE email = ?').get(normalized) as
+    | { id: string }
+    | undefined;
   if (exists) return { id: exists.id, fecha, existia: true };
+  const id = crypto.randomUUID();
   getDb()
     .prepare('INSERT INTO subscribers (id, email, ip, confirmado, fecha) VALUES (?,?,?,0,?)')
     .run(id, normalized, ip || null, fecha);
   return { id, fecha, existia: false };
+}
+
+export function confirmSubscriber(id: string): boolean {
+  const r = getDb().prepare('UPDATE subscribers SET confirmado = 1 WHERE id = ?').run(id);
+  return r.changes > 0;
 }
 
 export function listSubscribers(): Array<{ id: string; email: string; ip: string | null; confirmado: number; fecha: string }> {
