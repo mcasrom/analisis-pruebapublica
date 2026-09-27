@@ -9,7 +9,7 @@ export async function GET(context) {
   return rss({
     title: 'Análisis — Geopolítica y análisis crítico del poder',
     description: 'Geopolítica, defensa, seguridad y análisis crítico del poder. Análisis editorial con fuentes contrastadas.',
-    site: context.site,
+    site: "https://analisis.pruebapublica.com",
     items: posts.map((post) => ({
       title: post.data.title,
       description: post.data.description,
