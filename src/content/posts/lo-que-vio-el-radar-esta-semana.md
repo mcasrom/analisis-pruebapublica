@@ -1,6 +1,6 @@
 ---
-title: "Lo que vio el radar esta semana: 41.778 eventos, 98 grupos en banda alta y tres sincronías"
-description: "Observatorio de señales: 41.778 eventos y 929 grupos esta semana. 98 en banda alta, cero críticos y solo tres sincronías entre cuentas distintas."
+title: "Lo que vio el radar esta semana: 41.778 eventos, 98 grupos en banda alta y tres grupos con sincronía entre cuentas"
+description: "Observatorio de señales: 41.778 eventos y 929 grupos esta semana. 98 en banda alta, cero críticos y tres grupos con sincronía entre cuentas (una destaca)."
 pubDate: 2026-09-27
 author: "M. Castillo"
 assisted: "GenAI (consulta de la API pública y tratamiento de datos)"
@@ -43,19 +43,18 @@ Antes de contar nada conviene decirlo: de los 929 grupos, **636 (el 68 %) admite
 
 Esa es la razón por la que el titular no es «cuántos grupos hay», sino «cuántos no se explican por sí solos».
 
-## Las tres señales específicas
+## La señal específica
 
-La explicación que interesa es **«sincronía entre cuentas distintas»**: varias cuentas diferentes publican el mismo contenido en una ventana corta, y ninguna domina el grupo. Esta semana solo **tres grupos** cumplen ese patrón con evidencia suficiente —y tres más de forma plausible—. El recuento cambia entre ciclos porque los grupos se recalculan cada 6 h y el contenido envejece: el 26 de septiembre era una sola sincronía; hoy son tres. Los casos:
+La explicación que interesa es **«sincronía entre cuentas distintas»**: varias cuentas diferentes publican el mismo contenido en una ventana corta, y ninguna domina el grupo. Esta semana `cross_account_synchrony` aparece **respaldada en tres grupos**, pero en dos de ellos compite con media docena de explicaciones benignas (eco de prensa, eco de una pieza, automatización no maliciosa…), así que no los presentamos como señales. El recuento cambia entre ciclos porque los grupos se recalculan cada 6 h y el contenido envejece: el 26 de septiembre era una sola sincronía; hoy está respaldada en tres, y solo una destaca.
 
-- **`elecciones_cluster_011`** — la señal más clara (banda alta, 61,9). **Nueve cuentas distintas** publicaron, en una ventana de **0,2 horas (unos 12 minutos)**, el mismo texto sobre la orden del INE mexicano a Alejandro Moreno y al PRI. La cuenta dominante aportaba solo el **11 %** del grupo y la similitud de contenido era del **100 %**. No es un feed ni una agencia: son cuentas separadas moviéndose a la vez. [Permalink](https://fimi.viajeinteligencia.com/c/elecciones_cluster_009@1790124260).
-- **`inteligencia_artificial_cluster_015`** (41,3) y **`inteligencia_artificial_cluster_008`** (37,5), ambos en banda anómala.
-- Con evidencia aún más débil (plausible): `elecciones_cluster_023` (63,5), `elecciones_cluster_017` (54,5) y `frontera_sur_cluster_014` (53,6).
+- **`elecciones_cluster_011`** (banda alta, 61,9). **Nueve cuentas distintas** publicaron, en una ventana de **0,2 horas (unos 12 minutos)**, el mismo texto sobre la orden del INE mexicano a Alejandro Moreno y al PRI. La cuenta dominante aportaba solo el **11 %** del grupo y la similitud de contenido era del **100 %**. No es un feed ni una agencia. Aun así, la **automatización no maliciosa también figura como explicación respaldada**: es un patrón **compatible con coordinación**, no una coordinación demostrada. [Ver el grupo en el observatorio](https://fimi.viajeinteligencia.com/c/elecciones_cluster_009@1790124260).
+- Con evidencia más débil (solo plausible) quedan `elecciones_cluster_023` (63,5), `elecciones_cluster_017` (54,5) y `frontera_sur_cluster_014` (53,6); en los tres, la explicación principal es benigna o queda sin resolver, así que no se cuentan como señal.
 
 Junto a esto, **34 grupos** muestran **amplificación sostenida** —el mismo contenido reeditado a lo largo de más de 72 horas—, repartidos sobre todo por Oriente Medio (15 grupos). El caso más alto es `oriente_medio_cluster_008` (72,2), sobre la retórica de Khamenei. Es amplificación, pero es el patrón lento y difuso, no la ráfaga.
 
 ## Ceuta, la historia que dominó
 
-La trama que más ha movido a los medios esta semana ha sido la **crisis de Ceuta** y la entrada de inmigrantes, con una amplificación sostenida de **374,7 horas** y varias piezas repetidas en medios nacionales e internacionales. El observatorio la registra en `frontera_sur`, pero la clasifica como **eco de prensa mayoritario**: no una coordinación entre cuentas, sino una historia que muchos medios diferentes cubren a la vez. [Permalink del grupo principal](https://fimi.viajeinteligencia.com/c/frontera_sur_cluster_013@1790123817).
+La trama que más ha movido a los medios esta semana ha sido la **crisis de Ceuta** y la entrada de inmigrantes. El observatorio la registra en `frontera_sur`: **1.084 publicaciones** que enlazan a dominios de prensa (el 100 % de los enlaces) desde un puñado de cuentas de Bluesky. La clasifica como **eco de prensa con amplificación sostenida**, no como coordinación de contenido original entre cuentas distintas. [Ver el grupo en el observatorio](https://fimi.viajeinteligencia.com/c/frontera_sur_cluster_011@1790016011).
 
 Esa distinción importa: un tema enorme en portada **no** es automáticamente una señal de coordinación, y el sistema no lo trata como tal.
 
