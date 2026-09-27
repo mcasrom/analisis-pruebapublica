@@ -60,8 +60,8 @@ pm2 start ecosystem.config.cjs --env production
   bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
   título + listado de partes enlazadas) y se genera a partir de esos dos campos, no
   de un tag concreto.
-- **Índice de etiquetas `/tags`**: lista todos los tags con su recuento y enlaza a
-  `/tags/<slug>/`. Accesible desde el nav del header. 123 etiquetas sobre 37 artículos.
+- **Índice de etiquetas `/tags`**: lista las 121 etiquetas con su recuento y enlaza a
+  `/tags/<slug>/`. Accesible desde el nav del header.
 - Tiempo de lectura calculado por post (`src/lib/readingTime.ts`).
 - Compartir en **X, Bluesky, Mastodon y WhatsApp** (X cuenta el enlace como 23
   caracteres t.co para respetar el límite). Página `/categorias` como índice
@@ -129,7 +129,13 @@ python3 scripts/blog-audit.py --json                  # salida JSON
 - `categoria` **no puntúa**: es el género del texto (`análisis` en todos los posts),
   no la temática. La temática vive en `tags` y en `serie`.
 - El enlace al Radar FIMI se detecta buscando `fimi.viajeinteligencia.com` en un
-  enlace markdown real, no por menciońar la palabra "FIMI" en el texto.
+  enlace markdown real, no por mencionar la palabra "FIMI" en el texto.
+- **Por qué no todos los posts enlazan al radar**: el CTA del blog al radar solo se
+  aplica a los posts cuyo tema tiene radar activo (mapeo `fimiPostMap` en
+  `posts/[slug].astro`, 18 entradas). Meter un enlace en un post que no cubre ningún
+  tema instrumentado sería publicidad, no una referencia útil, así que el criterio
+  puntúa pero no se persigue: subir la nota exigiría inventar cobertura. Los ejes
+  temáticos no cambian esto.
 - Comprobaciones de serie: la numeración debe ser `1..N` sin huecos ni repetidos.
 - El reporte versionado es `blog-audit.md` (se regenera, no se edita a mano).
 
@@ -141,6 +147,55 @@ python3 scripts/blog-audit.py --json                  # salida JSON
 - El bot-block de nginx rechaza User-Agents de CLI (`curl`, `wget`) con 444, que
   Cloudflare refleja como 520. El feed es accesible con un UA de navegador; los
   lectores de feeds que usan UA propios pueden verse afectados.
+
+## Ejes temáticos (`/temas`)
+Ejes **curados a mano** que agrupan varios tags bajo una página con intención de
+búsqueda. Se definen en `src/temas.ts` (un array `EJES`), no se derivan solos de los
+tags: así se evita que un tag genérico (`geopolítica`, 26 posts) se lleve el eje
+entero, y se puede exigir un mínimo de artículos por eje.
+
+| Eje | Qué agrupa |
+| --- | --- |
+| `/temas/geopolitica-101/` | la serie completa (11 posts) en **orden de lectura** |
+| `/temas/fronteras-y-migraciones/` | 15 posts, incluye las series Ceuta 2026 y Dereliction of Duty |
+| `/temas/energia/` | petróleo, OEP+, oleoductos, gasoductos, corredor medio |
+| `/temas/comercio-y-aranceles/` | aranceles, proteccionismo, economía política |
+| `/temas/infraestructura-critica/` | cables submarinos, espacio, satélites |
+
+- Un eje puede apoyarse en `serie` (Geopolítica 101) o en una lista de `tags`.
+  Los tags de país o de tema tangential quedan fuera a propósito: `Venezuela` y
+  `Ormuz` no meten el eje de energía, ni `economía` el de comercio.
+- `src/pages/temas/index.astro` es el hub; `src/pages/temas/[eje].astro` genera una
+  página por eje con `CollectionPage` + `BreadcrumbList` JSON-LD y el listado.
+- Los ejes son **superponibles**: un post puede estar en varios (los estrechos
+  aparece en energía y en comercio).
+- El nav lleva "Temas" y "Etiquetas"; `/categorias` sigue existiendo como índice por
+  etiqueta con ≥2 artículos y enlaza desde ambos.
+
+## Series declaradas por frontmatter
+`serie` agrupa y `serie_numero` ordena. El bloque de serie de
+`posts/[slug].astro` es genérico: chip "Serie · n/N" sobre el título, más el listado
+de partes, **limitado a 6** con enlace al eje para el resto.
+
+- **Geopolítica 101** (11) — la numeración **no** se infiere de `pubDate` (hay
+  empates: tres posts el 10-sep y dos el 13-sep). Sale de la lista que declara el
+  propio post 8: «comenzó con *¿Qué es la geopolítica?* y continúa con petróleo,
+  cables submarinos, el Ártico, la IA, el espacio y PISA».
+- **Ceuta 2026** (6) · **Dereliction of Duty** (5).
+
+## Normalización de etiquetas
+Las etiquetas se duplicaban por mayúsculas y por slugs: `ceuta`/`Ceuta`,
+`marruecos`/`Marruecos`, `Seguridad Nacional`/`seguridad nacional`, `rusia`/`Rusia`,
+`ucrania`/`Ucrania`, `EE.UU.`/`Estados Unidos`, `IA`/`inteligencia artificial` y un
+slug (`geopolítica-de-las-fronteras`) donde iba el texto. Un tag duplicado parte el
+recuento en dos y crea páginas `/tags/` fantasma.
+
+- Mapa canónico aplicado con `normalize_tags.py` (no se conserva en el repo: es
+  una operación de una vez). Resultado: **129 → 121 etiquetas**.
+- Quedan **74 etiquetas con un solo artículo**: no son un error (el índice las
+  lista, pero no son páginas útiles) y son la vía por la que un eje gana sentido.
+- `scripts/blog-audit.py` no penaliza la falta de eje; comprueba que, si un post
+  declara serie, la numeración de la serie sea `1..N` sin huecos.
 
 ## Retención de datos
 - **SQLite local** (`data/analisis.db`): likes, comments y suscriptores.

@@ -8,6 +8,8 @@ tags: ["geopolítica", "espacio", "satélites", "infraestructura crítica", "UE"
 categoria: "análisis"
 image: "/geopolitica-espacio-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 6
 ---
 
 > **Serie Geopolítica 101.** En la [primera entrega](/posts/que-es-la-geopolitica/) dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los **recursos, la infraestructura y la tecnología**. Tras el [petróleo](/posts/geopolitica-petroleo-2026/), los [cables submarinos](/posts/geopolitica-cables-2026/), la [inteligencia artificial](/posts/geopolitica-ia-2026/) y el [Ártico](/posts/geopolitica-artico-2026/), esta última entrega mira hacia arriba.

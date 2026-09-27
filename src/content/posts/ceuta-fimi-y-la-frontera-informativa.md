@@ -4,7 +4,7 @@ description: "Análisis del Radar FIMI sobre la crisis de Ceuta: 284 clusters, 6
 pubDate: 2026-09-11
 author: "M. Castillo"
 assisted: "GenAI (asistencia de redacción y verificación de cifras)"
-tags: ["desinformación", "FIMI", "Ceuta", "Marruecos", "Seguridad Nacional", "radar"]
+tags: ["desinformación", "FIMI", "Ceuta", "Marruecos", "seguridad nacional", "radar"]
 categoria: "análisis"
 image: "/fimi-ceuta-og.jpg"
 draft: false

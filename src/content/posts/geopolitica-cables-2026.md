@@ -8,6 +8,8 @@ tags: ["geopolítica", "cables submarinos", "infraestructura crítica", "China",
 categoria: "análisis"
 image: "/geopolitica-cables-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 3
 ---
 
 > **Serie Geopolítica 101.** En la [primera entrega](/posts/que-es-la-geopolitica/) dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los recursos, la infraestructura y la tecnología. La [segunda](/posts/geopolitica-petroleo-2026/) aplicó los recursos a un caso concreto: el petróleo y sus rutas críticas, de Ormuz a Malaca. Esta tercera cambia de unidad de análisis: ya no importan los estrechos por los que navegan los petroleros, sino **lo que hay tendido bajo ellos**. Al final enlazamos con los casos ya publicados en este blog.

@@ -87,6 +87,14 @@ const seriePosts = serieNombre
       )
   : [];
 const serieIdx = seriePosts.findIndex((p) => p.slug === post.slug);
+const SERIE_MAX = 6;
+const serieEje: Record<string, string> = {
+  'Geopolítica 101': 'geopolitica-101',
+  'Ceuta 2026': 'fronteras-y-migraciones',
+  'Dereliction of Duty': 'fronteras-y-migraciones',
+};
+const serieVisibles = seriePosts.slice(0, SERIE_MAX);
+const serieResto = seriePosts.length - serieVisibles.length;
 
 // Compartir: X cuenta el enlace como 23 chars (t.co)
 const shareUrl = postUrl;
@@ -241,7 +249,7 @@ const faqLd = faq.length
             {serieDesc[serieNombre] ?? `Serie: ${serieNombre}`}
           </p>
           <ul class="mt-3 space-y-1.5">
-            {seriePosts.map((p, i) => (
+            {serieVisibles.map((p, i) => (
               <li>
                 {p.slug === post.slug ? (
                   <span class="text-sm font-semibold text-accent-700 dark:text-accent-300">{i + 1}. {p.data.title} ←</span>
@@ -252,6 +260,13 @@ const faqLd = faq.length
                 )}
               </li>
             ))}
+            {serieResto > 0 && serieEje[serieNombre] && (
+              <li>
+                <a href={`/temas/${serieEje[serieNombre]}/`} class="text-sm font-medium text-accent-700 hover:underline dark:text-accent-400">
+                  y {serieResto} parte{serieResto === 1 ? '' : 's'} más →
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       )}

@@ -4,7 +4,7 @@ description: "El mapa sigue mandando: Corea, España-Marruecos, EEUU-México, el
 pubDate: 2026-09-09
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
-tags: ["geopolítica", "fronteras", "ceuta", "migraciones", "desigualdad", "marruecos", "geopolítica-de-las-fronteras"]
+tags: ["geopolítica", "fronteras", "Ceuta", "migraciones", "desigualdad", "Marruecos", "geopolítica de las fronteras"]
 categoria: "análisis"
 image: "/geopolitica-fronteras-og.jpg"
 draft: false

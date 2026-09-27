@@ -15,6 +15,8 @@ faq:
     a: "Porque un compromiso hoy exigiría poder comprometerse a cumplirlo en el futuro, y ninguna parte confía del todo en que la otra lo hará. Se aplaza en la esperanza de que cambien las condiciones: liderazgo, correlación de fuerzas, presión de terceros o agotamiento asimétrico."
   - q: "¿Cómo se distingue un aplazamiento útil de uno que esconde la ausencia de decisión?"
     a: "Pasado el plazo, algo ha cambiado en la posición de alguna parte: nuevas opciones, presión acumulada, alternativas generadas. Si se llega al mismo punto de partida con una fecha más tardía, el aplazamiento era el sustituto de decidir."
+serie: "Geopolítica 101"
+serie_numero: 11
 ---
 
 > **Serie Geopolítica 101.** Tras fijar [qué es la geopolítica](/posts/que-es-la-geopolitica/) y cómo se lee el mapa del poder, esta entrega se ocupa de un mecanismo concreto de la política del conflicto: el aplazamiento. Qué ocurre cuando ninguna salida es aceptable para ninguna de las partes, y por qué el tiempo se convierte entonces en la moneda de cambio. Como todas las entregas de la serie, termina enlazando con casos concretos ya publicados en este blog. **Pieza hermana:** [La llave de Nasrudín y el problema de mirar donde hay luz](/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/).

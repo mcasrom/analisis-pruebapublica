@@ -8,6 +8,8 @@ tags: ["geopolítica", "geopolítica 101", "comercio marítimo", "Ormuz", "Malac
 categoria: "análisis"
 image: "/geopolitica-estrechos-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 9
 ---
 
 > **Serie Geopolítica 101.** Las seis entregas de la serie dejaron el método en la mesa —la geografía condiciona el poder, y el poder se lee hoy en los **recursos, la infraestructura y la tecnología**— y lo aplicaron a casos concretos (petróleo, cables submarinos, el Ártico, la inteligencia artificial y el espacio). Este capítulo complementario cierra el argumento donde se cruza todo: los **cuellos de botella marítimos** por los que pasa lo que las otras entregas describen. Las seis entregas previas: [Qué es la geopolítica](/posts/que-es-la-geopolitica/), [el petróleo](/posts/geopolitica-petroleo-2026/), [los cables submarinos](/posts/geopolitica-cables-2026/), [el Ártico](/posts/geopolitica-artico-2026/), [la inteligencia artificial](/posts/geopolitica-ia-2026/) y [el espacio](/posts/geopolitica-espacio-2026/).

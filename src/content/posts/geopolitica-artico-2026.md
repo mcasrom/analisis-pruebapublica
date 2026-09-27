@@ -8,6 +8,8 @@ tags: ["geopolítica", "Ártico", "Groenlandia", "Ruta Marítima del Norte", "re
 categoria: "análisis"
 image: "/geopolitica-artico-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 4
 ---
 
 > **Serie Geopolítica 101.** En la [primera entrega](/posts/que-es-la-geopolitica/) dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los **recursos, la infraestructura y la tecnología**. Tras el [petróleo](/posts/geopolitica-petroleo-2026/), los [cables submarinos](/posts/geopolitica-cables-2026/) y la [inteligencia artificial](/posts/geopolitica-ia-2026/) —el frente que condiciona a todos—, esta cuarta entrega sube de latitud: al Ártico. Al final enlazamos con los casos ya publicados en este blog.

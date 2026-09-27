@@ -15,6 +15,8 @@ faq:
     a: "Es el estudio de la OCDE que evalúa cada tres años las competencias de los alumnos de 15 años en matemáticas, lectura y ciencias. La edición de 2025 se publicó el 8 de septiembre de 2026."
   - q: "¿Por qué un blog de geopolítica analiza PISA?"
     a: "Porque el rendimiento educativo es el inventario de capital humano con el que un país competirá en IA, semiconductores y defensa en la próxima década."
+serie: "Geopolítica 101"
+serie_numero: 7
 ---
 
 > **Serie Geopolítica 101.** En la [primera entrega](/posts/que-es-la-geopolitica/) dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los **recursos, la infraestructura y la tecnología**. Tras el [petróleo](/posts/geopolitica-petroleo-2026/), los [cables submarinos](/posts/geopolitica-cables-2026/), el [Ártico](/posts/geopolitica-artico-2026/), la [inteligencia artificial](/posts/geopolitica-ia-2026/) y el [espacio](/posts/geopolitica-espacio-2026/), este capítulo complementario cierra el argumento con el eslabón que condiciona a todos los demás: **el talento**.

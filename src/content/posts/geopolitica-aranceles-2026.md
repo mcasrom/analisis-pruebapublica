@@ -4,10 +4,12 @@ description: "De Adam Smith a la Sección 338: cómo el comercio se convirtió e
 pubDate: 2026-09-19
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
-tags: ["geopolítica", "comercio", "aranceles", "EE.UU.", "interdependencia", "guerra híbrida", "política económica"]
+tags: ["geopolítica", "comercio", "aranceles", "Estados Unidos", "interdependencia", "guerra híbrida", "política económica", "geopolítica 101"]
 categoria: "análisis"
 image: "/geopolitica-aranceles-og.png"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 8
 ---
 
 > **Serie Geopolítica 101.** Este es el post 8 de la serie que comenzó con *¿Qué es la geopolítica?* y continúa con petróleo, cables submarinos, el Ártico, la IA, el espacio y PISA. En esta entrega examinamos cómo el comercio internacional se ha convertido en el campo de batalla de una nueva era de rivalidad estratégica.

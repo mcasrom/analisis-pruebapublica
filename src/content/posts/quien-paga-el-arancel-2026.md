@@ -4,7 +4,7 @@ description: "Cinco siglos de aranceles, del mercantilismo al fallo del Tribunal
 pubDate: 2026-09-19
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
-tags: ["geopolítica", "aranceles", "comercio", "economía política", "EE.UU.", "proteccionismo", "historia económica"]
+tags: ["geopolítica", "aranceles", "comercio", "economía política", "Estados Unidos", "proteccionismo", "historia económica"]
 categoria: "análisis"
 image: "/aranceles-quien-paga-og.jpg"
 draft: false

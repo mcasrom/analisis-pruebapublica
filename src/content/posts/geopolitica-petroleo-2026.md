@@ -8,6 +8,8 @@ tags: ["geopolítica", "petróleo", "OPEP", "Venezuela", "Ormuz", "Malaca", "ene
 categoria: "análisis"
 image: "/geopolitica-petroleo-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 2
 ---
 
 > **Serie Geopolítica 101.** En la primera entrega dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los **recursos, la infraestructura y la tecnología**. Esta segunda entrega aplica la primera pieza —los recursos— a un caso concreto: el petróleo en 2026. Al final enlazamos con los casos ya publicados en este blog.

@@ -1,0 +1,134 @@
+---
+// src/pages/temas/[eje].astro
+// Página de un eje temático: lista sus artículos en orden de lectura.
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { EJES, type Eje } from '../../temas';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('posts')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  return EJES.map((eje) => {
+    const items = eje.serie
+      ? posts.filter((p) => p.data.serie === eje.serie)
+      : (() => {
+          const conjunto = new Set(eje.tags.map((t) => t.toLowerCase()));
+          return posts.filter((p) =>
+            (p.data.tags || []).some((t) => conjunto.has(t.toLowerCase()))
+          );
+        })();
+    const ordenados = eje.serie
+      ? [...items].sort(
+          (a, b) => (a.data.serie_numero ?? 999) - (b.data.serie_numero ?? 999)
+        )
+      : items;
+    return { params: { eje: eje.slug }, props: { eje, items: ordenados } };
+  });
+}
+
+const { eje, items } = Astro.props as { eje: Eje; items: any[] };
+const SITE = 'https://analisis.pruebapublica.com';
+const titulo = `${eje.nombre} · Análisis`;
+const descripcion = eje.resumen.length > 158 ? `${eje.resumen.slice(0, 155)}…` : eje.resumen;
+const url = `${SITE}/temas/${eje.slug}/`;
+
+const slugify = (t: string) =>
+  t
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+const todos = await getCollection('posts');
+const nTags = new Set(todos.flatMap((p) => p.data.tags || [])).size;
+
+const collectionLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: eje.nombre,
+  description: descripcion,
+  url,
+  isPartOf: { '@type': 'Blog', name: 'Análisis', url: SITE },
+  hasPart: items.map((p, i) => ({
+    '@type': 'Article',
+    position: i + 1,
+    headline: p.data.title,
+    datePublished: p.data.pubDate.toISOString(),
+    url: `${SITE}/posts/${p.slug}/`,
+  })),
+};
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${SITE}/` },
+    { '@type': 'ListItem', position: 2, name: 'Temas', item: `${SITE}/temas/` },
+    { '@type': 'ListItem', position: 3, name: eje.nombre, item: url },
+  ],
+};
+---
+
+<Layout title={titulo} description={descripcion} url={`/temas/${eje.slug}/`}>
+  <script type="application/ld+json" set:html={JSON.stringify(collectionLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} slot="head" />
+
+  <a href="/temas" class="text-sm text-slate-500 hover:text-accent-600 dark:hover:text-accent-400">
+    ← Todos los temas
+  </a>
+
+  <h1 class="mt-4 font-serif text-4xl font-bold text-slate-900 dark:text-white">{eje.nombre}</h1>
+  <p class="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">{eje.resumen}</p>
+  <p class="mt-1 text-sm text-slate-400">
+    {items.length} artículo{items.length === 1 ? '' : 's'}
+    {eje.serie ? ' · en orden de lectura' : ' · del más reciente al más antiguo'}
+  </p>
+
+  <ol class="mt-8 space-y-4">
+    {items.map((p, i) => (
+      <li class="border-b border-slate-200 pb-4 last:border-0 dark:border-slate-800">
+        <div class="flex items-baseline gap-3">
+          <span class="shrink-0 font-mono text-xs text-slate-400">
+            {String(i + 1).padStart(2, '0')}
+          </span>
+          <div class="min-w-0">
+            <a
+              href={`/posts/${p.slug}`}
+              class="font-medium text-slate-900 hover:text-accent-600 dark:text-white dark:hover:text-accent-400"
+            >
+              {p.data.title}
+            </a>
+            <p class="mt-1 line-clamp-2 text-sm text-slate-600 dark:text-slate-400">
+              {p.data.description}
+            </p>
+            <p class="mt-1 text-xs text-slate-400">
+              <time datetime={p.data.pubDate.toISOString()}>{fmt.format(p.data.pubDate)}</time>
+              {p.data.serie && p.data.serie_numero && ` · ${p.data.serie} ${p.data.serie_numero}`}
+            </p>
+          </div>
+        </div>
+      </li>
+    ))}
+  </ol>
+
+  {!eje.serie && eje.tags.length > 0 && (
+    <p class="mt-8 text-sm text-slate-500 dark:text-slate-400">
+      Etiquetas de este eje:{' '}
+      {eje.tags.map((t, i) => (
+        <>
+          {i > 0 && ' · '}
+          <a href={`/tags/${slugify(t)}/`} class="hover:text-accent-600 dark:hover:text-accent-400">{t}</a>
+        </>
+      ))}
+    </p>
+  )}
+
+  <p class="mt-6 text-sm text-slate-500 dark:text-slate-400">
+    <a href="/tags" class="hover:text-accent-600 dark:hover:text-accent-400">Ver las {nTags} etiquetas</a>
+    · <a href="/categorias" class="hover:text-accent-600 dark:hover:text-accent-400">índice por etiqueta</a>
+    · <a href="/rss.xml" class="hover:text-accent-600 dark:hover:text-accent-400">RSS</a>
+  </p>
+</Layout>

@@ -4,10 +4,12 @@ description: "Chips, regulación y sesgo algorítmico: cómo la disputa por los 
 pubDate: 2026-09-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
-tags: ["geopolítica", "inteligencia artificial", "IA", "chips", "semiconductores", "regulación", "desinformación", "geopolítica 101", "China", "Estados Unidos", "Taiwán", "UE", "Rusia"]
+tags: ["geopolítica", "inteligencia artificial", "chips", "semiconductores", "regulación", "desinformación", "geopolítica 101", "China", "Estados Unidos", "Taiwán", "UE", "Rusia"]
 categoria: "análisis"
 image: "/geopolitica-ia-og.jpg"
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 5
 ---
 
 > **Serie Geopolítica 101.** En la [primera entrega](/posts/que-es-la-geopolitica/) dejamos el método sobre la mesa: la geopolítica es el estudio de cómo la geografía condiciona el poder, y el poder se lee hoy en el mapa de los **recursos, la infraestructura y la tecnología**. Tras el [petróleo](/posts/geopolitica-petroleo-2026/) y los [cables submarinos](/posts/geopolitica-cables-2026/), esta quinta entrega aborda el frente que condiciona a todos los demás: la inteligencia artificial. Al final enlazamos con los casos ya publicados en este blog.

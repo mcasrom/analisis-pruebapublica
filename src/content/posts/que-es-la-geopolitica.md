@@ -15,6 +15,8 @@ faq:
     a: "Ratzel y Kjellén (que acuñó el término) en los orígenes, y Mackinder y Mahan entre los más influyentes. Sus ideas siguen usándose, con matices, para leer rutas y recursos."
   - q: "¿Para qué sirve la geopolítica?"
     a: "Para separar el dato verificable de la interpretación y leer los acontecimientos como jugadas dentro de una partida más larga, no como sucesos aislados."
+serie: "Geopolítica 101"
+serie_numero: 1
 ---
 
 > **Serie Geopolítica 101**. Esta es la primera entrega de una serie de fundamentos: qué es la geopolítica, cómo se leyeron los imperios, cómo se lee hoy el mapa de los recursos, la infraestructura y la tecnología. Cada entrega termina enlazando con casos concretos ya publicados en este blog.

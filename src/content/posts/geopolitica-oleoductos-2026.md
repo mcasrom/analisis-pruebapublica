@@ -6,8 +6,10 @@ author: "M. Castillo"
 assisted: "GenAI con revisión y verificación editorial"
 categoria: "análisis"
 image: "/geopolitica-oleoductos-og.jpg"
-tags: ["geopolítica de la energía", "gasoductos", "oleoductos", "rusia", "ucrania", "unión europea", "turquía", "corredor medio", "transcaspio", "geopolítica 101"]
+tags: ["geopolítica de la energía", "gasoductos", "oleoductos", "Rusia", "Ucrania", "unión europea", "turquía", "corredor medio", "transcaspio", "geopolítica 101"]
 draft: false
+serie: "Geopolítica 101"
+serie_numero: 10
 ---
 
 > **Capítulo complementario de la serie Geopolítica 101.** Las seis entregas ya publicadas: [qué es la geopolítica](/posts/que-es-la-geopolitica/), [petróleo](/posts/geopolitica-petroleo-2026/), [cables submarinos](/posts/geopolitica-cables-2026/), [Ártico](/posts/geopolitica-artico-2026/), [inteligencia artificial](/posts/geopolitica-ia-2026/) y [espacio](/posts/geopolitica-espacio-2026/). Este capítulo complementario cierra el eje de la energía con la geopolítica de las tuberías, los oleoductos y los gasoductos que mueven el mundo sin que nadie los vea.

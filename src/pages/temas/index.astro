@@ -1,0 +1,81 @@
+---
+// src/pages/temas/index.astro
+// Hub de los ejes temáticos: agrupaciones curadas de posts que cruzan varios tags.
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { EJES, type Eje } from '../../temas';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const slugify = (t: string) =>
+  t
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
+export function postsDeEje(eje: Eje, todos = posts) {
+  if (eje.serie) return todos.filter((p) => p.data.serie === eje.serie);
+  const conjunto = new Set(eje.tags.map((t) => t.toLowerCase()));
+  return todos.filter((p) => (p.data.tags || []).some((t) => conjunto.has(t.toLowerCase())));
+}
+
+const ejes = EJES.map((eje) => ({ eje, posts: postsDeEje(eje, posts) })).sort(
+  (a, b) => b.posts.length - a.posts.length
+);
+const total = ejes.reduce((n, e) => n + e.posts.length, 0);
+const nTags = new Set(posts.flatMap((p) => p.data.tags || [])).size;
+const huerfanas = new Set(
+  posts.flatMap((p) => (p.data.tags || []).map((t) => t.toLowerCase()))
+).size;
+---
+
+<Layout title="Temas · Ejes del blog" url="/temas/">
+  <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">Temas</h1>
+  <p class="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">
+    {ejes.length} ejes temáticos que agrupan {total} artículos. Cada eje cruza varias
+    etiquetas y tiene su propia página con el orden de lectura.
+  </p>
+
+  <div class="mt-8 space-y-6">
+    {ejes.map(({ eje, posts: items }) => (
+      <section class="rounded-2xl border border-slate-200 p-6 dark:border-slate-700">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="text-xl font-bold text-slate-900 dark:text-white">
+            <a href={`/temas/${eje.slug}/`} class="hover:text-accent-600 dark:hover:text-accent-400">
+              {eje.nombre}
+            </a>
+          </h2>
+          <span class="text-sm text-slate-400">
+            {items.length} artículo{items.length === 1 ? '' : 's'}
+          </span>
+        </div>
+        <p class="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">{eje.resumen}</p>
+        <ul class="mt-4 space-y-1.5">
+          {items.slice(0, 3).map((p) => (
+            <li class="text-sm">
+              <a href={`/posts/${p.slug}`} class="text-slate-700 hover:text-accent-600 dark:text-slate-200 dark:hover:text-accent-400">
+                {p.data.title}
+              </a>
+            </li>
+          ))}
+          {items.length > 3 && (
+            <li class="text-sm">
+              <a href={`/temas/${eje.slug}/`} class="font-medium text-accent-700 hover:underline dark:text-accent-400">
+                y {items.length - 3} más →
+              </a>
+            </li>
+          )}
+        </ul>
+      </section>
+    ))}
+  </div>
+
+  <p class="mt-10 text-sm text-slate-500 dark:text-slate-400">
+    ¿Buscas algo más específico? <a href="/tags" class="hover:text-accent-600 dark:hover:text-accent-400">{nTags} etiquetas</a>
+    · <a href="/categorias" class="hover:text-accent-600 dark:hover:text-accent-400">índice por etiqueta</a>
+  </p>
+</Layout>
