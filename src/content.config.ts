@@ -11,6 +11,8 @@ const posts = defineCollection({
     image: z.string().optional(),
     categoria: z.string().default('análisis'),
     faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
+    serie: z.string().optional(),
+    serie_numero: z.number().int().positive().optional(),
   }),
 });
 

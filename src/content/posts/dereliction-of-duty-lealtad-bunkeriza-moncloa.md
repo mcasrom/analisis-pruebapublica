@@ -8,6 +8,8 @@ tags: ["política", "seguridad nacional", "instituciones", "Ceuta", "Moncloa", "
 categoria: "análisis"
 image: "/bunkerizacion-og.jpg"
 draft: false
+serie: "Dereliction of Duty"
+serie_numero: 1
 ---
 
 *Nota de la redacción: este texto es un **ensayo de opinión** sobre cultura institucional y patrones de decisión en el Ejecutivo. No es una crónica de la crisis de Ceuta de julio de 2026 —esa crónica, con cifras y cronología verificables, está en [el resto de la serie](https://analisis.pruebapublica.com/) sobre la frontera— ni atribuye conductas concretas o responsabilidades individuales que requieran prueba judicial o administrativa. Como opinión, se sostiene sobre la separación entre el hecho (la entrada masiva de la noche del 30 al 31 de julio) y la interpretación del autor sobre cómo se decidió.*

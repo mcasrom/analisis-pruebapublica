@@ -8,6 +8,8 @@ tags: ["desinformación", "FIMI", "Ceuta", "Marruecos", "Seguridad Nacional", "r
 categoria: "análisis"
 image: "/fimi-ceuta-og.jpg"
 draft: false
+serie: "Ceuta 2026"
+serie_numero: 3
 ---
 
 *Análisis de situación del [Radar FIMI](https://fimi.viajeinteligencia.com/) · 11 de septiembre de 2026.*

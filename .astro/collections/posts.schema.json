@@ -59,6 +59,13 @@
             "additionalProperties": false
           }
         },
+        "serie": {
+          "type": "string"
+        },
+        "serie_numero": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
         "$schema": {
           "type": "string"
         }

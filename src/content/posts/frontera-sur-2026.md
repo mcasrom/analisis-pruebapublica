@@ -8,6 +8,8 @@ tags: ["FIMI", "desinformación", "Frontera Sur", "Ceuta", "Marruecos", "OSINT",
 categoria: "análisis"
 draft: false
 image: "/frontera-sur-radar-og.png"
+serie: "Ceuta 2026"
+serie_numero: 5
 ---
 
 # Frontera Sur: lo que un radar de coordinación ve (y lo que no)

@@ -8,6 +8,8 @@ tags: ["política", "seguridad nacional", "instituciones", "Ceuta", "Constituci�
 categoria: "análisis"
 image: "/dereliction-ii-og.jpg"
 draft: false
+serie: "Dereliction of Duty"
+serie_numero: 2
 ---
 
 > **Serie "Dereliction of Duty".** Este es el post 2 de la serie. El post 1, *Dereliction of Duty: cuando la lealtad bunkeriza la decisión en Moncloa*, queda [aquí](/posts/dereliction-of-duty-lealtad-bunkeriza-moncloa/). En esta entrega bajamos la pregunta sobre la cultura institucional al terreno concreto del Derecho constitucional español.

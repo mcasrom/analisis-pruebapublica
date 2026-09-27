@@ -8,6 +8,8 @@ tags: ["política", "control parlamentario", "Ceuta", "Constitución", "Moncloa"
 categoria: "análisis"
 image: "/dereliction-iv-og.jpg"
 draft: false
+serie: "Dereliction of Duty"
+serie_numero: 4
 ---
 
 > **Serie Dereliction of Duty · Parte IV** · [I — La lealtad que bunkeriza](/posts/dereliction-of-duty-lealtad-bunkeriza-moncloa/) · [II — Lo que la Constitución exigía](/posts/dereliction-of-duty-ii-lo-que-la-constitucion-exigia/) · [III — La trampa del storytelling](/posts/dereliction-of-duty-iii-la-trampa-del-storytelling/)

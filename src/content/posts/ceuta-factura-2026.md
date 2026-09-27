@@ -8,6 +8,8 @@ tags: ["Ceuta", "economía", "geopolítica", "España", "Marruecos", "crisis mig
 categoria: "análisis"
 image: "/ceuta-2026-factura-og.jpg"
 draft: false
+serie: "Ceuta 2026"
+serie_numero: 1
 ---
 
 > **Serie Ceuta 2026.** Tras la dimensión diplomática de la crisis ([el arma migratoria](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)) y la [anatomía de la frase triunfalista](/posts/puente-ceuta-2026-frase-triunfalismo/), esta entrega aborda la pata que casi nadie cuenta con rigor: la factura en euros.

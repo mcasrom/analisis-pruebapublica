@@ -8,6 +8,8 @@ tags: ["política", "Ceuta", "comunicación política", "Óscar Puente", "crisis
 categoria: "análisis"
 image: "/og-preview.png"
 draft: false
+serie: "Ceuta 2026"
+serie_numero: 2
 ---
 
 ## El literal

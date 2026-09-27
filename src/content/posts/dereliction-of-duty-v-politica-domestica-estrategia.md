@@ -17,6 +17,8 @@ faq:
   - q: "¿Afirma el artículo que el Gobierno cometió una dejación de funciones?"
     a: "No. Plantea una hipótesis de análisis sobre los incentivos institucionales; no demuestra ninguna dejación ni atribuye intención. Una buena hipótesis no es una conclusión."
 draft: false
+serie: "Dereliction of Duty"
+serie_numero: 5
 ---
 
 > **Serie Dereliction of Duty · Parte V** · [I — La lealtad que bunkeriza](/posts/dereliction-of-duty-lealtad-bunkeriza-moncloa/) · [II — Lo que la Constitución exigía](/posts/dereliction-of-duty-ii-lo-que-la-constitucion-exigia/) · [III — La trampa del storytelling](/posts/dereliction-of-duty-iii-la-trampa-del-storytelling/) · [IV — El control parlamentario](/posts/dereliction-of-duty-iv-el-control-parlamentario/)

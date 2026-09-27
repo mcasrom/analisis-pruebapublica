@@ -8,6 +8,8 @@ tags: ["geopolítica", "España", "Marruecos", "Ceuta", "Melilla", "Sáhara Occi
 categoria: "análisis"
 image: "/og-preview.png"
 draft: false
+serie: "Ceuta 2026"
+serie_numero: 4
 ---
 
 ## La intersección asimétrica

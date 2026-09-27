@@ -8,6 +8,8 @@ tags: ["geopolítica", "narrativa", "storytelling", "desinformación", "comunica
 categoria: "análisis"
 image: "/dereliction-iii-og.jpg"
 draft: false
+serie: "Dereliction of Duty"
+serie_numero: 3
 ---
 
 > **Serie "Dereliction of Duty".** Tercera entrega. La primera —*Dereliction of Duty: cuando la lealtad bunkeriza la decisión en Moncloa*— está [aquí](/posts/dereliction-of-duty-lealtad-bunkeriza-moncloa/); la segunda —*lo que la Constitución exigía y no se hizo*— está [aquí](/posts/dereliction-of-duty-ii-lo-que-la-constitucion-exigia/). En esta entrega subimos un nivel: de **quién decide** y **cómo decide** a **cómo se construye previamente el marco desde el que se decide**.

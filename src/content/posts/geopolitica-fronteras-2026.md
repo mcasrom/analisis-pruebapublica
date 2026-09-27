@@ -8,6 +8,8 @@ tags: ["geopolítica", "fronteras", "ceuta", "migraciones", "desigualdad", "marr
 categoria: "análisis"
 image: "/geopolitica-fronteras-og.jpg"
 draft: false
+serie: "Ceuta 2026"
+serie_numero: 6
 ---
 
 > **Serie Geopolítica de las fronteras.** Este es el post 2 de una serie abierta. El post 1, *Geopolítica de las migraciones: cómo los flujos humanos reescriben el mapa*, queda [aquí](/posts/geopolitica-migraciones-2026/). En esta entrega miramos las líneas que los atraviesan.

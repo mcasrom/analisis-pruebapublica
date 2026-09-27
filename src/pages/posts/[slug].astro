@@ -71,10 +71,22 @@ const fimiPostMap = {
 };
 const fimiTema = fimiPostMap[post.slug] ? fimiTemas[fimiPostMap[post.slug]] : null;
 
-// Serie Ceuta: posts hermanos por tag "Ceuta"
-const ceutaPosts = todos.filter((p) => p.data.tags.some((t) => t.toLowerCase() === 'ceuta'));
-const esCeuta = ceutaPosts.some((p) => p.slug === post.slug);
-const seriePos = ceutaPosts.findIndex((p) => p.slug === post.slug);
+// Serie: posts hermanos por campo `serie` del frontmatter (orden por `serie_numero`).
+const serieNombre = post.data.serie ?? null;
+const serieDesc: Record<string, string> = {
+  'Ceuta 2026': 'Serie de análisis sobre la crisis migratoria como arma diplomática',
+  'Dereliction of Duty': 'Serie sobre la lealtad política y el debilitamiento institucional en España',
+};
+const seriePosts = serieNombre
+  ? todos
+      .filter((p) => p.data.serie === serieNombre)
+      .sort(
+        (a, b) =>
+          (a.data.serie_numero ?? 999) - (b.data.serie_numero ?? 999) ||
+          a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+      )
+  : [];
+const serieIdx = seriePosts.findIndex((p) => p.slug === post.slug);
 
 // Compartir: X cuenta el enlace como 23 chars (t.co)
 const shareUrl = postUrl;
@@ -166,6 +178,11 @@ const faqLd = faq.length
             </>
           )}
         </div>
+        {seriePosts.length > 1 && serieIdx >= 0 && (
+          <p class="mt-3 text-sm font-semibold uppercase tracking-widest text-accent-700 dark:text-accent-300">
+            {serieNombre} · {serieIdx + 1}/{seriePosts.length}
+          </p>
+        )}
         <h1 class="mt-3 font-serif text-4xl font-bold leading-tight tracking-tight text-slate-900 dark:text-white">
           {post.data.title}
         </h1>
@@ -215,14 +232,16 @@ const faqLd = faq.length
         </a>
       </div>
 
-      {esCeuta && ceutaPosts.length > 1 && (
+      {seriePosts.length > 1 && serieIdx >= 0 && (
         <div class="mt-10 rounded-2xl border border-dashed border-accent-300 bg-accent-50/50 p-6 dark:border-accent-700 dark:bg-accent-950/30">
           <h3 class="text-sm font-semibold uppercase tracking-widest text-accent-700 dark:text-accent-300">
-            Crisis de Ceuta 2026 · Parte {seriePos + 1} de {ceutaPosts.length}
+            {serieNombre} · Parte {serieIdx + 1} de {seriePosts.length}
           </h3>
-          <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">Serie de análisis sobre la crisis migratoria como arma diplomática</p>
+          <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            {serieDesc[serieNombre] ?? `Serie: ${serieNombre}`}
+          </p>
           <ul class="mt-3 space-y-1.5">
-            {ceutaPosts.map((p, i) => (
+            {seriePosts.map((p, i) => (
               <li>
                 {p.slug === post.slug ? (
                   <span class="text-sm font-semibold text-accent-700 dark:text-accent-300">{i + 1}. {p.data.title} ←</span>

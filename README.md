@@ -52,9 +52,16 @@ pm2 start ecosystem.config.cjs --env production
 
 ## Contenido
 - Posts en `src/content/posts/*.md` (frontmatter: `title`, `description`, `pubDate`,
-  `tags`, `image`, `categoria`, `author`, `assisted`, `draft`).
-- Post 0 editorial ("Qué es este blog") + serie **Crisis de Ceuta 2026** (6 posts,
-  bloque "Parte de la serie"), + serie **Geopolítica 101** en curso.
+  `tags`, `image`, `categoria`, `author`, `assisted`, `draft`, y opcionalmente
+  `serie` + `serie_numero`).
+- Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (6 posts) + serie
+  **Dereliction of Duty** (5 posts) + serie **Geopolítica 101** en curso.
+- **Series declaradas por frontmatter**: `serie` agrupa y `serie_numero` ordena. El
+  bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
+  título + listado de partes enlazadas) y se genera a partir de esos dos campos, no
+  de un tag concreto.
+- **Índice de etiquetas `/tags`**: lista todos los tags con su recuento y enlaza a
+  `/tags/<slug>/`. Accesible desde el nav del header. 123 etiquetas sobre 37 artículos.
 - Tiempo de lectura calculado por post (`src/lib/readingTime.ts`).
 - Compartir en **X, Bluesky, Mastodon y WhatsApp** (X cuenta el enlace como 23
   caracteres t.co para respetar el límite). Página `/categorias` como índice
@@ -104,6 +111,36 @@ pm2 start ecosystem.config.cjs --env production
   ignora (no filtra). Por consistencia, todos los posts publicados usan
   `draft: false`; si algún día se quiere ocultar posts de verdad, hay que añadir
   el campo al esquema y filtrar en index/[slug]/tags/categorias/rss/sitemap.
+
+## Auditoría editorial (`scripts/blog-audit.py`)
+Script de solo lectura que puntúa cada artículo sobre **100** y escribe un reporte
+Markdown. No modifica contenido ni toca la base de datos.
+
+```bash
+cd /home/deploy/analisis-pruebapublica
+python3 scripts/blog-audit.py --salida blog-audit.md   # reporte en el repo
+python3 scripts/blog-audit.py --json                  # salida JSON
+```
+
+- Rúbrica: título 4 · description ≤155 8 · pubDate 3 · autor 4 · tags ≥2 6 · OG image 8 ·
+  `draft: false` 3 · `assisted` 4 · serie+número 8 · numeración consistente 6 ·
+  enlace real al Radar FIMI 8 · enlace interno a otro post 14 · ≥2 fuentes
+  externas enlazadas 12 · ≥600 palabras 12.
+- `categoria` **no puntúa**: es el género del texto (`análisis` en todos los posts),
+  no la temática. La temática vive en `tags` y en `serie`.
+- El enlace al Radar FIMI se detecta buscando `fimi.viajeinteligencia.com` en un
+  enlace markdown real, no por menciońar la palabra "FIMI" en el texto.
+- Comprobaciones de serie: la numeración debe ser `1..N` sin huecos ni repetidos.
+- El reporte versionado es `blog-audit.md` (se regenera, no se edita a mano).
+
+## RSS
+- `src/pages/rss.xml.js` declara `site: "https://analisis.pruebapublica.com"` de
+  forma literal: en pre-render `Astro.site` es `undefined` y el build fallaba,
+  dejando `dist/client/rss.xml` a 0 bytes y la URL respondiendo 520.
+- `nginx` sirve el fichero como estático desde `dist/client/rss.xml`.
+- El bot-block de nginx rechaza User-Agents de CLI (`curl`, `wget`) con 444, que
+  Cloudflare refleja como 520. El feed es accesible con un UA de navegador; los
+  lectores de feeds que usan UA propios pueden verse afectados.
 
 ## Retención de datos
 - **SQLite local** (`data/analisis.db`): likes, comments y suscriptores.
