@@ -27,6 +27,13 @@ En el [post fundacional de esta serie](/posts/doctrinas-101-que-es/) fijamos cua
 
 La expresión **ближнее зарубежье** (*blízhneye zarubézhye*, «extranjero cercano») designa el conjunto de Estados que emergieron de la disolución de la Unión Soviética en 1991 y que Moscú lee, desde entonces, como una esfera de influencia propia antes que como vecinos soberanos cualesquiera: la Comunidad de Estados Independientes (CEI), el Cáucaso y Asia Central. No es una descripción geográfica neutral, sino un **marco de política exterior**: nombrar a esos países «cercanos» ya es asignarles un lugar en la jerarquía de intereses rusos.
 
+<figure style="margin:1.5rem 0;text-align:center">
+  <img src="/extranjero-cercano-esfera-influencia.svg" alt="Esquema simbólico de la doctrina del extranjero cercano: un núcleo central (Rusia) rodeado de anillos concéntricos y nodos satélite conectados entre sí, la esfera de influencia postsoviética."
+       width="680" height="480" loading="lazy"
+       style="max-width:100%;height:auto;border:1px solid #e5e5e5;border-radius:6px">
+  <figcaption style="font-size:.85rem;color:#555;margin-top:.4rem">Ilustración simbólica, no geográfica, de la esfera de influencia postsoviética sobre la CEI, el Cáucaso y Asia Central.</figcaption>
+</figure>
+
 La pregunta que importa aquí no es si el término es acertado, sino si detrás tiene una doctrina de Estado. Es decir, si hay actos sostenidos por el aparato, no solo intención declarada.
 
 ## ¿Institucionalizada?
