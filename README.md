@@ -156,13 +156,14 @@ entero, y se puede exigir un mínimo de artículos por eje.
 
 | Eje | Qué agrupa |
 | --- | --- |
-| `/temas/geopolitica-101/` | la serie completa (11 posts) en **orden de lectura** |
+| `/temas/geopolitica-101/` | la serie completa (10 posts) en **orden de lectura** |
+| `/temas/fabulas/` | la serie Fábulas del análisis (3 posts) en **orden de lectura** |
 | `/temas/fronteras-y-migraciones/` | 15 posts, incluye las series Ceuta 2026 y Dereliction of Duty |
 | `/temas/energia/` | petróleo, OEP+, oleoductos, gasoductos, corredor medio |
 | `/temas/comercio-y-aranceles/` | aranceles, proteccionismo, economía política |
 | `/temas/infraestructura-critica/` | cables submarinos, espacio, satélites |
 
-- Un eje puede apoyarse en `serie` (Geopolítica 101) o en una lista de `tags`.
+- Un eje puede apoyarse en `serie` (Geopolítica 101, Fábulas del análisis) o en una lista de `tags`.
   Los tags de país o de tema tangential quedan fuera a propósito: `Venezuela` y
   `Ormuz` no meten el eje de energía, ni `economía` el de comercio.
 - `src/pages/temas/index.astro` es el hub; `src/pages/temas/[eje].astro` genera una
@@ -177,11 +178,18 @@ entero, y se puede exigir un mínimo de artículos por eje.
 `posts/[slug].astro` es genérico: chip "Serie · n/N" sobre el título, más el listado
 de partes, **limitado a 6** con enlace al eje para el resto.
 
-- **Geopolítica 101** (11) — la numeración **no** se infiere de `pubDate` (hay
+- **Geopolítica 101** (10) — la numeración **no** se infiere de `pubDate` (hay
   empates: tres posts el 10-sep y dos el 13-sep). Sale de la lista que declara el
   propio post 8: «comenzó con *¿Qué es la geopolítica?* y continúa con petróleo,
   cables submarinos, el Ártico, la IA, el espacio y PISA».
+- **Fábulas del análisis** (3) — 1) *El caballo que aprendió a cantar*, 2) *La llave
+  de Nasrudín*, 3) *Los ciegos y el elefante*. Al formalizar la serie, el caballo
+  salió de Geopolítica 101 (conserva el tag `geopolítica 101`). Series 1-2-3 por
+  orden de publicación.
 - **Ceuta 2026** (6) · **Dereliction of Duty** (5).
+- **Barra lateral** (`src/components/Sidebar.astro`): la lista «Temas» muestra el
+  top-8 de etiquetas por uso **más** una lista `FIJOS` siempre visible (hoy
+  `['fábulas']`), para que una serie con pocos posts no quede enterrada.
 
 ## Normalización de etiquetas
 Las etiquetas se duplicaban por mayúsculas y por slugs: `ceuta`/`Ceuta`,
