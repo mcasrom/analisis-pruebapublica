@@ -4,7 +4,7 @@ description: "Una vieja historia de Nasrudín para abordar un problema central d
 pubDate: 2026-09-26
 author: "M. Castillo"
 assisted: "GenAI (redacción asistida y edición)"
-tags: ["geopolítica", "metodología", "OSINT", "FIMI", "desinformación", "inteligencia", "análisis"]
+tags: ["geopolítica", "metodología", "OSINT", "FIMI", "desinformación", "inteligencia", "análisis", "fábulas"]
 categoria: "análisis"
 image: "/nasrudin-llave-og.png"
 faq:

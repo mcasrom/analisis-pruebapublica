@@ -1,13 +1,13 @@
 ---
 title: "Los ciegos y el elefante: cuando todos tienen razón y nadie ve el conjunto"
-description: "La fábula de los ciegos y el elefante para explicar por qué un dato verdadero puede no describir el conjunto: el error de confundir la parte con la realidad."
-pubDate: 2026-10-04
+description: "La fábula de los ciegos y el elefante: por qué varios datos verdaderos pueden no describir el conjunto, y el error de confundir la parte con el todo."
+pubDate: 2026-09-29
 author: "M. Castillo"
 assisted: "GenAI (edición y verificación de enlaces)"
 tags: ["geopolítica", "metodología", "OSINT", "FIMI", "fábulas", "análisis", "inteligencia"]
 categoria: "análisis"
 image: "/ciegos-elefante-og.png"
-draft: true
+draft: false
 faq:
   - q: "¿Qué enseña la fábula de los ciegos y el elefante?"
     a: "Que cada uno tocó una parte verdadera del animal, pero ninguno veía el conjunto. Tener razón sobre una parte no significa tener razón sobre el todo: el error no está en lo que vieron, sino en confundir una parte de la realidad con la realidad completa."
@@ -50,6 +50,8 @@ El problema era otro.
 **Habían confundido una parte de la realidad con la realidad completa.**
 
 Y quizá esa sea una de las trampas más difíciles del análisis geopolítico.
+
+![Los ciegos y el elefante: cada uno toca una parte verdadera, pero ninguno ve el conjunto](/ciegos-elefante-fabula.png)
 
 ## Después de la farola
 
@@ -309,7 +311,7 @@ Pero todavía necesitamos preguntarnos qué significa todo ello dentro del fenó
 
 La misma precaución resulta necesaria cuando hablamos de coordinación e influencia.
 
-Un radar puede detectar señales.
+Un [radar](https://fimi.viajeinteligencia.com) puede detectar señales.
 
 Puede encontrar concentraciones temporales.
 

@@ -4,7 +4,7 @@ description: "Qué son los problemas enquistados y por qué se aplazan en vez de
 pubDate: 2026-09-20
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
-tags: ["geopolítica", "teoría", "conflictos", "geopolítica 101", "negociación", "Ceuta", "aranceles"]
+tags: ["geopolítica", "teoría", "conflictos", "geopolítica 101", "negociación", "Ceuta", "aranceles", "fábulas"]
 categoria: "análisis"
 image: "/el-caballo-que-aprendio-a-cantar-og.jpg"
 draft: false
