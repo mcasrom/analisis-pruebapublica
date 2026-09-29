@@ -15,11 +15,11 @@ faq:
     a: "Porque un compromiso hoy exigiría poder comprometerse a cumplirlo en el futuro, y ninguna parte confía del todo en que la otra lo hará. Se aplaza en la esperanza de que cambien las condiciones: liderazgo, correlación de fuerzas, presión de terceros o agotamiento asimétrico."
   - q: "¿Cómo se distingue un aplazamiento útil de uno que esconde la ausencia de decisión?"
     a: "Pasado el plazo, algo ha cambiado en la posición de alguna parte: nuevas opciones, presión acumulada, alternativas generadas. Si se llega al mismo punto de partida con una fecha más tardía, el aplazamiento era el sustituto de decidir."
-serie: "Geopolítica 101"
-serie_numero: 11
+serie: "Fábulas del análisis"
+serie_numero: 1
 ---
 
-> **Serie Geopolítica 101.** Tras fijar [qué es la geopolítica](/posts/que-es-la-geopolitica/) y cómo se lee el mapa del poder, esta entrega se ocupa de un mecanismo concreto de la política del conflicto: el aplazamiento. Qué ocurre cuando ninguna salida es aceptable para ninguna de las partes, y por qué el tiempo se convierte entonces en la moneda de cambio. Como todas las entregas de la serie, termina enlazando con casos concretos ya publicados en este blog. **Pieza hermana:** [La llave de Nasrudín y el problema de mirar donde hay luz](/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/).
+> **Serie Fábulas del análisis · 1/3.** Tras fijar [qué es la geopolítica](/posts/que-es-la-geopolitica/) y cómo se lee el mapa del poder, esta entrega se ocupa de un mecanismo concreto de la política del conflicto: el aplazamiento. Qué ocurre cuando ninguna salida es aceptable para ninguna de las partes, y por qué el tiempo se convierte entonces en la moneda de cambio. Termina enlazando con casos concretos ya publicados en este blog. **Piezas hermanas:** [La llave de Nasrudín](/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/) y [Los ciegos y el elefante](/posts/los-ciegos-y-el-elefante/).
 
 Nasrudín, condenado a muerte por el Shah, ofrece un trato imposible: en un año, enseñará a cantar al caballo favorito del monarca. El Shah acepta. Un mozo de cuadra se burla de él —"cuando fracases, te torturarán además de matarte"—. Nasrudín responde: "He ganado un año de vida, que ya es mucho. Y en ese año, puede que escape, puede que muera de todos modos, puede que el Shah muera y su sucesor libere a los prisioneros... o puede que el caballo aprenda a cantar."
 
@@ -96,7 +96,7 @@ La próxima vez que oigas "tregua temporal", "comisión de estudio" o "plazo de 
 
 ---
 
-**Para seguir leyendo.** La serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás entregas (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **[radar FIMI](https://fimi.viajeinteligencia.com/)** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el resumen semanal desde el formulario de suscripción del blog.
+**Para seguir leyendo.** El itinerario **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás piezas de esa serie (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **[radar FIMI](https://fimi.viajeinteligencia.com/)** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el resumen semanal desde el formulario de suscripción del blog.
 
 ---
 

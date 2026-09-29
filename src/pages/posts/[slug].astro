@@ -76,6 +76,7 @@ const serieNombre = post.data.serie ?? null;
 const serieDesc: Record<string, string> = {
   'Ceuta 2026': 'Serie de análisis sobre la crisis migratoria como arma diplomática',
   'Dereliction of Duty': 'Serie sobre la lealtad política y el debilitamiento institucional en España',
+  'Fábulas del análisis': 'Tres fábulas para pensar el método del análisis',
 };
 const seriePosts = serieNombre
   ? todos
@@ -90,6 +91,7 @@ const serieIdx = seriePosts.findIndex((p) => p.slug === post.slug);
 const SERIE_MAX = 6;
 const serieEje: Record<string, string> = {
   'Geopolítica 101': 'geopolitica-101',
+  'Fábulas del análisis': 'fabulas',
   'Ceuta 2026': 'fronteras-y-migraciones',
   'Dereliction of Duty': 'fronteras-y-migraciones',
 };

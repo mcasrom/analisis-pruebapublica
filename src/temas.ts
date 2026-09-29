@@ -11,8 +11,16 @@ export const EJES: Eje[] = [
     slug: 'geopolitica-101',
     nombre: 'Geopolítica 101',
     resumen:
-      'Itinerario de iniciación al análisis geopolítico: qué es la geografía del poder, energía, cables, Ártico, tecnología, espacio, educación, comercio y corredores. Once artículos en orden de lectura.',
+      'Itinerario de iniciación al análisis geopolítico: qué es la geografía del poder, energía, cables, Ártico, tecnología, espacio, educación, comercio y corredores. Diez artículos en orden de lectura.',
     serie: 'Geopolítica 101',
+    tags: [],
+  },
+  {
+    slug: 'fabulas',
+    nombre: 'Fábulas del análisis',
+    resumen:
+      'Tres fábulas para pensar el método del análisis: los problemas que se aplazan en vez de resolverse, la tendencia a buscar solo bajo la luz y el error de confundir una parte verdadera con el conjunto.',
+    serie: 'Fábulas del análisis',
     tags: [],
   },
   {

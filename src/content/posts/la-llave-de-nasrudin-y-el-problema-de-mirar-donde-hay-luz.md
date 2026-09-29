@@ -6,6 +6,8 @@ author: "M. Castillo"
 assisted: "GenAI (redacción asistida y edición)"
 tags: ["geopolítica", "metodología", "OSINT", "FIMI", "desinformación", "inteligencia", "análisis", "fábulas"]
 categoria: "análisis"
+serie: "Fábulas del análisis"
+serie_numero: 2
 image: "/nasrudin-llave-og.png"
 faq:
   - q: "¿Qué enseña la historia de Nasrudín y la llave?"

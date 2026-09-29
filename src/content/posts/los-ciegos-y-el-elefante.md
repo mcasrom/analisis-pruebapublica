@@ -6,6 +6,8 @@ author: "M. Castillo"
 assisted: "GenAI (edición y verificación de enlaces)"
 tags: ["geopolítica", "metodología", "OSINT", "FIMI", "fábulas", "análisis", "inteligencia"]
 categoria: "análisis"
+serie: "Fábulas del análisis"
+serie_numero: 3
 image: "/ciegos-elefante-og.png"
 draft: false
 faq:
