@@ -6,11 +6,17 @@ import { getLikes } from '../lib/db';
 const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const destacado = posts[0];
 const recientes = posts.slice(0, 5);
-// Temas populares: etiquetas con mayor número de artículos (top 8)
+// Temas populares: top 8 por nº de artículos + una lista fija siempre visible
+// (series que queremos destacar aunque tengan pocos posts, p.ej. «fábulas»).
 const tagSlug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const contadorTags = new Map<string, number>();
 for (const p of posts) for (const t of p.data.tags || []) contadorTags.set(t, (contadorTags.get(t) || 0) + 1);
-const temas = [...contadorTags.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+const _porUso = [...contadorTags.entries()].sort((a, b) => b[1] - a[1]);
+const FIJOS = ['fábulas'];
+const temas = [
+  ...FIJOS.filter((t) => contadorTags.has(t)).map((t) => [t, contadorTags.get(t)!] as [string, number]),
+  ..._porUso.filter(([t]) => !FIJOS.includes(t)).slice(0, 8),
+];
 // "Lo más leído" por likes (SQLite), top 4
 const masLeidos = posts
   .map((p) => ({ slug: p.slug, title: p.data.title, likes: getLikes(p.slug) }))
