@@ -93,19 +93,13 @@ Pero seguiría sin describir al elefante.
 
 Esto ocurre constantemente con la información geopolítica.
 
-Un indicador económico puede ser correcto.
-
-Una estadística migratoria puede ser correcta.
-
-Una declaración presidencial puede ser auténtica.
-
-Un movimiento militar puede estar documentado.
-
-Una encuesta puede haber sido realizada correctamente.
-
-Una publicación en redes sociales puede ser genuina.
-
-Un mapa puede representar con precisión aquello que pretende representar.
+- Un indicador económico puede ser correcto.
+- Una estadística migratoria puede ser correcta.
+- Una declaración presidencial puede ser auténtica.
+- Un movimiento militar puede estar documentado.
+- Una encuesta puede haber sido realizada correctamente.
+- Una publicación en redes sociales puede ser genuina.
+- Un mapa puede representar con precisión aquello que pretende representar.
 
 Y, sin embargo, ninguno de esos elementos constituye por sí mismo la realidad completa que pretendemos comprender.
 
@@ -117,43 +111,28 @@ Está en **lo que hacemos con él**.
 
 Un conflicto internacional puede observarse desde muchas posiciones.
 
-Desde la economía.
-
-Desde la seguridad.
-
-Desde la energía.
-
-Desde la demografía.
-
-Desde las fronteras.
-
-Desde la tecnología.
-
-Desde las alianzas.
-
-Desde la opinión pública.
-
-Desde los recursos naturales.
-
-Desde la historia.
-
-Desde las capacidades militares.
-
-Desde las relaciones comerciales.
+- Desde la economía.
+- Desde la seguridad.
+- Desde la energía.
+- Desde la demografía.
+- Desde las fronteras.
+- Desde la tecnología.
+- Desde las alianzas.
+- Desde la opinión pública.
+- Desde los recursos naturales.
+- Desde la historia.
+- Desde las capacidades militares.
+- Desde las relaciones comerciales.
 
 Cada perspectiva puede descubrir algo que las demás no ven.
 
 Y precisamente por eso puede resultar peligrosa la especialización cuando olvidamos sus límites.
 
-El economista puede explicar perfectamente una parte del problema.
-
-El historiador puede explicar otra.
-
-El especialista militar puede aportar una tercera.
-
-El experto energético una cuarta.
-
-El analista de redes sociales una quinta.
+- El economista puede explicar perfectamente una parte del problema.
+- El historiador puede explicar otra.
+- El especialista militar puede aportar una tercera.
+- El experto energético una cuarta.
+- El analista de redes sociales una quinta.
 
 Todos pueden estar describiendo correctamente aquello que tienen delante.
 
@@ -165,25 +144,16 @@ Una de las tentaciones del análisis contemporáneo es pensar que cuantos más d
 
 No necesariamente.
 
-Podemos tener miles de documentos.
-
-Millones de publicaciones.
-
-Cientos de indicadores.
-
-Imágenes satelitales.
-
-Bases de datos.
-
-Gráficos.
-
-Mapas.
-
-Dashboards.
-
-Modelos.
-
-Algoritmos.
+- Podemos tener miles de documentos.
+- Millones de publicaciones.
+- Cientos de indicadores.
+- Imágenes satelitales.
+- Bases de datos.
+- Gráficos.
+- Mapas.
+- Dashboards.
+- Modelos.
+- Algoritmos.
 
 Podemos disponer de una cantidad de información que habría resultado inimaginable para cualquier analista de generaciones anteriores.
 
@@ -213,17 +183,12 @@ Y finalmente aparece la tentación de pensar que aquello que encaja explica el c
 
 Pero puede existir otra parte del fenómeno que no estamos observando.
 
-Una causa que todavía no hemos identificado.
-
-Un actor que no deja huella pública.
-
-Una variable que no estamos midiendo.
-
-Una relación que se desarrolla fuera de las fuentes disponibles.
-
-Una población que no está representada en nuestra muestra.
-
-Una conversación que nunca aparece en internet.
+- Una causa que todavía no hemos identificado.
+- Un actor que no deja huella pública.
+- Una variable que no estamos midiendo.
+- Una relación que se desarrolla fuera de las fuentes disponibles.
+- Una población que no está representada en nuestra muestra.
+- Una conversación que nunca aparece en internet.
 
 La ausencia de esa información no invalida necesariamente lo que sí sabemos.
 
@@ -239,17 +204,12 @@ Podemos estudiar sus documentos oficiales.
 
 Pero un documento oficial tampoco contiene toda su política.
 
-Podemos observar sus presupuestos.
-
-Podemos estudiar sus inversiones.
-
-Podemos analizar sus movimientos diplomáticos.
-
-Podemos examinar sus relaciones comerciales.
-
-Podemos seguir sus capacidades militares.
-
-Podemos observar su comportamiento en organismos internacionales.
+- Podemos observar sus presupuestos.
+- Podemos estudiar sus inversiones.
+- Podemos analizar sus movimientos diplomáticos.
+- Podemos examinar sus relaciones comerciales.
+- Podemos seguir sus capacidades militares.
+- Podemos observar su comportamiento en organismos internacionales.
 
 Cada una de esas ventanas proporciona información.
 
@@ -295,15 +255,11 @@ Su fortaleza está precisamente en que otros investigadores pueden revisar parte
 
 Pero la reproducibilidad de una observación no convierte esa observación en una explicación total.
 
-Podemos demostrar que una cosa ocurrió.
-
-Podemos establecer cuándo ocurrió.
-
-Podemos identificar quién la publicó.
-
-Podemos reconstruir una secuencia.
-
-Podemos encontrar conexiones.
+- Podemos demostrar que una cosa ocurrió.
+- Podemos establecer cuándo ocurrió.
+- Podemos identificar quién la publicó.
+- Podemos reconstruir una secuencia.
+- Podemos encontrar conexiones.
 
 Pero todavía necesitamos preguntarnos qué significa todo ello dentro del fenómeno más amplio.
 
@@ -313,25 +269,19 @@ Pero todavía necesitamos preguntarnos qué significa todo ello dentro del fenó
 
 La misma precaución resulta necesaria cuando hablamos de coordinación e influencia.
 
-Un [radar](https://fimi.viajeinteligencia.com) puede detectar señales.
-
-Puede encontrar concentraciones temporales.
-
-Puede identificar comportamientos similares.
-
-Puede observar redes de difusión.
-
-Puede señalar anomalías.
+- Un [radar](https://fimi.viajeinteligencia.com) puede detectar señales.
+- Puede encontrar concentraciones temporales.
+- Puede identificar comportamientos similares.
+- Puede observar redes de difusión.
+- Puede señalar anomalías.
 
 Todo eso puede ser útil.
 
 Pero una señal continúa siendo una señal.
 
-Una concentración no demuestra automáticamente coordinación.
-
-Una coincidencia temática no demuestra una campaña.
-
-Una cuenta que amplifica un contenido no demuestra por sí sola quién está detrás de ese contenido.
+- Una concentración no demuestra automáticamente coordinación.
+- Una coincidencia temática no demuestra una campaña.
+- Una cuenta que amplifica un contenido no demuestra por sí sola quién está detrás de ese contenido.
 
 La herramienta puede encontrar una pata del elefante.
 
@@ -347,21 +297,14 @@ Aceptar que nuestra visión es parcial no significa que todas las interpretacion
 
 Que solamente podamos tocar una parte del elefante no significa que no podamos conocer nada sobre él.
 
-Podemos comparar observaciones.
-
-Contrastar fuentes.
-
-Buscar evidencias independientes.
-
-Estudiar series temporales.
-
-Encontrar contradicciones.
-
-Descartar hipótesis.
-
-Añadir nuevas perspectivas.
-
-Revisar nuestras conclusiones.
+- Podemos comparar observaciones.
+- Contrastar fuentes.
+- Buscar evidencias independientes.
+- Estudiar series temporales.
+- Encontrar contradicciones.
+- Descartar hipótesis.
+- Añadir nuevas perspectivas.
+- Revisar nuestras conclusiones.
 
 El conocimiento no desaparece porque sea incompleto.
 
@@ -371,15 +314,11 @@ Lo que cambia es el grado de certeza con el que debemos expresarlo.
 
 Quizá por eso una buena disciplina analítica consiste en mantener varias preguntas separadas.
 
-**¿Qué sabemos?**
-
-**¿Qué observamos?**
-
-**¿Qué inferimos?**
-
-**¿Qué desconocemos?**
-
-**¿Qué otras explicaciones son compatibles con los mismos datos?**
+- **¿Qué sabemos?**
+- **¿Qué observamos?**
+- **¿Qué inferimos?**
+- **¿Qué desconocemos?**
+- **¿Qué otras explicaciones son compatibles con los mismos datos?**
 
 La primera pregunta pertenece a la evidencia.
 
