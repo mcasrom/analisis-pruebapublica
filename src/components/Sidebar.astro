@@ -3,7 +3,7 @@
 import { getCollection } from 'astro:content';
 import { getLikes } from '../lib/db';
 
-const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const destacado = posts[0];
 const recientes = posts.slice(0, 5);
 // Temas populares: top 8 por nº de artículos + una lista fija siempre visible

@@ -6,7 +6,7 @@ import { getCollection } from 'astro:content';
 import { EJES, type Eje } from '../../temas';
 
 export async function getStaticPaths() {
-  const posts = (await getCollection('posts')).sort(
+  const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
   return EJES.map((eje) => {
@@ -42,7 +42,7 @@ const slugify = (t: string) =>
     .replace(/^-+|-+$/g, '');
 
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
-const todos = await getCollection('posts');
+const todos = (await getCollection('posts')).filter((p) => !p.data.draft);
 const nTags = new Set(todos.flatMap((p) => p.data.tags || [])).size;
 
 const collectionLd = {

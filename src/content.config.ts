@@ -13,6 +13,7 @@ const posts = defineCollection({
     faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
     serie: z.string().optional(),
     serie_numero: z.number().int().positive().optional(),
+    draft: z.boolean().default(false),
   }),
 });
 

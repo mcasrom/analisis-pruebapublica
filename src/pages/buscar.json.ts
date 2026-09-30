@@ -18,7 +18,7 @@ function limpiar(md: string): string {
 }
 
 export const GET: APIRoute = async () => {
-  const posts = (await getCollection('posts')).sort(
+  const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
 

@@ -3,7 +3,7 @@
 import ThemeToggle from './ThemeToggle.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const ultimo = posts[0];
 
 const nav = [

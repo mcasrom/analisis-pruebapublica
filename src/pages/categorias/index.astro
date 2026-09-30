@@ -17,7 +17,7 @@ function tagSlug(tag: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 // Agrupación por etiqueta (solo las que tienen ≥2 artículos)
 const porTag = new Map<string, typeof posts>();

@@ -15,13 +15,13 @@ export function tagSlug(tag: string): string {
 }
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  const posts = (await getCollection('posts')).filter((p) => !p.data.draft);
   const tags = [...new Set(posts.flatMap((p) => p.data.tags || []))];
   return tags.map((tag) => ({ params: { tag: tagSlug(tag) }, props: { slug: tagSlug(tag) } }));
 }
 
 const { slug: tag } = Astro.props;
-const posts = (await getCollection('posts'))
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft)
   .filter((p) => (p.data.tags || []).some((t) => tagSlug(t) === tag))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });

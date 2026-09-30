@@ -11,7 +11,7 @@ import { getLikes } from '../../lib/db';
 import { readingTimeLabel } from '../../lib/readingTime';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  const posts = (await getCollection('posts')).filter((p) => !p.data.draft);
   return posts.map((post) => ({
     params: { slug: post.slug },
     props: { post },
@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await post.render();
 const lectura = post.body ? readingTimeLabel(post.body) : '';
-const todos = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const todos = (await getCollection('posts')).filter((p) => !p.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const idx = todos.findIndex((p) => p.slug === post.slug);
 const siguiente = idx > 0 ? todos[idx - 1] : null;
 

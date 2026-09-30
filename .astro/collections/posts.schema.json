@@ -66,6 +66,10 @@
           "type": "integer",
           "exclusiveMinimum": 0
         },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
         "$schema": {
           "type": "string"
         }

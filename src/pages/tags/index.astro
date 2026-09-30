@@ -13,7 +13,7 @@ export function tagSlug(tag: string): string {
     .replace(/^-+|-+$/g, "");
 }
 
-const posts = (await getCollection("posts"))
+const posts = (await getCollection("posts")).filter((p) => !p.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 type Entrada = { label: string; slug: string; posts: typeof posts };

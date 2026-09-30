@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 import { getLikes } from '../lib/db';
 import { readingTimeLabel } from '../lib/readingTime';
 
-const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const destacado = posts[0];
 const lecturaDe = (p: (typeof posts)[number]) => (p.body ? readingTimeLabel(p.body) : '');
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });

@@ -5,7 +5,7 @@ import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 import { EJES, type Eje } from '../../temas';
 
-const posts = (await getCollection('posts')).sort(
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
