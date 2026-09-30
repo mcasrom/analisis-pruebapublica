@@ -26,6 +26,9 @@ const trimmedDesc = description.length > 155 ? description.slice(0, 152) + '…'
 const siteUrl = 'https://analisis.pruebapublica.com';
 const fullImage = image.startsWith('http') ? image : siteUrl + image;
 const fullUrl = url.startsWith('http') ? url : siteUrl + url;
+// Páginas internas (admin): no indexar. OJO: robots.txt NO debe bloquear
+// /admin/, o Google no podría rastrear y leer este noindex (seguiría indexada).
+const noindex = url.startsWith('/admin');
 ---
 <!DOCTYPE html>
 <html lang="es" class="light">
@@ -35,6 +38,7 @@ const fullUrl = url.startsWith('http') ? url : siteUrl + url;
   <title>{fullTitle}</title>
   <meta name="description" content={trimmedDesc} />
   <meta name="google-site-verification" content="mlyuKtDMOhZ2x2lMrqr-MHT9LeUW8i6uEJw1Sv6AzNY" />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
 
   <!-- PWA -->
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
