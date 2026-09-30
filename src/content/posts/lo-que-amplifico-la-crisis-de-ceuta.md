@@ -21,7 +21,7 @@ faq:
 
 # Lo que amplificó la crisis de Ceuta — y lo que el radar no puede decir
 
-En este blog hemos contado [la dimensión diplomática de la crisis de Ceuta de 2026](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/), la [frase triunfalista que la ciudad no se creyó](/posts/puente-ceuta-2026-frase-triunfalismo/) y [la factura en euros del 30 de julio](/posts/ceuta-factura-2026/). Faltaba otra mirada, la que aporta el propio observatorio: **cómo se amplificó** aquello en las redes. Con una pregunta de fondo que es también una advertencia: **una cosa es que algo se amplifique y otra, muy distinta, que esté coordinado.**
+En este blog he contado [la dimensión diplomática de la crisis de Ceuta de 2026](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/), la [frase triunfalista que la ciudad no se creyó](/posts/puente-ceuta-2026-frase-triunfalismo/) y [la factura en euros del 30 de julio](/posts/ceuta-factura-2026/). Faltaba otra mirada, la que aporta el propio observatorio: **cómo se amplificó** aquello en las redes. Con una pregunta de fondo que es también una advertencia: **una cosa es que algo se amplifique y otra, muy distinta, que esté coordinado.**
 
 ## El hecho y la ventana
 
@@ -29,7 +29,7 @@ La noche del **30 de julio de 2026** la frontera de Ceuta registró 72.000 entra
 
 ## Lo que se amplificó
 
-Tomamos la ventana del caso —**30 de julio a 21 de septiembre**— y la comparamos con un periodo de control tres semanas antes, del 1 al 21 de julio. El resultado, en el tema «frontera sur» del radar:
+Tomé la ventana del caso —**30 de julio a 21 de septiembre**— y la comparé con un periodo de control tres semanas antes, del 1 al 21 de julio. El resultado, en el tema «frontera sur» del radar:
 
 | | Crisis (30-jul → 21-sep) | Control (1–21 jul) |
 |---|---|---|
@@ -44,7 +44,7 @@ La actividad **no fue paralela a la crisis**: se mantuvo baja durante agosto y *
 
 ## El embudo: de todo el ruido a «0 confirmadas»
 
-Si en vez de mirar el volumen miramos **qué se puede demostrar**, el cuadro se ordena solo:
+Si en vez de mirar el volumen miro **qué se puede demostrar**, el cuadro se ordena solo:
 
 - **7.663** enlaces distintos en la ventana.
 - **150** los compartieron **dos o más cuentas** (la señal de amplificación).
