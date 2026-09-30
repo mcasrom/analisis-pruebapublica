@@ -1,13 +1,13 @@
 ---
 title: "Lo que amplificó la crisis de Ceuta — y lo que el radar no puede decir"
-description: "En la crisis de Ceuta de 2026 el radar registró 13.442 eventos y 150 enlaces compartidos por varias cuentas. El pico llegó tras los hechos y lo dominó el eco de prensa."
-pubDate: 2026-10-06
+description: "En la crisis de Ceuta de 2026 el radar registró 13.442 eventos; el pico llegó tras los hechos y lo dominó el eco de prensa. No confirma coordinación."
+pubDate: 2026-09-30
 author: "M. Castillo"
 assisted: "GenAI (consulta de datos y redacción asistida)"
 tags: ["Ceuta", "geopolítica", "OSINT", "radar", "amplificación", "datos", "frontera sur"]
 categoria: "análisis"
 image: "/ceuta-amplificacion-og.png"
-draft: true
+draft: false
 serie: "Lo que vio el radar"
 serie_numero: 2
 faq:
@@ -68,6 +68,6 @@ Por eso, cuando en la amplificación de Ceuta de septiembre aparece un grupo est
 
 ## Cómo verificarlo
 
-Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **fimi.viajeinteligencia.com/casos/ceuta/**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
+Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **[fimi.viajeinteligencia.com/casos/ceuta/](https://fimi.viajeinteligencia.com/casos/ceuta/)**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
 
 La conclusión cabe en una frase: **en Ceuta se amplificó mucho; se demostró, poco — y lo segundo es tan importante como lo primero.**
