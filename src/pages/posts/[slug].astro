@@ -45,6 +45,7 @@ const fimiTemas = {
   frontera_sur: { nombre: 'Frontera Sur (España-Marruecos)', desc: 'coordinación y narrativas en la frontera sur' },
   geopolitica_ue_marruecos: { nombre: 'Geopolítica UE-Marruecos', desc: 'relaciones y desinformación UE-Marruecos' },
   politica_nacional: { nombre: 'Política nacional', desc: 'señales de coordinación política en España' },
+  defensa_espana: { nombre: 'España — defensa y amenazas híbridas', desc: 'defensa, amenazas híbridas y disuasión' },
   eeuu_politica: { nombre: 'Política y desinformación EEUU', desc: 'interferencia electoral y desinformación en EEUU' },
   oriente_medio: { nombre: 'Oriente Medio (Israel-Irán-Gaza)', desc: 'manipulación informativa en conflicto' },
   elecciones: { nombre: 'Elecciones e interferencia electoral', desc: 'coordinación y amplificación en procesos electorales' },
@@ -68,6 +69,7 @@ const fimiPostMap = {
   'ceuta-fimi-y-la-frontera-informativa': 'frontera_sur',
   'migracion-guerra-hibrida': 'frontera_sur',
   'que-detecta-hoy-el-observatorio-fimi': 'elecciones',
+  'el-zorro-que-queria-que-el-bosque-le-tuviera-miedo': 'defensa_espana',
 };
 const fimiTema = fimiPostMap[post.slug] ? fimiTemas[fimiPostMap[post.slug]] : null;
 
