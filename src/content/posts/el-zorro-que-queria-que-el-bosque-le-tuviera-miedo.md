@@ -177,4 +177,6 @@ Por eso, cuando una potencia anuncia que puede hacer algo terrible, la pregunta 
 
 **Para seguir leyendo.** Si te interesa cómo se observan las señales de coordinación y amplificación informativa en los conflictos vivos —señal, no atribución—, el [radar FIMI](https://fimi.viajeinteligencia.com/) publica cada 6 horas los patrones de los temas que cubre. Y la serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las piezas de contexto (energía, fronteras, IA, defensa) sobre las que se apoya este análisis.
 
-*Nota de método: este artículo separa hechos verificables (con fuente enlazada) de interpretación. No atribuye intenciones a ningún actor ni anticipa el uso de armas nucleares por nadie. Firma: M. Castillo.*
+*Nota de método: este artículo separa hechos verificables (con fuente enlazada) de interpretación. No atribuye intenciones a ningún actor ni anticipa el uso de armas nucleares por nadie.*
+
+*Elaborado con asistencia de IA y revisión humana. Fuentes enlazadas en el texto. — @pruebapublica*
