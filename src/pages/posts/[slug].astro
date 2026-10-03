@@ -111,6 +111,7 @@ const shareBody = (src: string) => encodeURIComponent(`"${shareTitle}" ${withUtm
 const shareX = `https://twitter.com/intent/tweet?text=${encodeURIComponent(`"${shareTitle}"`)}&url=${encodeURIComponent(withUtm('x'))}`;
 const shareBsky = `https://bsky.app/intent/compose?text=${shareBody('bluesky')}`;
 const shareMasto = `https://mastodon.social/share?text=${shareBody('mastodon')}`;
+const shareHN = `https://news.ycombinator.com/submitlink?u=${encodeURIComponent(withUtm('hn'))}`;
 const waShare = `https://wa.me/?text=${encodeURIComponent(`${post.data.title} — ${withUtm('whatsapp')}`)}`;
 
 const jsonLd = {
@@ -238,6 +239,10 @@ const faqLd = faq.length
           <a href={shareMasto} target="_blank" rel="noopener noreferrer"
             class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-indigo-500 hover:text-indigo-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-indigo-400 dark:hover:text-indigo-400">
             🐘 Mastodon
+          </a>
+          <a href={shareHN} target="_blank" rel="noopener noreferrer" title="Enviar a Hacker News (escribe el título en inglés)"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-600 hover:text-orange-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-orange-400 dark:hover:text-orange-400">
+            🟠 HN
           </a>
           <a href="/rss.xml" title="Suscríbete por RSS"
             class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-orange-500 hover:text-orange-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-orange-400 dark:hover:text-orange-400">
