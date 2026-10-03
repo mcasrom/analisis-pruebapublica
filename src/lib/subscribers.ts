@@ -34,6 +34,11 @@ export function confirmSubscriber(id: string): boolean {
   return r.changes > 0;
 }
 
+export function unsubscribeSubscriber(id: string): boolean {
+  const r = getDb().prepare('UPDATE subscribers SET confirmado = 0 WHERE id = ?').run(id);
+  return r.changes > 0;
+}
+
 export function listSubscribers(): Array<{ id: string; email: string; ip: string | null; confirmado: number; fecha: string }> {
   return getDb()
     .prepare('SELECT id, email, ip, confirmado, fecha FROM subscribers ORDER BY fecha DESC')
