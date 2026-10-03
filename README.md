@@ -211,3 +211,12 @@ recuento en dos y crea páginas `/tags/` fantasma.
   Crecimiento bajo.
 - Documento central del ecosistema con todas las políticas: ver `RETENCION.md`
   en `mcasrom/nearme-osint`.
+## Newsletter
+- Alta con **doble opt-in**: `POST /api/subscribe` (email) → `GET /api/confirm?id=` confirma; `GET /api/unsubscribe?id=` da de baja. Tabla `subscribers` en `data/analisis.db`.
+- **Funnel**: botón **«Suscribirse»** en la cabecera + página **`/suscribirse`** + formulario (`NewsletterForm`, variantes `inline`/`card`) en cada post y en la portada. Copy con apoyo al proyecto.
+- **Envío**: `scripts/newsletter_send.py` lee los posts recientes del **RSS** y los manda por **Resend** a los confirmados, con enlace de baja. Cron mensual (`0 8 1 * *`). `--dry` genera `scripts/newsletter_preview.html`; `--test <email>` envía una prueba. (Resend está tras Cloudflare → la llamada necesita `User-Agent`.)
+
+## Compartir, atribución y distribución
+- Cada post lleva botones de **X, Bluesky, Mastodon, WhatsApp, Hacker News y LinkedIn**, todos con **UTM** (`?utm_source=…`) para atribuir el canal.
+- Campo opcional **`abstract_en`** (frontmatter): resumen en inglés que se renderiza en un bloque **«In English»** al inicio del post (para envíos a HN/Lobste.rs, anglófonos).
+- **Watchdog** `scripts/blog_watchdog_distribucion.py` (cron 2×/día): avisa por Telegram si un post reciente no se difundió en Mastodon/Bluesky.
