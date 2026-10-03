@@ -91,7 +91,8 @@ def send(to, html_body, cfg):
                        "subject": SUBJECT, "html": html_body}).encode()
     req = urllib.request.Request("https://api.resend.com/emails", data=data,
                                  headers={"Authorization": "Bearer " + cfg["RESEND_API_KEY"],
-                                          "Content-Type": "application/json"})
+                                          "Content-Type": "application/json",
+                                          "User-Agent": "analisis-newsletter/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.status
 
