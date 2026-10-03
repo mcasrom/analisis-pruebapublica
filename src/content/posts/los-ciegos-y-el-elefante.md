@@ -1,6 +1,7 @@
 ---
 title: "Los ciegos y el elefante: cuando todos tienen razón y nadie ve el conjunto"
 description: "La fábula de los ciegos y el elefante: por qué varios datos verdaderos pueden no describir el conjunto, y el error de confundir la parte con el todo."
+abstract_en: "The fable of the blind men and the elephant as a warning for analysis: several true facts can still miss the whole, and why we mistake the part for the system."
 pubDate: 2026-09-29
 author: "M. Castillo"
 assisted: "GenAI (edición y verificación de enlaces)"

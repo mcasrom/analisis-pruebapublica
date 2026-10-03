@@ -1,6 +1,7 @@
 ---
 title: "Lo que vio el radar esta semana: 41.778 eventos, 98 grupos en banda alta y tres grupos con sincronía entre cuentas"
 description: "Observatorio de señales: 41.778 eventos y 929 grupos esta semana. 98 en banda alta, cero críticos y tres grupos con sincronía entre cuentas (una destaca)."
+abstract_en: "What my amplification radar saw this week: 41,778 events, 929 groups. 98 in the high band, zero critical, and three groups with cross-account synchrony."
 pubDate: 2026-09-27
 author: "M. Castillo"
 assisted: "GenAI (consulta de la API pública y tratamiento de datos)"

@@ -1,6 +1,7 @@
 ---
 title: "La llave de Nasrudín y el problema de mirar donde hay luz"
 description: "Una vieja historia de Nasrudín para abordar un problema central del análisis: confundir aquello que podemos observar con aquello que realmente ocurre."
+abstract_en: "A Nasrudin story to expose a core analytical bias: we look for answers where the light is, confusing what we can observe with what is actually happening."
 pubDate: 2026-09-26
 author: "M. Castillo"
 assisted: "GenAI (redacción asistida y edición)"

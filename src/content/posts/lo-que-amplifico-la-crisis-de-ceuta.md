@@ -1,6 +1,7 @@
 ---
 title: "Lo que amplificó la crisis de Ceuta — y lo que el radar no puede decir"
 description: "En la crisis de Ceuta de 2026 el radar registró 13.442 eventos; el pico llegó tras los hechos y lo dominó el eco de prensa. No confirma coordinación."
+abstract_en: "In the 2026 Ceuta crisis my radar logged 13,442 events. The peak came after the facts and was dominated by press echo. It does not confirm coordination."
 pubDate: 2026-09-30
 author: "M. Castillo"
 assisted: "GenAI (consulta de datos y redacción asistida)"

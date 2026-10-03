@@ -1,6 +1,7 @@
 ---
 title: "Qué detecta hoy el Observatorio FIMI: 907 grupos analizados y una sola sincronía entre cuentas"
 description: "Radiografía del Observatorio FIMI a 26-sep-2026: 907 grupos, 90 en banda alta, 0 críticos y una sola señal de sincronía entre cuentas distintas."
+abstract_en: "A snapshot of my FIMI observatory (26 Sep 2026): 907 groups, 90 in the high band, 0 critical, and just one synchrony between distinct accounts. What amplification measurement can, and cannot, say."
 pubDate: 2026-09-26
 author: "M. Castillo"
 assisted: "GenAI (consulta de API y tratamiento de datos)"

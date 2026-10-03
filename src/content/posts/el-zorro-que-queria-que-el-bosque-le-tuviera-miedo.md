@@ -1,6 +1,7 @@
 ---
 title: "El zorro que quería que el bosque le tuviera miedo: amenaza, disuasión y el poder de la percepción"
 description: "La fábula del zorro que amenazaba sin atacar para leer la disuasión: por qué capacidad no es intención y qué verificar del lenguaje nuclear de sep-2026."
+abstract_en: "A fable about deterrence: a fox that threatens without attacking. Why capability is not intent, and how to read the nuclear rhetoric of September 2026. A short, sourced checklist."
 pubDate: 2026-10-02
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y edición)"

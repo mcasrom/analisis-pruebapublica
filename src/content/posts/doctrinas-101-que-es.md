@@ -1,6 +1,7 @@
 ---
 title: "Qué es una doctrina geoestratégica (y cómo distinguirla de la propaganda)"
 description: "Doctrinas 101 (1/5): definición operativa de doctrina geoestratégica y los cuatro criterios para distinguirla de la propaganda o la retórica de campaña."
+abstract_en: "Doctrines 101 (1/5): an operational definition of a geopolitical doctrine, and four criteria to tell it apart from propaganda or campaign rhetoric."
 pubDate: 2026-09-27
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

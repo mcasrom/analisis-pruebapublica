@@ -1,6 +1,7 @@
 ---
 title: "El caballo que aprendió a cantar: por qué los problemas enquistados nunca se cierran, se aplazan"
 description: "Qué son los problemas enquistados y por qué se aplazan en vez de resolverse: la fábula de Nasrudín, la teoría del conflicto (Fearon, Zartman) y los casos de Ceuta y los aranceles de 2026."
+abstract_en: "Why entrenched problems are never closed, only postponed: Nasrudin's singing horse, conflict theory (Fearon, Zartman) and two 2026 cases, Ceuta and the tariffs."
 pubDate: 2026-09-20
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

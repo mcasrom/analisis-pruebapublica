@@ -1,6 +1,7 @@
 ---
 title: "El Corolario Trump-Monroe: síntesis de una doctrina en construcción"
 description: "Doctrinas 101 (2/5): pasamos la política de Trump hacia el hemisferio occidental por los cuatro criterios. Cumple tres; el cuarto solo lo dará el tiempo."
+abstract_en: "Doctrines 101 (2/5): Trump's Western-hemisphere policy put through the four criteria. It meets three; the fourth only time will tell."
 pubDate: 2026-09-27
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
