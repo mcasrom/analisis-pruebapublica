@@ -1,0 +1,46 @@
+---
+// src/pages/suscribirse.astro
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+const siteUrl = 'https://analisis.pruebapublica.com';
+---
+<Layout
+  title="Suscríbete — Análisis"
+  description="Un correo al mes con los análisis clave: geopolítica, método y datos, con fuente. Gratis, sin spam, baja en un clic. Suscribirte apoya el proyecto."
+  url="/suscribirse"
+  wide
+>
+  <section class="mx-auto max-w-2xl py-12 text-center">
+    <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">Boletín</p>
+    <h1 class="mt-2 font-serif text-4xl font-bold tracking-tight text-slate-900 dark:text-white">
+      Recibe lo que publico
+    </h1>
+    <p class="mx-auto mt-4 max-w-xl text-lg text-slate-600 dark:text-slate-300">
+      Un correo al mes con los análisis clave: geopolítica, método y datos, cada cifra con su fuente.
+      Sin agenda y sin ruido.
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-xl">
+    <NewsletterForm variante="card" />
+  </section>
+
+  <section class="mx-auto mt-10 max-w-xl">
+    <ul class="space-y-3 text-slate-700 dark:text-slate-300">
+      <li>📌 <b>Un correo al mes</b>, solo cuando hay algo que merece la pena. Nada de relleno.</li>
+      <li>🔗 <b>Fuentes enlazadas</b>: verificables, no “según dicen”.</li>
+      <li>🧭 <b>Dato separado de opinión</b>: lo que se mide y lo que se interpreta, distinguido.</li>
+      <li>🌍 <b>España y el mundo</b>: Unión Europea, Marruecos, Rusia, Oriente Medio, EE. UU.</li>
+    </ul>
+    <div class="mt-8 rounded-2xl border border-accent-200 bg-accent-50/40 p-5 dark:border-accent-800 dark:bg-accent-950/20">
+      <p class="text-sm text-slate-700 dark:text-slate-300">
+        💚 <b>Suscribirte es la forma más sencilla de apoyar el proyecto.</b> Este blog lo lleva una sola
+        persona, sin publicidad ni muros de pago. Un correo mensual es gratis para ti y me dice que esto
+        merece la pena seguir haciéndolo.
+      </p>
+    </div>
+    <p class="mt-6 text-center text-xs text-slate-500 dark:text-slate-400">
+      Doble confirmación (te llega un correo para confirmar), gratis y <b>baja en un clic</b>. Nunca cedo tu correo.
+    </p>
+  </section>
+</Layout>

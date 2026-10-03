@@ -2,11 +2,12 @@
 // src/components/NewsletterForm.astro
 // Formulario de suscripción: guarda el email vía /api/subscribe.
 const { variante = 'inline' } = Astro.props as { variante?: 'inline' | 'card' };
-const titulo = 'Geopolítica desde España, sin agenda';
-const texto = 'Un correo al mes con los análisis clave (y nada más). Gratis, sin spam; baja en un clic.';
+const titulo = 'Recibe lo que publico';
+const texto = 'Un correo al mes con los análisis clave. Gratis, sin spam; baja en un clic.';
+const apoyo = 'Suscribirte es la forma más sencilla de apoyar el proyecto: es gratis y me dice que esto merece la pena.';
 ---
-<div class="newsletter {variante === 'card' ? 'rounded-2xl border border-slate-200 p-6 dark:border-slate-800' : ''}">
-  <h3 class="font-serif text-xl font-bold text-slate-900 dark:text-white">{titulo}</h3>
+<div class="newsletter {variante === 'card' ? 'rounded-2xl border border-accent-200 bg-accent-50/40 p-6 dark:border-accent-800 dark:bg-accent-950/20' : ''}">
+  <h3 class="font-serif text-xl font-bold text-slate-900 dark:text-white">✉️ {titulo}</h3>
   <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">{texto}</p>
   <form class="newsletter-form mt-4 flex flex-col gap-2 sm:flex-row" data-variante={variante}>
     <input
@@ -21,10 +22,11 @@ const texto = 'Un correo al mes con los análisis clave (y nada más). Gratis, s
       type="submit"
       class="shrink-0 rounded-full bg-accent-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-700 dark:hover:bg-accent-500"
     >
-      Suscribirme
+      Recibir el boletín
     </button>
   </form>
   <p class="newsletter-msg mt-2 hidden text-sm font-medium"></p>
+  <p class="mt-3 text-xs text-slate-500 dark:text-slate-400">💚 {apoyo}</p>
 </div>
 
 <script>
@@ -45,7 +47,7 @@ const texto = 'Un correo al mes con los análisis clave (y nada más). Gratis, s
         });
         const data = await res.json();
         if (res.ok) {
-          msg.textContent = data.existia ? 'Ya estabas suscrito. ¡Gracias!' : '¡Listo! Te has suscrito. Revisa tu correo.';
+          msg.textContent = data.existia ? 'Ya estabas suscrito. ¡Gracias!' : '¡Listo! Revisa tu correo para confirmar.';
           msg.classList.add('text-accent-600', 'dark:text-accent-400');
           emailInput.value = '';
         } else {
