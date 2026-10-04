@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["geopolítica", "España", "Marruecos", "Argelia", "Sáhara Occidental", "Magreb", "Ceuta", "Melilla"]
 categoria: "análisis"
-image: "/og-preview.png"
+image: "/tablero-magreb-occidental-og.png"
 draft: false
 ---
 

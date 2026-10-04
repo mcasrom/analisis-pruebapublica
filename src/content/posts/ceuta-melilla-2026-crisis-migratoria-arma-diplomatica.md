@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["geopolítica", "España", "Marruecos", "Ceuta", "Melilla", "Sáhara Occidental", "crisis migratoria"]
 categoria: "análisis"
-image: "/og-preview.png"
+image: "/ceuta-melilla-2026-og.png"
 draft: false
 serie: "Ceuta 2026"
 serie_numero: 4

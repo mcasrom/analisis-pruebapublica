@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["política", "Ceuta", "comunicación política", "Óscar Puente", "crisis migratoria"]
 categoria: "análisis"
-image: "/og-preview.png"
+image: "/puente-ceuta-triunfalismo-og.png"
 draft: false
 serie: "Ceuta 2026"
 serie_numero: 2
