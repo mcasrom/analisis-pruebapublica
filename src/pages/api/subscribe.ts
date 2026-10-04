@@ -3,6 +3,7 @@
 // Guarda el email (confirmado=0) y envía un correo de confirmación.
 import type { APIRoute } from 'astro';
 import { addSubscriber } from '../../lib/subscribers';
+import { sanearTemas } from '../../lib/newsletter';
 import { clientIp, jsonError, rateLimit } from '../../lib/api';
 import { sendEmail } from '../../lib/resend';
 
@@ -25,7 +26,7 @@ export const POST: APIRoute = async ({ request }) => {
   const ip = clientIp({ request } as any);
   if (rateLimit(ip, 10, 10 * 60 * 1000)) return jsonError({ request } as any, 429, 'rate_limit', 'Demasiadas peticiones. Inténtalo más tarde.');
 
-  let body: { email?: string };
+  let body: { email?: string; temas?: unknown };
   try {
     body = await request.json();
   } catch {
@@ -35,7 +36,8 @@ export const POST: APIRoute = async ({ request }) => {
   if (!email || !EMAIL_RE.test(email)) {
     return jsonError({ request } as any, 400, 'email_invalido', 'Introduce un email válido.');
   }
-  const { id, existia } = addSubscriber(email, ip);
+  const temas = sanearTemas(body.temas);
+  const { id, existia } = addSubscriber(email, ip, temas);
   const link = `${BASE}/api/confirm?id=${id}`;
   const enviado = await sendEmail(email, 'Confirma tu suscripción — Análisis', confirmHtml(link));
   return new Response(JSON.stringify({ ok: true, existia, confirmacion_enviada: enviado }), {

@@ -108,7 +108,7 @@ def main():
     if TEST:
         subs = [(TEST, "test")]
     else:
-        subs = con.execute("SELECT email, id FROM subscribers WHERE confirmado=1").fetchall()
+        subs = con.execute("SELECT email, id FROM subscribers WHERE confirmado=1 AND (temas IS NULL OR temas='')").fetchall()
     print(f"[newsletter] {len(subs)} destinatario(s) confirmado(s)")
     if DRY:
         prev = "/home/deploy/analisis-pruebapublica/scripts/newsletter_preview.html"
