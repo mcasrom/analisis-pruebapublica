@@ -26,6 +26,8 @@ draft: false
 
 > **Método.** Quinta pieza de [Fábulas del análisis](/tags/fabulas/), tras [El caballo que aprendió a cantar](/posts/el-caballo-que-aprendio-a-cantar/), [La llave de Nasrudín y el problema de mirar donde hay luz](/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/), [Los ciegos y el elefante](/posts/los-ciegos-y-el-elefante/) y [El zorro que quería que el bosque le tuviera miedo](/posts/el-zorro-que-queria-que-el-bosque-le-tuviera-miedo/). Como ellas, usa un cuento para pensar un problema de método; aquí, el que separa **quién gobierna** de **qué puede hacer quien gobierna**.
 
+![El trono y la casa: quien manda, arriba; las instituciones, las columnas que sostienen todo lo demás](/rey-instituciones-fabula.png)
+
 En un pequeño reino llegó el día de elegir a quien ocuparía el trono.
 
 No era un reino especialmente rico ni especialmente pobre. Tenía buenos campos, un puerto pequeño y una ciudad rodeada por una muralla que llevaba tantos años en pie que nadie recordaba quién la había construido.
@@ -214,6 +216,6 @@ Si la respuesta es que todo dependería de su voluntad, entonces el problema no 
 
 ---
 
-*Fábula de método. No analiza a ninguna persona ni partido concretos: describe un problema de diseño institucional. Las afirmaciones generales se apoyan, cuando hay dato, en fuentes enlazadas.*
+*Nota de método: este artículo es una fábula de método. No analiza a ninguna persona ni partido concretos ni atribuye intenciones; describe un problema de diseño institucional.*
 
-**Miguel Castillo** · [@pruebapublica](https://analisis.pruebapublica.com)
+*Elaborado con asistencia de IA y revisión humana. Fuentes enlazadas en el texto. — @pruebapublica*
