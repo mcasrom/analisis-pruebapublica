@@ -22,6 +22,8 @@ faq:
 
 > **Serie Dereliction of Duty · Parte VI** · [I — La lealtad que bunkeriza](/posts/dereliction-of-duty-lealtad-bunkeriza-moncloa/) · [II — Lo que la Constitución exigía](/posts/dereliction-of-duty-ii-lo-que-la-constitucion-exigia/) · [III — La trampa del storytelling](/posts/dereliction-of-duty-iii-la-trampa-del-storytelling/) · [IV — El control parlamentario](/posts/dereliction-of-duty-iv-el-control-parlamentario/) · [V — La política doméstica](/posts/dereliction-of-duty-v-politica-domestica-estrategia/)
 
+![Dereliction of Duty (VI): cuando nadie es responsable — el problema de las muchas manos, de Ceuta a la DANA](/dereliction-vi-og.png)
+
 Cuando una decisión sale mal, la pregunta más sencilla es también la más difícil de contestar: ¿quién la tomó? En una organización pequeña suele haber un nombre. En un Estado moderno, con ministerios, delegaciones, comités, informes jurídicos y firmas encadenadas, la respuesta suele ser una lista. Y una lista larga de responsables tiene un efecto curioso: reparte la responsabilidad hasta que cada parte es demasiado pequeña para que alguien tenga que asumirla.
 
 Esta sexta entrega de *Dereliction of Duty* trata de ese mecanismo. Las anteriores miraron cómo se decidió en la crisis de Ceuta, cómo se contó, cómo se controló y cómo la política doméstica condicionó la estrategia. Esta pregunta viene después: cuando todo eso ha ocurrido, ¿quién responde? Es un ensayo de opinión, con los hechos verificables señalados como tales y la tesis expuesta como tal.
