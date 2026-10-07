@@ -22,19 +22,20 @@ Ayer [presenté el instrumento y sus reglas](/posts/elecciones-generales-2026-ra
 
 Corte: **7 de octubre de 2026**, a 40 días del 29-N. Todo reproducible contra la API pública (enlaces al final).
 
-## El pico de la convocatoria
+## Qué hay en el tema (y de dónde viene)
 
-El tema **España — Elecciones Generales** acumula **7.814 eventos en 30 días**. Su serie diaria cuenta la historia de la semana:
+El tema agrupa **72 clusters** sobre **7.951 eventos etiquetados**. Pero la mitad de ese material (3.885 eventos) es **anterior al 5 de octubre**, día en que se creó el tema: viene del backfill inicial y del solapamiento con otros temas —3.984 eventos comparten etiqueta con el electoral general y 1.526 con frontera sur—. Es material válido para clusterizar (así funciona el multi-tema), pero **no** es captura propia. El tema se activó hace dos días, no hace 30: no hay «30 días» de nada propio.
 
-| Día | Eventos | Contexto |
+La captura propia suma **4.066 eventos en dos días**:
+
+| Día | Eventos | Origen |
 |---|---|---|
-| 2-oct | 283 | baseline (~200/día) |
-| 3-oct | 200 | baseline |
-| **5-oct** | **2.013** | **convocatoria** |
-| **6-oct** | **1.731** | resaca informativa |
-| 7-oct | 322 | (día en curso) |
+| 5-oct | 2.013 | captura propia (convocatoria) |
+| 6-oct | 1.731 | captura propia (resaca) |
+| 7-oct | 322 | captura propia (día en curso) |
+| antes del 5-oct | 3.885 | backfill + solape con otros temas |
 
-El día de la convocatoria multiplica por diez el volumen habitual. Es exactamente el fenómeno para el que se abrió el tema antes de tiempo: ahora hay **línea base** (semanas tranquilas a ~200 eventos/día) contra la que comparar. Un pico así, por sí solo, no es coordinación: es una noticia muy grande que todo el mundo cubre a la vez.
+Dos consecuencias honestas. Una: el pico del día 5 es real y es cobertura —diez veces el ritmo previo—. Dos: **la línea base de semanas tranquilas que prometí no existe todavía**: se está construyendo desde el 5-oct, y lo que hay antes es material compartido, no una foto propia de la calma. Lo dejo escrito para no tener que desdecirme en noviembre.
 
 ## Los 72 grupos
 
