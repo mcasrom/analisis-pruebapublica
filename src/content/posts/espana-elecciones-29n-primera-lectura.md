@@ -1,5 +1,5 @@
 ---
-title: "29-N a 40 días: 7.814 eventos, pico el día de la convocatoria y 2 grupos en banda alta"
+title: "29-N, primera lectura: pico de convocatoria con 2 días de captura y 2 grupos en banda alta"
 description: "29-N a 40 días: 72 grupos y 7.814 eventos, pico de 2.013 el día de la convocatoria y 2 en banda alta."
 pubDate: 2026-10-07
 author: "M. Castillo"
