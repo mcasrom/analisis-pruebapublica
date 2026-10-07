@@ -1,0 +1,88 @@
+---
+title: "29-N a 40 días: 7.814 eventos, pico el día de la convocatoria y 2 grupos en banda alta"
+description: "29-N a 40 días: 72 grupos y 7.814 eventos, pico de 2.013 el día de la convocatoria y 2 en banda alta."
+pubDate: 2026-10-07
+author: "M. Castillo"
+assisted: "GenAI (consulta de la API pública y redacción asistida)"
+tags: ["FIMI", "elecciones", "España", "29N", "desinformación", "OSINT", "radar de coordinación", "transparencia"]
+categoria: "análisis"
+image: "/ee-20261007-og.png"
+draft: false
+abstract_en: "Spain's 29-N election, 40 days out: 7,814 events in 30 days, a 2,013-event spike on snap-election day (5-Oct), and 2 high-band groups with benign-leaning explanations."
+faq:
+  - q: "¿Ha detectado el radar una campaña de desinformación electoral?"
+    a: "No. Hay 72 grupos y 2 en banda alta: uno sin resolver con pinta de eco oficial (29 eventos de 4 cuentas) y otro de amplificación sostenida. Ninguno permite afirmar coordinación, autoría ni campaña."
+  - q: "¿Qué fue el pico del 5 de octubre?"
+    a: "El día de la convocatoria se registraron 2.013 eventos, unas diez veces el volumen habitual (~200/día). Es cobertura de una noticia grande, no una señal de coordinación por sí sola."
+  - q: "¿Qué puede y qué no puede decir el radar aquí?"
+    a: "Puede describir forma (repetición, amplificación, eco) con evidencia descargable. No atribuye partidos, candidatos ni actores, no confirma bulos y no ve X, TikTok ni WhatsApp."
+---
+
+Ayer [presenté el instrumento y sus reglas](/posts/elecciones-generales-2026-radar-fimi/): sin nombres, sin atribución, mismo criterio para todos, datos abiertos y el «no» también se publica. Hoy toca lo comprometido entonces: **qué muestran los datos**, con las mismas reglas.
+
+Corte: **7 de octubre de 2026**, a 40 días del 29-N. Todo reproducible contra la API pública (enlaces al final).
+
+## El pico de la convocatoria
+
+El tema **España — Elecciones Generales** acumula **7.814 eventos en 30 días**. Su serie diaria cuenta la historia de la semana:
+
+| Día | Eventos | Contexto |
+|---|---|---|
+| 2-oct | 283 | baseline (~200/día) |
+| 3-oct | 200 | baseline |
+| **5-oct** | **2.013** | **convocatoria** |
+| **6-oct** | **1.731** | resaca informativa |
+| 7-oct | 322 | (día en curso) |
+
+El día de la convocatoria multiplica por diez el volumen habitual. Es exactamente el fenómeno para el que se abrió el tema antes de tiempo: ahora hay **línea base** (semanas tranquilas a ~200 eventos/día) contra la que comparar. Un pico así, por sí solo, no es coordinación: es una noticia muy grande que todo el mundo cubre a la vez.
+
+## Los 72 grupos
+
+El tema agrupa **72 clusters** (55 hace dos días; el pico trae material nuevo): **2 en banda alta, 24 en anómala, 46 en vigilancia, 0 críticos**. Sigue en **piloto**.
+
+| Explicación principal | Grupos |
+|---|---:|
+| Feed de una sola fuente | **49** |
+| Eco de una sola pieza | 9 |
+| Eco de prensa | 8 |
+| Sincronizado sin operador | 3 |
+| **Sin resolver** | **2** |
+| Amplificación sostenida | 1 |
+
+El 68 % son feeds de una sola fuente. Y hay un detalle que me gusta contar porque muestra los topes funcionando: varios grupos en anómala puntúan **59,0 exactos** — el techo de los *caps* anti-eco. Sin esos topes estarían en banda alta por repetir mucho una sola pieza o un solo dominio.
+
+![Explicación principal por grupo del tema España-elecciones (n=72, 7-oct-2026): 49 feed de una fuente, resto ecos y 2 sin resolver](/ee-20261007-donut.png)
+
+## Los dos en banda alta, sin adornos
+
+- **`espana_elecciones_cluster_012`** (67,2): **29 eventos de 4 cuentas**, explicación **sin resolver** (plausibles: eco de pieza, amplificación sostenida), rol dominante **respuesta oficial**. Pinta a eco institucional. Pero «pinta a» no es «es»: queda anotado para revisión humana, sin nombres y sin atribución.
+- **`espana_elecciones_cluster_004`** (60,4): **41 eventos de 9 cuentas**, **amplificación sostenida**, rol **posible narrativa**. Patrón lento de días, no ráfaga.
+
+Ninguno de los dos permite afirmar coordinación, y mucho menos campaña o autor. Son, por este orden, una pregunta abierta y un patrón lento.
+
+## El contraste con verificadores
+
+El cruce con Maldita y Newtral suma **86 contrastes** en el tema (11 en banda alta). Contraste, no veredicto: señala dónde lo amplificado toca lo verificado para que una persona lo mire. Con la campaña arrancando el 13 de noviembre, este será el panel a vigilar.
+
+## Lo que esto NO es (reglas en vigor)
+
+- **Sin nombres**: no se publica ninguna cuenta ni persona.
+- **Sin atribución**: todo es `UNKNOWN` salvo evidencia adicional y revisión humana.
+- **El pico no es un hallazgo**: 2.013 eventos el día de la convocatoria es cobertura, no coordinación.
+- **Campo de visión parcial**: el 95 % del corpus es Bluesky + Google News; fuera quedan X, TikTok, Instagram, WhatsApp y los privados de Telegram; ni imágenes ni vídeos. La muestra no representa al electorado.
+- **Sin encuestas**: esto no mide intención de voto ni efecto sobre el voto.
+
+## Cómo verificarlo
+
+- Tema en vivo: [fimi.viajeinteligencia.com](https://fimi.viajeinteligencia.com/) (pestaña del tema)
+- Serie diaria: `https://fimi.viajeinteligencia.com/api/v1/tema/espana_elecciones/serie?dias=30`
+- Clusters: `/api/v1/tema/espana_elecciones` · Contrastes: `/datos/bulos.json`
+- Reglas del juego: [qué puede ver —y qué no— el radar en campaña](/posts/elecciones-generales-2026-radar-fimi/)
+
+Hasta el 29 de noviembre, el compromiso es el mismo: qué se observó, qué no se puede afirmar y dónde está la evidencia. Si no hay nada que contar, lo diré.
+
+---
+
+*Nota de elaboración: datos extraídos de la API pública del Observatorio el 7-oct-2026 (snapshot 07:12 UTC) más el registro interno de eventos para la serie diaria. Este texto describe patrones observables, no atribuye autoría ni intención.*
+
+*@pruebapublica*
