@@ -8,6 +8,14 @@ export type Eje = {
 
 export const EJES: Eje[] = [
   {
+    slug: 'espana-29n',
+    nombre: 'España 29-N',
+    resumen:
+      'Elecciones generales del 29 de noviembre de 2026 bajo el radar: reglas fijadas antes de ver resultados, lecturas de datos y balance final. Serie con cierre anunciado.',
+    serie: 'España 29-N',
+    tags: [],
+  },
+  {
     slug: 'geopolitica-101',
     nombre: 'Geopolítica 101',
     resumen:
@@ -19,7 +27,7 @@ export const EJES: Eje[] = [
     slug: 'fabulas',
     nombre: 'Fábulas del análisis',
     resumen:
-      'Tres fábulas para pensar el método del análisis: los problemas que se aplazan en vez de resolverse, la tendencia a buscar solo bajo la luz y el error de confundir una parte verdadera con el conjunto.',
+      'Cinco fábulas para pensar el método del análisis: los problemas que se aplazan en vez de resolverse, la tendencia a buscar solo bajo la luz, el error de confundir una parte verdadera con el conjunto, la amenaza y la disuasión, y el poder de mandar.',
     serie: 'Fábulas del análisis',
     tags: [],
   },

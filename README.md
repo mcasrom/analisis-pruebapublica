@@ -55,7 +55,8 @@ pm2 start ecosystem.config.cjs --env production
   `tags`, `image`, `categoria`, `author`, `assisted`, `draft`, y opcionalmente
   `serie` + `serie_numero`).
 - Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (6 posts) + serie
-  **Dereliction of Duty** (5 posts) + serie **Geopolítica 101** en curso.
+  **Dereliction of Duty** (6 posts) + serie **Geopolítica 101** (11 posts) + serie
+  **España 29-N** (2 posts, con cierre anunciado tras el 29-N).
 - **Series declaradas por frontmatter**: `serie` agrupa y `serie_numero` ordena. El
   bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
   título + listado de partes enlazadas) y se genera a partir de esos dos campos, no
@@ -156,8 +157,8 @@ entero, y se puede exigir un mínimo de artículos por eje.
 
 | Eje | Qué agrupa |
 | --- | --- |
-| `/temas/geopolitica-101/` | la serie completa (10 posts) en **orden de lectura** |
-| `/temas/fabulas/` | la serie Fábulas del análisis (3 posts) en **orden de lectura** |
+| `/temas/geopolitica-101/` | la serie completa (11 posts) en **orden de lectura** |
+| `/temas/fabulas/` | la serie Fábulas del análisis (5 posts) en **orden de lectura** |
 | `/temas/fronteras-y-migraciones/` | 15 posts, incluye las series Ceuta 2026 y Dereliction of Duty |
 | `/temas/energia/` | petróleo, OEP+, oleoductos, gasoductos, corredor medio |
 | `/temas/comercio-y-aranceles/` | aranceles, proteccionismo, economía política |
