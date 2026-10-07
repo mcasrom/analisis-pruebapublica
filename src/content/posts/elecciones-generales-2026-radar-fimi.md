@@ -4,10 +4,12 @@ description: "Presento el tema «España — Elecciones Generales 2026» del Rad
 pubDate: 2026-10-06
 author: "M. Castillo"
 assisted: "GenAI (consulta de la API pública y redacción asistida)"
-tags: ["FIMI", "elecciones", "España", "desinformación", "OSINT", "radar de coordinación", "transparencia"]
+tags: ["FIMI", "elecciones", "España", "29N", "desinformación", "OSINT", "radar de coordinación", "transparencia"]
 categoria: "análisis"
 image: "/fimi-elecciones-2026-og.png"
 draft: false
+serie: "España 29-N"
+serie_numero: 1
 abstract_en: "With Spain's general election called for 29 November 2026, my FIMI radar opens a dedicated topic: what it observes (repetition, sustained amplification, press echo), what it cannot claim (who is behind it, with what intent), and the rules I will follow. It also adds a new contrast with fact-checkers — contrast, not verdict."
 faq:
   - q: "¿Qué es el nuevo tema del radar?"
@@ -17,6 +19,8 @@ faq:
   - q: "¿Qué son los «posibles bulos contrastados»?"
     a: "Un cruce automático entre los grupos en banda alta o anómala y las piezas recientes de verificadores (Maldita y Newtral, últimos 14 días). Señala dónde el contenido amplificado toca un tema que un verificador acaba de desmentir, para que una persona lo revise. Es contraste, no veredicto: no atribuye actor ni confirma bulo."
 ---
+
+> **Serie España 29-N · Parte I** · [II — Primera lectura: pico de convocatoria](/posts/espana-elecciones-29n-primera-lectura/)
 
 Una campaña electoral es el momento en que más se habla de desinformación y, a la vez, aquel en que la palabra se convierte más fácilmente en arma. Cualquier mensaje incómodo puede llamarse «bulo»; cualquier coincidencia entre cuentas, «campaña orquestada».
 
@@ -81,6 +85,7 @@ Un proceso electoral sano necesita observación de su espacio informativo, pero 
 
 ## Para seguir leyendo
 
+- [España 29-N (II): primera lectura con 2 días de captura](/posts/espana-elecciones-29n-primera-lectura/)
 - [FIMI Radar: qué vigila un radar de desinformación (y cómo leerlo sin sobreinterpretar)](/posts/fimi-radar-que-vigila/)
 - [España ante las amenazas híbridas: qué puede ver —y qué no— un radar FIMI](/posts/espana-amenazas-hibridas-radar-fimi/)
 - [Lo que amplificó la crisis de Ceuta — y lo que el radar no puede decir](/posts/lo-que-amplifico-la-crisis-de-ceuta/)

@@ -8,6 +8,8 @@ tags: ["FIMI", "elecciones", "España", "29N", "desinformación", "OSINT", "rada
 categoria: "análisis"
 image: "/ee-20261007-og.png"
 draft: false
+serie: "España 29-N"
+serie_numero: 2
 abstract_en: "Spain's 29-N election, 40 days out: 7,814 events in 30 days, a 2,013-event spike on snap-election day (5-Oct), and 2 high-band groups with benign-leaning explanations."
 faq:
   - q: "¿Ha detectado el radar una campaña de desinformación electoral?"
@@ -17,6 +19,8 @@ faq:
   - q: "¿Qué puede y qué no puede decir el radar aquí?"
     a: "Puede describir forma (repetición, amplificación, eco) con evidencia descargable. No atribuye partidos, candidatos ni actores, no confirma bulos y no ve X, TikTok ni WhatsApp."
 ---
+
+> **Serie España 29-N · Parte II** · [I — Reglas: qué puede ver y qué no](/posts/elecciones-generales-2026-radar-fimi/)
 
 Ayer [presenté el instrumento y sus reglas](/posts/elecciones-generales-2026-radar-fimi/): sin nombres, sin atribución, mismo criterio para todos, datos abiertos y el «no» también se publica. Hoy toca lo comprometido entonces: **qué muestran los datos**, con las mismas reglas.
 
