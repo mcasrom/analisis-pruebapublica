@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["vivienda", "geopolítica", "alquiler social", "vivienda protegida", "política de vivienda", "España", "Vivienda y poder"]
 categoria: "análisis"
-image: "/vivienda-cronologia-global-1978-2026.png"
+image: "/vivienda-cronologia-global-og.png"
 draft: false
 serie: "Vivienda y poder"
 serie_numero: 3
