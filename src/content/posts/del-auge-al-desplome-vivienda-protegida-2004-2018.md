@@ -1,7 +1,7 @@
 ---
 title: "Del auge al desplome: la vivienda protegida en España (2004–2018)"
 description: "La vivienda protegida terminada marcó su máximo en 2008 (68.587) y cayó a 4.938 en 2017. Qué muestran los datos y qué no explican. 2/3."
-pubDate: 2026-10-11
+pubDate: 2026-10-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["vivienda", "geopolítica", "vivienda protegida", "crisis inmobiliaria", "Sareb", "España", "Vivienda y poder"]

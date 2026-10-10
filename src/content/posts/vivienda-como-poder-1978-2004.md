@@ -1,7 +1,7 @@
 ---
 title: "La vivienda como poder: propiedad, suelo y patrimonio público en España (1978–2004)"
 description: "Entre 1978 y 2004 se configuró un modelo residencial centrado en la propiedad, sin consolidar un gran parque público de alquiler. 1/3."
-pubDate: 2026-10-11
+pubDate: 2026-10-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["vivienda", "geopolítica", "vivienda protegida", "suelo", "alquiler", "España", "Vivienda y poder"]
