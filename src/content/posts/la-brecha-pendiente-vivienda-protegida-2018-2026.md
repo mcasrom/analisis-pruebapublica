@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
 tags: ["vivienda", "geopolítica", "alquiler social", "vivienda protegida", "política de vivienda", "España", "Vivienda y poder"]
 categoria: "análisis"
-image: "/la-brecha-pendiente-2018-2026-og.png"
+image: "/vivienda-cronologia-global-1978-2026.png"
 draft: false
 serie: "Vivienda y poder"
 serie_numero: 3
