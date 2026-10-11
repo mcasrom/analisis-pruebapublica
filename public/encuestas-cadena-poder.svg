@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 360" width="1240" height="360" role="img" aria-labelledby="enc-title enc-desc" font-family="DejaVu Sans, SansSerif">
+  <title id="enc-title">Cadena desde el diseño de una encuesta hasta su utilización pública</title>
+  <desc id="enc-desc">Seis etapas en flujo horizontal: encargo y pregunta, diseño y muestra, respuestas y ajustes, estimación publicada, titular y cobertura, uso político y debate; con retroalimentación punteada hacia una nueva agenda de preguntas.</desc>
+  <rect x="0" y="0" width="1240" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#555555"/>
+    </marker>
+  </defs>
+  <g font-size="20" fill="#222222" text-anchor="middle">
+    <g>
+      <rect x="20" y="90" width="170" height="90" rx="12" fill="#f4f4f4" stroke="#777777" stroke-width="2"/>
+      <text x="105" y="128"><tspan x="105" dy="0">Encargo</tspan><tspan x="105" dy="24">y pregunta</tspan></text>
+    </g>
+    <g>
+      <rect x="226" y="90" width="170" height="90" rx="12" fill="#f4f4f4" stroke="#777777" stroke-width="2"/>
+      <text x="311" y="128"><tspan x="311" dy="0">Diseño</tspan><tspan x="311" dy="24">y muestra</tspan></text>
+    </g>
+    <g>
+      <rect x="432" y="90" width="170" height="90" rx="12" fill="#f4f4f4" stroke="#777777" stroke-width="2"/>
+      <text x="517" y="128"><tspan x="517" dy="0">Respuestas</tspan><tspan x="517" dy="24">y ajustes</tspan></text>
+    </g>
+    <g>
+      <rect x="638" y="90" width="170" height="90" rx="12" fill="#f4f4f4" stroke="#777777" stroke-width="2"/>
+      <text x="723" y="128"><tspan x="723" dy="0">Estimación</tspan><tspan x="723" dy="24">publicada</tspan></text>
+    </g>
+    <g>
+      <rect x="844" y="90" width="170" height="90" rx="12" fill="#f4f4f4" stroke="#777777" stroke-width="2"/>
+      <text x="929" y="128"><tspan x="929" dy="0">Titular</tspan><tspan x="929" dy="24">y cobertura</tspan></text>
+    </g>
+    <g>
+      <rect x="1050" y="90" width="170" height="90" rx="12" fill="#eef2f7" stroke="#1f4e79" stroke-width="2"/>
+      <text x="1135" y="128"><tspan x="1135" dy="0">Uso político</tspan><tspan x="1135" dy="24">y debate</tspan></text>
+    </g>
+  </g>
+  <g stroke="#666666" stroke-width="2" marker-end="url(#flecha)">
+    <line x1="190" y1="135" x2="226" y2="135"/>
+    <line x1="396" y1="135" x2="432" y2="135"/>
+    <line x1="602" y1="135" x2="638" y2="135"/>
+    <line x1="808" y1="135" x2="844" y2="135"/>
+    <line x1="1014" y1="135" x2="1050" y2="135"/>
+  </g>
+  <rect x="900" y="236" width="320" height="64" rx="12" fill="#ffffff" stroke="#777777" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="1060" y="263" font-size="19" fill="#222222" text-anchor="middle"><tspan x="1060" dy="0">Nueva agenda</tspan><tspan x="1060" dy="23">de preguntas</tspan></text>
+  <line x1="1135" y1="180" x2="1135" y2="236" stroke="#666666" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#flecha)"/>
+</svg>
