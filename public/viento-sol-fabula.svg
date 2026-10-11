@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="vs-title vs-desc">
+  <title id="vs-title">El viento y el sol disputándose la capa del viajero</title>
+  <desc id="vs-desc">A la izquierda, remolinos del viento del norte; a la derecha, un sol radiante; en el centro, un viajero cuya capa ondea al vuelo.</desc>
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3d4a63"/>
+      <stop offset="0.5" stop-color="#5a6a8f"/>
+      <stop offset="1" stop-color="#f4b942"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#cielo)"/>
+  <g fill="#ffffff">
+    <circle cx="120" cy="80" r="2.2" opacity="0.7"/><circle cx="300" cy="150" r="1.6" opacity="0.5"/>
+    <circle cx="540" cy="80" r="2" opacity="0.6"/><circle cx="1050" cy="90" r="1.8" opacity="0.6"/>
+  </g>
+  <g stroke="#dbe4f5" stroke-width="7" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M40 180 q90 -30 170 -8 q60 15 40 55 q-14 28 -52 22"/>
+    <path d="M30 300 q110 -36 200 -10 q70 18 46 64 q-16 32 -60 25"/>
+    <path d="M60 430 q90 -28 165 -8 q55 14 38 50 q-12 26 -50 21"/>
+  </g>
+  <g>
+    <circle cx="1000" cy="150" r="78" fill="#f7d774"/>
+    <circle cx="1000" cy="150" r="92" fill="none" stroke="#f7d774" stroke-width="5" opacity="0.55"/>
+    <g stroke="#f7d774" stroke-width="7" stroke-linecap="round">
+      <line x1="1000" y1="30" x2="1000" y2="8"/><line x1="1000" y1="270" x2="1000" y2="292"/>
+      <line x1="880" y1="150" x2="858" y2="150"/><line x1="1120" y1="150" x2="1142" y2="150"/>
+      <line x1="915" y1="65" x2="899" y2="49"/><line x1="1085" y1="65" x2="1101" y2="49"/>
+      <line x1="915" y1="235" x2="899" y2="251"/><line x1="1085" y1="235" x2="1101" y2="251"/>
+    </g>
+  </g>
+  <g>
+    <rect x="0" y="520" width="1200" height="110" fill="#2c3444"/>
+    <circle cx="600" cy="430" r="26" fill="#e8b98a"/>
+    <path d="M560 470 q40 -22 80 0 l14 90 q-54 22 -108 0 Z" fill="#7c4a2d"/>
+    <path d="M640 440 q90 -34 150 -6 q-50 44 -130 50 q-30 4 -20 -44" fill="#a33327"/>
+    <path d="M640 440 q90 -34 150 -6" stroke="#d4695e" stroke-width="4" fill="none"/>
+    <rect x="588" y="380" width="24" height="14" rx="4" fill="#5a3a22"/>
+  </g>
+</svg>
