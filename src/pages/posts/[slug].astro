@@ -50,35 +50,50 @@ const postUrl = `https://analisis.pruebapublica.com/posts/${post.slug}/`;
 // CTA cruzado blog → Radar FIMI: mapeo post → tema del radar (deep-link #tema)
 const fimiTemas = {
   frontera_sur: { nombre: 'Frontera Sur (España-Marruecos)', desc: 'coordinación y narrativas en la frontera sur' },
-  geopolitica_ue_marruecos: { nombre: 'Geopolítica UE-Marruecos', desc: 'relaciones y desinformación UE-Marruecos' },
-  politica_nacional: { nombre: 'Política nacional', desc: 'señales de coordinación política en España' },
+  espana_elecciones: { nombre: 'España — elecciones generales (29-N)', desc: 'coordinación y amplificación en el proceso electoral' },
   defensa_espana: { nombre: 'España — defensa y amenazas híbridas', desc: 'defensa, amenazas híbridas y disuasión' },
   eeuu_politica: { nombre: 'Política y desinformación EEUU', desc: 'interferencia electoral y desinformación en EEUU' },
   oriente_medio: { nombre: 'Oriente Medio (Israel-Irán-Gaza)', desc: 'manipulación informativa en conflicto' },
   elecciones: { nombre: 'Elecciones e interferencia electoral', desc: 'coordinación y amplificación en procesos electorales' },
+  energia: { nombre: 'Energía (petróleo/gas/precios)', desc: 'narrativas energéticas y de suministro' },
+  sahel: { nombre: 'Sahel (África Occidental)', desc: 'desinformación en el Sahel' },
+  inteligencia_artificial: { nombre: 'Inteligencia artificial', desc: 'narrativas y amplificación sobre IA' },
 };
 const fimiPostMap = {
   'ceuta-melilla-2026-crisis-migratoria-arma-diplomatica': 'frontera_sur',
   'puente-ceuta-2026-frase-triunfalismo': 'frontera_sur',
   'geopolitica-migraciones-2026': 'frontera_sur',
   'geopolitica-fronteras-2026': 'frontera_sur',
-  'dereliction-of-duty-lealtad-bunkeriza-moncloa': 'politica_nacional',
-  'dereliction-of-duty-ii-lo-que-la-constitucion-exigia': 'politica_nacional',
-  'dereliction-of-duty-iv-el-control-parlamentario': 'politica_nacional',
+  'lo-que-amplifico-la-crisis-de-ceuta': 'frontera_sur',
+  'dereliction-of-duty-lealtad-bunkeriza-moncloa': 'espana_elecciones',
+  'dereliction-of-duty-ii-lo-que-la-constitucion-exigia': 'espana_elecciones',
+  'dereliction-of-duty-iv-el-control-parlamentario': 'espana_elecciones',
+  'espana-elecciones-29n-primera-lectura': 'espana_elecciones',
+  'elecciones-generales-2026-radar-fimi': 'espana_elecciones',
   'donroe-la-nueva-version-de-la-doctrina-monroe': 'eeuu_politica',
   'neocolonialismo-siglo-xxi-corolario-trump-monroe': 'eeuu_politica',
   'geopolitica-aranceles-2026': 'eeuu_politica',
   'quien-paga-el-arancel-2026': 'eeuu_politica',
   'expansionismo-trumpista-mapas-destino-manifiesto': 'eeuu_politica',
-  'el-mapa-de-intereses': 'geopolitica_ue_marruecos',
-  'el-tablero-antes-de-la-tormenta': 'geopolitica_ue_marruecos',
-  'espana-gasto-defensa-1977-2025-salto-estrategico': 'politica_nacional',
+  'el-mapa-de-intereses': 'frontera_sur',
+  'el-tablero-antes-de-la-tormenta': 'frontera_sur',
+  'espana-gasto-defensa-1977-2025-salto-estrategico': 'defensa_espana',
   'ceuta-fimi-y-la-frontera-informativa': 'frontera_sur',
   'migracion-guerra-hibrida': 'frontera_sur',
   'que-detecta-hoy-el-observatorio-fimi': 'elecciones',
+  'fimi-radar-que-vigila': 'elecciones',
   'el-zorro-que-queria-que-el-bosque-le-tuviera-miedo': 'defensa_espana',
+  'geopolitica-petroleo-2026': 'energia',
+  'geopolitica-oleoductos-2026': 'energia',
+  'geopolitica-datoesfera-2026': 'eeuu_politica',
+  'doctrinas-101-corolario-trump-monroe': 'eeuu_politica',
+  'doctrinas-101-comunidad-destino-china': 'eeuu_politica',
+  'doctrinas-101-autonomia-estrategica': 'defensa_espana',
+  'doctrinas-101-extranjero-cercano': 'defensa_espana',
 };
 const fimiTema = fimiPostMap[post.slug] ? fimiTemas[fimiPostMap[post.slug]] : null;
+// Cross-promo a Vivienda (serie «Vivienda y poder»): datos oficiales del microservicio.
+const esVivienda = post.data.serie === 'Vivienda y poder';
 
 // Serie: posts hermanos por campo `serie` del frontmatter (orden por `serie_numero`).
 const serieNombre = post.data.serie ?? null;
@@ -312,12 +327,31 @@ const faqLd = faq.length
           </h3>
           <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">{fimiTema.desc}</p>
           <a
-            href={`https://fimi.viajeinteligencia.com/#${fimiPostMap[post.slug]}`}
+            href={`https://fimi.viajeinteligencia.com/?utm_source=analisis&utm_medium=crosspromo#${fimiPostMap[post.slug]}`}
             target="_blank"
             rel="noopener noreferrer"
             class="mt-3 inline-flex items-center gap-2 rounded-full bg-accent-600 px-5 py-2 text-sm font-bold text-white transition hover:bg-accent-700 dark:bg-accent-400 dark:hover:bg-accent-500"
           >
             Abrir {fimiTema.nombre} en el radar →
+          </a>
+        </div>
+      )}
+
+      {esVivienda && (
+        <div class="mt-10 rounded-2xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-700 dark:bg-slate-900/40">
+          <h3 class="text-sm font-semibold uppercase tracking-widest text-slate-600 dark:text-slate-300">
+            🏠 Los datos oficiales de esta serie, en vivo
+          </h3>
+          <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            Precio (IPV), compraventas, lanzamientos, ejecuciones y esfuerzo de alquiler, por CCAA y municipio.
+          </p>
+          <a
+            href="https://vivienda.pruebapublica.com/?utm_source=analisis&utm_medium=crosspromo"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-3 inline-flex items-center gap-2 rounded-full bg-slate-700 px-5 py-2 text-sm font-bold text-white transition hover:bg-slate-800 dark:bg-slate-600 dark:hover:bg-slate-500"
+          >
+            Abrir el observatorio de vivienda →
           </a>
         </div>
       )}

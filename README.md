@@ -18,7 +18,15 @@ dinámicos (likes/comentarios/suscripción) en Node, desplegado con Nginx + PM2.
   client-side. Ver sección **Búsqueda**.
 - **Cross-CTA con el Radar FIMI**: los posts de temas cubiertos por el radar
   (`fimi.viajeinteligencia.com`) llevan un bloque "Este tema, en vivo" que
-  deep-linkea al tema por hash; el radar enlaza de vuelta al análisis.
+  deep-linkea al tema por hash **con UTM** (`utm_source=analisis&utm_medium=crosspromo`).
+  El mapa `fimiPostMap` (en `src/pages/posts/[slug].astro`) asocia cada post a uno de
+  los **9 temas vivos** del radar (`frontera_sur`, `espana_elecciones`, `defensa_espana`,
+  `eeuu_politica`, `oriente_medio`, `elecciones`, `energia`, `sahel`,
+  `inteligencia_artificial`); no usar slugs de temas cerrados/renombrados
+  (`politica_nacional` → hoy `espana_elecciones`; `geopolitica_ue_marruecos` → cerrado):
+  dejaría un ancla muerta.
+- **Cross-promo a Vivienda**: los posts de la serie **«Vivienda y poder»** añaden un
+  bloque propio hacia `vivienda.pruebapublica.com` (también con UTM crosspromo).
 
 ## Local
 ```bash
