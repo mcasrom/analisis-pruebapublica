@@ -1,0 +1,155 @@
+---
+// src/pages/datos/estrechos.astro
+// Página de datos: los puntos de estrangulamiento marítimo, con tabla y CSV.
+// Datos de EIA (puntos de estrangulamiento + STEO), UNCTAD, Gibraltar Port
+// Authority y ENSM 2024 (BOE). Se acompaña de /data/estrechos.csv.
+import Layout from '../../layouts/Layout.astro';
+
+const filas = [
+  {
+    punto: 'Estrecho de Ormuz',
+    conecta: 'Golfo Pérsico ↔ océano Índico',
+    trafico: '≈20 % del petróleo mundial · ≈34 % de las exportaciones marítimas de crudo',
+    depende: 'Petróleo y gas del Golfo Pérsico',
+  },
+  {
+    punto: 'Estrecho de Malaca',
+    conecta: 'océano Índico ↔ mar de China Meridional',
+    trafico: '≈23 millones de barriles diarios (1T-2025)',
+    depende: 'Comercio entre Oriente Medio y Asia oriental',
+  },
+  {
+    punto: 'Suez + SUMED',
+    conecta: 'mar Rojo ↔ Mediterráneo',
+    trafico: '≈70 % por debajo de niveles de 2023 (mayo-2025)',
+    depende: 'Ruta Asia–Europa; alternativa al cabo de Buena Esperanza',
+  },
+  {
+    punto: 'Bab el-Mandeb',
+    conecta: 'océano Índico ↔ mar Rojo',
+    trafico: '8,1 M barriles/día (2T-2026); 5,4 (4T-2025)',
+    depende: 'Puerta del mar Rojo y del canal de Suez',
+  },
+  {
+    punto: 'Estrechos turcos (Bósforo-Dardanelos)',
+    conecta: 'mar Negro ↔ Mediterráneo',
+    trafico: '≈3,7 millones de barriles diarios (1T-2025)',
+    depende: 'Exportaciones del mar Negro; régimen de la Convención de Montreux (1936)',
+  },
+  {
+    punto: 'Canal de Panamá',
+    conecta: 'Pacífico ↔ Atlántico',
+    trafico: 'Condicionado por el nivel de agua',
+    depende: 'Comercio Asia – costa este de EE. UU. y Sudamérica',
+  },
+  {
+    punto: 'Estrecho de Gibraltar',
+    conecta: 'Atlántico ↔ Mediterráneo',
+    trafico: '≈60 000 buques/año (puerto) · >100 000 tránsitos y maniobras/año',
+    depende: 'Gas y mercancías Atlántico–Mediterráneo',
+  },
+];
+
+const fuentes = [
+  {
+    n: 'EIA — «World Oil Transit Chokepoints»',
+    u: 'https://www.eia.gov/outlooks/steo/report/energysecurity/article.php',
+  },
+  {
+    n: 'EIA — Short-Term Energy Outlook (ago-2026)',
+    u: 'https://www.eia.gov/outlooks/steo/archives/aug26.pdf',
+  },
+  {
+    n: 'UNCTAD — Review of Maritime Transport 2025',
+    u: 'https://unctad.org/publication/review-maritime-transport-2025',
+  },
+  {
+    n: 'Gibraltar Port Authority',
+    u: 'https://www.gibraltarport.com/about-the-pga',
+  },
+  {
+    n: 'ENSM 2024 (BOE-A-2024-10762)',
+    u: 'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-10762',
+  },
+];
+---
+
+<Layout
+  title="Puntos de estrangulamiento marítimo"
+  description="Tabla y datos descargables de los cuellos de botella del comercio marítimo (Ormuz, Malaca, Suez, Bab el-Mandeb, Bósforo, Panamá, Gibraltar), con fuentes."
+  url="/datos/estrechos/"
+>
+  <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">
+    Puntos de estrangulamiento marítimo
+  </h1>
+  <p class="mt-3 max-w-2xl text-lg text-slate-600 dark:text-slate-400">
+    Más del <strong>80 % del volumen</strong> del comercio mundial viaja por mar, y una parte
+    desproporcionada pasa por un puñado de puntos sin alternativa razonable. Estos son los principales,
+    con su tráfico y su dependencia clave.
+  </p>
+
+  <div class="mt-8 overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-700">
+    <table class="w-full text-left text-sm">
+      <thead class="bg-slate-50 text-slate-700 dark:bg-slate-800 dark:text-slate-200">
+        <tr>
+          <th class="px-4 py-3 font-semibold">Punto</th>
+          <th class="px-4 py-3 font-semibold">Conecta</th>
+          <th class="px-4 py-3 font-semibold">Tráfico</th>
+          <th class="px-4 py-3 font-semibold">Dependencia clave</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+        {filas.map((f) => (
+          <tr class="align-top">
+            <td class="px-4 py-3 font-medium text-slate-900 dark:text-white">{f.punto}</td>
+            <td class="px-4 py-3 text-slate-600 dark:text-slate-400">{f.conecta}</td>
+            <td class="px-4 py-3 text-slate-600 dark:text-slate-400">{f.trafico}</td>
+            <td class="px-4 py-3 text-slate-600 dark:text-slate-400">{f.depende}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="mt-10 font-serif text-2xl font-bold text-slate-900 dark:text-white">Dos cifras de contexto</h2>
+  <ul class="mt-3 space-y-2 text-slate-600 dark:text-slate-400">
+    <li>
+      <strong>4 831 → 5 245 millas.</strong> Distancia media de un viaje marítimo entre 2018 y 2024: el
+      mundo <em>rodea más</em> de lo que acortaba, señal de que los atajos dejaron de ser seguros.
+      <span class="text-slate-400">(UNCTAD)</span>
+    </li>
+    <li>
+      <strong>&gt;80 % del volumen</strong> del comercio mundial se transporta por vía marítima.
+      <span class="text-slate-400">(UNCTAD, RMT 2025)</span>
+    </li>
+  </ul>
+
+  <h2 class="mt-10 font-serif text-2xl font-bold text-slate-900 dark:text-white">Descargar</h2>
+  <p class="mt-3 text-slate-600 dark:text-slate-400">
+    <a
+      href="/data/estrechos.csv"
+      class="inline-flex rounded-full bg-accent-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-700"
+    >
+      Descargar CSV
+    </a>
+    <span class="ml-3 text-sm text-slate-400">UTF-8 · coma como separador</span>
+  </p>
+
+  <h2 class="mt-10 font-serif text-2xl font-bold text-slate-900 dark:text-white">Fuentes</h2>
+  <ul class="mt-3 space-y-1.5 text-sm">
+    {fuentes.map((f) => (
+      <li>
+        <a href={f.u} target="_blank" rel="noopener noreferrer" class="text-accent-700 hover:underline dark:text-accent-400">
+          {f.n}
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <p class="mt-10 text-sm text-slate-500 dark:text-slate-400">
+    Análisis completo: <a href="/posts/geopolitica-estrechos-2026/" class="font-medium text-accent-700 hover:underline dark:text-accent-400">
+      «La geopolítica de los estrechos» →</a>
+    · Más páginas de datos: <a href="/empieza-aqui/" class="hover:text-accent-600 dark:hover:text-accent-400">Empieza aquí</a>
+    · <a href="https://vivienda.pruebapublica.com/" class="hover:text-accent-600 dark:hover:text-accent-400">Vivienda, en abierto</a>.
+  </p>
+</Layout>

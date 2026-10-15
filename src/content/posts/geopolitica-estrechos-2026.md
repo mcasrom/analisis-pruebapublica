@@ -36,6 +36,8 @@ Los datos de 2024-2025 lo dejaron escrito. Los **toneladas-milla** alcanzaron un
 
 La tabla resume lo que este capítulo desarrolla punto por punto. Los datos de tráfico de los estrechos provienen del [último análisis de puntos de estrangulamiento de la EIA](https://www.eia.gov/outlooks/steo/report/energysecurity/article.php), actualizado con los datos del [Short-Term Energy Outlook de agosto de 2026](https://www.eia.gov/outlooks/steo/archives/aug26.pdf).
 
+> 📊 **Datos descargables.** La tabla anterior está también como página de datos abierta (con CSV): [puntos de estrangulamiento marítimo](/datos/estrechos/).
+
 ## Ormuz: el interruptor energético
 
 Es el más citado por una razón: por él pasa aproximadamente un quinto del petróleo que se consume en el mundo y un tercio ([≈34 %](https://unctad.org/system/files/official-document/rmt2025_en.pdf)) de las exportaciones marítimas globales de crudo y derivados. Todo el Golfo Pérsico —Arabia Saudí, Irak, Kuwait, Emiratos, Catar— vierte su producción por esa garganta de algo más de 30 kilómetros de ancho en su punto más estrecho.
