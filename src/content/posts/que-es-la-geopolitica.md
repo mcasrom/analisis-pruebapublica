@@ -21,9 +21,11 @@ serie_numero: 1
 
 > **Serie Geopolítica 101**. Esta es la primera entrega de una serie de fundamentos: qué es la geopolítica, cómo se leyeron los imperios, cómo se lee hoy el mapa de los recursos, la infraestructura y la tecnología. Cada entrega termina enlazando con casos concretos ya publicados en este blog.
 
+> **En una frase.** La **geopolítica** es el estudio de cómo la **geografía** —el territorio, los recursos, las rutas y la posición de cada lugar respecto a los demás— **condiciona las decisiones de poder** de los Estados y otros actores internacionales. No es geografía ni ciencia política a secas: es la intersección de ambas. Allí donde el mapa fija los límites, la política decide qué hacer dentro de ellos.
+
 Empezamos con la pregunta más básica y, a la vez, más malentendida: ¿qué es la geopolítica? El término se usa hoy para casi cualquier cosa —una subida de aranceles, un cable submarino cortado, una cumbre diplomática— hasta el punto de perder precisión. Antes de analizar Ceuta, la Doctrina Monroe o las rutas del gas, conviene fijar de qué hablamos cuando hablamos de geopolítica, de dónde viene el concepto y por qué sigue siendo una herramienta útil —y no solo una palabra de moda— para leer el presente.
 
-## 1. Una definición de trabajo
+## 1. ¿Qué es la geopolítica? Una definición de trabajo
 
 La geopolítica estudia cómo la geografía —el territorio, los recursos, las rutas, la posición relativa de un lugar respecto a otros— condiciona las decisiones de poder de los Estados y otros actores internacionales. No es geografía a secas, ni es ciencia política a secas: es la intersección de ambas. La geografía impone límites y oportunidades permanentes o de muy lenta variación; la política decide qué hacer dentro de esos márgenes.
 

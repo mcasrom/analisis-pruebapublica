@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="nl-title nl-desc">
+  <title id="nl-title">Nasrudín y la luna en el pozo</title>
+  <desc id="nl-desc">Cielo nocturno con luna llena arriba a la derecha y un pozo de piedra abajo a la izquierda, donde el agua refleja la luna.</desc>
+  <rect width="1200" height="630" fill="#0b1026"/>
+  <g fill="#ffffff">
+    <circle cx="90" cy="70" r="2.2" opacity="0.8"/><circle cx="210" cy="140" r="1.6" opacity="0.6"/>
+    <circle cx="330" cy="60" r="2" opacity="0.7"/><circle cx="470" cy="120" r="1.5" opacity="0.5"/>
+    <circle cx="600" cy="60" r="2.2" opacity="0.8"/><circle cx="720" cy="150" r="1.6" opacity="0.6"/>
+    <circle cx="150" cy="260" r="1.8" opacity="0.6"/><circle cx="420" cy="240" r="1.5" opacity="0.5"/>
+    <circle cx="560" cy="300" r="1.8" opacity="0.6"/><circle cx="60" cy="420" r="1.6" opacity="0.5"/>
+    <circle cx="1140" cy="420" r="2" opacity="0.7"/><circle cx="1080" cy="120" r="1.5" opacity="0.5"/>
+  </g>
+  <circle cx="950" cy="140" r="72" fill="#f5f0dc"/>
+  <circle cx="928" cy="122" r="13" fill="#e2d9bd"/>
+  <circle cx="968" cy="158" r="9" fill="#e2d9bd"/>
+  <circle cx="952" cy="112" r="6" fill="#e2d9bd"/>
+  <g>
+    <polygon points="330,430 300,600 520,600 490,430" fill="#3f4756"/>
+    <polygon points="330,430 300,600 360,600 370,430" fill="#525b6e"/>
+    <ellipse cx="410" cy="430" rx="92" ry="30" fill="#6b7280"/>
+    <ellipse cx="410" cy="430" rx="92" ry="30" fill="none" stroke="#9aa3b5" stroke-width="4"/>
+    <ellipse cx="410" cy="436" rx="66" ry="20" fill="#1e3a5f"/>
+    <ellipse cx="410" cy="436" rx="30" ry="10" fill="#f5f0dc" opacity="0.85"/>
+    <path d="M360 448 q12 -5 24 0 q12 5 24 0 q12 -5 24 0" stroke="#9db8d8" stroke-width="2.5" fill="none" opacity="0.8"/>
+    <path d="M120 470 L300 470 M520 470 L700 470" stroke="#39415a" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+  <g font-family="DejaVu Sans, SansSerif" fill="#c8d2e8" font-size="26">
+    <text x="770" y="420">el reflejo tiembla;</text>
+    <text x="770" y="452">la luna, no.</text>
+  </g>
+</svg>

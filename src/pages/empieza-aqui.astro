@@ -1,0 +1,147 @@
+---
+// src/pages/empieza-aqui.astro
+// Página de entrada: orienta a quien llega por primera vez y refuerza el
+// enlazado interno hacia el hub y las series (SEO + navegación).
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts')).filter((p) => !p.data.draft).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+// Series con descripción propia; el resto se agrupa automáticamente.
+const DESCRIPCION_SERIE: Record<string, string> = {
+  'Geopolítica 101':
+    'Itinerario de iniciación: qué es la geopolítica y cómo se lee hoy el mapa de los recursos, la infraestructura y la tecnología. Empieza por «Qué es la geopolítica».',
+  'Ceuta 2026':
+    'Caso de estudio completo de la crisis de Ceuta como herramienta de presión diplomática: diplomacia, economía, relato y prueba. Una serie con cierre propio.',
+  'Fábulas del análisis':
+    'Seis fábulas para pensar el método: los problemas que se aplazan, el sesgo de mirar donde hay luz, la parte que se confunde con el todo y el poder de la percepción.',
+  'España 29-N':
+    'Elecciones generales del 29 de noviembre de 2026 bajo el radar: las reglas fijadas antes de ver los resultados y la lectura de los datos.',
+  'Dereliction of Duty':
+    'Serie sobre el control parlamentario y la rendición de cuentas en el Reino Unido y España.',
+};
+
+const porSerie = new Map<string, typeof posts>();
+for (const p of posts) {
+  const s = p.data.serie;
+  if (!s) continue;
+  if (!porSerie.has(s)) porSerie.set(s, [] as unknown as typeof posts);
+  (porSerie.get(s) as typeof posts).push(p);
+}
+
+const series = [...porSerie.entries()]
+  .map(([nombre, items]) => ({
+    nombre,
+    items: items.sort((a, b) => (a.data.serie_numero ?? 99) - (b.data.serie_numero ?? 99)),
+  }))
+  .sort((a, b) => b.items.length - a.items.length);
+
+const hub = posts.find((p) => p.slug === 'que-es-la-geopolitica');
+const ceuta = posts.find((p) => p.slug === 'ceuta-melilla-2026-crisis-migratoria-arma-diplomatica');
+---
+
+<Layout
+  title="Empieza aquí"
+  description="Por dónde empezar a leer el blog: qué es la geopolítica, los casos y las series, y los datos abiertos del ecosistema."
+  url="/empieza-aqui/"
+>
+  <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">Empieza aquí</h1>
+  <p class="mt-3 max-w-2xl text-lg text-slate-600 dark:text-slate-400">
+    Este blog separa el <strong>dato verificable</strong> de la <strong>interpretación</strong> y lee la
+    actualidad como un tablero de geografía y poder, sin filiación. Si es la primera vez, empieza por
+    una de estas tres puertas.
+  </p>
+
+  <!-- Tres puertas de entrada -->
+  <div class="mt-8 grid gap-4 sm:grid-cols-3">
+    <a
+      href="/posts/que-es-la-geopolitica/"
+      class="group rounded-2xl border border-slate-200 p-5 transition hover:border-accent-500 dark:border-slate-700 dark:hover:border-accent-400"
+    >
+      <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">
+        El método
+      </p>
+      <p class="mt-2 font-semibold text-slate-900 group-hover:text-accent-600 dark:text-white dark:group-hover:text-accent-400">
+        ¿Qué es la geopolítica?
+      </p>
+      <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">
+        La definición, los orígenes y la lente con la que se leen los casos.
+      </p>
+    </a>
+    <a
+      href={ceuta ? `/posts/${ceuta.slug}/` : '/temas/fronteras-y-migraciones/'}
+      class="group rounded-2xl border border-slate-200 p-5 transition hover:border-accent-500 dark:border-slate-700 dark:hover:border-accent-400"
+    >
+      <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">
+        El caso
+      </p>
+      <p class="mt-2 font-semibold text-slate-900 group-hover:text-accent-600 dark:text-white dark:group-hover:text-accent-400">
+        Ceuta 2026
+      </p>
+      <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">
+        La frontera sur como herramienta de poder: diplomacia, coste y relato.
+      </p>
+    </a>
+    <a
+      href="https://vivienda.pruebapublica.com/"
+      class="group rounded-2xl border border-slate-200 p-5 transition hover:border-accent-500 dark:border-slate-700 dark:hover:border-accent-400"
+    >
+      <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">
+        Los datos
+      </p>
+      <p class="mt-2 font-semibold text-slate-900 group-hover:text-accent-600 dark:text-white dark:group-hover:text-accent-400">
+        Vivienda, en abierto
+      </p>
+      <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">
+        Indicadores oficiales con fuente, serie y descarga CSV/JSON.
+      </p>
+    </a>
+  </div>
+
+  <!-- Series -->
+  <h2 class="mt-12 font-serif text-2xl font-bold text-slate-900 dark:text-white">Las series, por orden de lectura</h2>
+  <div class="mt-6 space-y-6">
+    {series.slice(0, 8).map(({ nombre, items }) => (
+      <section class="rounded-2xl border border-slate-200 p-6 dark:border-slate-700">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h3 class="text-xl font-bold text-slate-900 dark:text-white">{nombre}</h3>
+          <span class="text-sm text-slate-400">
+            {items.length} artículo{items.length === 1 ? '' : 's'}
+          </span>
+        </div>
+        {DESCRIPCION_SERIE[nombre] && (
+          <p class="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">{DESCRIPCION_SERIE[nombre]}</p>
+        )}
+        <ol class="mt-4 space-y-1.5">
+          {items.slice(0, 4).map((p) => (
+            <li class="text-sm">
+              <a
+                href={`/posts/${p.slug}/`}
+                class="text-slate-700 hover:text-accent-600 dark:text-slate-200 dark:hover:text-accent-400"
+              >
+                {p.data.title}
+              </a>
+            </li>
+          ))}
+          {items.length > 4 && <li class="text-sm text-slate-400">y {items.length - 4} más…</li>}
+        </ol>
+      </section>
+    ))}
+  </div>
+
+  <p class="mt-10 text-sm text-slate-500 dark:text-slate-400">
+    También puedes explorar los <a href="/temas/" class="hover:text-accent-600 dark:hover:text-accent-400">ejes temáticos</a>,
+    el <a href="/tags/" class="hover:text-accent-600 dark:hover:text-accent-400">índice de etiquetas</a>,
+    el <a href="/buscar/" class="hover:text-accent-600 dark:hover:text-accent-400">buscador</a>
+    o los <a href="https://fimi.viajeinteligencia.com/" class="hover:text-accent-600 dark:hover:text-accent-400">datos del observatorio FIMI</a>.
+    Si quieres avisos de lo nuevo, <a href="/suscribirse/" class="font-medium text-accent-700 hover:underline dark:text-accent-400">suscríbete</a>.
+  </p>
+
+  {hub && (
+    <p class="mt-6 text-sm text-slate-500 dark:text-slate-400">
+      ¿Vienes buscando una definición? <a href={`/posts/${hub.slug}/`} class="font-medium text-accent-700 hover:underline dark:text-accent-400">Qué es la geopolítica →</a>
+    </p>
+  )}
+</Layout>
