@@ -8,6 +8,7 @@ assisted: "GenAI (estructura, contraste de fuentes y edición)"
 tags: ["geopolítica", "UE", "presupuestos", "economía política", "instituciones", "análisis"]
 categoria: "análisis"
 image: "/presupuesto-ue-2028-2034-og.png"
+image_alt: "Ilustración: una balanza pesa sobre el azul de la Unión Europea, rodeada de sus doce estrellas; a un lado trigo y una moneda, al otro un engranaje y un escudo."
 draft: false
 faq:
   - q: "¿Ya está aprobado el presupuesto 2028-2034 de la UE?"

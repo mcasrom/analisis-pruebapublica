@@ -10,6 +10,7 @@ categoria: "análisis"
 serie: "Fábulas del análisis"
 serie_numero: 7
 image: "/consejo-bosque-bolsa-vacia-og.png"
+image_alt: "Ilustración: los animales del bosque reunidos alrededor de una mesa de piedra; el búho custodia un libro de cuentas abierto y una bolsa vacía."
 draft: false
 faq:
   - q: "¿Por qué a veces se acuerda el objetivo pero no la financiación?"
