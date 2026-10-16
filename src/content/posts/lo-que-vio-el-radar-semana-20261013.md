@@ -94,7 +94,7 @@ Cobertura parcial: **sin X, TikTok, Instagram, Facebook, YouTube, WhatsApp ni Te
 ## Cómo reproducirlo
 
 - API pública: `https://fimi.viajeinteligencia.com/api/v1` (read-only, sin clave).
-- Método y límites: [metodología](/metodo.html).
+- Método y límites: [metodología](https://fimi.viajeinteligencia.com/metodo.html).
 - Caso abierto: [Ceuta / Frontera Sur](https://fimi.viajeinteligencia.com/casos/ceuta/).
 
 *Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*
