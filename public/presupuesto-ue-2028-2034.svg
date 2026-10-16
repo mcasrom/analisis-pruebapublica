@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="pue-title pue-desc">
+  <title id="pue-title">El presupuesto de Europa, una batalla por el poder</title>
+  <desc id="pue-desc">Una balanza pesa sobre el azul de la Unión Europea: a un lado, trigo y una moneda; al otro, un engranaje y un escudo. Alrededor, las doce estrellas.</desc>
+  <defs>
+    <linearGradient id="azul" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d3a"/>
+      <stop offset="1" stop-color="#14315c"/>
+    </linearGradient>
+    <radialGradient id="foco" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#3b6db3" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#3b6db3" stop-opacity="0"/>
+    </radialGradient>
+    <g id="estrella">
+      <path d="M0,-16 L4.7,-5 L16,-5 L7.2,2 L10.6,13 L0,6.4 L-10.6,13 L-7.2,2 L-16,-5 L-4.7,-5 Z" fill="#f4c430"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#azul)"/>
+  <rect width="1200" height="630" fill="url(#foco)"/>
+
+  <!-- Las doce estrellas -->
+  <use href="#estrella" x="830" y="300"/>
+  <use href="#estrella" x="799" y="415"/>
+  <use href="#estrella" x="715" y="499"/>
+  <use href="#estrella" x="600" y="530"/>
+  <use href="#estrella" x="485" y="499"/>
+  <use href="#estrella" x="401" y="415"/>
+  <use href="#estrella" x="370" y="300"/>
+  <use href="#estrella" x="401" y="185"/>
+  <use href="#estrella" x="485" y="101"/>
+  <use href="#estrella" x="600" y="70"/>
+  <use href="#estrella" x="715" y="101"/>
+  <use href="#estrella" x="799" y="185"/>
+
+  <!-- Balanza -->
+  <g stroke="#f4c430" stroke-width="6" fill="none" stroke-linecap="round">
+    <line x1="600" y1="250" x2="600" y2="392"/>
+    <line x1="430" y1="252" x2="770" y2="252"/>
+    <line x1="430" y1="252" x2="402" y2="330"/>
+    <line x1="430" y1="252" x2="458" y2="330"/>
+    <line x1="770" y1="252" x2="742" y2="330"/>
+    <line x1="770" y1="252" x2="798" y2="330"/>
+  </g>
+  <circle cx="600" cy="250" r="9" fill="#f4c430"/>
+  <rect x="540" y="392" width="120" height="12" rx="4" fill="#f4c430"/>
+  <path d="M398 336 q32 20 64 0" stroke="#f4c430" stroke-width="6" fill="none"/>
+  <path d="M738 336 q32 20 64 0" stroke="#f4c430" stroke-width="6" fill="none"/>
+
+  <!-- Platillo izquierdo: trigo + moneda (cohesión / agricultura) -->
+  <g>
+    <g stroke="#e9d9a6" stroke-width="4" fill="none" stroke-linecap="round">
+      <line x1="430" y1="322" x2="430" y2="268"/>
+      <line x1="430" y1="288" x2="418" y2="276"/>
+      <line x1="430" y1="288" x2="442" y2="276"/>
+      <line x1="430" y1="302" x2="418" y2="290"/>
+      <line x1="430" y1="302" x2="442" y2="290"/>
+    </g>
+    <circle cx="452" cy="300" r="12" fill="#f4c430"/>
+  </g>
+
+  <!-- Platillo derecho: engranaje + escudo (competitividad / defensa) -->
+  <g>
+    <g fill="#cdd7e6">
+      <circle cx="748" cy="286" r="13"/>
+      <circle cx="748" cy="286" r="5" fill="#14315c"/>
+      <g stroke="#cdd7e6" stroke-width="5" stroke-linecap="round">
+        <line x1="748" y1="264" x2="748" y2="258"/>
+        <line x1="748" y1="314" x2="748" y2="308"/>
+        <line x1="726" y1="286" x2="720" y2="286"/>
+        <line x1="776" y1="286" x2="770" y2="286"/>
+        <line x1="732" y1="270" x2="728" y2="266"/>
+        <line x1="764" y1="302" x2="768" y2="306"/>
+        <line x1="764" y1="270" x2="768" y2="266"/>
+        <line x1="732" y1="302" x2="728" y2="306"/>
+      </g>
+    </g>
+    <path d="M778 268 l20 8 v16 q0 18 -20 26 q-20 -8 -20 -26 v-16 Z" fill="#f4c430"/>
+  </g>
+
+  <!-- Pie -->
+  <rect x="0" y="0" width="1200" height="10" fill="#f4c430"/>
+</svg>
