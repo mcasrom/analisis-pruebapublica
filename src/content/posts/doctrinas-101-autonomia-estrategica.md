@@ -10,6 +10,10 @@ image: "/doctrinas-101-autonomia-estrategica-og.png"
 serie: "Doctrinas 101"
 serie_numero: 5
 abstract_en: "Doctrines 101 (5/5): EU strategic autonomy tested against the series' four criteria. It scores clearly on two, partially on one, and the fourth — persistence beyond the current cycle — is still open. A doctrine under construction industrially; an aspiration militarily."
+resumen:
+  - "La autonomía estratégica de la UE pasada por los cuatro criterios de la serie: institucionalización, repetición, verificabilidad y persistencia."
+  - "Veredicto: doctrina en construcción en lo industrial; aspiración en lo militar."
+  - "Cierra Doctrinas 101 y enlaza con los otros casos (Trump-Monroe, «extranjero cercano», China)."
 faq:
   - q: "¿Es la autonomía estratégica una doctrina de la UE?"
     a: "En lo industrial (SAFE, EDIP, Ley de Materias Primas Fundamentales) hay un patrón documentado y vinculante. En lo militar-operativo no consta una doctrina de empleo de la fuerza: es una aspiración financiada. Doctrina en construcción."

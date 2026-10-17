@@ -2,6 +2,10 @@
 title: "El presupuesto de Europa es una batalla por el poder: quién gana y quién paga entre 2028 y 2034"
 description: "El presupuesto europeo 2028-2034 enfrenta cohesión, agricultura, competitividad y defensa. La negociación revela quién quiere financiar una Europa más autónoma y quién está dispuesto a pagarla."
 abstract_en: "The EU's 2028-2034 budget is not just a ledger: it is a declaration of priorities and a distribution of power. This piece reads the negotiation between cohesion, agriculture, competitiveness and defence — and asks who is willing to pay for a more autonomous Europe. With two tables and a methodological note."
+resumen:
+  - "El Marco Financiero 2028-2034 no está aprobado: hay una propuesta de la Comisión (jul-2025) y un borrador irlandés (oct-2026)."
+  - "El debate real no es cuánto gastar, sino quién paga y qué políticas reciben los fondos (cohesión, agricultura, competitividad, defensa)."
+  - "La autonomía estratégica tiene factura: sin financiación estable, es una aspiración."
 pubDate: 2026-10-17
 author: "M. Castillo"
 assisted: "GenAI (estructura, contraste de fuentes y edición)"

@@ -1,6 +1,10 @@
 ---
 title: "Quién paga el arancel: la economía política del impuesto que se volvió arma"
 description: "Cinco siglos de aranceles, del mercantilismo al fallo del Tribunal Supremo: quién paga de verdad, quién gana y por qué la incertidumbre es el coste más caro."
+resumen:
+  - "Cinco siglos de aranceles: del mercantilismo al fallo del Tribunal Supremo."
+  - "El foco es la economía política: quién paga de verdad, quién gana y por qué la incertidumbre es el coste más caro."
+  - "Complementa la pieza jurídica sobre la geopolítica de los aranceles."
 pubDate: 2026-09-19
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

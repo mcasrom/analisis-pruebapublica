@@ -10,6 +10,10 @@ serie: "Lo que vio el radar"
 serie_numero: 3
 image: "/radar-semana-20261007-og.png"
 abstract_en: "What my amplification radar saw this week: 51,914 events, 1,451 groups. 81 in the high band, one critical with a benign explanation, and zero cross-account synchronies."
+resumen:
+  - "51.914 eventos y 1.451 grupos; 81 en banda alta y 1 en crítica."
+  - "Ninguna señal con forma de sincronía entre cuentas distintas: la ausencia también es un resultado."
+  - "Casi todo el volumen es Bluesky + Google News (aprox. 95 %): el radar mide lo que puede ver."
 faq:
   - q: "¿Qué es este resumen semanal?"
     a: "Una lectura honesta de lo que el Observatorio de señales de coordinación ha registrado durante la semana: cuánto volumen ha habido, qué grupos han destacado y, sobre todo, cuáles de esas señales tienen una explicación específica y cuáles son solo ecos de prensa o feeds."
@@ -37,6 +41,10 @@ Del **30 de septiembre al 7 de octubre** el observatorio ha procesado **51.914 e
 | Alta (60–79) | 81 |
 | Anómala (40–59) | 574 |
 | Resto (0–39) | 795 |
+
+![Distribución por banda · 1.451 grupos: 1 crítica, 81 alta, 574 anómala y 795 resto](/radar-bandas-20261007.svg)
+
+*Gráfico propio. Barras proporcionales al número de grupos; el recuento no es comparable entre semanas.*
 
 ## Qué pesa de verdad: feeds y eco
 

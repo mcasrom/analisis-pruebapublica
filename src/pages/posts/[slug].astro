@@ -237,6 +237,15 @@ const faqLd = faq.length
         </div>
       </header>
 
+      {post.data.resumen && post.data.resumen.length > 0 && (
+        <div class="mt-6 rounded-2xl border border-accent-200 bg-accent-50/40 p-5 dark:border-accent-800 dark:bg-accent-950/20">
+          <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-accent-700 dark:text-accent-300">Lo esencial</p>
+          <ul class="list-disc space-y-1 pl-5 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+            {post.data.resumen.map((r) => <li>{r}</li>)}
+          </ul>
+        </div>
+      )}
+
       {post.data.abstract_en && (
         <div class="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-800 dark:bg-slate-900/40">
           <p class="mb-1 text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">In English</p>

@@ -11,6 +11,10 @@ serie_numero: 1
 image: "/las-encuestas-como-poder-og.png"
 draft: false
 abstract_en: "Polls measure answers within a design, not raw public opinion. I examine sampling, error, sponsorship, headlines, and effects, with checklists for reading any survey."
+resumen:
+  - "Una encuesta no es la opinión pública en bruto: es una medición construida (preguntas, muestra, método y decisiones estadísticas)."
+  - "A la publicación se añade otra capa: qué dato se elige, qué titular se pone y cómo se interpreta."
+  - "Regla proporcional: cada afirmación sobre encuestas debe sostenerse en el diseño, los datos y el alcance real del estudio."
 ---
 
 > Una encuesta no es la opinión pública en bruto. Es una medición construida mediante preguntas, una muestra, un método de recogida y decisiones estadísticas. Su publicación añade otra capa: la selección del dato, el titular y la interpretación.

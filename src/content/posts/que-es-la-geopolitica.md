@@ -1,6 +1,10 @@
 ---
 title: "Qué es la geopolítica: geografía, poder y la lectura del mundo que viene"
 description: "La geopolítica estudia cómo la geografía condiciona las decisiones de poder. Definición, orígenes (Kjellén, Ratzel, Mackinder, Mahan), su regreso tras la Guerra Fría y por qué vuelve a ser la herramienta más útil para leer el presente."
+resumen:
+  - "La geopolítica estudia cómo la geografía —territorio, recursos, rutas y posición— condiciona las decisiones de poder."
+  - "Repasa los orígenes (Kjellén, Ratzel, Mackinder, Mahan) y su regreso tras la Guerra Fría."
+  - "Primera entrega de Geopolítica 101: fija el método y enlaza con los casos del blog."
 pubDate: 2026-09-08
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

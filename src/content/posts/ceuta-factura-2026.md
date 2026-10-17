@@ -1,6 +1,10 @@
 ---
 title: "La factura del 30 de julio: lo que cuesta en dinero la crisis de Ceuta de 2026 (y quién la asume)"
 description: "El plan de choque del Gobierno moviliza 309 millones —el 16% del PIB ceutí— mientras la Cámara de Comercio certifica en 33,04 millones las pérdidas privadas de un mes, tras revisar al alza su estimación inicial. Desglose del gasto del Estado y de la ciudad, ayudas por tramos y lectura geopolítica del coste."
+resumen:
+  - "El plan de choque moviliza 309 M€ (aprox. 16 % del PIB ceutí); la Cámara de Comercio certifica 33,04 M€ de pérdidas privadas en un mes."
+  - "Desglose del gasto del Estado y de la ciudad, ayudas por tramos y lectura geopolítica del coste."
+  - "Nota de cautela: crisis abierta, cifras provisionales y pérdidas de la Cámara como suelo, no techo."
 pubDate: 2026-09-09
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

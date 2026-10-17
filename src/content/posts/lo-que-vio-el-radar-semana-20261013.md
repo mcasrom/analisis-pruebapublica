@@ -10,6 +10,10 @@ serie: "Lo que vio el radar"
 serie_numero: 4
 image: "/radar-semana-20261013-og.png"
 abstract_en: "What my amplification radar saw this week: 52,037 events, 1,705 groups. 122 in the high band, three critical with benign explanations, and four groups with cross-account synchrony (zero the week before)."
+resumen:
+  - "52.037 eventos y 1.705 grupos; 122 en banda alta y 3 en crítica."
+  - "Cuatro grupos con sincronía entre cuentas distintas (cero la semana anterior): señal a revisar, no veredicto."
+  - "1.190 grupos (70 %) son feed de una sola fuente: la banda alta mide amplificación, no campaña."
 faq:
   - q: "¿Qué es este resumen semanal?"
     a: "Una lectura honesta de lo que el Observatorio de señales de coordinación y amplificación ha registrado durante la semana: cuánto volumen ha habido, qué grupos han destacado y qué parte de esas señales tiene una explicación específica frente a las que son solo eco de prensa o feeds."
@@ -37,6 +41,10 @@ Del **7 al 13 de octubre** el observatorio ha procesado **52.037 eventos** (la s
 | Alta (60–79) | 122 |
 | Anómala (40–59) | 665 |
 | Resto (0–39) | 915 |
+
+![Distribución por banda · 1.705 grupos: 3 crítica, 122 alta, 665 anómala y 915 resto](/radar-bandas-20261013.svg)
+
+*Gráfico propio. Barras proporcionales al número de grupos; el recuento no es comparable entre semanas.*
 
 Los tres grupos en banda crítica y los 122 en banda alta son **señal de amplificación**, no veredictos: la mayoría admite una explicación benigna (eco de prensa, feed de una fuente).
 

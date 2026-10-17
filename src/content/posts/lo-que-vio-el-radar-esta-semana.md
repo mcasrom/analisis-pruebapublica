@@ -2,6 +2,10 @@
 title: "Lo que vio el radar esta semana: 41.778 eventos, 98 grupos en banda alta y tres grupos con sincronía entre cuentas"
 description: "Observatorio de señales: 41.778 eventos y 929 grupos esta semana. 98 en banda alta, cero críticos y tres grupos con sincronía entre cuentas (una destaca)."
 abstract_en: "What my amplification radar saw this week: 41,778 events, 929 groups. 98 in the high band, zero critical, and three groups with cross-account synchrony."
+resumen:
+  - "41.778 eventos y 929 grupos analizados; 98 en banda alta y ninguno en crítica."
+  - "Tres grupos con sincronía entre cuentas distintas; uno destaca, pero no implica operador."
+  - "La mayor parte de la señal sigue siendo feed de una fuente o eco de prensa: banda alta no es coordinación."
 pubDate: 2026-09-27
 author: "M. Castillo"
 assisted: "GenAI (consulta de la API pública y tratamiento de datos)"
@@ -35,6 +39,10 @@ Del **21 al 27 de septiembre** el observatorio ha procesado **41.778 eventos** p
 | Alta (60–79) | 98 |
 | Anómala (40–59) | 320 |
 | Resto (0–39) | 511 |
+
+![Distribución por banda · 929 grupos: 0 crítica, 98 alta, 320 anómala y 511 resto](/radar-bandas-20260927.svg)
+
+*Gráfico propio. Barras proporcionales al número de grupos; el recuento no es comparable entre semanas.*
 
 El corpus acumulado es de **131.005 eventos**. La mayor parte del tráfico temático de la semana se reparte entre **elecciones** (11.206 eventos), **Oriente Medio** (10.361) e **inteligencia artificial** (8.281); después vienen energía (4.833), frontera sur/Ceuta (3.875), Sahel (2.594) y defensa (1.708).
 

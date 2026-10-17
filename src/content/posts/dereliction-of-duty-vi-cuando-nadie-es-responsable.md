@@ -11,6 +11,10 @@ draft: false
 serie: "Dereliction of Duty"
 serie_numero: 6
 abstract_en: "When a decision goes wrong, who took it? On diffuse responsibility: Arendt's rule by Nobody and Thompson's problem of many hands, a five-question attribution test, Ceuta 2026 and Spain's 2024 Valencia floods — under governments of different colours."
+resumen:
+  - "Cuando muchos autores toman una decisión y ninguno responde, la responsabilidad se diluye hasta desaparecer."
+  - "Test de atribución aplicado a Ceuta 2026 y a la DANA de 2024, tras cinco entregas centradas en España."
+  - "La serie contrapesa el sesgo percibido: no señala a un Gobierno, examina el mecanismo de rendición de cuentas."
 faq:
   - q: "¿De qué va esta sexta entrega?"
     a: "De la responsabilidad difusa: cuando una decisión tiene muchos autores y ninguno responde. Propone un test de cinco preguntas para saber si una decisión es atribuible, lo aplica a Ceuta 2026 y lo contrasta con la DANA de Valencia de 2024, bajo gobiernos de distinto signo."

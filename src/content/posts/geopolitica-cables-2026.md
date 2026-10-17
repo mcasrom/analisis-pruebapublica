@@ -1,6 +1,10 @@
 ---
 title: "Geopolítica de los cables submarinos 2026: datos, energía y sabotaje en el fondo del océano"
 description: "El 99% del tráfico de datos intercontinental viaja por el fondo del mar. Del sabotaje del Nord Stream a los cortes en el Báltico y la presión sobre los cables de Taiwán: la tercera entrega de Geopolítica 101 cambia los estrechos del crudo por la infraestructura submarina."
+resumen:
+  - "El 99 % del tráfico de datos intercontinental viaja por cables submarinos."
+  - "Del sabotaje del Nord Stream a los cortes en el Báltico y la presión sobre los cables de Taiwán."
+  - "Tercera entrega de Geopolítica 101: cambia los estrechos del crudo por la infraestructura submarina."
 pubDate: 2026-09-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
