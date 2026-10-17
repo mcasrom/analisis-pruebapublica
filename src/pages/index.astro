@@ -117,7 +117,7 @@ const jsonLd = {
           Artículos
         </h2>
         <ul class="divide-y divide-slate-200 dark:divide-slate-800">
-          {posts.map((post) => (
+          {posts.slice(0, 24).map((post) => (
             <li class="py-6">
               <a href={`/posts/${post.slug}`} class="group block">
                 <span class="text-sm text-slate-500">{fmt.format(post.data.pubDate)} · {post.data.categoria} · ⏱ {lecturaDe(post)}</span>
@@ -141,6 +141,9 @@ const jsonLd = {
             </li>
           ))}
         </ul>
+        <a href="/archivo/" class="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-accent-600 hover:text-accent-700 dark:text-accent-400 dark:hover:text-accent-300">
+          Ver todo el archivo <span aria-hidden="true">→</span>
+        </a>
       </section>
     </div>
 

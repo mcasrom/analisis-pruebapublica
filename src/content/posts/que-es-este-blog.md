@@ -63,7 +63,7 @@ Cable submarino, polo ártico, IA o cualquier otra línea que entre por el prism
 
 ## Fuentes y método
 
-Las fuentes son verificables y se citan en cada post: medios europeos de análisis (Orient XXI, Le Monde Diplomatique, Radiobélgica), periodismo de investigación (The Intercept, El Diario, CounterPunch), análisis estratégico (tuttoanalista.it, The Cradle, Mondafrique), y medios generalistas cuando aportan datos primarios (France24, Voz Pópuli, hicarabia.com).
+Las fuentes se citan en cada post y se enlazan siempre que exista una URL verificable. La base son **fuentes primarias** (BOE, INE, Eurostat, SIPRI y documentos de la Comisión y el Consejo) y, para el contraste, medios con línea editorial conocida (Orient XXI, Le Monde Diplomatique, The Intercept, El Diario, France24). No trato ninguna fuente como neutral por defecto: se usa para el dato, no como autoridad, y su sesgo se declara cuando importa. Si una fuente no es verificable, se dice.
 
 No se usan medios sin verificación ni fuentes anónimas sin corroboración cruzada.
 
