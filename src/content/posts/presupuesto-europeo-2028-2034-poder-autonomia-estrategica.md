@@ -120,4 +120,4 @@ Para España, el reto es defender sus intereses sin perder de vista que su capac
 
 *Nota de método: distingo la propuesta inicial de la Comisión (16-jul-2025) del documento negociador irlandés; ninguno es el presupuesto definitivo. Cifras a precios corrientes; antes de citar, comprobar la última versión de los documentos del Consejo. Este artículo analiza poder y prioridades, no hace pronósticos.*
 
-*Elaborado con asistencia de IA y revisión humana. Fuentes enlazadas en el texto. — @pruebapublica*
+*Elaborado con asistencia de IA y revisión humana. Fuentes citadas en el texto; los documentos oficiales (Comisión y Consejo) son la referencia primaria. — @pruebapublica*

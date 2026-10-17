@@ -6,9 +6,9 @@ const { listComments } = await import('../lib/db');
 const comments = listComments(slug);
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
 ---
+{comments.length > 0 && (
 <div data-comment-list data-slug={slug} class="mt-6">
   <h4 class="mb-3 text-sm font-semibold text-slate-500 dark:text-slate-400">Comentarios ({comments.length})</h4>
-  {comments.length === 0 && <p class="text-sm text-slate-400">Aún no hay comentarios aprobados.</p>}
   <ul class="space-y-4">
     {comments.map((c) => (
       <li class="rounded-lg border border-slate-200 p-4 dark:border-slate-800">
@@ -21,3 +21,4 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', y
     ))}
   </ul>
 </div>
+)}

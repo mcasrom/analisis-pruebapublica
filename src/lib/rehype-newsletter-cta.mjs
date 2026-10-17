@@ -20,7 +20,7 @@ const cta = el(
       txt('📬 No te pierdas el siguiente análisis'),
     ]),
     el('p', { className: ['mt-1', 'text-sm', 'text-slate-600', 'dark:text-slate-300'] }, [
-      txt('Recibe cada artículo nuevo por email. Sin spam, baja cuando quieras.'),
+      txt('Un correo al mes con los análisis clave. Sin spam, baja cuando quieras.'),
     ]),
     el('form', { className: ['newsletter-form', 'mt-4', 'flex', 'flex-col', 'gap-2', 'sm:flex-row'], 'data-variante': 'inline' }, [
       el('input', {

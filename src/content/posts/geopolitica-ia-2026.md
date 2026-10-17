@@ -1,6 +1,6 @@
 ---
 title: "Geopolítica de la Inteligencia Artificial: chips, sesgo algorítmico y la libertad del ciudadano"
-description: "Chips, regulación y sesgo algorítmico: cómo la disputa por los semiconductores, el AI Act europeo y la manipulación generativa condicionan la libertad del ciudadano. Quinta entrega de Geopolítica 2026."
+description: "Chips, regulación y sesgo algorítmico: cómo la disputa por los semiconductores, el AI Act europeo y la manipulación generativa condicionan la libertad del ciudadano. Quinta entrega de Geopolítica 101."
 pubDate: 2026-09-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
@@ -92,7 +92,7 @@ Petróleo, cables submarinos, Ártico, espacio e inteligencia artificial son, en
 
 ---
 
-*Este post continua la serie "Geopolítica 2026". Puedes leer los anteriores: [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Polos árticos](/posts/geopolitica-artico-2026/), [Espacio](/posts/geopolitica-espacio-2026/).*
+*Este post continúa la serie "Geopolítica 101". Puedes leer los anteriores: [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Polos árticos](/posts/geopolitica-artico-2026/), [Espacio](/posts/geopolitica-espacio-2026/).*
 
 ---
 

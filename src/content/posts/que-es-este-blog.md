@@ -54,7 +54,7 @@ En la práctica, esa lente se aplica en tres planos:
 
 Para que veas cómo se aplica el prisma, esto es lo que ya está publicado:
 
-- La serie **Crisis de Ceuta 2026**: un análisis en siete entregas de la crisis migratoria como arma diplomática, desde el derecho internacional hasta el tablero de intereses que rodea la frontera sur. Una de las series más completas sobre el tema en español.
+- La serie **Crisis de Ceuta 2026**: un análisis en seis entregas de la crisis migratoria como arma diplomática, desde el derecho internacional hasta el tablero de intereses que rodea la frontera sur. Una de las series más completas sobre el tema en español.
 - Análisis de **defensa y gasto militar**: la evolución del gasto en defensa de España desde 1977 hasta hoy, comparado con el entorno europeo. Datos, no discursos.
 - La **Doctrina Monroe** y su variante contemporánea: el "corolario Trump" a la doctrina original, y por qué la etiqueta "Donroe" merece ser analizada con rigor histórico.
 - **Geopolítica cotidiana**: la geopolítica no vive solo en los ministerios. Vive en las vacaciones, en las fronteras, en los movimientos de turismo, en la infraestructura. Aquí se analiza también eso.

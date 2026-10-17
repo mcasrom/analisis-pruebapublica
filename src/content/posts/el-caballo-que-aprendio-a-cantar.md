@@ -97,7 +97,7 @@ La próxima vez que oigas "tregua temporal", "comisión de estudio" o "plazo de 
 
 ---
 
-**Para seguir leyendo.** El itinerario **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás piezas de esa serie (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **[radar FIMI](https://fimi.viajeinteligencia.com/)** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el resumen semanal desde el formulario de suscripción del blog.
+**Para seguir leyendo.** El itinerario **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás piezas de esa serie (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **[radar FIMI](https://fimi.viajeinteligencia.com/)** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el boletín mensual desde el formulario de suscripción del blog.
 
 ---
 

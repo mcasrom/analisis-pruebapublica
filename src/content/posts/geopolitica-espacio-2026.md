@@ -432,7 +432,7 @@ Tampoco termina en el océano.
 
 ---
 
-*Este post cierra la serie "Geopolítica 2026" iniciada con [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Polos árticos](/posts/geopolitica-artico-2026/) e [Inteligencia Artificial](/posts/geopolitica-ia-2026/).*
+*Este post cierra la serie "Geopolítica 101" iniciada con [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Polos árticos](/posts/geopolitica-artico-2026/) e [Inteligencia Artificial](/posts/geopolitica-ia-2026/).*
 
 ---
 

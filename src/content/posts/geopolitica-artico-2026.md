@@ -302,7 +302,7 @@ Pero ahora el mapa tiene tres dimensiones.
 
 ---
 
-*Este post continua la serie "Geopolítica 2026". Puedes leer los anteriores: [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Inteligencia Artificial](/posts/geopolitica-ia-2026/). El siguiente es [Espacio](/posts/geopolitica-espacio-2026/).*
+*Este post continúa la serie "Geopolítica 101". Puedes leer los anteriores: [Petróleo](/posts/geopolitica-petroleo-2026/), [Cables submarinos](/posts/geopolitica-cables-2026/), [Inteligencia Artificial](/posts/geopolitica-ia-2026/). El siguiente es [Espacio](/posts/geopolitica-espacio-2026/).*
 
 ---
 

@@ -100,7 +100,7 @@ const serieNombre = post.data.serie ?? null;
 const serieDesc: Record<string, string> = {
   'Ceuta 2026': 'Serie de análisis sobre la crisis migratoria como arma diplomática',
   'Dereliction of Duty': 'Serie sobre la lealtad política y el debilitamiento institucional en España',
-  'Fábulas del análisis': 'Tres fábulas para pensar el método del análisis',
+  'Fábulas del análisis': 'Siete fábulas para pensar el método del análisis',
 };
 const seriePosts = serieNombre
   ? todos
@@ -392,9 +392,6 @@ const faqLd = faq.length
         </section>
       )}
 
-      <div class="mt-10">
-        <NewsletterForm variante="card" />
-      </div>
 
       <CommentList slug={post.slug} />
       <CommentForm slug={post.slug} />
