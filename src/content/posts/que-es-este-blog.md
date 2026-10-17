@@ -63,7 +63,7 @@ Cable submarino, polo ártico, IA o cualquier otra línea que entre por el prism
 
 ## Fuentes y método
 
-Las fuentes se citan en cada post y se enlazan siempre que exista una URL verificable. La base son **fuentes primarias** (BOE, INE, Eurostat, SIPRI y documentos de la Comisión y el Consejo) y, para el contraste, medios con línea editorial conocida (Orient XXI, Le Monde Diplomatique, The Intercept, El Diario, France24). No trato ninguna fuente como neutral por defecto: se usa para el dato, no como autoridad, y su sesgo se declara cuando importa. Si una fuente no es verificable, se dice.
+Las fuentes se citan en cada post y se enlazan siempre que exista una URL verificable. La base son **fuentes primarias** ([BOE](https://www.boe.es), [INE](https://www.ine.es), [Eurostat](https://ec.europa.eu/eurostat), [SIPRI](https://www.sipri.org), y documentos de la [Comisión](https://commission.europa.eu) y el [Consejo](https://www.consilium.europa.eu)) y, para el contraste, medios con línea editorial conocida (Orient XXI, Le Monde Diplomatique, The Intercept, El Diario, France24). No trato ninguna fuente como neutral por defecto: se usa para el dato, no como autoridad, y su sesgo se declara cuando importa. Si una fuente no es verificable, se dice.
 
 No se usan medios sin verificación ni fuentes anónimas sin corroboración cruzada.
 
