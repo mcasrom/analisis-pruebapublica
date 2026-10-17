@@ -1,0 +1,74 @@
+---
+// src/pages/radar-changelog.astro
+import Layout from '../layouts/Layout.astro';
+
+const hitos = [
+  {
+    fecha: '2026-09-24',
+    cambio: 'Se retira la densidad de red del score compuesto (doble conteo con sincronización) y se renormalizan los pesos.',
+    efecto: 'Bajan las bandas altas; los scores anteriores no son comparables.',
+  },
+  {
+    fecha: '2026-10-02',
+    cambio: 'Nuevo tope «feed de una sola fuente»: un cluster con ≤5 cuentas y una cuenta/dominio dominante no pasa de ANOMALOUS.',
+    efecto: 'Menos bandas altas por eco de una única fuente.',
+  },
+  {
+    fecha: '2026-10-04',
+    cambio: 'Topes para cobertura sobre desinformación y para un solo dominio.',
+    efecto: 'Evita que el meta-análisis o un medio único lleguen a banda alta.',
+  },
+  {
+    fecha: '2026-10-11',
+    cambio: 'El «eco de una sola pieza» (0 URLs) deja de contar como coordinación.',
+    efecto: 'Corrige casos con 0 URLs que llegaban a banda alta.',
+  },
+  {
+    fecha: '2026-10-12',
+    cambio: 'La anomalía se agrega por percentil (p75) en lugar de por media.',
+    efecto: 'Más sensible al núcleo anómalo; cambia el recuento de bandas.',
+  },
+  {
+    fecha: '2026-10-13',
+    cambio: 'Ventana de observación por tema (45 días; 90 en frontera, defensa y elecciones) y explicación del crecimiento del corpus.',
+    efecto: 'El corpus creció ~100×; los deltas que cruzan ese cambio no son comparables.',
+  },
+];
+---
+<Layout
+  title="Changelog del radar"
+  description="Registro de los cambios de método del radar FIMI: qué se cambió, cuándo y cómo afecta a la comparabilidad de las cifras."
+  url="/radar-changelog/"
+>
+  <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">Changelog del radar</h1>
+  <p class="mt-3 max-w-2xl text-lg text-slate-600 dark:text-slate-400">
+    El radar mide señales de amplificación, no coordinación confirmada. Sus cifras dependen del
+    método y del volumen de captura, así que cada cambio se anota aquí.
+  </p>
+
+  <div class="mt-6 rounded-2xl border border-amber-300 bg-amber-50/60 p-5 dark:border-amber-700 dark:bg-amber-950/30">
+    <p class="text-sm text-slate-700 dark:text-slate-300">
+      <strong>El número de grupos no es comparable entre versiones.</strong> Un cambio de criterio o
+      un salto del corpus puede alterar el recuento sin que cambie la actividad real. Por eso no se
+      interpreta un aumento de grupos como un aumento de actividad.
+    </p>
+  </div>
+
+  <ul class="mt-8 space-y-6">
+    {hitos.map((h) => (
+      <li class="rounded-2xl border border-slate-200 p-5 dark:border-slate-800">
+        <time class="text-sm font-semibold text-slate-500 dark:text-slate-400" datetime={h.fecha}>{h.fecha}</time>
+        <p class="mt-2 text-sm text-slate-700 dark:text-slate-300"><strong>Cambio:</strong> {h.cambio}</p>
+        <p class="mt-1 text-sm text-slate-700 dark:text-slate-300"><strong>Efecto:</strong> {h.efecto}</p>
+      </li>
+    ))}
+  </ul>
+
+  <div class="prose-editorial mt-10">
+    <p>
+      El registro completo, con el detalle técnico y los tests, está en el repositorio del
+      observatorio: <a href="https://github.com/mcasrom/hybrid-fimi-radar/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">CHANGELOG.md</a>.
+      Para el método y los límites, consulta la <a href="https://fimi.viajeinteligencia.com/metodo.html" target="_blank" rel="noopener noreferrer">página de método</a>.
+    </p>
+  </div>
+</Layout>

@@ -2,26 +2,71 @@
 // src/pages/sobre.astro
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="Sobre el proyecto" url="/sobre/">
+<Layout
+  title="Sobre el proyecto"
+  description="Quién escribe este blog, con qué método, cómo usa la IA, cómo se financia y cómo corrige errores."
+  url="/sobre/"
+>
   <h1 class="font-serif text-4xl font-bold text-slate-900 dark:text-white">Sobre el proyecto</h1>
   <div class="prose-editorial mt-6">
     <p>
-      <strong>Análisis</strong> es un espacio independiente de geopolítica y análisis crítico del poder.
-      Su propósito es aportar contexto, datos y lectura crítica sobre la actualidad, sin
-      filiación partidista: se examina a todos los poderes por igual.
+      <strong>Soy Miguel Castillo.</strong> Este blog es un proyecto personal e independiente: sin
+      redacción, sin financiación pública, sin anunciantes y sin agenda partidista. Examino a todos
+      los poderes por igual.
     </p>
+
+    <h2>Qué es (y qué no es)</h2>
     <p>
-      Este proyecto forma parte del ecosistema de microservicios de
-      <a href="https://pruebapublica.com" target="_blank" rel="noopener noreferrer">pruebapublica.com</a>,
-      independiente de viajeinteligencia.com.
+      No es un medio de noticias ni un detector de campañas. Es <strong>análisis</strong>: contexto,
+      datos y lectura crítica, separando el hecho verificable de la interpretación. Cuando no hay
+      evidencia suficiente, se dice.
     </p>
+
+    <h2>Experiencia</h2>
     <p>
-      Criterios editoriales: hechos verificables con fuente, separación explícita entre
-      hecho y opinión, y corrección cuando se detecta un error.
+      La experiencia que puedo demostrar es la del propio proyecto: he diseñado y mantengo los
+      observatorios de datos abiertos que este blog enlaza —el
+      <a href="https://fimi.viajeinteligencia.com/" target="_blank" rel="noopener noreferrer">radar FIMI</a>,
+      <a href="https://vivienda.pruebapublica.com/" target="_blank" rel="noopener noreferrer">vivienda</a>,
+      <a href="https://municipal.viajeinteligencia.com/" target="_blank" rel="noopener noreferrer">municipal</a>
+      y <a href="https://nearme.viajeinteligencia.com/" target="_blank" rel="noopener noreferrer">NearMe</a>—
+      con método publicado, datos descargables y API pública. No pido confianza por un cargo: pido
+      que se compruebe el método.
     </p>
+
+    <h2>Método</h2>
+    <ul>
+      <li>Hechos verificables con fuente enlazada; la interpretación se marca como tal.</li>
+      <li>Datos abiertos y reproducibles cuando existen (API, CSV, JSON).</li>
+      <li>Hipótesis y criterios declarados antes de ver los resultados, con límites explícitos.</li>
+      <li>Corrección pública cuando se detecta un error (<a href="/correcciones/">registro</a>).</li>
+    </ul>
+
+    <h2>Uso de IA</h2>
+    <p>
+      Uso herramientas de IA (GenAI) para búsqueda, contraste y redacción asistida; la decisión
+      editorial, el sesgo y la responsabilidad son humanos. Cada post declara la asistencia y su
+      revisión. La IA no firma ni decide.
+    </p>
+
+    <h2>Financiación</h2>
+    <p>
+      El proyecto lo paga su autor. No hay financiación pública, anunciantes ni patrocinios
+      editoriales. Si quieres apoyarlo, hay una
+      <a href="https://ko-fi.com/m_castillo" target="_blank" rel="noopener noreferrer">aportación voluntaria</a>;
+      no compra cobertura ni cambia el contenido.
+    </p>
+
+    <h2>Política de correcciones</h2>
+    <p>
+      Los errores se corrigen y se registran en <a href="/correcciones/">/correcciones</a>, con fecha
+      y con qué se cambió. Si detectas uno, escribe a
+      <a href="mailto:analisis@pruebapublica.com">analisis@pruebapublica.com</a>.
+    </p>
+
     <h2>Contacto</h2>
     <p>
-      Escríbenos a <a href="mailto:analisis@pruebapublica.com">analisis@pruebapublica.com</a>.
+      <a href="mailto:analisis@pruebapublica.com">analisis@pruebapublica.com</a>.
     </p>
   </div>
 </Layout>
