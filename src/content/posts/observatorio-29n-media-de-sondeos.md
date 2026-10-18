@@ -3,7 +3,7 @@ title: "Qué es (y qué no) una media de sondeos: el observatorio del 29N"
 description: "He construido un observatorio que separa sondeos, censo, participación y territorio. Esto es lo que mide, lo que no y por qué la incertidumbre va en el dato."
 pubDate: 2026-10-18
 author: "M. Castillo"
-assisted: "GenAI (redacción y contraste de fuentes asistidos)"
+assisted: "GenAI (estructura y redacción); verificación personal de fuentes y cifras"
 tags: ["elecciones 29N", "sondeos", "media de sondeos", "observatorio", "datos abiertos", "metodología"]
 categoria: "análisis"
 image: "/observatorio-29n-og.png"
@@ -98,5 +98,7 @@ Para un periodista, es una forma rápida de citar una media **con su rango y su 
 El observatorio es abierto: el [método](/metodologia.html), las [fuentes y datos](/fuentes.html) y el [código](https://github.com/mcasrom/elecciones29n-osint) están publicados. Si encuentras un error o una fuente mejor, la corrección es parte del método.
 
 La regla sigue siendo la misma: **una media no es un pronóstico; una banda alta no es una campaña; y una cifra sin fuente no es un dato**.
+
+> **Nota de elaboración.** La estructura y la redacción se han preparado con **asistencia de IA generativa**. La selección de fuentes, la comprobación de cada cifra y las conclusiones son mías: he contrastado el censo con el INE, la participación con la JEC, los escaños con el BOE y los sondeos con su fuente original. Si una cifra no se puede rastrear, no se publica. Cualquier error es responsabilidad mía.
 
 *M. Castillo · [Observatorio electoral 29N](https://elecciones29n.pruebapublica.com/)*
