@@ -73,8 +73,8 @@ const breadcrumbLd = {
 ---
 
 <Layout title={titulo} description={descripcion} url={`/temas/${eje.slug}/`}>
-  <script type="application/ld+json" set:html={JSON.stringify(collectionLd)} slot="head" />
-  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(collectionLd).replace(/</g, '\\u003c').replace(/>/g, '\\u003e')} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c').replace(/>/g, '\\u003e')} slot="head" />
 
   <a href="/temas" class="text-sm text-slate-500 hover:text-accent-600 dark:hover:text-accent-400">
     ← Todos los temas

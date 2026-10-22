@@ -39,7 +39,7 @@ const jsonLd = {
 };
 ---
 <Layout title="Geopolítica y análisis crítico del poder" description="Análisis crítico de la actualidad: contexto, datos y lectura del poder, sin filiación." url="/" wide>
-  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c').replace(/>/g, '\\u003e')} slot="head" />
   <!-- Hero -->
   <section class="mx-auto max-w-3xl py-10 text-center">
     <p class="text-xs font-semibold uppercase tracking-widest text-accent-600 dark:text-accent-400">
