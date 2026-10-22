@@ -13,7 +13,7 @@ abstract_en: "A poll aggregator for Spain's 29 November 2026 general election th
 
 Durante una campaña se habla mucho de encuestas y poco de quién puede votar, cuánta gente participa y cómo se traduce el voto en escaños. He construido el [observatorio electoral del 29N](https://elecciones29n.pruebapublica.com/) para reunir esas cuatro capas con una regla sencilla: **dato oficial cuando existe, estimación cuando toca y ninguna conclusión que el dato no sostenga**.
 
-No es un pronóstico. Es una herramienta para leer lo que otros publican sin perder de vista la incertidumbre.
+No es un pronóstico. Es una herramienta para leer lo que otros publican sin perder de vista la incertidumbre. Las definiciones están en el [glosario del observatorio](https://elecciones29n.pruebapublica.com/glosario.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-glosario) y la ficha de cada provincia, con censo, escaños y resultado de 2023, en [territorio](https://elecciones29n.pruebapublica.com/territorio.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-territorio).
 
 ## Una media, no un pronóstico
 
