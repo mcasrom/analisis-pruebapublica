@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 620" width="360" height="620" role="img" aria-label="Cuatro puertas del filtro: propuesta, financiación, visibilidad y voto">
+  <rect width="360" height="620" rx="16" fill="#0f172a"/>
+  <text x="20" y="34" fill="#f97316" font-size="12" font-family="DejaVu Sans, sans-serif" font-weight="700" letter-spacing="1.5">LAS CUATRO PUERTAS DEL FILTRO</text>
+  <text x="20" y="56" fill="#94a3b8" font-size="10" font-family="DejaVu Sans, sans-serif">Cada una decide antes de la urna.</text>
+  <g font-family="DejaVu Sans, sans-serif">
+    <rect x="20" y="78" width="320" height="112" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="36" y="104" fill="#f97316" font-size="11" font-weight="700">01 · PROPUESTA</text>
+    <text x="36" y="130" fill="#f8fafc" font-size="18" font-weight="700">Quién propone</text>
+    <text x="36" y="154" fill="#94a3b8" font-size="11">El aparato que selecciona</text>
+    <text x="36" y="172" fill="#94a3b8" font-size="11">y fija el criterio.</text>
+
+    <rect x="20" y="202" width="320" height="112" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="36" y="228" fill="#f97316" font-size="11" font-weight="700">02 · FINANCIACIÓN</text>
+    <text x="36" y="254" fill="#f8fafc" font-size="18" font-weight="700">Quién compite</text>
+    <text x="36" y="278" fill="#94a3b8" font-size="11">El coste de presentarse</text>
+    <text x="36" y="296" fill="#94a3b8" font-size="11">y quién lo paga.</text>
+
+    <rect x="20" y="326" width="320" height="112" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="36" y="352" fill="#f97316" font-size="11" font-weight="700">03 · VISIBILIDAD</text>
+    <text x="36" y="378" fill="#f8fafc" font-size="18" font-weight="700">Quién se ve</text>
+    <text x="36" y="402" fill="#94a3b8" font-size="11">Medios, redes y</text>
+    <text x="36" y="420" fill="#94a3b8" font-size="11">plataformas.</text>
+
+    <rect x="20" y="450" width="320" height="112" rx="10" fill="#1e293b" stroke="#334155"/>
+    <text x="36" y="476" fill="#f97316" font-size="11" font-weight="700">04 · VOTO</text>
+    <text x="36" y="502" fill="#f8fafc" font-size="18" font-weight="700">Quién decide</text>
+    <text x="36" y="526" fill="#94a3b8" font-size="11">El electorado, con la</text>
+    <text x="36" y="544" fill="#94a3b8" font-size="11">papeleta que recibe.</text>
+  </g>
+  <path d="M20 582 H340" stroke="#334155" stroke-width="2"/>
+  <text x="20" y="604" fill="#94a3b8" font-size="11" font-family="DejaVu Sans, sans-serif">Quién entra · quién paga · quién se ve · quién decide</text>
+</svg>
