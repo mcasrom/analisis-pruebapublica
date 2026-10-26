@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" role="img" aria-label="Marchas del 24 de octubre en Francia: 400.000 según el Gobierno, 800.000 según los sindicatos, al menos 110.000 en París">
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .h { font-size: 18px; font-weight: 700; fill: #0f172a; }
+    .l { font-size: 14px; fill: #1e293b; }
+    .v { font-size: 14px; font-weight: 700; fill: #0f172a; }
+    .s { font-size: 12px; fill: #475569; }
+  </style>
+  <rect width="900" height="280" rx="12" fill="#f8fafc"/>
+  <text x="24" y="34" class="h">Un mismo sábado, dos cifras (Francia, 24 oct 2026)</text>
+
+  <text x="24" y="92" class="l">Recuento del Gobierno</text>
+  <rect x="230" y="72" width="300" height="28" rx="4" fill="#0ea5e9"/>
+  <text x="540" y="92" class="v">400.000</text>
+
+  <text x="24" y="148" class="l">Recuento de sindicatos</text>
+  <rect x="230" y="128" width="600" height="28" rx="4" fill="#f59e0b"/>
+  <text x="620" y="148" class="v" fill="#0f172a">800.000</text>
+  <text x="740" y="148" class="v"> </text>
+
+  <text x="24" y="204" class="l">Solo París (mínimo)</text>
+  <rect x="230" y="184" width="82" height="28" rx="4" fill="#8b5cf6"/>
+  <text x="322" y="204" class="v">≥110.000</text>
+
+  <text x="24" y="250" class="s">La diferencia es de 400.000 personas según quién cuente. Fuente: To Vima (25 oct 2026). Escala: 800.000 = barra completa.</text>
+</svg>

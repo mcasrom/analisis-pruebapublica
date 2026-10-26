@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Cronología de la ola de protestas juveniles de agosto de 2025 a octubre de 2026">
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .t { font-size: 13px; fill: #1e293b; }
+    .d { font-size: 13px; font-weight: 700; fill: #0f172a; }
+    .h { font-size: 18px; font-weight: 700; fill: #0f172a; }
+    .s { font-size: 12px; fill: #475569; }
+  </style>
+  <rect width="1000" height="380" rx="12" fill="#f8fafc"/>
+  <text x="24" y="34" class="h">La ola, de Katmandú a Barcelona (ago 2025 – oct 2026)</text>
+  <line x1="40" y1="190" x2="960" y2="190" stroke="#334155" stroke-width="3"/>
+
+  <!-- 1 -->
+  <circle cx="70" cy="190" r="8" fill="#0ea5e9"/>
+  <line x1="70" y1="182" x2="70" y2="140" stroke="#94a3b8"/>
+  <text x="70" y="80" class="d" text-anchor="middle">Ago–Sep 2025</text>
+  <text x="70" y="98" class="t" text-anchor="middle">Indonesia</text>
+  <text x="70" y="114" class="t" text-anchor="middle">Nepal · Madagascar</text>
+  <text x="70" y="130" class="s" text-anchor="middle">bandera One Piece</text>
+  <!-- 2 -->
+  <circle cx="170" cy="190" r="8" fill="#0ea5e9"/>
+  <line x1="170" y1="198" x2="170" y2="240" stroke="#94a3b8"/>
+  <text x="170" y="258" class="d" text-anchor="middle">Mar 2026</text>
+  <text x="170" y="276" class="t" text-anchor="middle">Carnegie: 120</text>
+  <text x="170" y="292" class="t" text-anchor="middle">protestas, 73 países</text>
+  <!-- 3 -->
+  <circle cx="275" cy="190" r="8" fill="#0ea5e9"/>
+  <line x1="275" y1="182" x2="275" y2="140" stroke="#94a3b8"/>
+  <text x="275" y="80" class="d" text-anchor="middle">May–Jul 2026</text>
+  <text x="275" y="98" class="t" text-anchor="middle">India: movimiento</text>
+  <text x="275" y="114" class="t" text-anchor="middle">«Cockroach»; dimite</text>
+  <text x="275" y="130" class="t" text-anchor="middle">el ministro (25 jul)</text>
+  <!-- 4 -->
+  <circle cx="380" cy="190" r="8" fill="#f59e0b"/>
+  <line x1="380" y1="198" x2="380" y2="240" stroke="#94a3b8"/>
+  <text x="380" y="258" class="d" text-anchor="middle">Mediados sep</text>
+  <text x="380" y="276" class="t" text-anchor="middle">Francia: estudiantes</text>
+  <text x="380" y="292" class="t" text-anchor="middle">de 15 a 18 años</text>
+  <!-- 5 -->
+  <circle cx="480" cy="190" r="8" fill="#f59e0b"/>
+  <line x1="480" y1="182" x2="480" y2="140" stroke="#94a3b8"/>
+  <text x="480" y="80" class="d" text-anchor="middle">7 oct</text>
+  <text x="480" y="98" class="t" text-anchor="middle">Roma ocupa un</text>
+  <text x="480" y="114" class="t" text-anchor="middle">instituto «como</text>
+  <text x="480" y="130" class="t" text-anchor="middle">en Francia»</text>
+  <!-- 6 -->
+  <circle cx="580" cy="190" r="8" fill="#f59e0b"/>
+  <line x1="580" y1="198" x2="580" y2="240" stroke="#94a3b8"/>
+  <text x="580" y="258" class="d" text-anchor="middle">17–18 oct</text>
+  <text x="580" y="276" class="t" text-anchor="middle">Milán: +200 detenidos</text>
+  <text x="580" y="292" class="t" text-anchor="middle">(≈80 % menores)</text>
+  <!-- 7 -->
+  <circle cx="680" cy="190" r="8" fill="#ef4444"/>
+  <line x1="680" y1="182" x2="680" y2="140" stroke="#94a3b8"/>
+  <text x="680" y="80" class="d" text-anchor="middle">18–19 oct</text>
+  <text x="680" y="98" class="t" text-anchor="middle">Nacen las cuentas</text>
+  <text x="680" y="114" class="t" text-anchor="middle">«Blocus» en TikTok</text>
+  <text x="680" y="130" class="s" text-anchor="middle">(España)</text>
+  <!-- 8 -->
+  <circle cx="790" cy="190" r="8" fill="#ef4444"/>
+  <line x1="790" y1="198" x2="790" y2="240" stroke="#94a3b8"/>
+  <text x="790" y="258" class="d" text-anchor="middle">24 oct</text>
+  <text x="790" y="276" class="t" text-anchor="middle">Barcelona: más de 100 detenidos</text>
+  <text x="790" y="292" class="t" text-anchor="middle">París: ≥110.000</text>
+  <!-- 9 -->
+  <circle cx="900" cy="190" r="8" fill="#22c55e"/>
+  <line x1="900" y1="182" x2="900" y2="140" stroke="#94a3b8"/>
+  <text x="900" y="80" class="d" text-anchor="middle">25 oct</text>
+  <text x="900" y="98" class="t" text-anchor="middle">Serbia: la lista</text>
+  <text x="900" y="114" class="t" text-anchor="middle">estudiantil gana</text>
+  <text x="900" y="130" class="s" text-anchor="middle">(To Vima)</text>
+
+  <circle cx="60" cy="342" r="6" fill="#0ea5e9"/><text x="74" y="346" class="s">Origen 2025–26</text>
+  <circle cx="200" cy="342" r="6" fill="#f59e0b"/><text x="214" y="346" class="s">Contagio europeo</text>
+  <circle cx="350" cy="342" r="6" fill="#ef4444"/><text x="364" y="346" class="s">Convocatorias en redes y disturbios</text>
+  <circle cx="600" cy="342" r="6" fill="#22c55e"/><text x="614" y="346" class="s">Salto electoral</text>
+  <text x="976" y="364" class="s" text-anchor="end">Fuentes: Carnegie, Britannica, To Vima, Infobae, Europa Press</text>
+</svg>
