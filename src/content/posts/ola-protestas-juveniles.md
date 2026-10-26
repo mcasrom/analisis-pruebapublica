@@ -164,3 +164,5 @@ Las tres pueden coexistir. Lo que no se puede hacer es elegir una por convenienc
 - [Verificación de vídeo (Maldita.es)](https://maldita.es/desinfo/20261005/este-video-muestra-las-protestas-estudiantiles-en-francia/)
 
 *Este análisis se apoya en fuentes públicas enlazadas. La atribución de responsabilidades exige pruebas que, a día de hoy, no están publicadas.*
+
+*Elaborado con asistencia de IA y revisión humana. Fuentes enlazadas en el texto. — @pruebapublica*
