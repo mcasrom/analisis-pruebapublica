@@ -7,6 +7,8 @@ author: "M. Castillo"
 assisted: "GenAI (documentación, contraste de fuentes y edición)"
 tags: ["protestas", "Gen Z", "movimientos sociales", "redes sociales", "desinformación", "atribución", "España", "elecciones 29N"]
 categoria: "análisis"
+serie: "Protestas juveniles"
+serie_numero: 1
 image: "/ola-protestas-juveniles-og.png"
 image_alt: "Tarjeta del análisis «La ola que cruza fronteras»: protestas juveniles, redes y atribución, 2025-26."
 draft: false

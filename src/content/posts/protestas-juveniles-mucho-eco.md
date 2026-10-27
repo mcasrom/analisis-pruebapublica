@@ -7,6 +7,8 @@ author: "M. Castillo"
 assisted: "GenAI (documentación, contraste de fuentes y edición)"
 tags: ["protestas", "Gen Z", "FIMI", "OSINT", "amplificación", "atribución", "metodología", "juventud"]
 categoria: "análisis"
+serie: "Protestas juveniles"
+serie_numero: 2
 image: "/protestas-juveniles-mucho-eco-og.png"
 image_alt: "Tarjeta del análisis «Mucho eco, sin coordinación confirmada»: 2.262 eventos, 0 sincronías y 5 candidatos de evidencia baja."
 draft: false
