@@ -16,6 +16,7 @@ const posts = defineCollection({
     serie: z.string().optional(),
     serie_numero: z.number().int().positive().optional(),
     draft: z.boolean().default(false),
+    no_social: z.boolean().default(false),
   }),
 });
 

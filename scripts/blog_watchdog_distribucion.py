@@ -73,6 +73,8 @@ def posts_recientes():
 
         if (f("draft") or "false").lower() == "true":
             continue
+        if (f("no_social") or "false").lower() == "true":
+            continue
         pub = f("pubDate")
         if not pub:
             continue
