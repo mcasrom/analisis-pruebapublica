@@ -1,6 +1,6 @@
 ---
-title: "Elecciones generales 2026: qué puede ver —y qué no— el Radar FIMI durante la campaña"
-description: "Presento el tema «España — Elecciones Generales 2026» del Radar FIMI: qué observa, qué no puede afirmar y con qué reglas lo usaré durante la campaña."
+title: "Elecciones 29N: qué puede ver (y qué no) el Radar FIMI"
+description: "El radar abre el tema electoral del 29N: qué observa, qué no puede afirmar sobre coordinación y con qué reglas cubrirá la campaña."
 pubDate: 2026-10-06
 author: "M. Castillo"
 assisted: "GenAI (consulta de la API pública y redacción asistida)"

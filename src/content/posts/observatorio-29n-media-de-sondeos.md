@@ -1,6 +1,6 @@
 ---
-title: "Qué es (y qué no) una media de sondeos: el observatorio del 29N"
-description: "He construido un observatorio que separa sondeos, censo, participación y territorio. Esto es lo que mide, lo que no y por qué la incertidumbre va en el dato."
+title: "Media de sondeos del 29N: qué mide el observatorio y qué no"
+description: "Media de sondeos del 29N: qué mide el observatorio, qué no y por qué la incertidumbre va en el dato."
 pubDate: 2026-10-18
 author: "M. Castillo"
 assisted: "GenAI (estructura y redacción); verificación personal de fuentes y cifras"

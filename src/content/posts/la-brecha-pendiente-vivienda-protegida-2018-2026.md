@@ -1,6 +1,6 @@
 ---
-title: "La brecha pendiente: vivienda protegida, alquiler social y resultados en España (2018–2026)"
-description: "El alquiler social en España ronda el 1,5–1,7 % frente al ~9 % de la UE-27. Medidas recientes y cómo medir lo que llega a estar disponible. 3/3."
+title: "Vivienda protegida y alquiler social: la brecha que España no cierra"
+description: "El alquiler social ronda el 1,5–1,7 % frente al 9 % de la UE-27. Qué prometen las medidas de 2018–2026 y cómo medir lo que llega a estar disponible."
 pubDate: 2026-10-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

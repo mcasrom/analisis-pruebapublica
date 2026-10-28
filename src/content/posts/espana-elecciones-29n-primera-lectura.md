@@ -88,6 +88,7 @@ El cruce con Maldita y Newtral suma **86 contrastes** en el tema (11 en banda al
 
 - [La media no es el resultado: cómo leer el rango y la robustez](/posts/29n-como-leer-media-robustez/)
 - [Las encuestas como poder](/posts/las-encuestas-como-poder/)
+- [Qué mide la media de sondeos del 29N](/posts/observatorio-29n-media-de-sondeos/)
 - [Toda la serie España 29-N](/temas/espana-29n/)
 
 Hasta el 29 de noviembre, el compromiso es el mismo: qué se observó, qué no se puede afirmar y dónde está la evidencia. Si no hay nada que contar, lo diré.

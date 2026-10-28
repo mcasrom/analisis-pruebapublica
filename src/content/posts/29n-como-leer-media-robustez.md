@@ -115,6 +115,7 @@ Los datos y el método están abiertos. Si una cifra no lleva fecha, número de 
 
 - [29-N, primera lectura: 2 días de captura y 2 grupos en banda alta](/posts/espana-elecciones-29n-primera-lectura/)
 - [Las encuestas como poder: quién mide la opinión pública](/posts/las-encuestas-como-poder/)
+- [Qué mide la media de sondeos del 29N](/posts/observatorio-29n-media-de-sondeos/)
 - [Toda la serie España 29-N](/temas/espana-29n/)
 
 ---

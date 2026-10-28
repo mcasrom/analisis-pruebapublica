@@ -95,6 +95,12 @@ El método es siempre el mismo: separar el dato verificable de la interpretació
 
 La geografía no vota, pero condiciona a quienes votan. Entender esa condición es el primer paso para leer el mundo con menos ruido y más criterio.
 
+## Para seguir leyendo
+
+- [Petróleo 2026: OPEP+, Ormuz y las rutas críticas](/posts/geopolitica-petroleo-2026/)
+- [Estrechos del mundo: Ormuz, Malaca y Suez](/posts/geopolitica-estrechos-2026/)
+- [Cables submarinos: la infraestructura invisible](/posts/geopolitica-cables-2026/)
+
 ---
 
 ### Fuentes principales

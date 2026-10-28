@@ -1,6 +1,6 @@
 ---
-title: "Geopolítica del petróleo 2026: OPEP+, Venezuela y la batalla por las rutas críticas"
-description: "De la decisión de la OPEP+ de septiembre de 2026 al control del estrecho de Ormuz y la reapertura de Venezuela: cómo se juega hoy el control del activo energético más disputado del mundo. Parte 2 de Geopolítica 101."
+title: "Petróleo 2026: OPEP+, Ormuz y la batalla por las rutas críticas"
+description: "De la OPEP+ al control de Ormuz y la reapertura de Venezuela: cómo se disputa hoy el activo energético más estratégico. Parte 2 de Geopolítica 101."
 pubDate: 2026-09-09
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"

@@ -1,6 +1,6 @@
 ---
-title: "La geopolítica de los estrechos: quién controla los cuellos de botella del mundo"
-description: "Ormuz, Malaca, Suez, Bab el-Mandeb, Bósforo, Panamá, Gibraltar: cómo unos pocos puntos del mapa concentran el tránsito marítimo del que dependen la energía y el comercio mundial. Capítulo complementario de Geopolítica 101."
+title: "Estrechos del mundo: quién controla Ormuz, Malaca y Suez"
+description: "Ormuz, Malaca, Suez, Bab el-Mandeb, Bósforo, Panamá y Gibraltar: los cuellos de botella por los que pasa la energía y el comercio mundial."
 pubDate: 2026-09-13
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
