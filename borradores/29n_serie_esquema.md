@@ -1,13 +1,14 @@
 # Serie «España 29-N» — esquema cerrado (opción B)
 
-**Decisión:** 2 posts + 3 notas. **Marco:** «El poder de medir (y de no medir)».
+**Decisión:** 2 posts + 3 notas + 1 guía de servicio. **Marco:** «El poder de medir (y de no medir)».
 **Regla:** el observatorio y el radar son **herramientas**, no el tema. Sin pronóstico, sin atribución.
 
 ## Calendario
 | Fecha | Pieza | Estado |
 |---|---|---|
-| jue 5-nov | **Post 1 · El poder de medir (y de no medir)** | redactado (borrador) |
-| lun 9-nov | **Post 2 · La incertidumbre y la forma** | esquema; redactar 3–5-nov con datos frescos |
+| mié 28-oct | **Pieza 3 · La media no es el resultado** | **publicada** · serie «España 29-N» #3 |
+| jue 5-nov | **Post 4 · El poder de medir (y de no medir)** | redactado (borrador) |
+| lun 9-nov | **Post 5 · La incertidumbre y la forma** | esquema; redactar 3–5-nov con datos frescos |
 | vie 13-nov | Nota · Qué se sostiene esta semana | plantilla |
 | vie 20-nov | Nota · Qué se sostiene esta semana | plantilla |
 | lun 23-nov | Nota · Blackout (24–28 nov) | plantilla |

@@ -1,22 +1,19 @@
 # Post 2 · «La incertidumbre y la forma» — brief de redacción
 
-**Serie:** España 29-N · **Publicación prevista:** lunes 9-nov-2026
+**Serie:** España 29-N · **Parte:** 5 · **Publicación prevista:** lunes 9-nov-2026
 **Estado:** brief; redactar entre el 3 y el 5-nov con datos frescos.
 **No publicar este fichero.**
+
+> **Solape resuelto:** la guía publicada el 28-oct ya cubre media, rango y robustez. Este texto empieza en la **forma de la conversación** (radar), no repite la guía.
 
 ## Tesis
 La media describe lo publicado, no pronostica el resultado. La forma de la conversación (sincronía, eco, amplificación) describe circulación, no verdad ni intención. El 29N se lee con ambas cosas y con sus límites.
 
 ## Estructura
-1. **Qué sostiene la media**
-   - Número de sondeos y casas; muestra declarada; fecha del último sondeo.
-   - Rango mínimo–máximo, IQR, media y mediana.
-   - Efecto de casa y sensibilidad sin CIS.
-2. **Qué no es**
-   - Rango ≠ intervalo de confianza.
-   - Media ≠ pronóstico.
-   - Una cifra ≠ intención de voto.
-3. **Qué se ve en el radar FIMI**
+1. **Lo que ya queda fijado**
+   - Enlace a la guía del 28-oct: media, rango, IQR y robustez.
+   - No repetir la explicación de la tabla; solo una frase de continuidad.
+2. **Qué se ve en el radar FIMI**
    - Sincronía entre cuentas, eco de prensa, amplificación sostenida.
    - Límites: señal ≠ atribución; banda alta ≠ campaña.
 4. **El caso 29N**

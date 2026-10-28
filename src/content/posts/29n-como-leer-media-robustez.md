@@ -7,6 +7,7 @@ assisted: "GenAI (consulta de datos, contraste y edición)"
 tags: ["29N", "sondeos", "robustez", "media", "incertidumbre", "España", "datos abiertos"]
 categoria: "análisis"
 serie: "España 29-N"
+serie_numero: 3
 draft: false
 no_social: false
 image: "/29n-como-leer-media-robustez-og.png"
