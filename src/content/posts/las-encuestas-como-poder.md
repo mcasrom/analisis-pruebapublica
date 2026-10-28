@@ -138,6 +138,10 @@ La encuesta mide una respuesta dentro de un diseño. El poder aparece también e
 - American Association for Public Opinion Research (AAPOR). [Disclosure Standards](https://aapor.org/standards-and-ethics/disclosure-standards/). Criterios de transparencia sobre muestra, fechas, preguntas, ponderación y limitaciones.
 - AAPOR. [Best Practices for Survey Research](https://aapor.org/standards-and-ethics/best-practices/). Recomendaciones sobre diseño, recogida, análisis e interpretación de encuestas.
 
+## Guía práctica
+
+Para aplicar estas preguntas a una tabla concreta, he preparado una guía de lectura de la media del 29N: [cómo leer el rango y la robustez](/posts/29n-como-leer-media-robustez/). La serie completa está en [España 29-N](/temas/espana-29n/).
+
 ## Nota sobre el proceso de elaboración
 
 Texto elaborado por M. Castillo con asistencia de GenAI para investigación, contraste de fuentes y redacción; las decisiones editoriales y la verificación final son mías.

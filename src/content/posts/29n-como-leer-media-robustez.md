@@ -111,6 +111,12 @@ Los datos y el método están abiertos. Si una cifra no lleva fecha, número de 
 - [Metodología](https://elecciones29n.pruebapublica.com/metodologia.html)
 - [Datos abiertos](https://elecciones29n.pruebapublica.com/data/latest.json)
 
+## Sigue leyendo
+
+- [29-N, primera lectura: 2 días de captura y 2 grupos en banda alta](/posts/espana-elecciones-29n-primera-lectura/)
+- [Las encuestas como poder: quién mide la opinión pública](/posts/las-encuestas-como-poder/)
+- [Toda la serie España 29-N](/temas/espana-29n/)
+
 ---
 
 *Elaborado con asistencia de IA y revisión humana. Fuentes y datos enlazados en el texto. — M. Castillo · @pruebapublica*

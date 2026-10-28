@@ -84,6 +84,12 @@ El cruce con Maldita y Newtral suma **86 contrastes** en el tema (11 en banda al
 - Clusters: `/api/v1/tema/espana_elecciones` · Contrastes: `/datos/bulos.json`
 - Reglas del juego: [qué puede ver —y qué no— el radar en campaña](/posts/elecciones-generales-2026-radar-fimi/)
 
+## Sigue leyendo
+
+- [La media no es el resultado: cómo leer el rango y la robustez](/posts/29n-como-leer-media-robustez/)
+- [Las encuestas como poder](/posts/las-encuestas-como-poder/)
+- [Toda la serie España 29-N](/temas/espana-29n/)
+
 Hasta el 29 de noviembre, el compromiso es el mismo: qué se observó, qué no se puede afirmar y dónde está la evidencia. Si no hay nada que contar, lo diré.
 
 ---
