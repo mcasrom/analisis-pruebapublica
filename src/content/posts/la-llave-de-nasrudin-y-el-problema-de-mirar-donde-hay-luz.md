@@ -22,7 +22,7 @@ draft: false
 
 # La llave de Nasrudín y el problema de mirar donde hay luz
 
-> **Método.** Esta pieza continúa la estela de [El caballo que aprendió a cantar](/posts/el-caballo-que-aprendio-a-cantar/) —el otro cuento de Nasrudín que usamos para pensar el aplazamiento de los conflictos— y enlaza directamente con lo que publicamos sobre el observatorio: [Qué detecta hoy el Observatorio FIMI](/posts/que-detecta-hoy-el-observatorio-fimi/), [Qué vigila el radar FIMI](/posts/fimi-radar-que-vigila/) y [Frontera Sur: lo que un radar ve (y lo que no)](/posts/frontera-sur-2026/).
+> **Método.** Esta pieza continúa la estela de [El caballo que aprendió a cantar](/posts/el-caballo-que-aprendio-a-cantar/) —el otro cuento de Nasrudín que he usado para pensar el aplazamiento de los conflictos— y enlaza directamente con lo que he publicado sobre el observatorio: [Qué detecta hoy el Observatorio FIMI](/posts/que-detecta-hoy-el-observatorio-fimi/), [Qué vigila el radar FIMI](/posts/fimi-radar-que-vigila/) y [Frontera Sur: lo que un radar ve (y lo que no)](/posts/frontera-sur-2026/).
 
 Hay una historia atribuida a Nasrudín que merece ser recuperada cada vez que hablamos de análisis, inteligencia o información.
 
@@ -54,7 +54,7 @@ Y esa diferencia, aparentemente pequeña, tiene enormes consecuencias para el an
 
 ## La farola no es el problema
 
-En los últimos años hemos desarrollado una capacidad extraordinaria para recopilar información.
+En los últimos años he desarrollado una capacidad extraordinaria para recopilar información.
 
 Tenemos satélites comerciales, registros públicos, redes sociales, bases de datos, estadísticas, publicaciones académicas, documentos gubernamentales, medios digitales, repositorios de inteligencia de fuentes abiertas y herramientas capaces de procesar millones de datos.
 
@@ -108,7 +108,7 @@ La visibilidad y la importancia no son la misma cosa.
 
 Esto no es exclusivamente un problema tecnológico. Forma parte de la propia naturaleza del análisis geopolítico.
 
-Durante décadas hemos construido explicaciones a partir de documentos diplomáticos, declaraciones gubernamentales, estadísticas económicas, movimientos militares observables, tratados, discursos y medios de comunicación. Son fuentes indispensables. Pero son también fuentes condicionadas.
+Durante décadas he construido explicaciones a partir de documentos diplomáticos, declaraciones gubernamentales, estadísticas económicas, movimientos militares observables, tratados, discursos y medios de comunicación. Son fuentes indispensables. Pero son también fuentes condicionadas.
 
 Un Gobierno comunica aquello que decide comunicar. Un diplomático negocia aquello que puede negociar públicamente y reserva otras cuestiones. Un ejército muestra determinadas capacidades y mantiene otras bajo secreto. Una empresa publica determinadas cifras y protege otras. Un medio selecciona determinadas noticias. Un investigador encuentra determinados documentos.
 

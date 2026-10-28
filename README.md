@@ -116,10 +116,9 @@ pm2 start ecosystem.config.cjs --env production
   `categoria: "análisis"` y `image:` de portada.
 - Cada post cierra con **nota sobre el proceso de elaboración** y firma
   `@pruebapublica`; los ensayos de opinión se marcan explícitamente como tales.
-- `draft` **no está declarado** en `src/content.config.ts`, por lo que Astro lo
-  ignora (no filtra). Por consistencia, todos los posts publicados usan
-  `draft: false`; si algún día se quiere ocultar posts de verdad, hay que añadir
-  el campo al esquema y filtrar en index/[slug]/tags/categorias/rss/sitemap.
+- `draft` **está declarado** en `src/content.config.ts` y se filtra en los listados,
+  `rss.xml` y el sitemap. Los borradores viven en `borradores/`, fuera de
+  `src/content/posts/`; si se usa `draft: true`, no se publica.
 
 ## Auditoría editorial (`scripts/blog-audit.py`)
 Script de solo lectura que puntúa cada artículo sobre **100** y escribe un reporte
@@ -191,11 +190,14 @@ de partes, **limitado a 6** con enlace al eje para el resto.
   empates: tres posts el 10-sep y dos el 13-sep). Sale de la lista que declara el
   propio post 8: «comenzó con *¿Qué es la geopolítica?* y continúa con petróleo,
   cables submarinos, el Ártico, la IA, el espacio y PISA».
-- **Fábulas del análisis** (3) — 1) *El caballo que aprendió a cantar*, 2) *La llave
+- **Fábulas del análisis** (7) — 1) *El caballo que aprendió a cantar*, 2) *La llave
   de Nasrudín*, 3) *Los ciegos y el elefante*. Al formalizar la serie, el caballo
   salió de Geopolítica 101 (conserva el tag `geopolítica 101`). Series 1-2-3 por
-  orden de publicación.
-- **Ceuta 2026** (6) · **Dereliction of Duty** (5).
+  orden de publicación; después se añadieron las siguientes.
+- **Método** (2) — *Las encuestas como poder* (1) y *Zona gris, guerra híbrida e
+  injerencia* (2). La segunda pieza estaba en `Conceptos`; se fusionó para no
+  dejar una serie de una sola entrada.
+- **Ceuta 2026** (7) · **Dereliction of Duty** (5).
 - **Barra lateral** (`src/components/Sidebar.astro`): la lista «Temas» muestra el
   top-8 de etiquetas por uso **más** una lista `FIJOS` siempre visible (hoy
   `['fábulas']`), para que una serie con pocos posts no quede enterrada.
@@ -220,6 +222,9 @@ recuento en dos y crea páginas `/tags/` fantasma.
   Crecimiento bajo.
 - Documento central del ecosistema con todas las políticas: ver `RETENCION.md`
   en `mcasrom/nearme-osint`.
+## Medición de audiencia
+Guía completa: [`docs/MEDICION.md`](docs/MEDICION.md). Separa lectores humanos del servidor, clics UTM y GSC; no se suman.
+
 ## Newsletter
 - Alta con **doble opt-in**: `POST /api/subscribe` (email) → `GET /api/confirm?id=` confirma; `GET /api/unsubscribe?id=` da de baja. Tabla `subscribers` en `data/analisis.db`.
 - **Funnel**: botón **«Suscribirse»** en la cabecera + página **`/suscribirse`** + formulario (`NewsletterForm`, variantes `inline`/`card`) en cada post y en la portada. Copy con apoyo al proyecto.

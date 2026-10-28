@@ -21,8 +21,8 @@ faq:
     a: "Porque identificar el origen de un mensaje no basta para atribuirlo. Hacen falta vínculos operativos, financiación, infraestructura compartida o documentación. Sin eso, la atribución sería una hipótesis presentada como conclusión."
   - q: "¿Entonces el radar no sirve para nada?"
     a: "Sirve para lo contrario: para decir qué se sabe, qué se infiere y qué falta. Prioriza señales, descarta explicaciones benignas y hace revisables sus límites. La utilidad está en la trazabilidad, no en la espectacularidad."
-serie: "Conceptos"
-serie_numero: 1
+serie: "Método"
+serie_numero: 2
 draft: false
 ---
 

@@ -45,7 +45,7 @@ En paralelo, en el mundo anglosajón, el británico Halford Mackinder formuló e
 
 Casi al mismo tiempo, el almirante estadounidense Alfred Thayer Mahan defendía la tesis contraria: el poder naval y el control de las rutas marítimas, no el territorio continental, era la clave del dominio global. La rivalidad teórica entre Mackinder (poder terrestre) y Mahan (poder naval) sigue siendo, más de un siglo después, un marco útil para entender por qué China invierte en su marina y en rutas terrestres eurasiáticas a la vez, o por qué Estados Unidos mantiene su red de bases navales en cada océano.
 
-Esta tensión entre poder terrestre y poder naval, filtrada por la geografía, es exactamente la lente que aplicamos cuando analizamos cómo una gran potencia trata a su propio hemisferio: de la Doctrina Monroe original al llamado "Corolario Trump" no cambia la geografía, cambia la lectura política que se hace de ella. **[Lo vimos en el análisis de Donroe](https://analisis.pruebapublica.com/posts/donroe-la-nueva-version-de-la-doctrina-monroe/)**.
+Esta tensión entre poder terrestre y poder naval, filtrada por la geografía, es exactamente la lente que aplico cuando analizo cómo una gran potencia trata a su propio hemisferio: de la Doctrina Monroe original al llamado "Corolario Trump" no cambia la geografía, cambia la lectura política que se hace de ella. **[Lo he analizado en de Donroe](https://analisis.pruebapublica.com/posts/donroe-la-nueva-version-de-la-doctrina-monroe/)**.
 
 ## 3. La Guerra Fría y el eclipse aparente de la geografía
 
@@ -65,7 +65,7 @@ Tres factores explican este regreso:
 
 **3. El ascenso de potencias no occidentales.** China, India, Turquía o los estados del Golfo no comparten necesariamente el marco de análisis liberal-institucional con el que Occidente narró el orden posterior a 1989. Para entender sus movimientos —la Franja y la Ruta china, la política de "profundidad estratégica" turca— la lente geográfica resulta más útil que la puramente ideológica.
 
-Aquí la lente deja de ser académica y se vuelve presupuestaria. Cuando España decide si reforzar el flanco sur o el flanco este, el mapa y los recursos hacen la primera mitad del trabajo: no por casualidad el último gran salto del gasto en defensa español se lee mejor con un mapa de la OTAN delante que con un tuit. **[Lo analizamos en el salto estratégico del gasto en defensa](https://analisis.pruebapublica.com/posts/espana-gasto-defensa-1977-2025-salto-estrategico/)**.
+Aquí la lente deja de ser académica y se vuelve presupuestaria. Cuando España decide si reforzar el flanco sur o el flanco este, el mapa y los recursos hacen la primera mitad del trabajo: no por casualidad el último gran salto del gasto en defensa español se lee mejor con un mapa de la OTAN delante que con un tuit. **[Lo he analizado en el salto estratégico del gasto en defensa](https://analisis.pruebapublica.com/posts/espana-gasto-defensa-1977-2025-salto-estrategico/)**.
 
 ## 5. Geopolítica clásica frente a geopolítica crítica
 
@@ -83,7 +83,7 @@ La geografía no explica todo. Sería un error caer en el determinismo geográfi
 
 ## 7. Lo que encontrarás a partir de aquí
 
-En este primer post hemos puesto el método sobre la mesa. A partir de ahora, las siguientes entregas de la serie **Geopolítica 101** aplicarán cada pieza a un caso concreto:
+En este primer post he puesto el método sobre la mesa. A partir de ahora, las siguientes entregas de la serie **Geopolítica 101** aplicarán cada pieza a un caso concreto:
 
 - **Las grandes teorías**: Mackinder frente a Mahan, y cómo se leen hoy las rutas marítimas y terrestres en competencia.
 - **Recursos e infraestructura**: minerales críticos, cables submarinos, energía y agua como nuevo tablero.

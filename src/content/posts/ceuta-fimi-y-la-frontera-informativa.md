@@ -119,7 +119,7 @@ Lo significativo es su **persistencia y transformación en marcos interpretativo
 
 ## 5. La frontera sur no está aislada
 
-La crisis de Ceuta no permanece confinada al debate migratorio: buena parte de la lógica de este ecosistema informativo entronca con los patrones que ya analizamos en [«Geopolítica de las migraciones»](https://analisis.pruebapublica.com/posts/geopolitica-migraciones-2026/) y [«Geopolítica de las fronteras»](https://analisis.pruebapublica.com/posts/geopolitica-fronteras-2026/).
+La crisis de Ceuta no permanece confinada al debate migratorio: buena parte de la lógica de este ecosistema informativo entronca con los patrones que ya he analizado en [«Geopolítica de las migraciones»](https://analisis.pruebapublica.com/posts/geopolitica-migraciones-2026/) y [«Geopolítica de las fronteras»](https://analisis.pruebapublica.com/posts/geopolitica-fronteras-2026/).
 
 El catálogo muestra conexiones con narrativas sobre Israel, Irán, Gaza, Estados Unidos, Marruecos y política española.
 
@@ -279,7 +279,7 @@ Porque en inteligencia, especialmente en inteligencia de fuentes abiertas, recon
 
 **Notas y referencia**
 
-[1] [Radar FIMI](https://fimi.viajeinteligencia.com/) — dashboard del sistema con los datos citados; para el marco de lectura, ver también nuestro post [«FIMI Radar: qué vigila un radar de desinformación»](https://analisis.pruebapublica.com/posts/fimi-radar-que-vigila/).
+[1] [Radar FIMI](https://fimi.viajeinteligencia.com/) — dashboard del sistema con los datos citados; para el marco de lectura, ver también este post [«FIMI Radar: qué vigila un radar de desinformación»](https://analisis.pruebapublica.com/posts/fimi-radar-que-vigila/).
 
 [2] [Associated Press](https://apnews.com) — cobertura de la documentación desclasificada española y de la alerta del CNI del 29 de julio.
 

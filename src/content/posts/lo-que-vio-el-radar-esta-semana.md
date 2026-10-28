@@ -25,7 +25,7 @@ faq:
 
 # Lo que vio el radar esta semana
 
-Cada semana publicamos un resumen de lo que el **Observatorio de señales de coordinación y amplificación** ha registrado. No de lo que promete encontrar: de lo que hay dentro de sus datos. Es un ejercicio incómodo a propósito, porque la cifra que más llamaría la atención —«cuántos grupos sospechosos»— es precisamente la que casi nunca tiene una respuesta limpia. Esta semana la tiene, y es pequeña.
+Cada semana publico un resumen de lo que el **Observatorio de señales de coordinación y amplificación** ha registrado. No de lo que promete encontrar: de lo que hay dentro de sus datos. Es un ejercicio incómodo a propósito, porque la cifra que más llamaría la atención —«cuántos grupos sospechosos»— es precisamente la que casi nunca tiene una respuesta limpia. Esta semana la tiene, y es pequeña.
 
 Corte de datos: **27 de septiembre de 2026, 06:51 UTC**. Se puede reproducir contra la API pública, cuya dirección y permalinks figuran al final.
 
@@ -54,7 +54,7 @@ Esa es la razón por la que el titular no es «cuántos grupos hay», sino «cu�
 
 ## La señal específica
 
-La explicación que interesa es **«sincronía entre cuentas distintas»**: varias cuentas diferentes publican el mismo contenido en una ventana corta, y ninguna domina el grupo. Esta semana `cross_account_synchrony` aparece **respaldada en tres grupos**, pero en dos de ellos compite con media docena de explicaciones benignas (eco de prensa, eco de una pieza, automatización no maliciosa…), así que no los presentamos como señales. El recuento cambia entre ciclos porque los grupos se recalculan cada 6 h y el contenido envejece: el 26 de septiembre era una sola sincronía; hoy está respaldada en tres, y solo una destaca.
+La explicación que interesa es **«sincronía entre cuentas distintas»**: varias cuentas diferentes publican el mismo contenido en una ventana corta, y ninguna domina el grupo. Esta semana `cross_account_synchrony` aparece **respaldada en tres grupos**, pero en dos de ellos compite con media docena de explicaciones benignas (eco de prensa, eco de una pieza, automatización no maliciosa…), así que no los presento como señales. El recuento cambia entre ciclos porque los grupos se recalculan cada 6 h y el contenido envejece: el 26 de septiembre era una sola sincronía; hoy está respaldada en tres, y solo una destaca.
 
 - **`elecciones_cluster_011`** (banda alta, 61,9). **Nueve cuentas distintas** publicaron, en una ventana de **0,2 horas (unos 12 minutos)**, el mismo texto sobre la orden del INE mexicano a Alejandro Moreno y al PRI. La cuenta dominante aportaba solo el **11 %** del grupo y la similitud de contenido era del **100 %**. No es un feed ni una agencia. Aun así, la **automatización no maliciosa también figura como explicación respaldada**: es un patrón **compatible con coordinación**, no una coordinación demostrada. [Ver el grupo en el observatorio](https://fimi.viajeinteligencia.com/c/elecciones_cluster_009@1790124260).
 - Con evidencia más débil (solo plausible) quedan `elecciones_cluster_023` (63,5), `elecciones_cluster_017` (54,5) y `frontera_sur_cluster_014` (53,6); en los tres, la explicación principal es benigna o queda sin resolver, así que no se cuentan como señal.

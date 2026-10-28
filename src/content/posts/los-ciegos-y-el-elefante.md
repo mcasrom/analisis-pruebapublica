@@ -17,7 +17,7 @@ faq:
   - q: "¿Por qué un dato verdadero puede llevar a una conclusión falsa?"
     a: "Porque una narrativa puede construirse conectando hechos reales. No necesita inventarlo todo: basta seleccionar datos auténticos y presentarlos como explicación total. El problema deja de ser «¿este dato es verdad?» y pasa a ser «¿qué demuestra este dato?»."
   - q: "¿Qué significa preguntarse «qué parte del animal estoy tocando»?"
-    a: "Es una disciplina analítica: situar qué porción del fenómeno representan nuestros datos y limitar a esa porción lo que afirmamos. La incertidumbre no impide conocer; obliga a expresar el grado de certeza con el que hablamos."
+    a: "Es una disciplina analítica: situar qué porción del fenómeno representan los datos y limitar a esa porción lo que afirmamos. La incertidumbre no impide conocer; obliga a expresar el grado de certeza con el que hablamos."
 ---
 
 # Los ciegos y el elefante: cuando todos tienen razón y nadie ve el conjunto
@@ -184,11 +184,11 @@ Y finalmente aparece la tentación de pensar que aquello que encaja explica el c
 
 Pero puede existir otra parte del fenómeno que no estamos observando.
 
-- Una causa que todavía no hemos identificado.
+- Una causa que todavía no se ha identificado.
 - Un actor que no deja huella pública.
 - Una variable que no estamos midiendo.
 - Una relación que se desarrolla fuera de las fuentes disponibles.
-- Una población que no está representada en nuestra muestra.
+- Una población que no está representada en la muestra.
 - Una conversación que nunca aparece en internet.
 
 La ausencia de esa información no invalida necesariamente lo que sí sabemos.
@@ -294,7 +294,7 @@ Y, sobre todo, en reconocer cuándo todavía no lo sabe.
 
 Pero hay una segunda trampa.
 
-Aceptar que nuestra visión es parcial no significa que todas las interpretaciones tengan el mismo valor.
+Aceptar que una visión parcial no significa que todas las interpretaciones tengan el mismo valor.
 
 Que solamente podamos tocar una parte del elefante no significa que no podamos conocer nada sobre él.
 
@@ -305,7 +305,7 @@ Que solamente podamos tocar una parte del elefante no significa que no podamos c
 - Encontrar contradicciones.
 - Descartar hipótesis.
 - Añadir nuevas perspectivas.
-- Revisar nuestras conclusiones.
+- Revisar las conclusiones.
 
 El conocimiento no desaparece porque sea incompleto.
 
@@ -331,7 +331,7 @@ La cuarta, a los límites.
 
 La quinta, a la posibilidad de equivocarnos.
 
-Cuando las cinco se mezclan, el elefante desaparece y solamente queda nuestra interpretación de él.
+Cuando las cinco se mezclan, el elefante desaparece y solamente queda la interpretación de él.
 
 ## Volver al elefante
 
@@ -351,7 +351,7 @@ Siempre existirán información reservada, conversaciones privadas, decisiones q
 
 Eso no significa que debamos dejar de analizar.
 
-Significa que debemos aprender a colocar límites alrededor de nuestras propias conclusiones.
+Significa que debemos aprender a colocar límites alrededor de las propias conclusiones.
 
 La farola nos recordaba que debemos preguntar:
 
@@ -373,12 +373,12 @@ Todos estamos diciendo la verdad.
 
 Todos tenemos pruebas.
 
-Todos podemos señalar aquello que hemos visto.
+Todos podemos señalar aquello que se ha visto.
 
 Y, sin embargo, nadie está viendo el elefante.
 
 ---
 
-*Tercera pieza de la serie de fábulas del análisis, continuación de* [*El caballo que aprendió a cantar*](https://analisis.pruebapublica.com/posts/el-caballo-que-aprendio-a-cantar/) *y* [*La llave de Nasrudín*](https://analisis.pruebapublica.com/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/)*. La secuencia avanza un paso: aplazar el problema → saber que nuestra observación tiene límites → comprender que incluso una observación verdadera puede ser solo una parte del fenómeno.*
+*Tercera pieza de la serie de fábulas del análisis, continuación de* [*El caballo que aprendió a cantar*](https://analisis.pruebapublica.com/posts/el-caballo-que-aprendio-a-cantar/) *y* [*La llave de Nasrudín*](https://analisis.pruebapublica.com/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/)*. La secuencia avanza un paso: aplazar el problema → saber que la observación tiene límites → comprender que incluso una observación verdadera puede ser solo una parte del fenómeno.*
 
 *Elaborado con asistencia de IA y revisión humana. Fuentes enlazadas en el texto. — @pruebapublica*

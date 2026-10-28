@@ -10,7 +10,7 @@ image: "/geopolitica-migraciones-og.jpg"
 draft: false
 ---
 
-> **Serie Geopolítica de las fronteras.** Esta nueva serie mira las fronteras como instrumento de poder. Esta primera entrega arranca con el elemento que las mueve —los flujos humanos— para terminar, al final, en el caso que ya hemos documentado en este blog: la crisis de Ceuta de 2026. La segunda entrega profundizará en las fronteras mismas: cómo se dibujan, por qué se cierran y qué significa «guardián de frontera».
+> **Serie Geopolítica de las fronteras.** Esta nueva serie mira las fronteras como instrumento de poder. Esta primera entrega arranca con el elemento que las mueve —los flujos humanos— para terminar, al final, en el caso que ya he documentado en este blog: la crisis de Ceuta de 2026. La segunda entrega profundizará en las fronteras mismas: cómo se dibujan, por qué se cierran y qué significa «guardián de frontera».
 
 Las migraciones no son solo un fenómeno social o humanitario: son un motor geopolítico que ha creado y destruido imperios, dibujado fronteras y reconfigurado el poder entre Estados. Desde las grandes migraciones que aceleraron el final de Roma hasta la crisis de Ceuta de 2026, los flujos de población siguen siendo una de las variables más potentes para entender quién manda en el mapa — y por qué algunas fronteras se desbordan precisamente cuando conviene a quien decide no contenerlas.
 
@@ -71,7 +71,7 @@ Tras la descolonización, la migración se convierte en un eje estructural de la
 
 ## 3. Ceuta 2026: la migración como palanca (el caso documentado en este blog)
 
-La crisis migratoria de Ceuta de julio de 2026 encaja en este patrón histórico: **[ya la hemos analizado en este blog](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)** en su dimensión bilateral, con la cronología completa que va de la noche del 30 de julio a la ofensiva diplomática marroquí de agosto. Aquí interesa encajarla en el arco histórico de esta serie.
+La crisis migratoria de Ceuta de julio de 2026 encaja en este patrón histórico: **[ya la he analizado en este blog](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)** en su dimensión bilateral, con la cronología completa que va de la noche del 30 de julio a la ofensiva diplomática marroquí de agosto. Aquí interesa encajarla en el arco histórico de esta serie.
 
 - **Días 30 y 31 de julio de 2026**: entrada masiva a nado por El Tarajal y Benzú. El [Ministerio del Interior](https://www.interior.gob.es/) elevó la cifra oficial hasta **72.000 entradas irregulares** en apenas 24–48 horas, con primeras estimaciones de 40.000–49.000, y confirmó **al menos 86 muertos** (75 en aguas españolas + 11 reconocidas por Marruecos). Es el peor balance registrado nunca en la frontera hispano-marroquí, muy superior a la crisis de 2021 (6.000–9.000 entradas, dos muertos).
 - **Informe del CENIF a la Audiencia Nacional**: el Centro Nacional de Inmigración y Fronteras de la Policía Nacional remitió a la magistrada María Tardón un informe de 55 páginas —al que tuvo acceso El País el 2 de septiembre— que habla de «guiado activo» de la masa, «permisividad» de los agentes marroquíes y una «finalidad migratoria» que habría operado como «cobertura formal» para «dirigir un flujo masivo de personas a Ceuta».

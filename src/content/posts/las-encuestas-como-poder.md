@@ -125,7 +125,7 @@ Si falta información esencial, la conclusión no tiene por qué ser que la encu
 
 Las encuestas son herramientas útiles para conocer actitudes, preocupaciones y preferencias. No son fotografías perfectas de una sociedad, ni oráculos electorales. Sus resultados dependen de decisiones metodológicas y, una vez publicados, pasan por procesos de selección, titularización e interpretación.
 
-Una lectura crítica no consiste en desconfiar automáticamente de todas las cifras. Consiste en pedir que las afirmaciones sean proporcionales a la evidencia, distinguir medición de predicción y reconocer la incertidumbre cuando existe. También implica aplicar el mismo estándar a estudios que confirman nuestras expectativas y a los que las contradicen.
+Una lectura crítica no consiste en desconfiar automáticamente de todas las cifras. Consiste en pedir que las afirmaciones sean proporcionales a la evidencia, distinguir medición de predicción y reconocer la incertidumbre cuando existe. También implica aplicar el mismo estándar a estudios que confirman las expectativas y a los que las contradicen.
 
 La pregunta democrática no es solo quién aparece por delante en una encuesta. Es quién ha sido preguntado, cómo se ha construido la cifra, qué parte de la información llega al público y qué conclusiones se pretenden legitimar con ella.
 
