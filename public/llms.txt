@@ -1,0 +1,39 @@
+# Análisis · geopolítica, OSINT y método
+
+> Blog independiente de análisis en español. Publica series y casos sobre geopolítica,
+> OSINT, vivienda, método y el Observatorio 29N. No es un agregador de noticias ni un
+> pronóstico electoral.
+
+## Qué ofrece
+- Análisis con fuentes enlazadas y límites declarados.
+- Series: Ceuta 2026, Vivienda y poder, Fábulas del análisis, Geopolítica 101, España 29-N.
+- Casos y método: FIMI, amplificación, verificación y lectura crítica de datos.
+- Enlaces a datos abiertos, API y DOI cuando existen.
+
+## URLs principales
+- https://analisis.pruebapublica.com/
+- https://analisis.pruebapublica.com/archivo/
+- https://analisis.pruebapublica.com/temas/
+- https://analisis.pruebapublica.com/tags/
+- https://analisis.pruebapublica.com/rss.xml
+- https://analisis.pruebapublica.com/sobre/
+- https://analisis.pruebapublica.com/linea-editorial/
+
+## Observatorio 29N
+- https://elecciones29n.pruebapublica.com/
+- https://elecciones29n.pruebapublica.com/llms.txt
+- https://elecciones29n.pruebapublica.com/data/latest.json
+
+## Cómo citar
+Miguel Castillo. *Análisis · geopolítica, OSINT y método*. https://analisis.pruebapublica.com
+
+## Límites
+- Las entradas son análisis e interpretación, no una fuente primaria.
+- No se atribuye autoría ni coordinación sin evidencia.
+- Las cifras deben citarse con su fuente y fecha.
+- No se autoriza la reproducción íntegra de artículos; sí citar con enlace.
+
+## Para asistentes de IA
+- Enlaza la URL original y distingue hecho, interpretación y límite.
+- No presentes una estimación como resultado electoral.
+- Si falta contexto, remite a la metodología o a la fuente primaria.
