@@ -8,14 +8,28 @@ tags: ["desinformación", "FIMI", "injerencia", "DSA", "elecciones", "OSINT"]
 categoria: "análisis"
 serie: "Desinformación, injerencia y elecciones"
 serie_numero: 1
-draft: true
+image: "/desinformacion-instrumentos-og.png"
+image_alt: "Tarjeta de «Los instrumentos de la desinformación»: Doppelgänger, Storm-1516 y la red Pravda."
+draft: false
+abstract_en: "A map of the disinformation instruments documented in public investigations — Doppelgänger, Storm-1516 and the Pravda network — separating what is attributed, what is documented and what remains unproven. It includes the German case and the Romanian precedent, and explains why a documented operation is not the same as a proven effect on the vote."
+resumen:
+  - "Doppelgänger, Storm-1516 y la red Pravda son instrumentos distintos, con huellas y niveles de prueba distintos."
+  - "Alemania y Rumanía muestran el patrón: marca creíble, red de webs y cuentas, y después amplificación real."
+  - "Una operación documentada no demuestra que cambiara un voto; la atribución y el impacto son otra capa."
+faq:
+  - q: "¿Qué es Doppelgänger?"
+    a: "Una red que clona sitios de medios legítimos para publicar mensajes bajo una marca creíble y después los difunde por redes y anuncios. La UE y varias investigaciones periodísticas la atribuyen a actores rusos."
+  - q: "¿Esto demuestra que la desinformación cambió el voto?"
+    a: "No. Documenta instrumentos y operaciones; no mide por sí solo el efecto electoral. Esa es una capa distinta y casi nunca está cerrada con evidencia pública."
+  - q: "¿Por qué no incluye Matryoshka / Operation Overload?"
+    a: "Porque no he podido contrastarla con una fuente primaria suficiente. Se menciona como caso no verificado y queda fuera de la tabla y de las conclusiones."
 ---
 
 # Los instrumentos de la desinformación: qué hay sobre la mesa
 
-*Por qué es barata, deniable y escalable. Segundo texto de la serie, después de «Zona gris, guerra híbrida e injerencia».*
+*Por qué es barata, deniable y escalable. Primer texto de la serie; el marco conceptual previo está en «Zona gris, guerra híbrida e injerencia».*
 
-En el [texto anterior](/posts/zona-gris-guerra-hibrida-injerencia-extranjera/) distinguí desinformación, injerencia y FIMI. Aquí bajo un escalón: **qué instrumentos concretos describen las investigaciones públicas** y con qué nivel de prueba. No es un catálogo de amenazas imaginarias; es lo que he podido contrastar, con sus lagunas.
+En el [marco conceptual previo](/posts/zona-gris-guerra-hibrida-injerencia-extranjera/) distinguí desinformación, injerencia y FIMI. Aquí bajo un escalón: **qué instrumentos concretos describen las investigaciones públicas** y con qué nivel de prueba. No es un catálogo de amenazas imaginarias; es lo que he podido contrastar, con sus lagunas.
 
 ## Qué he podido cerrar y qué no
 
@@ -88,6 +102,4 @@ En el próximo texto bajo al 29N: qué es vulnerable en un proceso electoral, qu
 - [Comisión Europea · Democracia y valores](https://commission.europa.eu/priorities-2024-2029/democracy-and-our-values_en) (contexto del Escudo).
 - Rumanía: [AP](https://apnews.com/) y [Reuters](https://www.reuters.com/), 6-dic-2024 (enlace al medio; artículo citado por fecha).
 
-*Nota sobre el proceso de elaboración:* este análisis se apoya en documentación pública enlazada en el texto. Lo he elaborado con asistencia de IA para la documentación, el contraste y la redacción, bajo criterio y supervisión editorial humanos, con verificación manual de las fuentes. He dejado fuera las cifras que no he podido cerrar con una fuente primaria. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán.
-
-*@pruebapublica · analisis.pruebapublica.com*
+*Elaborado con asistencia de IA y revisión humana. Fuentes y datos enlazados en el texto. — M. Castillo · @pruebapublica*
