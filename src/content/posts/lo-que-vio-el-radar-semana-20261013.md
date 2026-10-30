@@ -22,6 +22,9 @@ faq:
   - q: "¿Puedo verificar estas cifras?"
     a: "Sí. Todas salen de la API pública read-only y son reproducibles; el método, los límites y las bandas están publicados. Los identificadores de grupo no son estables entre ciclos: para seguir un caso se usa el enlace /c/… (linaje)."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Lo que vio el radar esta semana
 
@@ -101,8 +104,8 @@ Cobertura parcial: **sin X, TikTok, Instagram, Facebook, YouTube, WhatsApp ni Te
 
 ## Cómo reproducirlo
 
-- API pública: `https://fimi.viajeinteligencia.com/api/v1` (read-only, sin clave).
-- Método y límites: [metodología](https://fimi.viajeinteligencia.com/metodo.html).
-- Caso abierto: [Ceuta / Frontera Sur](https://fimi.viajeinteligencia.com/casos/ceuta/).
+- API pública: `FIMI (retirado) (read-only, sin clave).
+- Método y límites: metodología.
+- Caso abierto: Ceuta / Frontera Sur.
 
 *Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*

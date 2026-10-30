@@ -15,6 +15,9 @@ draft: false
 serie: "Ceuta 2026"
 serie_numero: 1
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie Ceuta 2026.** Tras la dimensión diplomática de la crisis ([el arma migratoria](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)) y la [anatomía de la frase triunfalista](/posts/puente-ceuta-2026-frase-triunfalismo/), esta entrega aborda la pata que casi nadie cuenta con rigor: la factura en euros.
 
@@ -98,7 +101,7 @@ Indicadores concretos para saber si la reconstrucción funciona o es cosmética:
 4. **Ocupación del puente de diciembre y Semana Santa 2027**: la temporada de agosto está perdida; la siguiente medirá el daño reputacional real.
 5. **Los 52,9 millones anuales desde 2027**: si las exenciones se consolidan como estructura fiscal permanente, Ceuta habrá cambiado de régimen económico, no solo recibido un parche.
 6. **El balance de fallecidos**: sigue sin haber un recuento oficial conjunto España-Marruecos; cualquier cierre judicial o forense que lo consolide es en sí mismo una noticia que hay que seguir.
-7. **La dialéctica fronteriza en el radar**: la actividad coordinada en torno a la frontera sur se puede seguir en [FIMI Radar](https://fimi.viajeinteligencia.com), que sigue monitorizando el tema.
+7. **La dialéctica fronteriza en el radar**: la actividad coordinada en torno a la frontera sur se puede seguir en FIMI Radar, que sigue monitorizando el tema.
 
 ## Conclusión (lectura interpretativa)
 

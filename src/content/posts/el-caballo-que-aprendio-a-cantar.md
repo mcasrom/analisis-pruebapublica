@@ -19,6 +19,9 @@ faq:
 serie: "Fábulas del análisis"
 serie_numero: 1
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie Fábulas del análisis · 1/3.** Tras fijar [qué es la geopolítica](/posts/que-es-la-geopolitica/) y cómo se lee el mapa del poder, esta entrega se ocupa de un mecanismo concreto de la política del conflicto: el aplazamiento. Qué ocurre cuando ninguna salida es aceptable para ninguna de las partes, y por qué el tiempo se convierte entonces en la moneda de cambio. Termina enlazando con casos concretos ya publicados en este blog. **Piezas hermanas:** [La llave de Nasrudín](/posts/la-llave-de-nasrudin-y-el-problema-de-mirar-donde-hay-luz/) y [Los ciegos y el elefante](/posts/los-ciegos-y-el-elefante/).
 
@@ -97,7 +100,7 @@ La próxima vez que oigas "tregua temporal", "comisión de estudio" o "plazo de 
 
 ---
 
-**Para seguir leyendo.** El itinerario **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás piezas de esa serie (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **[radar FIMI](https://fimi.viajeinteligencia.com/)** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el boletín mensual desde el formulario de suscripción del blog.
+**Para seguir leyendo.** El itinerario **[Geopolítica 101](/tags/geopolitica-101/)** reúne las demás piezas de esa serie (qué es la geopolítica, petróleo, cables submarinos, Ártico, IA y espacio). Y si te interesa cómo se observa la coordinación informativa en los conflictos vivos, el **radar FIMI** publica cada 6 horas las señales de coordinación y amplificación de Ceuta, Oriente Medio o los aranceles — señal, no atribución. 📬 Puedes recibir el boletín mensual desde el formulario de suscripción del blog.
 
 ---
 

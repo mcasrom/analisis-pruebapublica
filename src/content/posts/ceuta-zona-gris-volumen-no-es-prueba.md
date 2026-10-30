@@ -28,6 +28,9 @@ draft: false
 og_text: "Ceuta: 339 señales · 5.458 de contexto · 6 URLs compartidas"
 hashtags: "#Ceuta #Marruecos #ZonaGris #GuerraHíbrida #Desinformación #OSINT #Geopolítica"
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Ceuta y la zona gris: el volumen no es prueba
 
@@ -108,7 +111,7 @@ La crisis de Ceuta es real, la incursión naval está reconocida y la justicia i
 
 ## Referencias
 
-- Radar FIMI, caso Frontera Sur (instantánea 23-10-2026): https://fimi.viajeinteligencia.com/casos/frontera_sur_hibridos/
+- Radar FIMI, caso Frontera Sur (instantánea 23-10-2026): FIMI (retirado)
 - elDiario.es, 12-10-2026, sobre la admisión del Gobierno y el despliegue de las fragatas: https://www.eldiario.es/1_cf33ea
 - Escudo Digital, crisis naval ocultada durante 74 días: https://www.escudodigital.com/espana/disuasion-o-chantaje-la-crisis-naval-con-marruecos-que-espana-oculto-durante-74-dias.html
 - Euronews, 7-08-2026, despliegue de dos fragatas en Ceuta: https://es.euronews.com/my-europe/2026/08/07/espana-blinda-ceuta-con-2-fragatas-y-mas-efectivos-ante-el-temor-a-otra-entrada-masiva-el-

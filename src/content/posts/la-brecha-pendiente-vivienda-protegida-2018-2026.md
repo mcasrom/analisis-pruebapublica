@@ -12,6 +12,9 @@ serie: "Vivienda y poder"
 serie_numero: 3
 abstract_en: "Spain's social rental stock is around 1.5–1.7% versus ~9% for the EU-27. What recent measures promise, and how to measure what actually becomes available. Third of three essays."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie «Vivienda y poder» (3/3).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos el modelo y en la [segunda](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) el auge y el desplome de la vivienda protegida. Cierro la serie con las medidas recientes, la **brecha de alquiler social** frente a Europa y una propuesta sencilla: contabilizar lo que de verdad llega a estar disponible.
 
@@ -77,4 +80,4 @@ La vivienda es una cuestión de poder porque las reglas sobre suelo, financiaci�
 
 ---
 
-*Serie «Vivienda y poder»: [1/3](/posts/vivienda-como-poder-1978-2004/) · [2/3](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el [observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com).*
+*Serie «Vivienda y poder»: [1/3](/posts/vivienda-como-poder-1978-2004/) · [2/3](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*

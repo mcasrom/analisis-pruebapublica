@@ -12,6 +12,9 @@ serie: "Vivienda y poder"
 serie_numero: 2
 abstract_en: "Protected housing completions in Spain peaked in 2008 (68,587) and fell to 4,938 in 2017. What the data show — and why they are not enough to explain the causes. Second of three essays."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie «Vivienda y poder» (2/3).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos cómo se configuró, entre 1978 y 2004, un modelo residencial centrado en la propiedad. Aquí examino qué ocurrió con los resultados cuando el auge inmobiliario terminó, y en la [tercera](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/) cubro las medidas recientes y la brecha pendiente.
 
@@ -57,4 +60,4 @@ La conclusión prudente es que el desplome de la vivienda protegida terminada **
 
 ---
 
-*Sigue la serie: [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el [observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com).*
+*Sigue la serie: [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*

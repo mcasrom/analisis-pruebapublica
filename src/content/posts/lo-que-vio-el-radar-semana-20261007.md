@@ -22,6 +22,9 @@ faq:
   - q: "¿Qué cambió esta semana en el observatorio?"
     a: "El pipeline trabaja con ventana de 60 días (las señales viejas caducan) y el contraste con verificadores suma 274 cruces. Ambos cambios están documentados en el método."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Lo que vio el radar esta semana
 
@@ -87,10 +90,10 @@ Primero, el pipeline trabaja desde ayer con **ventana de 60 días**: las señale
 
 ## Cómo verificarlo
 
-- Estado completo: [fimi.viajeinteligencia.com](https://fimi.viajeinteligencia.com/)
-- Documentación de la API: [api.html](https://fimi.viajeinteligencia.com/api.html)
-- Serie diaria por tema: `https://fimi.viajeinteligencia.com/api/v1/tema/<slug>/serie?dias=7`
-- Contrastes con verificadores: [datos/bulos.json](https://fimi.viajeinteligencia.com/datos/bulos.json)
+- Estado completo: fimi.viajeinteligencia.com
+- Documentación de la API: api.html
+- Serie diaria por tema: `FIMI (retirado)
+- Contrastes con verificadores: datos/bulos.json
 
 Este resumen continúa la serie: [n.º 1 (41.778 eventos, tres sincronías)](https://analisis.pruebapublica.com/posts/lo-que-vio-el-radar-esta-semana/) y [n.º 2 (Ceuta)](https://analisis.pruebapublica.com/posts/lo-que-amplifico-la-crisis-de-ceuta/).
 

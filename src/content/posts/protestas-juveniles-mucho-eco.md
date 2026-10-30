@@ -27,10 +27,13 @@ faq:
   - q: "¿Por qué no hay TikTok ni WhatsApp?"
     a: "Porque el radar no los captura. Lee Bluesky, Google News, RSS y canales públicos de Telegram; no entra en grupos privados, DMs ni cuentas personales."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Mucho eco, sin coordinación confirmada: lo que el radar ve en las protestas juveniles
 
-> **Método.** He medido lo que el sistema tiene etiquetado como protestas juveniles a 27 de octubre de 2026: 2.262 eventos y 65 clústeres cargados. Separo lo que el radar observa, lo que no observa y lo que no puede concluir. Las cifras se pueden reproducir desde el [informe visual](https://fimi.viajeinteligencia.com/informes/visual/protestas_juveniles.html) y los [datos abiertos](https://fimi.viajeinteligencia.com/datos/protestas.json).
+> **Método.** He medido lo que el sistema tiene etiquetado como protestas juveniles a 27 de octubre de 2026: 2.262 eventos y 65 clústeres cargados. Separo lo que el radar observa, lo que no observa y lo que no puede concluir. Las cifras se pueden reproducir desde el informe visual y los datos abiertos.
 
 La ola juvenil existe en la conversación pública. El radar no mide la calle ni la organización: mide **amplificación** y **extensión** en las fuentes que captura. La pregunta útil no es «¿quién está detrás?», sino «¿qué parte de lo que veo es eco, qué parte es coordinación y qué parte no puedo saber?».
 
@@ -129,7 +132,7 @@ He retirado `huelga` y `manifestación` de la tabla: son términos genéricos y 
 
 La lectura honesta es esta: **hay amplificación medible, mucho eco de prensa y ninguna coordinación confirmada**. La ola puede ser real y, al mismo tiempo, el radar no estar viendo su origen. Esa distancia es el análisis, no un defecto que se tape con un titular.
 
-El informe técnico está marcado como [noindex](https://fimi.viajeinteligencia.com/informes/visual/protestas_juveniles.html) hasta nueva revisión; la ficha de caso y los datos están enlazados desde allí. Si la próxima ventana produce un segundo dato, volveré a medir.
+El informe técnico está marcado como noindex hasta nueva revisión; la ficha de caso y los datos están enlazados desde allí. Si la próxima ventana produce un segundo dato, volveré a medir.
 
 ---
 

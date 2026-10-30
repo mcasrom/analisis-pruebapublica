@@ -21,6 +21,9 @@ faq:
   - q: "¿Qué es el dilema de seguridad?"
     a: "La paradoja por la que las medidas defensivas de un actor pueden ser leídas por otro como preparación ofensiva, lo que empuja a este a armarse también. Ninguno quiere atacar, pero ambos reaccionan a lo que creen que el otro podría hacer. La búsqueda de seguridad puede producir más inseguridad."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # El zorro que quería que el bosque le tuviera miedo
 
@@ -176,7 +179,7 @@ Por eso, cuando una potencia anuncia que puede hacer algo terrible, la pregunta 
 - **[OTAN] 2026 Nuclear Planning Group Statement** (18-jun-2026): https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/06/18/2026-nuclear-planning-group-statement
 - **[OTAN] The Ankara Summit Declaration** (8-jul-2026): https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration
 
-**Para seguir leyendo.** Si te interesa cómo se observan las señales de coordinación y amplificación informativa en los conflictos vivos —señal, no atribución—, el [radar FIMI](https://fimi.viajeinteligencia.com/) publica cada 6 horas los patrones de los temas que cubre. Y la serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las piezas de contexto (energía, fronteras, IA, defensa) sobre las que se apoya este análisis.
+**Para seguir leyendo.** Si te interesa cómo se observan las señales de coordinación y amplificación informativa en los conflictos vivos —señal, no atribución—, el radar FIMI publica cada 6 horas los patrones de los temas que cubre. Y la serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las piezas de contexto (energía, fronteras, IA, defensa) sobre las que se apoya este análisis.
 
 *Nota de método: este artículo separa hechos verificables (con fuente enlazada) de interpretación. No atribuye intenciones a ningún actor ni anticipa el uso de armas nucleares por nadie.*
 

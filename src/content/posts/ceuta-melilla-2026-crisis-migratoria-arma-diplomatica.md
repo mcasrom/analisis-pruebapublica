@@ -11,6 +11,9 @@ draft: false
 serie: "Ceuta 2026"
 serie_numero: 4
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 ## La intersección asimétrica
 
@@ -62,7 +65,7 @@ Los datos que sustancian este análisis se pueden contrastar con herramientas p�
 
 - **[Municipal: datos de Ceuta y Melilla](https://municipal.viajeinteligencia.com)** — población, densidad, servicios públicos y evolución demográfica de los dos enclaves.
 - **[Country: España y Marruecos en contexto](https://country.viajeinteligencia.com)** — indicadores comparativos de ambos países: PIB, demografía, energía, comercio.
-- **[Radar: detectar desinformación](https://radar.viajeinteligencia.com)** — cuando aparezcan titulares sobre la frontera, contrastar fuentes antes de compartir.
+- **Radar: detectar desinformación** — cuando aparezcan titulares sobre la frontera, contrastar fuentes antes de compartir.
 
 ---
 

@@ -19,6 +19,9 @@ faq:
   - q: "¿Qué significa preguntarse «qué parte del animal estoy tocando»?"
     a: "Es una disciplina analítica: situar qué porción del fenómeno representan los datos y limitar a esa porción lo que afirmamos. La incertidumbre no impide conocer; obliga a expresar el grado de certeza con el que hablamos."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Los ciegos y el elefante: cuando todos tienen razón y nadie ve el conjunto
 
@@ -270,7 +273,7 @@ Pero todavía necesitamos preguntarnos qué significa todo ello dentro del fenó
 
 La misma precaución resulta necesaria cuando hablamos de coordinación e influencia.
 
-- Un [radar](https://fimi.viajeinteligencia.com) puede detectar señales.
+- Un radar puede detectar señales.
 - Puede encontrar concentraciones temporales.
 - Puede identificar comportamientos similares.
 - Puede observar redes de difusión.

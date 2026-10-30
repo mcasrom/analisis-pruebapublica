@@ -12,6 +12,9 @@ serie: "Vivienda y poder"
 serie_numero: 1
 abstract_en: "Between 1978 and 2004 Spain shaped a housing model centred on ownership, while social housing never became a large public rental stock. First of three essays on the geopolitics of housing in Spain."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie «Vivienda y poder» (1/3).** La vivienda suele contarse como una cuestión de precios, pero detrás del precio hay decisiones de largo recorrido sobre el suelo, la fiscalidad, la financiación y el papel del Estado. En esta primera entrega reconstruyo el tramo 1978–2004. La segunda cubre el auge y el desplome de la vivienda protegida (2004–2018) y la tercera, las medidas recientes y la brecha pendiente (2018–2026). Al final enlazo con el observatorio y con los datos abiertos del proyecto.
 
@@ -81,4 +84,4 @@ La pregunta que dejo abierta para la siguiente entrega es qué ocurrió cuando e
 
 ---
 
-*Sigue la serie: [Del auge al desplome: la vivienda protegida en España (2004–2018)](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) y [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el [observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com).*
+*Sigue la serie: [Del auge al desplome: la vivienda protegida en España (2004–2018)](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) y [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*

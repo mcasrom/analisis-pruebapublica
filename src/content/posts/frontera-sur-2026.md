@@ -11,6 +11,9 @@ image: "/frontera-sur-radar-og.png"
 serie: "Ceuta 2026"
 serie_numero: 5
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Frontera Sur: lo que un radar de coordinación ve (y lo que no)
 
@@ -19,7 +22,7 @@ migración, la política exterior— es una de las más intensas de la esfera p�
 española. Casi todo lo que se publica sobre ella se analiza editando *contenido*:
 qué se dice, quién lo dice, si es verdad o mentira. Este artículo hace otra cosa.
 Mira **forma**: quién mueve el mismo mensaje, a la vez, y con qué estructura de
-enlaces. Eso es lo que mide [FIMI Radar](https://fimi.viajeinteligencia.com), un
+enlaces. Eso es lo que mide FIMI Radar, un
 radar OSINT que analiza **comportamiento** de coordinación, no intenciones ni
 ideologías. Un aviso por delante: esto es un encargo **con datos**, no de opinión,
 y todo lo que sigue sale de la base de datos de producción del radar.
@@ -130,7 +133,7 @@ merece mirarse más de cerca.
 
 Todo lo anterior es comprobable en abierto. El dashboard en vivo, con los diales
 por tema, las tarjetas de cluster, la metodología y los límites declarados, está en
-**[fimi.viajeinteligencia.com](https://fimi.viajeinteligencia.com)**. Desde ahí
+**fimi.viajeinteligencia.com**. Desde ahí
 puedes seguir el tema Frontera Sur, ver las hipótesis de cada cluster y su
 evidencia, y contrastar por tu cuenta. La transparencia no es un adorno del
 proyecto: es su antídoto contra el error más común al hablar de desinformación,
@@ -138,10 +141,10 @@ que es confundir **coordinación observada** con **culpable identificado**.
 
 ## Referencias
 
-- FIMI Radar (producción): https://fimi.viajeinteligencia.com — datos del
+- FIMI Radar (producción): FIMI (retirado) — datos del
   dashboard y API pública `v1`.
 - Base de datos del radar (`data/radar.db`): tablas `events`, `event_temas`,
   `clusters`, `assessments`, `cluster_lineage`, `findings` (cifras de este
   artículo, ciclo del 24/09/2026).
-- Metodología y límites: https://fimi.viajeinteligencia.com/research.html y
+- Metodología y límites: FIMI (retirado) y
   `docs/ATRIBUCION-LIMITACIONES.md` del repositorio AGPL-3.0 `hybrid-fimi-radar`.

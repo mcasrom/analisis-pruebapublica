@@ -24,6 +24,9 @@ faq:
   - q: "¿Por qué no incluye Matryoshka / Operation Overload?"
     a: "Porque no he podido contrastarla con una fuente primaria suficiente. Se menciona como caso no verificado y queda fuera de la tabla y de las conclusiones."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Los instrumentos de la desinformación: qué hay sobre la mesa
 
@@ -77,7 +80,7 @@ No he incluido aquí las cifras de cuentas y ciberataques que circulan en alguno
 
 En España, el marco propio es el [Procedimiento de actuación contra la desinformación](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13663) (Orden PCM/1030/2020, BOE 5-nov-2020), con cuatro niveles de activación.
 
-La lógica de fondo es la misma que aplico en el [observatorio de amplificación](https://fimi.viajeinteligencia.com/): distinguir **conducta** de contenido, **señal** de atribución y **amplificación** de coordinación.
+La lógica de fondo es la misma que aplico en el observatorio de amplificación: distinguir **conducta** de contenido, **señal** de atribución y **amplificación** de coordinación.
 
 ## Lo que no sabemos
 

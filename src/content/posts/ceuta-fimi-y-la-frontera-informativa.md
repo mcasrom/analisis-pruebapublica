@@ -11,8 +11,11 @@ draft: false
 serie: "Ceuta 2026"
 serie_numero: 3
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
 
-*Análisis de situación del [Radar FIMI](https://fimi.viajeinteligencia.com/) · 11 de septiembre de 2026.*
+
+
+*Análisis de situación del Radar FIMI · 11 de septiembre de 2026.*
 
 La crisis de Ceuta no se está desarrollando únicamente en la frontera física. Existe una segunda frontera, menos visible y potencialmente igual de relevante: la que se construye en el espacio informativo.
 
@@ -279,7 +282,7 @@ Porque en inteligencia, especialmente en inteligencia de fuentes abiertas, recon
 
 **Notas y referencia**
 
-[1] [Radar FIMI](https://fimi.viajeinteligencia.com/) — dashboard del sistema con los datos citados; para el marco de lectura, ver también este post [«FIMI Radar: qué vigila un radar de desinformación»](https://analisis.pruebapublica.com/posts/fimi-radar-que-vigila/).
+[1] Radar FIMI — dashboard del sistema con los datos citados; para el marco de lectura, ver también este post [«FIMI Radar: qué vigila un radar de desinformación»](https://analisis.pruebapublica.com/posts/fimi-radar-que-vigila/).
 
 [2] [Associated Press](https://apnews.com) — cobertura de la documentación desclasificada española y de la alerta del CNI del 29 de julio.
 

@@ -19,6 +19,9 @@ faq:
     a: "Con tres señales verificables: si el despliegue y el gasto en el Caribe se mantienen tras el próximo ciclo electoral; si el renombrado cartográfico se consolida en documentación oficial permanente o se revierte; y si aparece un segundo episodio de intervención directa en el hemisferio."
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # El Corolario Trump-Monroe
 
@@ -71,4 +74,4 @@ Con este caso ya sometido al marco, la próxima entrega cruza el Atlántico: la 
 
 ---
 
-*Nota de elaboración: segunda entrega de la serie **Doctrinas 101**. Texto de análisis basado en documentos oficiales (Federal Register) y cobertura de prensa verificada. El marco de los cuatro criterios es un instrumento analítico propio de esta serie, no una categoría oficial. El principio de fondo —separar lo observable de lo que solo se puede atribuir— es el mismo que sostiene el [Observatorio de señales de coordinación y amplificación](https://fimi.viajeinteligencia.com/). Redactado con asistencia de IA generativa y contrastado por el autor. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán. — **@pruebapublica***
+*Nota de elaboración: segunda entrega de la serie **Doctrinas 101**. Texto de análisis basado en documentos oficiales (Federal Register) y cobertura de prensa verificada. El marco de los cuatro criterios es un instrumento analítico propio de esta serie, no una categoría oficial. El principio de fondo —separar lo observable de lo que solo se puede atribuir— es el mismo que sostiene el Observatorio de señales de coordinación y amplificación. Redactado con asistencia de IA generativa y contrastado por el autor. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán. — **@pruebapublica***

@@ -19,6 +19,9 @@ faq:
   - q: "¿Qué puede y qué no puede decir el radar aquí?"
     a: "Puede describir forma (repetición, amplificación, eco) con evidencia descargable. No atribuye partidos, candidatos ni actores, no confirma bulos y no ve X, TikTok ni WhatsApp."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie España 29-N · Parte II** · [I — Reglas: qué puede ver y qué no](/posts/elecciones-generales-2026-radar-fimi/)
 
@@ -79,8 +82,8 @@ El cruce con Maldita y Newtral suma **86 contrastes** en el tema (11 en banda al
 
 ## Cómo verificarlo
 
-- Tema en vivo: [fimi.viajeinteligencia.com](https://fimi.viajeinteligencia.com/) (pestaña del tema)
-- Serie diaria: `https://fimi.viajeinteligencia.com/api/v1/tema/espana_elecciones/serie?dias=30`
+- Tema en vivo: fimi.viajeinteligencia.com (pestaña del tema)
+- Serie diaria: `FIMI (retirado)
 - Clusters: `/api/v1/tema/espana_elecciones` · Contrastes: `/datos/bulos.json`
 - Reglas del juego: [qué puede ver —y qué no— el radar en campaña](/posts/elecciones-generales-2026-radar-fimi/)
 

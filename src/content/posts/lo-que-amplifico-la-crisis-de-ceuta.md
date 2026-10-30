@@ -23,6 +23,9 @@ faq:
   - q: "¿De dónde viene entonces el volumen?"
     a: "Sobre todo de prensa: de 150 enlaces compartidos por ≥2 cuentas, 113 son de medios. El patrón dominante es el eco de una noticia que se comparte mucho, no contenido no-mediático coordinado."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Lo que amplificó la crisis de Ceuta — y lo que el radar no puede decir
 
@@ -73,6 +76,6 @@ Por eso, cuando en la amplificación de Ceuta de septiembre aparece un grupo est
 
 ## Cómo verificarlo
 
-Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **[fimi.viajeinteligencia.com/casos/ceuta/](https://fimi.viajeinteligencia.com/casos/ceuta/)**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
+Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **fimi.viajeinteligencia.com/casos/ceuta/**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
 
 La conclusión cabe en una frase: **en Ceuta se amplificó mucho; se demostró, poco — y lo segundo es tan importante como lo primero.**

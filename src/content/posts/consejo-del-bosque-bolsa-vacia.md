@@ -22,6 +22,9 @@ faq:
   - q: "¿Sirve esto para leer un presupuesto público real?"
     a: "Como lista de comprobación, sí: ante cualquier partida, pregunta qué problema resuelve, cuánto cuesta, quién la paga, qué se deja de hacer para financiarla y cómo se medirá el resultado. Sin métrica ni plazo, una promesa no es verificable."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # El consejo del bosque y la bolsa vacía
 
@@ -182,7 +185,7 @@ En el bosque, como en cualquier comunidad política, la bolsa vacía no revela s
 ## Fuentes
 
 - Fábula original (versión propia).
-- [Observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com/) y su [método](https://fimi.viajeinteligencia.com/metodo.html): qué mide y qué no permite afirmar.
+- Observatorio de amplificación FIMI y su método: qué mide y qué no permite afirmar.
 
 **Para seguir leyendo.** El coste decide el resultado en [quién paga el arancel](/posts/quien-paga-el-arancel-2026/) y [geopolítica de los aranceles](/posts/geopolitica-aranceles-2026/). Y la serie [**Fábulas del análisis**](/tags/fabulas/) reúne todas las entregas.
 

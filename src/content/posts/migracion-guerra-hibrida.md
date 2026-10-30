@@ -9,6 +9,9 @@ categoria: "análisis"
 image: "/migracion-guerra-hibrida-og.jpg"
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie Geopolítica de las fronteras.** Esta tercera entrega da un paso más: si la primera miró los flujos humanos y la segunda las fronteras como institución, esta analiza qué ocurre cuando un actor intenta **instrumentalizar** un movimiento migratorio dentro de una estrategia de presión política. El hilo conecta con la serie Ceuta 2026 ya publicada en este blog.
 
@@ -238,7 +241,7 @@ Pero la evidencia sigue siendo la frontera que separa una hipótesis de una conc
 > 5. **Campaña híbrida** — la instrumentalización se conecta con otros instrumentos (informativos, diplomáticos, económicos, ciber).
 > 6. **Atribución** — evidencia suficiente para vincularla a un actor concreto.
 >
-> Detectar una señal no demuestra una campaña; demostrar una campaña no atribuye; atribuir exige más que una coincidencia temporal. Un intento modesto de instrumentar esta distinción con datos en vivo está en [FIMI Radar](https://fimi.viajeinteligencia.com).
+> Detectar una señal no demuestra una campaña; demostrar una campaña no atribuye; atribuir exige más que una coincidencia temporal. Un intento modesto de instrumentar esta distinción con datos en vivo está en FIMI Radar.
 
 ## Referencias
 

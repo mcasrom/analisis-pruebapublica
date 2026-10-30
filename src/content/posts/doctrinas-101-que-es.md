@@ -19,6 +19,9 @@ faq:
     a: "Porque la intención de una persona no es verificable —solo se puede especular con ella—, mientras que un acto institucional documentado sí lo es. Y porque las doctrinas de Estado sobreviven a los cambios de gobierno; las personas, no. Analizar la estructura permite examinar a Washington, Moscú, Pekín y Bruselas con la misma vara."
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Qué es una doctrina geoestratégica
 
@@ -53,7 +56,7 @@ De estos casos se extrae un patrón que aplicaremos, sin excepción, a cada entr
 
 Lo que estos cuatro criterios excluyen, deliberadamente, es tan importante como lo que incluyen: quedan fuera la especulación sobre el estado mental de un dirigente, la interpretación de un tuit como plan maestro, y la atribución de una "visión geoestratégica" a una persona que, en democracias y en autocracias por igual, puede dejar el cargo mañana sin que el aparato de Estado cambie de rumbo.
 
-Es la misma lógica con la que trabaja el [Observatorio de señales de coordinación y amplificación](https://fimi.viajeinteligencia.com/): medir lo observable —actos, patrones, rastro documental— y abstenerse de atribuir intenciones que no se pueden verificar. Señal, no atribución.
+Es la misma lógica con la que trabaja el Observatorio de señales de coordinación y amplificación: medir lo observable —actos, patrones, rastro documental— y abstenerse de atribuir intenciones que no se pueden verificar. Señal, no atribución.
 
 ## Por qué "doctrina" y no "líder"
 

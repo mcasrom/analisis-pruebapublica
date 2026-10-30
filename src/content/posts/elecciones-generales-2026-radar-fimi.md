@@ -19,6 +19,9 @@ faq:
   - q: "¿Qué son los «posibles bulos contrastados»?"
     a: "Un cruce automático entre los grupos en banda alta o anómala y las piezas recientes de verificadores (Maldita y Newtral, últimos 14 días). Señala dónde el contenido amplificado toca un tema que un verificador acaba de desmentir, para que una persona lo revise. Es contraste, no veredicto: no atribuye actor ni confirma bulo."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > **Serie España 29-N · Parte I** · [II — Primera lectura: pico de convocatoria](/posts/espana-elecciones-29n-primera-lectura/)
 
@@ -26,7 +29,7 @@ Una campaña electoral es el momento en que más se habla de desinformación y, 
 
 Mi observatorio solo mide la forma en que circulan los mensajes, no su verdad ni su intención. Antes de una campaña en la que todos hablarán de manipulación, prefiero presentar el instrumento, sus límites y mis reglas, en vez de adelantar conclusiones.
 
-Con las elecciones del **29 de noviembre** convocadas desde el **5 de octubre** y la campaña arrancando el **13 de noviembre**, el [Radar FIMI](https://fimi.viajeinteligencia.com) estrena un tema: **España — Elecciones Generales 2026**. Este texto no presenta hallazgos: presenta una lente.
+Con las elecciones del **29 de noviembre** convocadas desde el **5 de octubre** y la campaña arrancando el **13 de noviembre**, el Radar FIMI estrena un tema: **España — Elecciones Generales 2026**. Este texto no presenta hallazgos: presenta una lente.
 
 ## Qué es el nuevo tema
 

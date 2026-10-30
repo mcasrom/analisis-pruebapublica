@@ -16,6 +16,9 @@ resumen:
   - "A la publicación se añade otra capa: qué dato se elige, qué titular se pone y cómo se interpreta."
   - "Regla proporcional: cada afirmación sobre encuestas debe sostenerse en el diseño, los datos y el alcance real del estudio."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 > Una encuesta no es la opinión pública en bruto. Es una medición construida mediante preguntas, una muestra, un método de recogida y decisiones estadísticas. Su publicación añade otra capa: la selección del dato, el titular y la interpretación.
 
@@ -102,7 +105,7 @@ Para determinar si una encuesta concreta modificó el comportamiento electoral h
 
 La cautela vale en las dos direcciones. No es correcto afirmar que los sondeos manipulan necesariamente a los votantes; tampoco que su publicación es siempre irrelevante. La cuestión debe investigarse en cada contexto y con evidencia proporcionada a la conclusión.
 
-Este matiz conecta con el trabajo del [Observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com): medir primero la señal observable y no atribuir actor ni efecto sin evidencia independiente. También enlaza con el post sobre [qué puede ver (y qué no) el Radar FIMI en las elecciones generales de 2026](/posts/elecciones-generales-2026-radar-fimi/).
+Este matiz conecta con el trabajo del Observatorio de amplificación FIMI: medir primero la señal observable y no atribuir actor ni efecto sin evidencia independiente. También enlaza con el post sobre [qué puede ver (y qué no) el Radar FIMI en las elecciones generales de 2026](/posts/elecciones-generales-2026-radar-fimi/).
 
 ## Una guía breve para leer cualquier encuesta
 

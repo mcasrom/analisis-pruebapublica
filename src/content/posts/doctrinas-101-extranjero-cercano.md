@@ -18,6 +18,9 @@ faq:
     a: "El Corolario lleva el nombre de una sola administración y no ha demostrado sobrevivir a un relevo político (doctrina en construcción). El «extranjero cercano» atraviesa gobiernos rusos desde 1991 y sobrevive a cada cambio, que es la prueba que exige el marco de esta serie."
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # La doctrina rusa del «extranjero cercano»
 
@@ -57,7 +60,7 @@ No son el mismo caso repetido; son **manifestaciones distintas de una misma lóg
 
 ## ¿Documentable con fuente primaria?
 
-Sí, con la distinción que ya usamos en el Corolario: el **acto** es verificable; la **intención** que lo acompaña es interpretación. La doctrina militar, la estrategia de seguridad, el concepto de política exterior y los documentos de la CSTO son rastro documental directo; el gasto lo mide SIPRI. Lo que no se puede probar con esos papeles es el *motivo* de cada decisión —y precisamente por eso esta serie se queda con lo observable: el mismo principio de separar lo verificable de lo atribuido que aplica el [Observatorio de señales de coordinación y amplificación](https://fimi.viajeinteligencia.com/).
+Sí, con la distinción que ya usamos en el Corolario: el **acto** es verificable; la **intención** que lo acompaña es interpretación. La doctrina militar, la estrategia de seguridad, el concepto de política exterior y los documentos de la CSTO son rastro documental directo; el gasto lo mide SIPRI. Lo que no se puede probar con esos papeles es el *motivo* de cada decisión —y precisamente por eso esta serie se queda con lo observable: el mismo principio de separar lo verificable de lo atribuido que aplica el Observatorio de señales de coordinación y amplificación.
 
 ## ¿Distinguible de la reacción coyuntural?
 

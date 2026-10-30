@@ -21,6 +21,9 @@ faq:
   - q: "¿Cómo leo una sanción o un acuerdo en la prensa?"
     a: "Con tres preguntas: quién paga realmente el coste, qué salida se ofrece a cambio y qué cambio medible se espera en qué plazo. Lo que no responda a eso es relato, no análisis."
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # El viento y el sol
 
@@ -83,10 +86,10 @@ Por eso, cuando una potencia anuncia medidas durísimas o generosas ofertas, la 
 ## Fuentes
 
 - Fábula tradicional de Esopo (versión propia; el relato pertenece al dominio público y circula en múltiples versiones, sin fuente única que citar).
-- [Observatorio de amplificación FIMI](https://fimi.viajeinteligencia.com/): método y límites para distinguir señal observable de atribución.
-- [Método y validación del observatorio](https://fimi.viajeinteligencia.com/metodo.html): qué mide cada componente y qué no permite afirmar.
+- Observatorio de amplificación FIMI: método y límites para distinguir señal observable de atribución.
+- Método y validación del observatorio: qué mide cada componente y qué no permite afirmar.
 
-**Para seguir leyendo.** Si te interesa cómo se observan las señales de coordinación y amplificación informativa en los conflictos vivos —señal, no atribución—, el [radar FIMI](https://fimi.viajeinteligencia.com/) publica cada 6 horas los patrones de los temas que cubre. Y la serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las piezas de contexto (energía, fronteras, IA, defensa) sobre las que se apoya este análisis.
+**Para seguir leyendo.** Si te interesa cómo se observan las señales de coordinación y amplificación informativa en los conflictos vivos —señal, no atribución—, el radar FIMI publica cada 6 horas los patrones de los temas que cubre. Y la serie **[Geopolítica 101](/tags/geopolitica-101/)** reúne las piezas de contexto (energía, fronteras, IA, defensa) sobre las que se apoya este análisis.
 
 *Nota de método: este artículo separa el cuento (ilustración) de los hechos verificables (con fuente enlazada) y de la interpretación (marcada como tal). No atribuye intenciones a ningún actor.*
 

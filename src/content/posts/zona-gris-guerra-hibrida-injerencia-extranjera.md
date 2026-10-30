@@ -25,6 +25,9 @@ serie: "Método"
 serie_numero: 2
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 ## Lo que no empieza con una invasión
 
@@ -99,7 +102,7 @@ Una concentración temporal puede justificar una investigación. También puede 
 
 ## El caso Frontera Sur, con cifras y límites
 
-Estas preguntas están en el origen del [Observatorio de amplificación (FIMI)](https://fimi.viajeinteligencia.com/). Su [caso Frontera Sur](https://fimi.viajeinteligencia.com/casos/frontera_sur_hibridos/) sigue publicaciones sobre actividad militar, presión fronteriza y narrativas en torno a Ceuta y las relaciones España-Marruecos. Es la misma lógica con la que analicé [lo que amplificó la crisis de Ceuta —y lo que el radar no puede decir](/posts/lo-que-amplifico-la-crisis-de-ceuta/). No presento una operación como demostrada: organizo señales, detecto variaciones y compruebo qué hipótesis resisten. Es el método que resumí en [qué detecta hoy el Observatorio FIMI](/posts/que-detecta-hoy-el-observatorio-fimi/).
+Estas preguntas están en el origen del Observatorio de amplificación (FIMI). Su caso Frontera Sur sigue publicaciones sobre actividad militar, presión fronteriza y narrativas en torno a Ceuta y las relaciones España-Marruecos. Es la misma lógica con la que analicé [lo que amplificó la crisis de Ceuta —y lo que el radar no puede decir](/posts/lo-que-amplifico-la-crisis-de-ceuta/). No presento una operación como demostrada: organizo señales, detecto variaciones y compruebo qué hipótesis resisten. Es el método que resumí en [qué detecta hoy el Observatorio FIMI](/posts/que-detecta-hoy-el-observatorio-fimi/).
 
 En la instantánea que consulté el **21 de octubre de 2026**, el núcleo registraba **322 publicaciones**, **126 autores**, **17 agrupaciones** y **59 publicaciones en la última semana** (media de ocho semanas: 32,4; +82,2 %). Son cifras de actividad informativa capturada, **no un recuento de incidentes ni una prueba de intervención estatal**. La correlación temporal entre indicadores militares y actividad informativa no alcanza el umbral convencional (r = 0,24; p = 0,06), y la polaridad se clasifica de forma heurística: no deduce hostilidad real.
 
@@ -131,7 +134,7 @@ Mi conclusión, hoy, es incómoda pero honesta: hay un patrón que merece atenci
 - [SEAE: manipulación e injerencia de información extranjera (FIMI)](https://www.eeas.europa.eu/eeas/tackling-disinformation-foreign-information-manipulation-interference_en).
 - [CESEDEN: la guerra en la sombra y la zona gris](https://www.defensa.gob.es/ceseden/-/esfas/guerra-sombra-eficacia-poder-militar-zona-gris).
 - [OTAN: enfoque frente a las amenazas informativas](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/10/18/natos-approach-to-counter-information-threats).
-- [Caso Frontera Sur (Observatorio de amplificación)](https://fimi.viajeinteligencia.com/casos/frontera_sur_hibridos/).
+- Caso Frontera Sur (Observatorio de amplificación).
 - [España ante las amenazas híbridas: qué puede ver —y qué no— un radar FIMI](/posts/espana-amenazas-hibridas-radar-fimi/).
 
 *Nota sobre el proceso de elaboración:* este análisis se apoya en documentación pública enlazada en el texto. Lo he elaborado con asistencia de IA para la investigación, el contraste de fuentes y la redacción, bajo criterio y supervisión editorial humanos, con verificación manual de fuentes, cifras y enlaces. Los datos del caso son una instantánea fechada; el observatorio mide amplificación, no atribuye actores. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán.

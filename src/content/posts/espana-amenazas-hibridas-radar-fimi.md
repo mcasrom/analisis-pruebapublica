@@ -9,6 +9,9 @@ categoria: "análisis"
 image: "/fimi-espana-amenazas-hibridas-og.png"
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 Las amenazas híbridas no llegan siempre con la forma de una declaración de guerra. Pueden aparecer como un ciberataque, una campaña de propaganda, un sabotaje contra una infraestructura crítica, una operación de espionaje o una narrativa que se repite hasta modificar la percepción pública de un acontecimiento.
 
@@ -16,7 +19,7 @@ Pero existe un riesgo paralelo: llamar «guerra híbrida» a cualquier crisis, y
 
 España necesita observar mejor ese espacio. También necesita hacerlo sin confundir una señal con una conclusión.
 
-Por eso [FIMI Radar](https://fimi.viajeinteligencia.com) incorpora un tema específico: **España — Amenazas híbridas y FIMI**.
+Por eso FIMI Radar incorpora un tema específico: **España — Amenazas híbridas y FIMI**.
 
 ## Una nueva lente para el espacio informativo español
 
@@ -84,7 +87,7 @@ La misma cautela se aplica a la migración. [Migración y guerra híbrida](/post
 
 ## Cómo consultar el nuevo tema
 
-El tema puede consultarse directamente en el [dashboard del Radar FIMI](https://fimi.viajeinteligencia.com/#espana_amenazas_hibridas).
+El tema puede consultarse directamente en el dashboard del Radar FIMI.
 
 La lectura recomendada es:
 
@@ -139,9 +142,9 @@ Una señal puede ser el comienzo de una investigación. Nunca debería ser el fi
 
 ## Referencias
 
-- FIMI Radar (producción): https://fimi.viajeinteligencia.com — dashboard y API pública `v1` (tema `espana_amenazas_hibridas`).
+- FIMI Radar (producción): FIMI (retirado) — dashboard y API pública `v1` (tema `espana_amenazas_hibridas`).
 - EEAS — [*Tackling disinformation and foreign information manipulation and interference (FIMI)*](https://www.eeas.europa.eu/eeas/tackling-disinformation-foreign-information-manipulation-interference_en) — marco europeo de FIMI.
-- Metodología, límites y transparencia: https://fimi.viajeinteligencia.com/research.html y las notas públicas del repositorio AGPL-3.0 `hybrid-fimi-radar`.
+- Metodología, límites y transparencia: FIMI (retirado) y las notas públicas del repositorio AGPL-3.0 `hybrid-fimi-radar`.
 
 ---
 

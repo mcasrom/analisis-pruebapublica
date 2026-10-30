@@ -17,6 +17,9 @@ faq:
     a: "Mide forma: quién mueve el mismo contenido, a la vez, y con qué enlaces. No identifica autoría, financiación ni intención, ni confirma que algo sea falso. Señal no es atribución."
 draft: false
 ---
+> **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+
+
 
 # Qué detecta hoy el Observatorio FIMI
 
@@ -120,9 +123,9 @@ Por eso su propio microservicio repite en cada respuesta: *“Datos públicos de
 Todo lo expuesto es reproducible. Los endpoints públicos son:
 
 ```
-GET https://fimi.viajeinteligencia.com/api/v1/temas
-GET https://fimi.viajeinteligencia.com/api/v1/tema/elecciones
-GET https://fimi.viajeinteligencia.com/api/v1/cluster/<label>
+GET FIMI (retirado)
+GET FIMI (retirado)
+GET FIMI (retirado)
 ```
 
 El primero da el resumen por tema (grupos y alertas); el segundo, los 177 grupos electorales con su banda, tipo y explicaciones; el tercero, la evidencia de un grupo concreto. Cualquiera puede rehacer las cifras de este artículo desde su navegador.
