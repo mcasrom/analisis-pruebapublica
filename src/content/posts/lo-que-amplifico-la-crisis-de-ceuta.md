@@ -76,6 +76,6 @@ Por eso, cuando en la amplificación de Ceuta de septiembre aparece un grupo est
 
 ## Cómo verificarlo
 
-Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **fimi.viajeinteligencia.com/casos/ceuta/**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
+Este análisis no pide un acto de fe. El **expediente completo, vivo y actualizable** está en el observatorio: **FIMI (retirado)/casos/ceuta/**, con el mapa de la cobertura, el detalle de los candidatos y el método. Los datos se pueden consultar en abierto por la **API pública** (`/api/v1/tema/frontera_sur`) y reproducir con los scripts del expediente. El código es **AGPL-3.0**.
 
 La conclusión cabe en una frase: **en Ceuta se amplificó mucho; se demostró, poco — y lo segundo es tan importante como lo primero.**

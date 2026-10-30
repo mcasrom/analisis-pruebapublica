@@ -81,7 +81,7 @@ Esa distinción importa: un tema enorme en portada **no** es automáticamente un
 
 Todo lo anterior sale de datos públicos. Puedes reproducirlo:
 
-- Estado completo: fimi.viajeinteligencia.com
+- Estado completo: FIMI (retirado)
 - Documentación de la API: api.html
 - Permalink de un grupo: `FIMI (retirado) (los permalinks son estables aunque los números de grupo no lo sean entre ciclos)
 

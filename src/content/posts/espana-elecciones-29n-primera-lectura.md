@@ -82,7 +82,7 @@ El cruce con Maldita y Newtral suma **86 contrastes** en el tema (11 en banda al
 
 ## Cómo verificarlo
 
-- Tema en vivo: fimi.viajeinteligencia.com (pestaña del tema)
+- Tema en vivo: FIMI (retirado) (pestaña del tema)
 - Serie diaria: `FIMI (retirado)
 - Clusters: `/api/v1/tema/espana_elecciones` · Contrastes: `/datos/bulos.json`
 - Reglas del juego: [qué puede ver —y qué no— el radar en campaña](/posts/elecciones-generales-2026-radar-fimi/)

@@ -90,7 +90,7 @@ Primero, el pipeline trabaja desde ayer con **ventana de 60 días**: las señale
 
 ## Cómo verificarlo
 
-- Estado completo: fimi.viajeinteligencia.com
+- Estado completo: FIMI (retirado)
 - Documentación de la API: api.html
 - Serie diaria por tema: `FIMI (retirado)
 - Contrastes con verificadores: datos/bulos.json

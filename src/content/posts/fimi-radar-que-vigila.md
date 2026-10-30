@@ -13,7 +13,7 @@ draft: false
 
 
 
-Este blog analiza geopolítica y poder. Desde hace unas semanas, detrás de los artículos, hay una herramienta propia que observa un fenómeno concreto: cómo circula y se coordina la información manipulada en español. Se llama **FIMI Radar** y vive en fimi.viajeinteligencia.com. Este post la presenta con la misma honestidad con la que se lee el resto del blog: qué hace, qué no hace, y cómo interpretar lo que muestra.
+Este blog analiza geopolítica y poder. Desde hace unas semanas, detrás de los artículos, hay una herramienta propia que observa un fenómeno concreto: cómo circula y se coordina la información manipulada en español. Se llama **FIMI Radar** y vive en FIMI (retirado). Este post la presenta con la misma honestidad con la que se lee el resto del blog: qué hace, qué no hace, y cómo interpretar lo que muestra.
 
 ## 1. Qué es FIMI Radar
 
@@ -66,11 +66,11 @@ Por eso dos de los cinco temas siguen en **piloto**, en calibración. La herrami
 
 FIMI Radar es una herramienta del ecosistema de análisis de este blog, y los artículos ya enlazan a sus temas en vivo. Este post la presenta de forma explícita: para quien quiera **ver qué se está coordinando en español** y aprender a leer esa señal con la misma cautela con la que leemos un gráfico de gasto en defensa o un mapa de fronteras.
 
-El radar es **público y gratuito**, sin cuentas y sin rastreo: fimi.viajeinteligencia.com. Su código es [abierto en GitHub](https://github.com/mcasrom/hybrid-fimi-radar), y la metodología completa está documentada en la pestaña *Transparencia* del propio dashboard — incluida la explicación de por qué un UNKNOWN es un resultado válido.
+El radar es **público y gratuito**, sin cuentas y sin rastreo: FIMI (retirado). Su código es [abierto en GitHub](https://github.com/mcasrom/hybrid-fimi-radar), y la metodología completa está documentada en la pestaña *Transparencia* del propio dashboard — incluida la explicación de por qué un UNKNOWN es un resultado válido.
 
 ## Fuentes
 
-* FIMI Radar — dashboard en vivo (fimi.viajeinteligencia.com).
+* FIMI Radar — dashboard en vivo (FIMI (retirado)).
 * [hybrid-fimi-radar en GitHub](https://github.com/mcasrom/hybrid-fimi-radar) — código y documentación (SCORING.md, ATRIBUCION-LIMITACIONES.md, TRAZABILIDAD.md).
 * [EUvsDisinfo](https://euvsdisinfo.eu/) — catálogo de referencia usado en la validación externa (benchmark histórico, ámbito Ucrania/Rusia 2015-23).
 * Este blog, serie Geopolítica 101: [Qué es la geopolítica](/posts/que-es-la-geopolitica/), [El gasto en defensa](/posts/espana-gasto-defensa-1977-2025-salto-estrategico/), [El mapa de intereses en el Magreb](/posts/el-mapa-de-intereses/).

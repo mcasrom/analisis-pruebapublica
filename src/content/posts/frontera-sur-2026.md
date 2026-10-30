@@ -133,7 +133,7 @@ merece mirarse más de cerca.
 
 Todo lo anterior es comprobable en abierto. El dashboard en vivo, con los diales
 por tema, las tarjetas de cluster, la metodología y los límites declarados, está en
-**fimi.viajeinteligencia.com**. Desde ahí
+**FIMI (retirado)**. Desde ahí
 puedes seguir el tema Frontera Sur, ver las hipótesis de cada cluster y su
 evidencia, y contrastar por tu cuenta. La transparencia no es un adorno del
 proyecto: es su antídoto contra el error más común al hablar de desinformación,
