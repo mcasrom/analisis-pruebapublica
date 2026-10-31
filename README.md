@@ -65,6 +65,7 @@ pm2 start ecosystem.config.cjs --env production
 - Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (6 posts) + serie
   **Dereliction of Duty** (6 posts) + serie **Geopolítica 101** (11 posts) + serie
   **España 29-N** (2 posts, con cierre anunciado tras el 29-N).
+- **Protestas juveniles**: serie de 3 piezas. La tercera, `blocus-geografia-protesta-juvenil.md`, separa contagio social, imitación organizativa y coordinación operativa; incluye `abstract_en` (bloque "In English"), tabla de evidencia, diagrama y fuentes enlazadas.
 - **Series declaradas por frontmatter**: `serie` agrupa y `serie_numero` ordena. El
   bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
   título + listado de partes enlazadas) y se genera a partir de esos dos campos, no
@@ -77,6 +78,15 @@ pm2 start ecosystem.config.cjs --env production
   temático por tags con ≥ 2 posts + sidebar con "Temas populares".
 - JSON-LD: `WebSite`/`Blog` en la portada + `Article` (autor Person, publisher
   con logo, `dateModified`, `wordCount`, `timeRequired`) por post.
+
+## Sidebar
+- **Destacado:** miniatura 16:9 con el `image` del post (OG), `loading="lazy"`,
+  `decoding="async"`, `width`/`height` y `object-cover`.
+- **Recientes:** miniatura 48×48 con el mismo `image`; si falta, se queda solo el
+  título. Se usa `image_alt` cuando existe.
+- El sidebar **no** repite el `abstract_en`: el bloque "In English" vive en la
+  cabecera del post. Las imágenes son las mismas OG; no se generan gráficos extra
+  para el sidebar.
 
 ## Búsqueda
 - Página **`/buscar`**: buscador **client-side** (JS vanilla, sin dependencias ni
