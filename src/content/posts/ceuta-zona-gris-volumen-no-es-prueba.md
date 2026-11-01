@@ -119,7 +119,7 @@ La crisis de Ceuta es real, la incursión naval está reconocida y la justicia i
 
 ## Referencias
 
-- Radar FIMI, caso Frontera Sur (instantánea 23-10-2026): FIMI (retirado)
+- Radar FIMI, caso Frontera Sur (instantánea 23-10-2026): el radar anterior (retirado)
 - elDiario.es, 12-10-2026, sobre la admisión del Gobierno y el despliegue de las fragatas: https://www.eldiario.es/1_cf33ea
 - Escudo Digital, crisis naval ocultada durante 74 días: https://www.escudodigital.com/espana/disuasion-o-chantaje-la-crisis-naval-con-marruecos-que-espana-oculto-durante-74-dias.html
 - Euronews, 7-08-2026, despliegue de dos fragatas en Ceuta: https://es.euronews.com/my-europe/2026/08/07/espana-blinda-ceuta-con-2-fragatas-y-mas-efectivos-ante-el-temor-a-otra-entrada-masiva-el-

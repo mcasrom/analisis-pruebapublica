@@ -81,9 +81,9 @@ Esa distinción importa: un tema enorme en portada **no** es automáticamente un
 
 Todo lo anterior sale de datos públicos. Puedes reproducirlo:
 
-- Estado completo: FIMI (retirado)
+- Estado completo: el radar anterior (retirado)
 - Documentación de la API: api.html
-- Permalink de un grupo: `FIMI (retirado) (los permalinks son estables aunque los números de grupo no lo sean entre ciclos)
+- Permalink de un grupo: `el radar anterior (retirado) (los permalinks son estables aunque los números de grupo no lo sean entre ciclos)
 
 Este resumen continúa la serie sobre el observatorio: [qué vigila el radar](https://analisis.pruebapublica.com/posts/fimi-radar-que-vigila/) y [qué detectaba a 26 de septiembre](https://analisis.pruebapublica.com/posts/que-detecta-hoy-el-observatorio-fimi/).
 

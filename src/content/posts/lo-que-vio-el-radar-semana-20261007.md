@@ -90,9 +90,9 @@ Primero, el pipeline trabaja desde ayer con **ventana de 60 días**: las señale
 
 ## Cómo verificarlo
 
-- Estado completo: FIMI (retirado)
+- Estado completo: el radar anterior (retirado)
 - Documentación de la API: api.html
-- Serie diaria por tema: `FIMI (retirado)
+- Serie diaria por tema: `el radar anterior (retirado)
 - Contrastes con verificadores: datos/bulos.json
 
 Este resumen continúa la serie: [n.º 1 (41.778 eventos, tres sincronías)](https://analisis.pruebapublica.com/posts/lo-que-vio-el-radar-esta-semana/) y [n.º 2 (Ceuta)](https://analisis.pruebapublica.com/posts/lo-que-amplifico-la-crisis-de-ceuta/).

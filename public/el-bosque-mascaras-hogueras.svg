@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-labelledby="t d">
+<title id="t">El bosque, las máscaras y quienes encendían las hogueras</title>
+<desc id="d">Un claro nocturno con siluetas de árboles, tres cuervos en una colina y una hoguera al fondo.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b1220"/>
+    <stop offset="1" stop-color="#172033"/>
+  </linearGradient>
+  <radialGradient id="fire" cx="50%" cy="65%" r="55%">
+    <stop offset="0" stop-color="#fbbf24" stop-opacity=".95"/>
+    <stop offset=".45" stop-color="#f97316" stop-opacity=".55"/>
+    <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1000" height="420" fill="url(#sky)"/>
+<circle cx="820" cy="78" r="30" fill="#e2e8f0" opacity=".8"/>
+<path d="M0 310 Q140 250 280 290 T560 275 T820 300 T1000 270 V420 H0Z" fill="#101827"/>
+<g fill="#0a0f1a">
+  <path d="M70 315 L95 140 L120 315Z"/><path d="M150 320 L172 170 L194 320Z"/>
+  <path d="M250 315 L278 95 L306 315Z"/><path d="M345 320 L366 165 L387 320Z"/>
+  <path d="M730 315 L752 145 L774 315Z"/><path d="M815 320 L836 175 L857 320Z"/>
+  <path d="M900 315 L926 105 L952 315Z"/>
+</g>
+<g fill="#0a0f1a" opacity=".85">
+  <path d="M0 340 Q120 295 240 330 T470 320 T700 335 T1000 315 V420 H0Z"/>
+</g>
+<ellipse cx="545" cy="345" rx="92" ry="18" fill="#f97316" opacity=".18"/>
+<path d="M520 338 C505 300 535 280 545 250 C555 285 585 305 565 340 C552 350 532 350 520 338Z" fill="#f97316"/>
+<path d="M536 340 C530 315 546 300 552 282 C560 305 572 320 562 342 C554 350 544 350 536 340Z" fill="#fbbf24"/>
+<g fill="#0b1220">
+  <path d="M655 208 l34 -12 -12 20 28 8 -32 8 8 20 -26 -15 -24 18 7 -22 -31 -9 30 -8 -10 -18z" opacity=".95"/>
+  <path d="M735 185 l24 -9 -8 15 20 6 -23 6 6 14 -19 -11 -17 13 5 -16 -22 -7 21 -6 -7 -13z" opacity=".8"/>
+  <path d="M705 235 l18 -7 -6 11 15 5 -17 4 4 11 -14 -8 -13 9 4 -12 -16 -5 15 -4 -5 -10z" opacity=".65"/>
+</g>
+<text x="42" y="62" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="800">El bosque, las máscaras</text>
+<text x="42" y="92" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="800">y quienes encendían las hogueras</text>
+<text x="42" y="122" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Fábula del análisis · 9/9 · M. Castillo</text>
+</svg>

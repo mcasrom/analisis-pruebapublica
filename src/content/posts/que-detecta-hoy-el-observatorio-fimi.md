@@ -120,15 +120,10 @@ Por eso su propio microservicio repite en cada respuesta: *“Datos públicos de
 
 ## Cómo comprobarlo
 
-Todo lo expuesto es reproducible. Los endpoints públicos son:
+El radar descrito aquí está retirado y sus endpoints `/api/v1` ya no responden. El observatorio actual no usa clústeres ni bandas.
 
-```
-GET FIMI (retirado)
-GET FIMI (retirado)
-GET FIMI (retirado)
-```
-
-El primero da el resumen por tema (grupos y alertas); el segundo, los 177 grupos electorales con su banda, tipo y explicaciones; el tercero, la evidencia de un grupo concreto. Cualquiera puede rehacer las cifras de este artículo desde su navegador.
+- Registro actual: [Observatorio de lo publicado](https://fimi.viajeinteligencia.com/observatorio/).
+- API actual: [`/api/observatorio/v1/`](https://fimi.viajeinteligencia.com/api/observatorio/v1/).
 
 ## La conclusión del corte
 

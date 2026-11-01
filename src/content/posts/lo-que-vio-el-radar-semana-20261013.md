@@ -23,6 +23,8 @@ faq:
     a: "Sí. Todas salen de la API pública read-only y son reproducibles; el método, los límites y las bandas están publicados. Los identificadores de grupo no son estables entre ciclos: para seguir un caso se usa el enlace /c/… (linaje)."
 ---
 > **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
+>
+> **Enlaces actualizados (01-nov-2026).** Las rutas `/informes/...` y `/api/v1` de este texto ya no existen. El registro activo es el [Observatorio de lo publicado](https://fimi.viajeinteligencia.com/observatorio/).
 
 
 
@@ -104,8 +106,8 @@ Cobertura parcial: **sin X, TikTok, Instagram, Facebook, YouTube, WhatsApp ni Te
 
 ## Cómo reproducirlo
 
-- API pública: `FIMI (retirado) (read-only, sin clave).
-- Método y límites: metodología.
-- Caso abierto: Ceuta / Frontera Sur.
+- **El radar descrito en este artículo está retirado.** Sus endpoints `/api/v1` y sus informes por tema ya no existen.
+- Registro actual: [Observatorio de lo publicado](https://fimi.viajeinteligencia.com/observatorio/).
+- Caso actual: [Frontera Sur](https://fimi.viajeinteligencia.com/observatorio/ceuta/).
 
 *Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*

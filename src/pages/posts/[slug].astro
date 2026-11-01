@@ -92,6 +92,14 @@ const fimiPostMap = {
   'doctrinas-101-extranjero-cercano': 'defensa_espana',
 };
 const fimiTema = fimiPostMap[post.slug] ? fimiTemas[fimiPostMap[post.slug]] : null;
+const fimiTemaUrls: Record<string, string> = {
+  frontera_sur: 'https://fimi.viajeinteligencia.com/observatorio/ceuta/',
+  espana_elecciones: 'https://fimi.viajeinteligencia.com/observatorio/campana/',
+  elecciones: 'https://fimi.viajeinteligencia.com/observatorio/campana/',
+};
+const fimiTemaUrl = fimiPostMap[post.slug]
+  ? (fimiTemaUrls[fimiPostMap[post.slug]] ?? 'https://fimi.viajeinteligencia.com/observatorio/')
+  : null;
 // Cross-promo a Vivienda (serie «Vivienda y poder»): datos oficiales del microservicio.
 const esVivienda = post.data.serie === 'Vivienda y poder';
 
@@ -100,7 +108,7 @@ const serieNombre = post.data.serie ?? null;
 const serieDesc: Record<string, string> = {
   'Ceuta 2026': 'Serie de análisis sobre la crisis migratoria como arma diplomática',
   'Dereliction of Duty': 'Serie sobre la lealtad política y el debilitamiento institucional en España',
-  'Fábulas del análisis': 'Siete fábulas para pensar el método del análisis',
+  'Fábulas del análisis': 'Nueve fábulas para pensar el método del análisis',
   'Método': 'Herramientas para leer datos, encuestas y conceptos sin convertirlos en certezas',
 };
 const seriePosts = serieNombre
@@ -257,6 +265,17 @@ const faqLd = faq.length
       <div class="prose-editorial mt-8">
         <Content />
       </div>
+
+      {fimiTema && fimiTemaUrl && (
+        <div class="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5 dark:border-slate-700 dark:bg-slate-900/40">
+          <p class="mb-1 text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">Registro actual</p>
+          <a href={`${fimiTemaUrl}?utm_source=analisis&utm_medium=post&utm_campaign=observatorio`}
+             class="font-medium text-accent-700 hover:underline dark:text-accent-400">
+            {fimiTema.nombre} — Observatorio de lo publicado →
+          </a>
+          <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">{fimiTema.desc}. Sin clústeres, bandas ni atribuciones.</p>
+        </div>
+      )}
 
       <div class="mt-10 rounded-2xl border border-accent-300 bg-accent-50/50 p-6 dark:border-accent-700 dark:bg-accent-950/30">
         <NewsletterForm variante="inline" />

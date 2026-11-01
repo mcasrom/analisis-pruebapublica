@@ -142,9 +142,9 @@ Una señal puede ser el comienzo de una investigación. Nunca debería ser el fi
 
 ## Referencias
 
-- FIMI Radar (producción): FIMI (retirado) — dashboard y API pública `v1` (tema `espana_amenazas_hibridas`).
+- FIMI Radar (producción): el radar anterior (retirado) — dashboard y API pública `v1` (tema `espana_amenazas_hibridas`).
 - EEAS — [*Tackling disinformation and foreign information manipulation and interference (FIMI)*](https://www.eeas.europa.eu/eeas/tackling-disinformation-foreign-information-manipulation-interference_en) — marco europeo de FIMI.
-- Metodología, límites y transparencia: FIMI (retirado) y las notas públicas del repositorio AGPL-3.0 `hybrid-fimi-radar`.
+- Metodología, límites y transparencia: el radar anterior (retirado) y las notas públicas del repositorio AGPL-3.0 `hybrid-fimi-radar`.
 
 ---
 

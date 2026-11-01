@@ -133,7 +133,7 @@ merece mirarse más de cerca.
 
 Todo lo anterior es comprobable en abierto. El dashboard en vivo, con los diales
 por tema, las tarjetas de cluster, la metodología y los límites declarados, está en
-**FIMI (retirado)**. Desde ahí
+**el radar anterior (retirado)**. Desde ahí
 puedes seguir el tema Frontera Sur, ver las hipótesis de cada cluster y su
 evidencia, y contrastar por tu cuenta. La transparencia no es un adorno del
 proyecto: es su antídoto contra el error más común al hablar de desinformación,
@@ -141,10 +141,10 @@ que es confundir **coordinación observada** con **culpable identificado**.
 
 ## Referencias
 
-- FIMI Radar (producción): FIMI (retirado) — datos del
+- FIMI Radar (producción): el radar anterior (retirado) — datos del
   dashboard y API pública `v1`.
 - Base de datos del radar (`data/radar.db`): tablas `events`, `event_temas`,
   `clusters`, `assessments`, `cluster_lineage`, `findings` (cifras de este
   artículo, ciclo del 24/09/2026).
-- Metodología y límites: FIMI (retirado) y
+- Metodología y límites: el radar anterior (retirado) y
   `docs/ATRIBUCION-LIMITACIONES.md` del repositorio AGPL-3.0 `hybrid-fimi-radar`.
