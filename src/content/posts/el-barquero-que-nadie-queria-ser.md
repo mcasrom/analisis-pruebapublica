@@ -147,6 +147,9 @@ Votar al menos malo puede ser lo único razonable el día de la elección. Pero 
 - [El rey que no sabía mandar y el hombre que sabía demasiado](/posts/el-rey-que-no-sabia-mandar-y-el-hombre-que-sabia-demasiado/) — qué puede hacer quien gobierna.
 - [Dereliction of Duty (VI): cuando nadie es responsable](/posts/dereliction-of-duty-vi-cuando-nadie-es-responsable) — rendición de cuentas e instituciones.
 
+
+> **Sigue esta línea de análisis.** [Recibe el siguiente análisis en tu correo](https://analisis.pruebapublica.com/suscribirse/?utm_source=analisis&utm_medium=post&utm_campaign=el-barquero-que-nadie-queria-ser).
+
 ---
 
 *Nota de método: esta pieza es una fábula. No analiza a ninguna persona ni partido concretos ni atribuye intenciones; describe un problema de diseño de selección y acceso en cualquier elección entre opciones limitadas.*

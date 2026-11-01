@@ -91,6 +91,14 @@ La ingesta y el build corren en local y publican un sitio estático. Cada ejecuc
 
 Durante el **blackout electoral** (24–28 de noviembre) no se publican ni difunden sondeos. El agregado se congela y la web lo indica. La participación y los resultados del 29N se publicarán **después** de la jornada, con fuente oficial; si la fuente oficial no es accesible por HTTP, hay un procedimiento manual con validación y fuente obligatoria.
 
+## Sigue el hilo
+
+- [Cómo leer la media y su robustez](/posts/29n-como-leer-media-robustez/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos)
+- [La primera lectura de las elecciones](/posts/espana-elecciones-29n-primera-lectura/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos)
+- [Las encuestas como poder](/posts/las-encuestas-como-poder/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos)
+
+> **Sigue esta línea de análisis.** [Recibe el siguiente análisis en tu correo](https://analisis.pruebapublica.com/suscribirse/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos).
+
 ## Para qué sirve
 
 Para un periodista, es una forma rápida de citar una media **con su rango y su n**. Para un docente, un caso práctico de incertidumbre y de diferencia entre dato y estimación. Para cualquier lector, una manera de no confundir una encuesta con un resultado.

@@ -103,6 +103,14 @@ Si queremos pasar de la intuición a la evidencia, la lista es corta:
 - **Hitos externos:** fechas fijadas por fuentes independientes del corpus, para que la prueba de coincidencia no sea circular.
 - **Línea base comparable:** series con captura estable. Sin ella, ningún porcentaje de «subida» es defendible.
 
+## Sigue el hilo
+
+- [La ola que cruza fronteras](/posts/ola-protestas-juveniles/?utm_source=analisis&utm_medium=post&utm_campaign=ceuta-zona-gris-volumen-no-es-prueba)
+- [Blocus: de una marca digital a una prueba territorial](/posts/blocus-geografia-protesta-juvenil/?utm_source=analisis&utm_medium=post&utm_campaign=ceuta-zona-gris-volumen-no-es-prueba)
+- [Zona gris, guerra híbrida e injerencia](/posts/zona-gris-guerra-hibrida-injerencia-extranjera/?utm_source=analisis&utm_medium=post&utm_campaign=ceuta-zona-gris-volumen-no-es-prueba)
+
+> **Sigue esta línea de análisis.** [Recibe el siguiente análisis en tu correo](https://analisis.pruebapublica.com/suscribirse/?utm_source=analisis&utm_medium=post&utm_campaign=ceuta-zona-gris-volumen-no-es-prueba).
+
 ## Cierre
 
 La crisis de Ceuta es real, la incursión naval está reconocida y la justicia investiga. La hipótesis de un plan híbrido coordinado sigue siendo exactamente eso: una hipótesis, con indicios compatibles y también con evidencia en contra. A cuatro semanas de las elecciones del 29 de noviembre, se multiplicarán las lecturas interesadas desde todos los lados. La mejor defensa es una vieja regla de analista: **primero el hecho, luego la fuente, después la interpretación, y nunca la atribución sin prueba**.
