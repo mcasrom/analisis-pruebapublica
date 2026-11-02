@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="Del programa a la ejecución">
+<rect width="1000" height="300" fill="#0f172a"/>
+<text x="50" y="45" fill="#f97316" font-family="sans-serif" font-size="18" font-weight="700">DEL PROGRAMA A LA EJECUCIÓN</text>
+<g font-family="sans-serif" font-size="15" text-anchor="middle">
+<rect x="45" y="90" width="200" height="95" rx="10" fill="#111b2e" stroke="#334155"/><text x="145" y="128" fill="#fff" font-weight="700">Programa</text><text x="145" y="153" fill="#94a3b8">promesa</text>
+<path d="M245 137 H300" stroke="#f97316" stroke-width="3"/><path d="M290 130 L302 137 L290 144" fill="#f97316"/>
+<rect x="305" y="90" width="200" height="95" rx="10" fill="#111b2e" stroke="#334155"/><text x="405" y="128" fill="#fff" font-weight="700">Acuerdo</text><text x="405" y="153" fill="#94a3b8">investidura/coalición</text>
+<path d="M505 137 H560" stroke="#f97316" stroke-width="3"/><path d="M550 130 L562 137 L550 144" fill="#f97316"/>
+<rect x="565" y="90" width="200" height="95" rx="10" fill="#111b2e" stroke="#334155"/><text x="665" y="128" fill="#fff" font-weight="700">Norma</text><text x="665" y="153" fill="#94a3b8">BOE / ley</text>
+<path d="M765 137 H820" stroke="#f97316" stroke-width="3"/><path d="M810 130 L822 137 L810 144" fill="#f97316"/>
+<rect x="825" y="90" width="130" height="95" rx="10" fill="#111b2e" stroke="#334155"/><text x="890" y="128" fill="#fff" font-weight="700">Ejecución</text><text x="890" y="153" fill="#94a3b8">resultado</text>
+<text x="500" y="245" fill="#94a3b8" font-size="15">Una ley no demuestra que el servicio exista. Una partida no demuestra que haya llegado.</text>
+</g></svg>
