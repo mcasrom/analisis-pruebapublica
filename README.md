@@ -62,9 +62,9 @@ pm2 start ecosystem.config.cjs --env production
 - Posts en `src/content/posts/*.md` (frontmatter: `title`, `description`, `pubDate`,
   `tags`, `image`, `categoria`, `author`, `assisted`, `draft`, y opcionalmente
   `serie` + `serie_numero`).
-- Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (6 posts) + serie
+- Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (7 posts) + serie
   **Dereliction of Duty** (6 posts) + serie **Geopolítica 101** (11 posts) + serie
-  **España 29-N** (2 posts, con cierre anunciado tras el 29-N).
+  **España 29-N** (3 publicados y un cuarto programado para el 5-N).
 - **Protestas juveniles**: serie de 3 piezas. La tercera, `blocus-geografia-protesta-juvenil.md`, separa contagio social, imitación organizativa y coordinación operativa; incluye `abstract_en` (bloque "In English"), tabla de evidencia, diagrama y fuentes enlazadas.
 - **Series declaradas por frontmatter**: `serie` agrupa y `serie_numero` ordena. El
   bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
@@ -78,6 +78,21 @@ pm2 start ecosystem.config.cjs --env production
   temático por tags con ≥ 2 posts + sidebar con "Temas populares".
 - JSON-LD: `WebSite`/`Blog` en la portada + `Article` (autor Person, publisher
   con logo, `dateModified`, `wordCount`, `timeRequired`) por post.
+
+## Trilogía «Democracia y legitimidad»
+
+Tres análisis preparados, con `draft: true` hasta su fecha y publicación automática:
+
+| Fecha | Post | Serie |
+|---|---|---|
+| 9-nov-2026 | La democracia antes del recuento | 1/3 |
+| 16-nov-2026 | El contrato electoral | 2/3 |
+| 23-nov-2026 | Ganar, gobernar y aceptar perder | 3/3 |
+
+- Cron: `scripts/publish_trilogia.sh` en `0 8 9/16/23 11 *`; compila, reinicia PM2, purga CF, difunde y retira su one-shot.
+- Cada post lleva OG 1200×630, diagrama SVG, tablas, interlinks, `abstract_en` y firma estándar.
+- **Fuentes:** nota de la Policía Federal brasileña y `Cumpliendo` (203 compromisos) son primarias. El itinerario brasileño, los visados, Alaska y parte del caso israelí tienen cobertura secundaria; el recuadro del post declara qué falta. No se publica «fraude demostrado», «fugado» ni «protección política» sin documento.
+- La tabla de 39 compromisos del borrador anterior **no se usa**: la fuente oficial `Cumpliendo` contiene 203.
 
 ## Sidebar
 - **Destacado:** miniatura 16:9 con el `image` del post (OG), `loading="lazy"`,
@@ -124,6 +139,7 @@ pm2 start ecosystem.config.cjs --env production
   declaración oral), se cita en texto plano.
 - Frontmatter de la casa: `author: "M. Castillo"`, `assisted: "GenAI (...)"`,
   `categoria: "análisis"` y `image:` de portada.
+- **Calidad analítica:** campo opcional `auditoria_editorial` (tesis, evidencia, contraste, causalidad, conclusiones; 0–2 cada uno). Se muestra aparte del score técnico de 100 y **no se aplica a fábulas**. Rúbrica: `docs/RUBRICA-EDITORIAL.md`.
 - Cada post cierra con **nota sobre el proceso de elaboración** y firma
   `@pruebapublica`; los ensayos de opinión se marcan explícitamente como tales.
 - `draft` **está declarado** en `src/content.config.ts` y se filtra en los listados,
@@ -196,18 +212,18 @@ entero, y se puede exigir un mínimo de artículos por eje.
 `posts/[slug].astro` es genérico: chip "Serie · n/N" sobre el título, más el listado
 de partes, **limitado a 6** con enlace al eje para el resto.
 
-- **Geopolítica 101** (10) — la numeración **no** se infiere de `pubDate` (hay
+- **Geopolítica 101** (11) — la numeración **no** se infiere de `pubDate` (hay
   empates: tres posts el 10-sep y dos el 13-sep). Sale de la lista que declara el
   propio post 8: «comenzó con *¿Qué es la geopolítica?* y continúa con petróleo,
   cables submarinos, el Ártico, la IA, el espacio y PISA».
-- **Fábulas del análisis** (7) — 1) *El caballo que aprendió a cantar*, 2) *La llave
+- **Fábulas del análisis** (9) — 1) *El caballo que aprendió a cantar*, 2) *La llave
   de Nasrudín*, 3) *Los ciegos y el elefante*. Al formalizar la serie, el caballo
   salió de Geopolítica 101 (conserva el tag `geopolítica 101`). Series 1-2-3 por
   orden de publicación; después se añadieron las siguientes.
 - **Método** (2) — *Las encuestas como poder* (1) y *Zona gris, guerra híbrida e
   injerencia* (2). La segunda pieza estaba en `Conceptos`; se fusionó para no
   dejar una serie de una sola entrada.
-- **Ceuta 2026** (7) · **Dereliction of Duty** (5).
+- **Ceuta 2026** (7) · **Dereliction of Duty** (6).
 - **Barra lateral** (`src/components/Sidebar.astro`): la lista «Temas» muestra el
   top-8 de etiquetas por uso **más** una lista `FIJOS` siempre visible (hoy
   `['fábulas']`), para que una serie con pocos posts no quede enterrada.
