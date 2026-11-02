@@ -110,7 +110,7 @@ Durante el **blackout electoral** (24–28 de noviembre) no se publican ni difun
 
 Para un periodista, es una forma rápida de citar una media **con su rango y su n**. Para un docente, un caso práctico de incertidumbre y de diferencia entre dato y estimación. Para cualquier lector, una manera de no confundir una encuesta con un resultado.
 
-El observatorio es abierto: el [método](/metodologia.html), las [fuentes y datos](/fuentes.html) y el [código](https://github.com/mcasrom/elecciones29n-osint) están publicados. Si encuentras un error o una fuente mejor, la corrección es parte del método.
+El observatorio es abierto: el [método](https://elecciones29n.pruebapublica.com/metodologia.html), las [fuentes y datos](https://elecciones29n.pruebapublica.com/fuentes.html) y el [código](https://github.com/mcasrom/elecciones29n-osint) están publicados. Si encuentras un error o una fuente mejor, la corrección es parte del método.
 
 La regla sigue siendo la misma: **una media no es un pronóstico; una banda alta no es una campaña; y una cifra sin fuente no es un dato**.
 
