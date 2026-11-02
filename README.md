@@ -173,6 +173,16 @@ python3 scripts/blog-audit.py --json                  # salida JSON
 - Comprobaciones de serie: la numeración debe ser `1..N` sin huecos ni repetidos.
 - El reporte versionado es `blog-audit.md` (se regenera, no se edita a mano).
 
+## GSC y cobertura (2-nov-2026)
+
+- Propiedad URL-prefix: **`https://analisis.pruebapublica.com/`** (independiente de la propiedad de dominio `pruebapublica.com`).
+- Corte de cobertura: **23-oct-2026**; **293 indexadas / 220 sin indexar**.
+- Del total sin indexar, **189 son redirecciones** (86 %): rutas antiguas, `http/https` o barras finales; no son 189 páginas rotas.
+- **8 404**, **11 canónicas/duplicadas**, **11 descubiertas/rastreadas**, **1 `noindex`**.
+- **Tags:** desde el 2-nov llevan `noindex, follow` y están fuera del sitemap. Sitemap: **277 → 91 URLs**. En la próxima cobertura aparecerán más `noindex`: es el resultado esperado.
+- Enlaces internos corregidos: `/metodologia.html` y `/fuentes.html` del post de media de sondeos apuntan al **29N**, no al blog.
+- El CSV de Cobertura **no incluye URLs**; los ejemplos se consultan en la UI. No usar “Validar corrección” en redirecciones/404 intencionados.
+
 ## RSS
 - `src/pages/rss.xml.js` declara `site: "https://analisis.pruebapublica.com"` de
   forma literal: en pre-render `Astro.site` es `undefined` y el build fallaba,
