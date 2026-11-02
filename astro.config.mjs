@@ -28,7 +28,7 @@ export default defineConfig({
   adapter: node({ mode: 'standalone' }),
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/admin/'),
+      filter: (page) => !page.includes('/admin/') && !page.includes('/tags/'),
       serialize(item) {
         const m = item.url.match(/\/posts\/([^/]+)\/?$/);
         if (m && lastmodPorSlug[m[1]]) {
