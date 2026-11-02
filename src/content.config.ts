@@ -17,6 +17,14 @@ const posts = defineCollection({
     serie_numero: z.number().int().positive().optional(),
     draft: z.boolean().default(false),
     no_social: z.boolean().default(false),
+    auditoria_editorial: z.object({
+      fecha: z.coerce.date().optional(),
+      tesis: z.number().int().min(0).max(2),
+      evidencia: z.number().int().min(0).max(2),
+      contraste: z.number().int().min(0).max(2),
+      causalidad: z.number().int().min(0).max(2),
+      conclusiones: z.number().int().min(0).max(2),
+    }).optional(),
   }),
 });
 

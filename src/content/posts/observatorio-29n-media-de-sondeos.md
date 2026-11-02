@@ -9,6 +9,13 @@ categoria: "análisis"
 image: "/observatorio-29n-og.png"
 draft: false
 abstract_en: "A poll aggregator for Spain's 29 November 2026 general election that separates polling averages from census, turnout and seat allocation. It shows the range, the number of polls and the health of the sample instead of a single forecast."
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 2
+  contraste: 2
+  causalidad: 2
+  conclusiones: 2
 ---
 
 Durante una campaña se habla mucho de encuestas y poco de quién puede votar, cuánta gente participa y cómo se traduce el voto en escaños. He construido el [observatorio electoral del 29N](https://elecciones29n.pruebapublica.com/) para reunir esas cuatro capas con una regla sencilla: **dato oficial cuando existe, estimación cuando toca y ninguna conclusión que el dato no sostenga**.

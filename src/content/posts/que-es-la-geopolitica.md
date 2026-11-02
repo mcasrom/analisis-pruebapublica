@@ -21,6 +21,13 @@ faq:
     a: "Para separar el dato verificable de la interpretación y leer los acontecimientos como jugadas dentro de una partida más larga, no como sucesos aislados."
 serie: "Geopolítica 101"
 serie_numero: 1
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 1
+  contraste: 1
+  causalidad: 1
+  conclusiones: 2
 ---
 
 > **Serie Geopolítica 101**. Esta es la primera entrega de una serie de fundamentos: qué es la geopolítica, cómo se leyeron los imperios, cómo se lee hoy el mapa de los recursos, la infraestructura y la tecnología. Cada entrega termina enlazando con casos concretos ya publicados en este blog.

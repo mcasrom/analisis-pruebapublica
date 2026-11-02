@@ -18,6 +18,13 @@ faq:
     a: "No. A 6 de octubre de 2026 el tema tiene 55 grupos y ninguno en banda alta. El radar mide forma (repetición, amplificación, anomalía), no atribuye autoría y no confirma que algo sea falso: señal no es conclusión."
   - q: "¿Qué son los «posibles bulos contrastados»?"
     a: "Un cruce automático entre los grupos en banda alta o anómala y las piezas recientes de verificadores (Maldita y Newtral, últimos 14 días). Señala dónde el contenido amplificado toca un tema que un verificador acaba de desmentir, para que una persona lo revise. Es contraste, no veredicto: no atribuye actor ni confirma bulo."
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 2
+  contraste: 2
+  causalidad: 1
+  conclusiones: 1
 ---
 > **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
 

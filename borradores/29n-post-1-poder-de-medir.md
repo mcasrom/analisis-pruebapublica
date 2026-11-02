@@ -24,6 +24,13 @@ faq:
     a: "No. Mide amplificación observable (varias cuentas repiten lo mismo a la vez). Puede ser coordinación, eco de prensa o una reacción orgánica; atribuir exige pruebas adicionales."
   - q: "¿Qué puedo hacer si veo una cifra sin fuente?"
     a: "No compartirla. Pide la fuente, la fecha y el método. Si no están, no es un dato: es una afirmación."
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 2
+  contraste: 2
+  causalidad: 2
+  conclusiones: 1
 ---
 
 # El poder de medir (y de no medir)

@@ -62,6 +62,22 @@ def parse_frontmatter(path):
     return fm, m.group(2)
 
 
+EDITORIAL_KEYS = ("tesis", "evidencia", "contraste", "causalidad", "conclusiones")
+
+
+def editorial_of(fm):
+    raw = fm.get("auditoria_editorial")
+    if not isinstance(raw, dict):
+        return None
+    vals = {}
+    for key in EDITORIAL_KEYS:
+        val = raw.get(key)
+        if not isinstance(val, int) or not (0 <= val <= 2):
+            return None
+        vals[key] = val
+    return {"score": sum(vals.values()), "max": 10, **vals, "fecha": str(raw.get("fecha") or "")}
+
+
 def og_existe(img):
     if not img:
         return False
@@ -168,6 +184,7 @@ def main():
                 "fuentes_n": len(fuentes),
                 "serie": str(serie) if serie else "",
                 "serie_num": fm.get("serie_numero"),
+                "editorial": editorial_of(fm),
             }
         )
         lineas.append(p)
@@ -223,6 +240,18 @@ def main():
                 L.append(f"| {nombre} | {len(items)} | {marca} |")
         else:
             L.append("Ninguna serie declarada.")
+        L.append("")
+        L.append("## Calidad analítica (manual)\n")
+        L.append("No se suma al score técnico. Solo se aplica a análisis, no a fábulas.\n")
+        ed_rows = [p for p in lineas if p.get("editorial")]
+        if ed_rows:
+            L.append("| Puntos | Título | Tesis | Evidencia | Contraste | Causalidad | Conclusiones |")
+            L.append("| --- | --- | --- | --- | --- | --- | --- |")
+            for p in ed_rows:
+                x = p["editorial"]
+                L.append(f"| {x['score']}/10 | [{p['title']}](/posts/{p['slug']}/) | {x['tesis']} | {x['evidencia']} | {x['contraste']} | {x['causalidad']} | {x['conclusiones']} |")
+        else:
+            L.append("Sin posts evaluados con `auditoria_editorial`.")
         L.append("")
         L.append("## Ranking\n")
         L.append("| # | Puntos | Título | Serie | Palabras | Fuentes | Faltan |")

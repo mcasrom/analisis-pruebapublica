@@ -11,6 +11,13 @@ draft: false
 serie: "Vivienda y poder"
 serie_numero: 3
 abstract_en: "Spain's social rental stock is around 1.5–1.7% versus ~9% for the EU-27. What recent measures promise, and how to measure what actually becomes available. Third of three essays."
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 2
+  contraste: 1
+  causalidad: 1
+  conclusiones: 2
 ---
 > **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
 

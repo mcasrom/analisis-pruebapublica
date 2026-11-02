@@ -23,6 +23,13 @@ faq:
     a: "No. Un mismo repertorio visual puede copiarse sin mando compartido. Para hablar de coordinación hacen falta comunicaciones, instrucciones, financiación o responsables identificables."
   - q: "¿El observatorio demuestra quién está detrás?"
     a: "No. El observatorio cuenta publicaciones y fuentes. No mide organización, asistencia ni intención, y no debe usarse como prueba de autoría."
+auditoria_editorial:
+  fecha: 2026-11-02
+  tesis: 2
+  evidencia: 2
+  contraste: 2
+  causalidad: 2
+  conclusiones: 2
 ---
 
 # Blocus: de una marca digital a una prueba territorial
