@@ -20,6 +20,7 @@ git pull --ff-only || echo "[publish] aviso: pull falló; sigo con el árbol act
 sed 's/^draft: true$/draft: false/' "$DRAFT" > "$DEST"
 npm run build
 pm2 restart analisis-pub >/dev/null
+bash /home/deploy/scripts/cf_purge.sh pruebapublica >> /home/deploy/analisis-pruebapublica/logs/publish_29n_post1.log 2>&1 || echo "[publish] aviso: purge CF falló; purgar a mano"
 git add "$DEST"
 git commit -m "post: el poder de medir (serie 29N, 1/2)" || true
 git push origin main || echo "[publish] aviso: push falló; hazlo a mano"
@@ -32,5 +33,13 @@ cd "$ROOT"
 sleep 2
 CODE=$(curl -s -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "https://analisis.pruebapublica.com/posts/$SLUG/")
 echo "[publish] https://analisis.pruebapublica.com/posts/$SLUG/ -> HTTP $CODE"
-echo "[publish] purga CF desde el portátil: bash ~/Desktop/demo/cf_purge.sh pruebapublica"
+if [ "$CODE" = "200" ]; then
+  TMPC=$(mktemp)
+  crontab -l 2>/dev/null | grep -v 'publish_29n_post1.sh' > "$TMPC" || true
+  crontab "$TMPC"
+  rm -f "$TMPC"
+  echo "[publish] cron one-shot retirado"
+else
+  echo "[publish] NO se retira el cron: la página no devolvió 200"
+fi
 echo "[publish] difusión: blog_social.py la detecta en <=30 min; X manual."
