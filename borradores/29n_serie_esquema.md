@@ -1,6 +1,6 @@
 # Serie «España 29-N» — esquema cerrado (opción B)
 
-**Decisión:** 2 posts + 3 notas + 1 guía de servicio. **Marco:** «El poder de medir (y de no medir)».
+**Decisión:** 2 posts + 1 nota de blackout + 1 guía de servicio. Se descartan las notas semanales del 13 y 20-nov para no repetir la guía. **Marco:** «El poder de medir (y de no medir)».
 **Regla:** el observatorio y el radar son **herramientas**, no el tema. Sin pronóstico, sin atribución.
 
 ## Calendario
@@ -8,10 +8,8 @@
 |---|---|---|
 | mié 28-oct | **Pieza 3 · La media no es el resultado** | **publicada** · serie «España 29-N» #3 |
 | jue 5-nov | **Post 4 · El poder de medir (y de no medir)** | redactado (borrador) |
-| lun 9-nov | **Post 5 · La incertidumbre y la forma** | esquema; redactar 3–5-nov con datos frescos |
-| vie 13-nov | Nota · Qué se sostiene esta semana | plantilla |
-| vie 20-nov | Nota · Qué se sostiene esta semana | plantilla |
-| lun 23-nov | Nota · Blackout (24–28 nov) | plantilla |
+| mié 11-nov | **Post 5 · La incertidumbre y la forma** | esquema; redactar 4–6-nov con datos frescos |
+| lun 23-nov | **Nota · Blackout (24–28 nov)** | única nota: qué se retira, qué queda y cómo leer el 29N |
 
 ## Post 1 — «El poder de medir (y de no medir)»
 1. **El poder de definir la opinión pública**: la elección no empieza en las urnas; empieza en quién mide y cómo se cuenta.
@@ -35,12 +33,16 @@
 5. **Qué mirar y qué no concluir**: checklist y errores frecuentes.
 6. **Blackout y noche electoral**: qué se publica y cuándo.
 
-## Notas semanales (plantilla)
-- **Qué se sostiene**: 2–3 datos con fuente y periodo.
-- **Qué no se sostiene**: titulares que el dato no permite.
-- **Qué no se puede decir**: atribución, causalidad, pronóstico.
-- **Enlace**: observatorio + robustez + radar.
-- 400–600 palabras; sin crónica electoral.
+## Nota única de blackout (23-nov)
+
+**Título:** «Blackout: qué se retira, qué queda y cómo leer el 29N».
+
+- **Qué se retira:** agregado, robustez, JSON, OG y datos de sondeos del 24 al 28.
+- **Qué queda:** censo, participación histórica, territorio, método y página de blackout.
+- **Qué no se publica:** sondeos, promedios, escenarios ni “quién gana”.
+- **Qué mirar:** fuente oficial (Interior/JEC), participación y escrutinio.
+- **Después:** el marcador post-electoral se activa con resultados oficiales.
+- 400–600 palabras; sin cifras nuevas de sondeos; sin crónica electoral.
 
 ## Guardrails
 - No crónica de la campaña ni “quién sube”.

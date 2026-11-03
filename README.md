@@ -229,7 +229,9 @@ de partes, **limitado a 6** con enlace al eje para el resto.
 - **Fábulas del análisis** (9) — 1) *El caballo que aprendió a cantar*, 2) *La llave
   de Nasrudín*, 3) *Los ciegos y el elefante*. Al formalizar la serie, el caballo
   salió de Geopolítica 101 (conserva el tag `geopolítica 101`). Series 1-2-3 por
-  orden de publicación; después se añadieron las siguientes.
+  orden de publicación; después se añadieron las siguientes. **Cadencia:** una
+  fábula nueva cada fin de semana. *Nasrudín y la luna en el pozo* queda
+  descartada y no se publica.
 - **Método** (2) — *Las encuestas como poder* (1) y *Zona gris, guerra híbrida e
   injerencia* (2). La segunda pieza estaba en `Conceptos`; se fusionó para no
   dejar una serie de una sola entrada.

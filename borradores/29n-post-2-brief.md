@@ -1,7 +1,7 @@
 # Post 2 · «La incertidumbre y la forma» — brief de redacción
 
-**Serie:** España 29-N · **Parte:** 5 · **Publicación prevista:** lunes 9-nov-2026
-**Estado:** brief; redactar entre el 3 y el 5-nov con datos frescos.
+**Serie:** España 29-N · **Parte:** 5 · **Publicación prevista:** miércoles 11-nov-2026
+**Estado:** brief; redactar entre el 4 y el 6-nov con datos frescos.
 **No publicar este fichero.**
 
 > **Solape resuelto:** la guía publicada el 28-oct ya cubre media, rango y robustez. Este texto empieza en la **forma de la conversación** (radar), no repite la guía.
