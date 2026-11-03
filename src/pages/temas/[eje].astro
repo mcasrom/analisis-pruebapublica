@@ -72,7 +72,7 @@ const breadcrumbLd = {
 };
 ---
 
-<Layout title={titulo} description={descripcion} url={`/temas/${eje.slug}/`}>
+<Layout title={titulo} description={descripcion} image={eje.slug === 'fabulas' ? '/og-fabulas.png' : undefined} url={`/temas/${eje.slug}/`}>
   <script type="application/ld+json" set:html={JSON.stringify(collectionLd).replace(/</g, '\\u003c').replace(/>/g, '\\u003e')} slot="head" />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c').replace(/>/g, '\\u003e')} slot="head" />
 
