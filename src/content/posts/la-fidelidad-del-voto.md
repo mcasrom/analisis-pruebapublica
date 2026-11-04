@@ -4,7 +4,7 @@ description: "Identidad, ideología, memoria y rechazo: por qué el voto se mant
 abstract_en: "Why do voters keep voting for the same party even when they are dissatisfied? Party identity, ideology, negative voting and the mechanisms that can break long-term loyalties."
 pubDate: 2026-11-04
 author: "M. Castillo"
-assisted: "GenAI (documentación, contraste de fuentes y edición); supervisión y decisiones editoriales del autor"
+assisted: "IA generativa (documentación, contraste y edición); revisión humana"
 tags: ["29N", "elecciones", "comportamiento electoral", "opinión pública", "partidos", "España"]
 categoria: "análisis"
 image: "/fidelidad-voto-og.png"
@@ -127,4 +127,4 @@ Para seguir la evolución de los sondeos publicados, con su rango y sus fuentes,
 - [Ateneo del Dato para elDiario.es (25-oct-2026)](https://www.eldiario.es/politica/bloque-izquierdas-recorta-distancias-pp-vox-mantienen-mayoria-absoluta_1_13611052.html): «El bloque de izquierdas recorta distancias, pero PP y Vox mantienen la mayoría absoluta».
 - SocioMétrica para El Español (27-sep-2026): encuesta con matriz de transferencia de voto. La cifra concreta de transferencias es una estimación del sondeo, no un recuento de votos.
 
-> **Nota de elaboración.** Texto redactado con asistencia de IA para documentación, contraste y edición; la selección de fuentes, el encuadre y las decisiones editoriales son del autor. Miguel Castillo.
+*Elaborado con asistencia de IA generativa y revisión humana. — @pruebapublica*

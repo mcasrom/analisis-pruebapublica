@@ -217,6 +217,20 @@ entero, y se puede exigir un mínimo de artículos por eje.
 - El nav lleva "Temas" y "Etiquetas"; `/categorias` sigue existiendo como índice por
   etiqueta con ≥2 artículos y enlaza desde ambos.
 
+## Firma de elaboración
+
+Todos los posts llevan al final la misma firma:
+
+> *Elaborado con asistencia de IA generativa y revisión humana. — @pruebapublica*
+
+El campo `assisted` usa la forma canónica:
+
+```yaml
+assisted: "IA generativa (documentación, contraste y edición); revisión humana"
+```
+
+Las notas largas de fuentes o límites van **antes** de la firma, no mezcladas con ella. No se escribe `Miguel Castillo` en la firma: la autoría personal ya está en el `author` y en el pie.
+
 ## Series declaradas por frontmatter
 `serie` agrupa y `serie_numero` ordena. El bloque de serie de
 `posts/[slug].astro` es genérico: chip "Serie · n/N" sobre el título, más el listado
