@@ -2,13 +2,13 @@
 title: "La fidelidad del voto: por qué seguimos votando a los mismos y qué nos hace cambiar"
 description: "Identidad, ideología, memoria y rechazo: por qué el voto se mantiene y cuándo se rompe. Una lectura para el 29N, sin pronóstico."
 abstract_en: "Why do voters keep voting for the same party even when they are dissatisfied? Party identity, ideology, negative voting and the mechanisms that can break long-term loyalties."
-pubDate: 2026-11-06
+pubDate: 2026-11-04
 author: "M. Castillo"
 assisted: "GenAI (documentación, contraste de fuentes y edición); supervisión y decisiones editoriales del autor"
 tags: ["29N", "elecciones", "comportamiento electoral", "opinión pública", "partidos", "España"]
 categoria: "análisis"
 image: "/fidelidad-voto-og.png"
-draft: true
+draft: false
 resumen:
   - "La fidelidad electoral no es una evaluación permanente de resultados: también es identidad, memoria y pertenencia."
   - "Cambiar de partido no equivale a cambiar de ideología; buena parte del movimiento ocurre dentro del mismo bloque."
