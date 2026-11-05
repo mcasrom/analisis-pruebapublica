@@ -8,7 +8,8 @@ tags: ["29N", "sondeos", "FIMI", "poder", "información", "atribución", "OSINT"
 categoria: "análisis"
 serie: "España 29-N"
 serie_numero: 4
-image: "/og-preview.png"
+image: "/el-poder-de-medir-og.png"
+image_alt: "Tarjeta del análisis «El poder de medir (y de no medir)»: España 29-N, 29N, sondeos, FIMI y atribución."
 draft: false
 abstract_en: "Elections are also a dispute over what counts as public opinion. This piece introduces a series on Spain's 29N election: who measures, how uncertainty is shown, how messages are amplified, and what cannot be claimed without evidence."
 resumen:
@@ -35,7 +36,7 @@ auditoria_editorial:
 
 # El poder de medir (y de no medir)
 
-*Cuarto texto de la serie «España 29-N».*
+*Cuarto texto de la serie «España 29-N» y primero de la serie editorial «El poder de medir».*
 
 Una elección no empieza el día de la votación. Antes de contar votos se disputa otra cosa: **qué es la opinión pública, quién la mide y cómo se cuenta**. Esa disputa no siempre es visible, pero decide titulares, estrategias y buena parte de lo que se da por sabido.
 
