@@ -201,7 +201,7 @@ entero, y se puede exigir un mínimo de artículos por eje.
 | Eje | Qué agrupa |
 | --- | --- |
 | `/temas/geopolitica-101/` | la serie completa (11 posts) en **orden de lectura** |
-| `/temas/fabulas/` | la serie Fábulas del análisis (5 posts) en **orden de lectura** |
+| `/temas/fabulas/` | la serie Fábulas del análisis (10 posts) en **orden de lectura** |
 | `/temas/fronteras-y-migraciones/` | 15 posts, incluye las series Ceuta 2026 y Dereliction of Duty |
 | `/temas/energia/` | petróleo, OEP+, oleoductos, gasoductos, corredor medio |
 | `/temas/comercio-y-aranceles/` | aranceles, proteccionismo, economía política |

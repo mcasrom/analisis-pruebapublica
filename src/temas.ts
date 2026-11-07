@@ -27,7 +27,7 @@ export const EJES: Eje[] = [
     slug: 'fabulas',
     nombre: 'Fábulas del análisis',
     resumen:
-      'Nueve fábulas para pensar el método del análisis: los problemas que se aplazan, la tendencia a buscar solo bajo la luz, la parte que se confunde con el todo, la amenaza sin ejecución, quién manda, qué cambia la conducta del otro, quién paga lo común, de dónde salen los candidatos y cuándo una multitud no es una organización.',
+      'Diez fábulas para pensar el método del análisis: los problemas que se aplazan, la tendencia a buscar solo bajo la luz, la parte que se confunde con el todo, la amenaza sin ejecución, quién manda, qué cambia la conducta del otro, quién paga lo común, de dónde salen los candidatos, cuándo una multitud no es una organización y cuándo la coherencia se exige solo hacia fuera.',
     serie: 'Fábulas del análisis',
     tags: [],
   },
