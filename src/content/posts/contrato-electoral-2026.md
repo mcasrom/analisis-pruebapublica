@@ -8,7 +8,7 @@ assisted: "IA generativa (documentación, contraste y edición); supervisión de
 tags: ["democracia", "instituciones", "rendición de cuentas", "gobierno", "oposición", "políticas públicas"]
 categoria: "análisis"
 serie: "Democracia y legitimidad"
-serie_numero: 2
+serie_numero: 1
 image: "/contrato-electoral-og.png"
 image_alt: "Tarjeta del análisis «El contrato electoral»: programa, acuerdo, ley y ejecución."
 draft: true
@@ -113,7 +113,7 @@ El voto concede representación, no impunidad política. Un programa puede cambi
 
 El contrato electoral no garantiza que todo se cumpla. Sí debería garantizar que nada desaparezca sin explicación.
 
-*Esta pieza continúa [La democracia antes del recuento](/posts/democracia-antes-recunto/). La siguiente entrega de la serie se publicará más adelante.*
+*Esta pieza abre la serie «Democracia y legitimidad». La siguiente entrega se publicará más adelante.*
 
 ## Fuentes
 

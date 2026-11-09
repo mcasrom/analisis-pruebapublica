@@ -8,7 +8,7 @@ assisted: "IA generativa (documentación, contraste y edición); supervisión de
 tags: ["democracia", "legitimidad", "instituciones", "rendición de cuentas", "poder", "elecciones"]
 categoria: "análisis"
 serie: "Democracia y legitimidad"
-serie_numero: 3
+serie_numero: 2
 image: "/ganar-gobernar-aceptar-perder-og.png"
 image_alt: "Tarjeta del análisis «Ganar, gobernar y aceptar perder»: las tres pruebas de la legitimidad democrática."
 draft: true
@@ -105,11 +105,10 @@ La democracia no consiste en que gobierne siempre quien consideramos más adecua
 
 Ganar permite gobernar. No permite ignorar los compromisos. Perder obliga a abandonar el Gobierno, no a renunciar a la crítica. Gobernar no convierte a nadie en propietario de la voluntad popular.
 
-*Esta pieza cierra la serie. Vuelve a [La democracia antes del recuento](/posts/democracia-antes-recunto/) y [El contrato electoral](/posts/contrato-electoral-2026/).*
+*Esta pieza cierra la serie. Vuelve a [El contrato electoral](/posts/contrato-electoral-2026/).*
 
 ## Fuentes
 
-- [La democracia antes del recuento](/posts/democracia-antes-recunto/)
 - [El contrato electoral](/posts/contrato-electoral-2026/)
 - [Policía Federal de Brasil, nota del 28-oct-2026](https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-3)
 - [Presidencia de Israel: declaración del 29-oct-2026](https://www.president.gov.il/en/president-herzog-this-is-a-sensitive-moment-the-integrity-of-our-elections-is-a-supreme-democratic-value-the-evidence-and-the-allegations-must-be-fully-investigated-and-those-responsible/)
