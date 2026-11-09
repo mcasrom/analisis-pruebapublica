@@ -11,7 +11,7 @@ serie: "Democracia y legitimidad"
 serie_numero: 1
 image: "/democracia-antes-recunto-og.png"
 image_alt: "Tarjeta del análisis «La democracia antes del recuento»: papeletas, instituciones y la frontera entre denuncia y prueba."
-draft: true
+draft: false
 auditoria_editorial:
   fecha: 2026-11-02
   tesis: 2
