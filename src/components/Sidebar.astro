@@ -23,6 +23,41 @@ const masLeidos = posts
   .sort((a, b) => b.likes - a.likes)
   .slice(0, 4);
 const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+
+// Calendario editorial: fechas publicadas, sin borradores ni piezas futuras.
+const now = new Date();
+const madridParts = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Europe/Madrid',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+}).formatToParts(now);
+const part = (type: string) => madridParts.find((p) => p.type === type)?.value || '00';
+const todayKey = `${part('year')}-${part('month')}-${part('day')}`;
+const currentMonthKey = todayKey.slice(0, 7);
+const publishedPosts = posts.filter((p) => p.data.pubDate <= now);
+const currentMonthPosts = publishedPosts
+  .filter((p) => p.data.pubDate.toISOString().slice(0, 7) === currentMonthKey)
+  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
+const currentMonthDays = [
+  ...new Map(
+    currentMonthPosts.map((p) => [p.data.pubDate.toISOString().slice(0, 10), p]),
+  ).values(),
+];
+const currentMonthLabel = (() => {
+  const label = new Intl.DateTimeFormat('es-ES', {
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(Date.UTC(Number(todayKey.slice(0, 4)), Number(todayKey.slice(5, 7)) - 1, 1)));
+  return label.charAt(0).toUpperCase() + label.slice(1);
+})();
+const calData = publishedPosts.map((p) => ({
+  date: p.data.pubDate.toISOString().slice(0, 10),
+  slug: p.slug,
+  title: p.data.title,
+}));
+const calJson = JSON.stringify(calData).replace(/</g, '\\u003c');
 ---
 <aside class="space-y-8">
   <!-- Destacado -->
@@ -48,6 +83,34 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', y
       </a>
     </section>
   )}
+
+  <!-- Calendario editorial -->
+  <section data-cal aria-labelledby="cal-title">
+    <h3 id="cal-title" class="mb-3 border-b border-slate-200 pb-2 text-xs font-semibold uppercase tracking-widest text-slate-500 dark:border-slate-700 dark:text-slate-400">Calendario</h3>
+    <div data-cal-nav class="mb-2 flex items-center justify-between gap-2" hidden>
+      <button type="button" data-cal-prev class="cal-nav" aria-label="Mes anterior">‹</button>
+      <strong id="cal-month" class="text-sm text-slate-700 dark:text-slate-200" aria-live="polite">{currentMonthLabel}</strong>
+      <button type="button" data-cal-next class="cal-nav" aria-label="Mes siguiente">›</button>
+    </div>
+    <div id="cal-grid" class="cal-grid" role="grid" aria-label={`Publicaciones de ${currentMonthLabel}`} hidden></div>
+    <div id="cal-fallback">
+      <p class="mb-1 text-xs text-slate-500 dark:text-slate-400">{currentMonthLabel} · {currentMonthDays.length} {currentMonthDays.length === 1 ? 'publicación' : 'publicaciones'}</p>
+      {currentMonthDays.length > 0 ? (
+        <ul class="flex flex-wrap gap-x-3 gap-y-1 text-sm">
+          {currentMonthDays.map((p) => (
+            <li>
+              <a href={`/posts/${p.slug}/`} class="font-medium text-slate-700 hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-400" title={p.data.title}>
+                {p.data.pubDate.getUTCDate()}
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="text-xs text-slate-500 dark:text-slate-400">Sin publicaciones este mes.</p>
+      )}
+    </div>
+    <button type="button" data-cal-today class="cal-today" hidden>Hoy</button>
+  </section>
 
   <!-- Lo más leído -->
   {masLeidos.length > 0 && (
@@ -123,3 +186,146 @@ const fmt = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', y
     </ul>
   </section>
 </aside>
+
+<script type="application/json" id="cal-data" set:html={calJson}></script>
+<script is:inline>
+(function () {
+  var root = document.querySelector('[data-cal]');
+  var dataNode = document.getElementById('cal-data');
+  if (!root || !dataNode) return;
+  var data = [];
+  try { data = JSON.parse(dataNode.textContent || '[]'); } catch (e) { return; }
+  var byDate = {};
+  data.forEach(function (p) { (byDate[p.date] = byDate[p.date] || []).push(p); });
+  var grid = document.getElementById('cal-grid');
+  var fallback = document.getElementById('cal-fallback');
+  var label = document.getElementById('cal-month');
+  var nav = root.querySelector('[data-cal-nav]');
+  var todayBtn = root.querySelector('[data-cal-today]');
+  if (!grid || !label || !nav) return;
+
+  function todayParts() {
+    var parts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Madrid', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(new Date());
+    var o = {};
+    parts.forEach(function (p) { o[p.type] = p.value; });
+    return { y: +o.year, m: +o.month, d: +o.day, key: o.year + '-' + o.month + '-' + o.day };
+  }
+  function pad(n) { return n < 10 ? '0' + n : String(n); }
+  function monthKey(y, m) { return y + '-' + pad(m + 1); }
+  function labelFor(y, m) {
+    var s = new Intl.DateTimeFormat('es-ES', {
+      month: 'long', year: 'numeric', timeZone: 'UTC'
+    }).format(new Date(Date.UTC(y, m, 1)));
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  }
+  var weekdays = ['lun', 'mar', 'mié', 'jue', 'vie', 'sáb', 'dom'];
+  var today = todayParts();
+  var initialMonth = today.key.slice(0, 7);
+  var y = today.y, m = today.m - 1, viewKey = initialMonth;
+
+  function render() {
+    label.textContent = labelFor(y, m);
+    grid.replaceChildren();
+    weekdays.forEach(function (d) {
+      var el = document.createElement('div');
+      el.className = 'cal-dow';
+      el.textContent = d;
+      el.setAttribute('role', 'columnheader');
+      grid.appendChild(el);
+    });
+    var first = (new Date(Date.UTC(y, m, 1)).getUTCDay() + 6) % 7;
+    var total = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    for (var i = 0; i < first; i += 1) {
+      var blank = document.createElement('div');
+      blank.className = 'cal-cell cal-empty';
+      blank.setAttribute('aria-hidden', 'true');
+      grid.appendChild(blank);
+    }
+    for (var d = 1; d <= total; d += 1) {
+      var key = y + '-' + pad(m + 1) + '-' + pad(d);
+      var items = byDate[key] || [];
+      var cell;
+      if (items.length) {
+        cell = document.createElement('a');
+        cell.href = '/posts/' + items[0].slug + '/';
+        cell.className = 'cal-cell cal-post';
+        cell.title = items.length > 1
+          ? items.length + ' publicaciones: ' + items.map(function (x) { return x.title; }).join(' · ')
+          : items[0].title;
+        cell.setAttribute('aria-label', items.length > 1
+          ? d + ' de ' + labelFor(y, m) + ': ' + items.length + ' publicaciones'
+          : d + ' de ' + labelFor(y, m) + ': ' + items[0].title);
+      } else {
+        cell = document.createElement('span');
+        cell.className = 'cal-cell';
+        cell.setAttribute('aria-hidden', 'true');
+      }
+      if (key === today.key) cell.classList.add('cal-today-day');
+      cell.textContent = String(d);
+      cell.setAttribute('role', 'gridcell');
+      grid.appendChild(cell);
+    }
+    var tail = (7 - (first + total) % 7) % 7;
+    for (var j = 0; j < tail; j += 1) {
+      var empty = document.createElement('div');
+      empty.className = 'cal-cell cal-empty';
+      empty.setAttribute('aria-hidden', 'true');
+      grid.appendChild(empty);
+    }
+    viewKey = monthKey(y, m);
+    nav.hidden = false;
+    grid.hidden = false;
+    if (fallback) fallback.hidden = true;
+    if (todayBtn) todayBtn.hidden = false;
+    grid.setAttribute('aria-label', 'Publicaciones de ' + labelFor(y, m));
+  }
+
+  root.querySelector('[data-cal-prev]').addEventListener('click', function () {
+    m -= 1;
+    if (m < 0) { m = 11; y -= 1; }
+    render();
+  });
+  root.querySelector('[data-cal-next]').addEventListener('click', function () {
+    m += 1;
+    if (m > 11) { m = 0; y += 1; }
+    render();
+  });
+  if (todayBtn) todayBtn.addEventListener('click', function () {
+    var t = todayParts();
+    y = t.y;
+    m = t.m - 1;
+    render();
+  });
+  function refreshAtMonthChange() {
+    var t = todayParts();
+    if (t.key.slice(0, 7) !== initialMonth && viewKey === initialMonth) {
+      initialMonth = t.key.slice(0, 7);
+      y = t.y;
+      m = t.m - 1;
+      render();
+    }
+  }
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') refreshAtMonthChange();
+  });
+  window.setInterval(refreshAtMonthChange, 60000);
+  render();
+})();
+</script>
+<style is:global>
+  [data-cal] .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 2px; }
+  [data-cal] .cal-dow { padding: 2px 0; color: #94a3b8; font-size: 9px; letter-spacing: .08em; text-align: center; text-transform: uppercase; }
+  [data-cal] .cal-cell { align-items: center; border-radius: 9999px; color: #475569; display: flex; font-size: 12px; justify-content: center; min-height: 2rem; }
+  [data-cal] .cal-empty { visibility: hidden; }
+  [data-cal] .cal-post { background: var(--color-accent-600); color: #fff; font-weight: 700; }
+  [data-cal] .cal-post:hover { background: var(--color-accent-700); }
+  [data-cal] .cal-today-day { box-shadow: 0 0 0 2px var(--color-accent-400); }
+  [data-cal] .cal-nav, [data-cal] .cal-today { background: transparent; border: 1px solid #cbd5e1; border-radius: 9999px; color: #475569; cursor: pointer; font: inherit; }
+  [data-cal] .cal-nav { height: 1.8rem; line-height: 1; width: 1.8rem; }
+  [data-cal] .cal-today { font-size: 11px; margin-top: .55rem; padding: .2rem .6rem; }
+  html.dark [data-cal] .cal-cell { color: #cbd5e1; }
+  html.dark [data-cal] .cal-nav, html.dark [data-cal] .cal-today { border-color: #475569; color: #cbd5e1; }
+  html.sepia [data-cal] .cal-cell { color: #4a3f32; }
+</style>
