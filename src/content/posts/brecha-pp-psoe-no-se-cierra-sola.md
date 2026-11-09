@@ -1,6 +1,6 @@
 ---
-title: "La brecha PP-PSOE no se cierra sola: se estrecha, se reabre y depende de quién publica"
-description: "La distancia entre PP y PSOE no sigue una línea: se estrechó a mediados de octubre y volvió a abrirse en noviembre. Qué muestran 14 meses de encuestas y qué no permiten concluir."
+title: "Elecciones 29N: la brecha PP-PSOE se estrecha, se reabre y depende de quién publica"
+description: "La distancia entre PP y PSOE en las elecciones del 29N no sigue una línea: se estrechó a mediados de octubre y volvió a abrirse en noviembre. Qué muestran 14 meses de encuestas y qué no permiten concluir."
 pubDate: 2026-11-09
 author: "M. Castillo"
 assisted: "GenAI (cálculo, contraste y redacción asistida)"
@@ -24,7 +24,7 @@ faq:
 serie: "Pulso electoral"
 serie_numero: 1
 draft: false
-no_social: true
+no_social: false
 ---
 
 La distancia entre PP y PSOE no sigue una línea recta. En las últimas semanas se estrechó, después volvió a abrirse. Los datos permiten poner fecha al movimiento y comprobar si es robusto. No permiten decir que un acontecimiento concreto lo haya causado.
