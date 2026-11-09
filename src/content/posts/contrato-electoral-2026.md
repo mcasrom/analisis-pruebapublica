@@ -4,7 +4,7 @@ description: "Del programa a la ley y de la ley a la ejecución: cómo evaluar l
 abstract_en: "From manifesto to law and from law to implementation: how to assess political commitments without turning an announcement into an outcome."
 pubDate: 2026-11-16
 author: "M. Castillo"
-assisted: "GenAI (documentación, contraste de fuentes y edición)"
+assisted: "IA generativa (documentación, contraste y edición); supervisión del autor"
 tags: ["democracia", "instituciones", "rendición de cuentas", "gobierno", "oposición", "políticas públicas"]
 categoria: "análisis"
 serie: "Democracia y legitimidad"
@@ -113,9 +113,7 @@ El voto concede representación, no impunidad política. Un programa puede cambi
 
 El contrato electoral no garantiza que todo se cumpla. Sí debería garantizar que nada desaparezca sin explicación.
 
-*Esta pieza continúa [La democracia antes del recuento](/posts/democracia-antes-recunto/) y prepara [Ganar, gobernar y aceptar perder](/posts/ganar-gobernar-aceptar-perder/).*
-
-*Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*
+*Esta pieza continúa [La democracia antes del recuento](/posts/democracia-antes-recunto/). La siguiente entrega de la serie se publicará más adelante.*
 
 ## Fuentes
 
@@ -125,3 +123,5 @@ El contrato electoral no garantiza que todo se cumpla. Sí debería garantizar q
 - [Diario de Sesiones del Congreso, 15-nov-2023](https://www.congreso.es/es/busqueda-de-publicaciones?_publicaciones_id_texto=DSCD-15-PL-7.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
 - [Diario de Sesiones del Congreso, 16-nov-2023](https://www.congreso.es/es/busqueda-de-publicaciones?_publicaciones_id_texto=DSCD-15-PL-8.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
 - [Acuerdo PSOE-Sumar, octubre de 2023](https://www.psoe.es/el-socialista/un-acuerdo-de-gobierno-con-la-voluntad-de-ofrecer-estabilidad-convivencia-y-progreso-a-espana-durante-los-proximos-cuatro-anos/)
+
+*Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*

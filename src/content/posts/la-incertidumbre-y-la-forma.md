@@ -3,7 +3,7 @@ title: "La incertidumbre y la forma"
 description: "La media describe lo publicado, no el resultado. El rango mide dispersión, no un intervalo de confianza. La forma de la conversación mide circulación, no verdad ni intención."
 pubDate: 2026-11-09
 author: "M. Castillo"
-assisted: "GenAI (documentación, contraste y redacción asistida)"
+assisted: "IA generativa (documentación, contraste y edición); supervisión del autor"
 tags: ["29N", "sondeos", "incertidumbre", "FIMI", "OSINT", "método"]
 categoria: "análisis"
 serie: "España 29-N"
@@ -119,4 +119,4 @@ La incertidumbre no es un defecto del dato: es parte del dato. La forma de la co
 
 **Herramientas:** [observatorio 29N](https://elecciones29n.pruebapublica.com/#aviso) · [robustez](https://elecciones29n.pruebapublica.com/robustez.html) · [cómo leer](https://elecciones29n.pruebapublica.com/como-leer.html) · [glosario](https://elecciones29n.pruebapublica.com/glosario.html) · [radar FIMI](https://fimi.viajeinteligencia.com/observatorio/).
 
-*Elaborado con asistencia de IA generativa y revisión humana. — @pruebapublica*
+*Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*

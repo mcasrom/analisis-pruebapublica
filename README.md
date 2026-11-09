@@ -219,17 +219,17 @@ entero, y se puede exigir un mínimo de artículos por eje.
 
 ## Firma de elaboración
 
-Todos los posts llevan al final la misma firma:
+Los posts nuevos llevan al final la misma firma:
 
-> *Elaborado con asistencia de IA generativa y revisión humana. — @pruebapublica*
+> *Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*
 
 El campo `assisted` usa la forma canónica:
 
 ```yaml
-assisted: "IA generativa (documentación, contraste y edición); revisión humana"
+assisted: "IA generativa (documentación, contraste y edición); supervisión del autor"
 ```
 
-Las notas largas de fuentes o límites van **antes** de la firma, no mezcladas con ella. No se escribe `Miguel Castillo` en la firma: la autoría personal ya está en el `author` y en el pie.
+Las notas largas de fuentes o límites van **antes** de la firma, no mezcladas con ella. No se escribe `Miguel Castillo` en la firma: la autoría personal ya está en el `author` y en el pie. Los posts anteriores a esta decisión conservan su firma histórica.
 
 ## Series declaradas por frontmatter
 `serie` agrupa y `serie_numero` ordena. El bloque de serie de

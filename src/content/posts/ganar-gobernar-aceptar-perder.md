@@ -4,7 +4,7 @@ description: "La legitimidad no se obtiene una sola vez en las urnas: se demuest
 abstract_en: "Legitimacy is not acquired once at the ballot box: it is tested by accepting the rules, exercising power under constraints and allowing alternation."
 pubDate: 2026-11-23
 author: "M. Castillo"
-assisted: "GenAI (documentación, contraste de fuentes y edición)"
+assisted: "IA generativa (documentación, contraste y edición); supervisión del autor"
 tags: ["democracia", "legitimidad", "instituciones", "rendición de cuentas", "poder", "elecciones"]
 categoria: "análisis"
 serie: "Democracia y legitimidad"
@@ -107,8 +107,6 @@ Ganar permite gobernar. No permite ignorar los compromisos. Perder obliga a aban
 
 *Esta pieza cierra la serie. Vuelve a [La democracia antes del recuento](/posts/democracia-antes-recunto/) y [El contrato electoral](/posts/contrato-electoral-2026/).*
 
-*Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*
-
 ## Fuentes
 
 - [La democracia antes del recuento](/posts/democracia-antes-recunto/)
@@ -116,3 +114,5 @@ Ganar permite gobernar. No permite ignorar los compromisos. Perder obliga a aban
 - [Policía Federal de Brasil, nota del 28-oct-2026](https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-3)
 - [Presidencia de Israel: declaración del 29-oct-2026](https://www.president.gov.il/en/president-herzog-this-is-a-sensitive-moment-the-integrity-of-our-elections-is-a-supreme-democratic-value-the-evidence-and-the-allegations-must-be-fully-investigated-and-those-responsible/)
 - [Cumpliendo, julio de 2026](https://www.lamoncloa.gob.es/paginas/cumpliendo/rendicion-de-cuentas-julio-2026.aspx)
+
+*Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*

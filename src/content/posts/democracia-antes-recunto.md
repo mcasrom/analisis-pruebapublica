@@ -4,7 +4,7 @@ description: "Trump, Bolsonaro y Netanyahu: tres escenarios para examinar qué o
 abstract_en: "Trump, Bolsonaro and Netanyahu offer three different scenarios for examining what happens when fraud allegations become a dispute over legitimacy before the count is complete."
 pubDate: 2026-11-09
 author: "M. Castillo"
-assisted: "GenAI (documentación, contraste de fuentes y edición)"
+assisted: "IA generativa (documentación, contraste y edición); supervisión del autor"
 tags: ["democracia", "elecciones", "legitimidad", "fraude", "instituciones", "poder"]
 categoria: "análisis"
 serie: "Democracia y legitimidad"
@@ -85,9 +85,7 @@ La denuncia puede proteger la democracia cuando descubre irregularidades reales.
 
 La diferencia no está en quién denuncia, sino en **las pruebas, los procedimientos y la disposición a aceptar sus resultados**. La democracia empieza antes del recuento; se demuestra, sobre todo, después.
 
-*Sigue la serie: [El contrato electoral](/posts/contrato-electoral-2026/) · [Ganar, gobernar y aceptar perder](/posts/ganar-gobernar-aceptar-perder/).*
-
-*Miguel Castillo. Proyecto independiente y open source. Señal, no atribución.*
+*Serie «Democracia y legitimidad» (1/3). Las siguientes entregas se publicarán en las próximas semanas.*
 
 ## Fuentes
 
@@ -98,3 +96,5 @@ La diferencia no está en quién denuncia, sino en **las pruebas, los procedimie
 - [DOJ: cargos electorales contra 16 personas](https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-16-individuals-election-crimes)
 - [DOJ: cargos electorales contra 48 personas](https://www.justice.gov/opa/pr/justice-department-announces-charges-involving-48-aliens-election-related-crimes)
 - Cobertura secundaria: Reuters, BBC, France 24 y EL PAÍS (27–31 oct 2026). El itinerario y los visados no tienen documento primario localizado.
+
+*Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*
