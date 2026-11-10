@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="331.2pt" viewBox="0 0 576 331.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-10T08:46:27.347403</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 331.2 
+L 576 331.2 
+L 576 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 40.32 264.96 
+L 558.72 264.96 
+L 558.72 59.616 
+L 40.32 59.616 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(102.225327 278.1475)">Confía en</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(73.643295 290.247109)">la mayoría de noticias</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(268.296563 278.1475)">Desconfía de</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(248.18875 290.247109)">la mayoría de noticias</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(452.841236 278.1475)">Paga por</text>
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; fill: #52514e" transform="translate(434.563111 290.247109)">noticias digitales</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 40.32 264.96 
+L 558.72 264.96 
+" clip-path="url(#pf6fe96aea3)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="36.82" y="269.80375" transform="rotate(-0 36.82 269.80375)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 40.32 222.18 
+L 558.72 222.18 
+" clip-path="url(#pf6fe96aea3)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="36.82" y="227.02375" transform="rotate(-0 36.82 227.02375)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 40.32 179.4 
+L 558.72 179.4 
+" clip-path="url(#pf6fe96aea3)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="36.82" y="184.24375" transform="rotate(-0 36.82 184.24375)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 40.32 136.62 
+L 558.72 136.62 
+" clip-path="url(#pf6fe96aea3)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="36.82" y="141.46375" transform="rotate(-0 36.82 141.46375)">30</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 40.32 93.84 
+L 558.72 93.84 
+" clip-path="url(#pf6fe96aea3)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="36.82" y="98.68375" transform="rotate(-0 36.82 98.68375)">40 %</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 40.32 264.96 
+L 558.72 264.96 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 63.883636 264.96 
+L 123.229091 264.96 
+L 123.229091 123.786 
+L 63.883636 123.786 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #2a78d6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 238.429091 264.96 
+L 297.774545 264.96 
+L 297.774545 98.118 
+L 238.429091 98.118 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #2a78d6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 412.974545 264.96 
+L 472.32 264.96 
+L 472.32 226.458 
+L 412.974545 226.458 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #2a78d6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 126.72 264.96 
+L 186.065455 264.96 
+L 186.065455 106.674 
+L 126.72 106.674 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 301.265455 264.96 
+L 360.610909 264.96 
+L 360.610909 140.898 
+L 301.265455 140.898 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 475.810909 264.96 
+L 535.156364 264.96 
+L 535.156364 200.79 
+L 475.810909 200.79 
+z
+" clip-path="url(#pf6fe96aea3)" style="fill: #eb6834"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="93.556364" y="117.951491" transform="rotate(-0 93.556364 117.951491)">33 %</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="268.101818" y="92.283491" transform="rotate(-0 268.101818 92.283491)">39 %</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="442.647273" y="220.623491" transform="rotate(-0 442.647273 220.623491)">9 %</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="156.392727" y="100.839491" transform="rotate(-0 156.392727 100.839491)">37 %</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="330.938182" y="135.063491" transform="rotate(-0 330.938182 135.063491)">29 %</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="505.483636" y="194.955491" transform="rotate(-0 505.483636 194.955491)">15 %</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_10">
+     <path d="M 412.648125 78.3035 
+L 432.648125 78.3035 
+L 432.648125 71.3035 
+L 412.648125 71.3035 
+z
+" style="fill: #2a78d6"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="440.648125" y="78.3035" transform="rotate(-0 440.648125 78.3035)">España</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 412.648125 95.403109 
+L 432.648125 95.403109 
+L 432.648125 88.403109 
+L 412.648125 88.403109 
+z
+" style="fill: #eb6834"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="440.648125" y="95.403109" transform="rotate(-0 440.648125 95.403109)">Media de 48 mercados</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="11.52" y="19.21775" transform="rotate(-0 11.52 19.21775)">Confianza en las noticias: España queda por debajo de la media</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="11.52" y="33.12" transform="rotate(-0 11.52 33.12)">Porcentaje de encuestados, 2026</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 8px; font-family: 'Inter', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="11.52" y="326.232" transform="rotate(-0 11.52 326.232)">Fuente: Reuters Institute Digital News Report 2026 y Digital News Report España 2026 (Univ. de Navarra).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf6fe96aea3">
+   <rect x="40.32" y="59.616" width="518.4" height="205.344"/>
+  </clipPath>
+ </defs>
+</svg>
