@@ -20,7 +20,7 @@ categoria: "análisis"
 author: "M. Castillo"
 assisted: "GenAI (Claude, Anthropic): búsqueda de fuentes, borrador y revisión; verificación y edición final del autor"
 draft: false
-no_social: true
+no_social: false
 ---
 
 España vota el 29N en un entorno informativo muy distinto del que había en 2004. Entonces, la pregunta era quién tenía el micrófono. Hoy hay que añadir otra: quién decide por dónde llega el sonido.
