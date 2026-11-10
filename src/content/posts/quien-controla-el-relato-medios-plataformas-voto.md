@@ -1,7 +1,7 @@
 ---
 title: "Quién controla el relato en el 29N: propiedad, plataformas y voto"
 description: "Los medios no fabrican votos, pero sí deciden de qué se habla, quién llega y en quién se confía. Tres capas de control, dos casos y los datos de 2026 en el 29N."
-pubDate: 2026-11-11
+pubDate: 2026-11-10
 tags: ["medios", "opinión pública", "pluralismo", "plataformas", "elecciones 29N", "poder", "España", "geopolítica"]
 resumen:
   - "La influencia mediática funciona más por agenda, acceso y confianza que por una supuesta persuasión directa."
@@ -19,7 +19,8 @@ image: "/medios-relato-og.png"
 categoria: "análisis"
 author: "M. Castillo"
 assisted: "GenAI (Claude, Anthropic): búsqueda de fuentes, borrador y revisión; verificación y edición final del autor"
-draft: true
+draft: false
+no_social: true
 ---
 
 España vota el 29N en un entorno informativo muy distinto del que había en 2004. Entonces, la pregunta era quién tenía el micrófono. Hoy hay que añadir otra: quién decide por dónde llega el sonido.
