@@ -65,6 +65,7 @@ pm2 start ecosystem.config.cjs --env production
 - Post 0 editorial ("Qué es este blog") + serie **Ceuta 2026** (7 posts) + serie
   **Dereliction of Duty** (6 posts) + serie **Geopolítica 101** (11 posts) + serie
   **España 29-N** (3 publicados y un cuarto programado para el 5-N).
+- **Voto sin escaño (2023)**: `voto-sin-escanio-2023.md` analiza las dos cifras —1.930.424 votos sin escaño provincial y 606.450 a partidos sin ningún escaño—, con tres gráficos, OG y enlace a Claves del 29N.
 - **Protestas juveniles**: serie de 3 piezas. La tercera, `blocus-geografia-protesta-juvenil.md`, separa contagio social, imitación organizativa y coordinación operativa; incluye `abstract_en` (bloque "In English"), tabla de evidencia, diagrama y fuentes enlazadas.
 - **Series declaradas por frontmatter**: `serie` agrupa y `serie_numero` ordena. El
   bloque de serie en `posts/[slug].astro` es genérico (chip "Serie · n/N" sobre el
