@@ -107,6 +107,7 @@ La geografía no vota, pero condiciona a quienes votan. Entender esa condición 
 - [Petróleo 2026: OPEP+, Ormuz y las rutas críticas](/posts/geopolitica-petroleo-2026/)
 - [Estrechos del mundo: Ormuz, Malaca y Suez](/posts/geopolitica-estrechos-2026/)
 - [Cables submarinos: la infraestructura invisible](/posts/geopolitica-cables-2026/)
+- [Claves del 29N: coste de escaño y estructura del sistema](https://elecciones29n.pruebapublica.com/claves.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-claves)
 
 ---
 

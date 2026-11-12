@@ -177,6 +177,12 @@ python3 scripts/blog-audit.py --json                  # salida JSON
 - Comprobaciones de serie: la numeración debe ser `1..N` sin huecos ni repetidos.
 - El reporte versionado es `blog-audit.md` (se regenera, no se edita a mano).
 
+## SEO 12-nov-2026
+
+- **`/buscar/`**: `noindex` y fuera del sitemap; es una utilidad, no una landing.
+- **3 posts refrescados** con respuesta rápida, FAQ y enlaces al 29N: `que-es-la-geopolitica`, `observatorio-29n-media-de-sondeos` y `ceuta-factura-2026`.
+- **Pendiente:** export de **Cobertura con URLs** de las 422 rastreadas sin indexar (el export de Rendimiento no las incluye); clasificar por host/plantilla antes de tocar `noindex` o canónicas.
+
 ## GSC y cobertura (2-nov-2026)
 
 - Propiedad URL-prefix: **`https://analisis.pruebapublica.com/`** (independiente de la propiedad de dominio `pruebapublica.com`).

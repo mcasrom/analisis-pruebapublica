@@ -16,11 +16,22 @@ auditoria_editorial:
   contraste: 2
   causalidad: 2
   conclusiones: 2
+faq:
+  - q: "¿Qué mide la media de sondeos del 29N?"
+    a: "Una media móvil de los sondeos publicados en los últimos 14 días, con rango mínimo–máximo y número de encuestas. No es un pronóstico ni una estimación de intención de voto."
+  - q: "¿Por qué el observatorio no publica escaños nacionales?"
+    a: "Porque la media es nacional y el reparto es provincial. Sin encuestas por circunscripción no se puede estimar un reparto real; una simulación nacional de D'Hondt sería un artefacto."
+  - q: "¿Qué pasa durante el blackout electoral?"
+    a: "Del 24 al 28 de noviembre no se publican ni difunden sondeos. El agregado se retira y se conserva la última foto válida; la web lo indica."
 ---
 
 Durante una campaña se habla mucho de encuestas y poco de quién puede votar, cuánta gente participa y cómo se traduce el voto en escaños. He construido el [observatorio electoral del 29N](https://elecciones29n.pruebapublica.com/) para reunir esas cuatro capas con una regla sencilla: **dato oficial cuando existe, estimación cuando toca y ninguna conclusión que el dato no sostenga**.
 
-No es un pronóstico. Es una herramienta para leer lo que otros publican sin perder de vista la incertidumbre. Las definiciones están en el [glosario del observatorio](https://elecciones29n.pruebapublica.com/glosario.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-glosario) y la ficha de cada provincia, con censo, escaños y resultado de 2023, en [territorio](https://elecciones29n.pruebapublica.com/territorio.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-territorio).
+No es un pronóstico. Es una herramienta para leer lo que otros publican sin perder de vista la incertidumbre.
+
+> **En 30 segundos.** La media del 29N no es un resultado: es una foto con rango, número de sondeos y salud de la muestra. El censo, la participación y los escaños son capas distintas, con fuentes oficiales.
+
+Las definiciones están en el [glosario del observatorio](https://elecciones29n.pruebapublica.com/glosario.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-glosario); la ficha de cada provincia, con censo, escaños y resultado de 2023, en [territorio](https://elecciones29n.pruebapublica.com/territorio.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-territorio); y el censo completo en [electorado](https://elecciones29n.pruebapublica.com/electorado.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-electorado). Las claves sobre coste de escaño están en [Claves del 29N](https://elecciones29n.pruebapublica.com/claves.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=29n-claves).
 
 ## Una media, no un pronóstico
 

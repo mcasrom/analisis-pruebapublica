@@ -14,6 +14,13 @@ image: "/ceuta-2026-factura-og.jpg"
 draft: false
 serie: "Ceuta 2026"
 serie_numero: 1
+faq:
+  - q: "¿Cuánto ha costado la crisis de Ceuta de 2026?"
+    a: "El plan de choque del Estado moviliza 309 M€ y la UE aporta 114,7 M€. No es el coste total: el gasto está en ejecución y las pérdidas privadas son un suelo."
+  - q: "¿De dónde salen las pérdidas privadas?"
+    a: "De la Cámara de Comercio de Ceuta: 33,04 M€ certificados el 31 de agosto de 2026, con datos de facturación de 302 empresas. La propia Cámara las considera un mínimo."
+  - q: "¿El artículo atribuye la crisis a alguien?"
+    a: "No. La lectura geopolítica es una hipótesis sobre incentivos y costes; no atribuye autoría. Los datos van con fuente y la interpretación se marca como tal."
 ---
 > **Corrección (30-oct-2026).** Este texto se apoyaba en FIMI, un sistema que he retirado. Sus recuentos de grupos y actividad no se sostienen como evidencia. He retirado los enlaces y no lo presento como observatorio.
 
@@ -22,6 +29,8 @@ serie_numero: 1
 > **Serie Ceuta 2026.** Tras la dimensión diplomática de la crisis ([el arma migratoria](/posts/ceuta-melilla-2026-crisis-migratoria-arma-diplomatica/)) y la [anatomía de la frase triunfalista](/posts/puente-ceuta-2026-frase-triunfalismo/), esta entrega aborda la pata que casi nadie cuenta con rigor: la factura en euros.
 
 *Nota de actualización (10/09/2026): esta entrada corrige la cifra de pérdidas privadas de la Cámara de Comercio, que la propia entidad revisó al alza el 31 de agosto con datos reales de facturación, y precisa el balance de fallecidos de la crisis de 2026 y de la crisis de 2021 usada como comparación. El resto del análisis se mantiene.*
+
+> **En 30 segundos.** El Estado moviliza **309 M€** en cuatro meses; la Cámara de Comercio certifica **33,04 M€** de pérdidas privadas y la UE aporta **114,7 M€**. Son tres facturas distintas y ninguna es el coste total.
 
 *Nota de cautela: la crisis sigue abierta y las cifras de este análisis son provisionales. El gasto público está en ejecución, el recuento de fallecidos no tiene cierre oficial conjunto España-Marruecos y la propia Cámara de Comercio advierte que sus pérdidas son un suelo, no un techo. Todo dato de 2026 se ofrece con fuente y debe leerse como provisional.*
 
