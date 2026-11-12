@@ -119,6 +119,8 @@ Tres análisis preparados, con `draft: true` hasta su fecha y publicación autom
 - Accesos: icono de lupa en el header (siempre visible), entrada "Buscar" en el
   nav y enlace en el footer. La portada incluye `SearchAction` en su JSON-LD
   (habilita el cuadro de búsqueda de sitelinks en Google).
+- **Indexación:** `/buscar/` lleva `noindex` y está fuera del sitemap. Es una
+  utilidad de navegación, no una página de aterrizaje; no compite con los posts.
 
 ## SEO y captación
 - **Schema.org**: por post se emiten `Article` + `BreadcrumbList` (Inicio → etiqueta →
