@@ -6,7 +6,7 @@ resumen:
   - "Pasar del 65 % al 75 % añadiría 3,87 millones de votantes, pero no pertenecen a ningún bloque."
   - "El efecto depende de quiénes votan, cómo votan y dónde se concentra la movilización."
   - "La participación no tiene una traducción automática en escaños: el sistema es provincial y D'Hondt."
-pubDate: 2026-11-30
+pubDate: 2026-11-22
 tags: ["29N", "participación", "sistema electoral", "D'Hondt", "censo", "análisis"]
 image: "/participacion-65-75-og.png"
 categoria: "análisis"
