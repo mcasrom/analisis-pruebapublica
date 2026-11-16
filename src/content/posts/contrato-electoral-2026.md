@@ -124,4 +124,8 @@ El contrato electoral no garantiza que todo se cumpla. Sí debería garantizar q
 - [Diario de Sesiones del Congreso, 16-nov-2023](https://www.congreso.es/es/busqueda-de-publicaciones?_publicaciones_id_texto=DSCD-15-PL-8.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal)
 - [Acuerdo PSOE-Sumar, octubre de 2023](https://www.psoe.es/el-socialista/un-acuerdo-de-gobierno-con-la-voluntad-de-ofrecer-estabilidad-convivencia-y-progreso-a-espana-durante-los-proximos-cuatro-anos/)
 
-*Elaborado con IA generativa bajo la supervisión del autor. — @pruebapublica*
+---
+
+**Nota sobre el proceso de elaboración.** Este texto se ha elaborado con asistencia de IA generativa para documentación, contraste y edición. La selección de fuentes, la verificación y las conclusiones son responsabilidad del autor, **M. Castillo**. La firma editorial es **@pruebapublica**.
+
+**M. Castillo** · @pruebapublica · analisis.pruebapublica.com
