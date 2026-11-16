@@ -11,7 +11,7 @@ serie: "Democracia y legitimidad"
 serie_numero: 1
 image: "/contrato-electoral-og.png"
 image_alt: "Tarjeta del análisis «El contrato electoral»: programa, acuerdo, ley y ejecución."
-draft: true
+draft: false
 auditoria_editorial:
   fecha: 2026-11-02
   tesis: 2
