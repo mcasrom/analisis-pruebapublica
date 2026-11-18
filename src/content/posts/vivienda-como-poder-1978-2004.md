@@ -1,6 +1,6 @@
 ---
 title: "La vivienda como poder: propiedad, suelo y patrimonio público en España (1978–2004)"
-description: "Entre 1978 y 2004 se configuró un modelo residencial centrado en la propiedad, sin consolidar un gran parque público de alquiler. 1/3."
+description: "Entre 1978 y 2004 se configuró un modelo residencial centrado en la propiedad, sin consolidar un gran parque público de alquiler. 1/4."
 pubDate: 2026-10-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
@@ -16,7 +16,7 @@ abstract_en: "Between 1978 and 2004 Spain shaped a housing model centred on owne
 
 
 
-> **Serie «Vivienda y poder» (1/3).** La vivienda suele contarse como una cuestión de precios, pero detrás del precio hay decisiones de largo recorrido sobre el suelo, la fiscalidad, la financiación y el papel del Estado. En esta primera entrega reconstruyo el tramo 1978–2004. La segunda cubre el auge y el desplome de la vivienda protegida (2004–2018) y la tercera, las medidas recientes y la brecha pendiente (2018–2026). Al final enlazo con el observatorio y con los datos abiertos del proyecto.
+> **Serie «Vivienda y poder» (1/4).** La vivienda suele contarse como una cuestión de precios, pero detrás del precio hay decisiones de largo recorrido sobre el suelo, la fiscalidad, la financiación y el papel del Estado. En esta primera entrega reconstruyo el tramo 1978–2004. La segunda cubre el auge y el desplome de la vivienda protegida (2004–2018), la tercera las medidas recientes y la brecha pendiente (2018–2026), y el epílogo aplica la pregunta al presente. Al final enlazo con el observatorio y con los datos abiertos del proyecto.
 
 > **Nota metodológica.** Distingo entre hechos normativos, datos estadísticos e interpretaciones. La coincidencia temporal entre una medida y un resultado no es prueba suficiente de causalidad. Las cifras históricas de vivienda protegida y de parque de alquiler social deben cotejarse con las tablas originales y sus definiciones; el detalle de fiabilidad está en la cronología global de la tercera entrega.
 
@@ -84,4 +84,4 @@ La pregunta que dejo abierta para la siguiente entrega es qué ocurrió cuando e
 
 ---
 
-*Sigue la serie: [Del auge al desplome: la vivienda protegida en España (2004–2018)](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) y [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*
+*Sigue la serie: [Del auge al desplome: la vivienda protegida en España (2004–2018)](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) y [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com).*

@@ -1,6 +1,6 @@
 ---
 title: "Del auge al desplome: la vivienda protegida en España (2004–2018)"
-description: "La vivienda protegida terminada marcó su máximo en 2008 (68.587) y cayó a 4.938 en 2017. Qué muestran los datos y qué no explican. 2/3."
+description: "La vivienda protegida terminada marcó su máximo en 2008 (68.587) y cayó a 4.938 en 2017. Qué muestran los datos y qué no explican. 2/4."
 pubDate: 2026-10-10
 author: "M. Castillo"
 assisted: "GenAI (investigación, contraste de fuentes y redacción asistida)"
@@ -16,7 +16,7 @@ abstract_en: "Protected housing completions in Spain peaked in 2008 (68,587) and
 
 
 
-> **Serie «Vivienda y poder» (2/3).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos cómo se configuró, entre 1978 y 2004, un modelo residencial centrado en la propiedad. Aquí examino qué ocurrió con los resultados cuando el auge inmobiliario terminó, y en la [tercera](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/) cubro las medidas recientes y la brecha pendiente.
+> **Serie «Vivienda y poder» (2/4).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos cómo se configuró, entre 1978 y 2004, un modelo residencial centrado en la propiedad. Aquí examino qué ocurrió con los resultados cuando el auge inmobiliario terminó, y en la [tercera](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/) cubro las medidas recientes y la brecha pendiente; en el epílogo examino el presente.
 
 > **Nota metodológica.** Distingo entre medidas aprobadas, recursos presupuestados, viviendas terminadas y unidades realmente disponibles. La coincidencia entre un dato y un resultado no prueba causalidad.
 
@@ -60,4 +60,4 @@ La conclusión prudente es que el desplome de la vivienda protegida terminada **
 
 ---
 
-*Sigue la serie: [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*
+*Sigue la serie: [La brecha pendiente (2018–2026)](/posts/la-brecha-pendiente-vivienda-protegida-2018-2026/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com).*

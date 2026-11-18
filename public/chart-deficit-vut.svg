@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="t d">
+  <title id="t">Déficit de vivienda frente al parque turístico</title>
+  <desc id="d">Déficit acumulado 2021-2025: 750.000. Viviendas turísticas mayo 2026: 341.001. Hogares nuevos 2025: 240.000. Viviendas terminadas 2025: 92.000.</desc>
+  <rect width="720" height="360" fill="#fcfcfb"/>
+  <text x="32" y="38" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#0b0b0b">Déficit de oferta frente a viviendas turísticas</text>
+  <text x="32" y="60" font-family="system-ui,sans-serif" font-size="13" fill="#52514e">Viviendas. Stock arriba, flujo de 2025 abajo (no son magnitudes directamente comparables).</text>
+  <!-- escala: 1 px = 2000 viviendas ; 750.000 = 375 px -->
+  <g font-family="system-ui,sans-serif" font-size="13" fill="#52514e">
+    <text x="32" y="96" font-weight="600" fill="#0b0b0b">Stock</text>
+    <text x="32" y="124">Déficit acumulado 2021-2025 (Banco de España)</text>
+    <text x="32" y="194">Viviendas turísticas, mayo 2026 (INE)</text>
+    <text x="32" y="254" font-weight="600" fill="#0b0b0b">Flujo 2025</text>
+    <text x="32" y="276">Hogares nuevos</text>
+    <text x="32" y="312">Viviendas terminadas</text>
+  </g>
+  <g fill="#2a78d6">
+    <path d="M32 132 h375 v26 h-375 z"/>
+    <path d="M32 202 h170.5 v26 h-170.5 z"/>
+  </g>
+  <g fill="#eb6834">
+    <path d="M180 262 h120 v22 h-120 z"/>
+    <path d="M180 298 h46 v22 h-46 z"/>
+  </g>
+  <g font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#0b0b0b">
+    <text x="415" y="151">750.000</text>
+    <text x="210" y="221">341.001 (≈45 % del déficit)</text>
+    <text x="308" y="279">240.000</text>
+    <text x="234" y="315">92.000</text>
+  </g>
+  <text x="32" y="346" font-family="system-ui,sans-serif" font-size="11" fill="#52514e">Gráfico: Análisis | analisis.pruebapublica.com. Fuentes: INE y Banco de España. Elaboración propia.</text>
+</svg>

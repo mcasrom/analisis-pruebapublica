@@ -23,7 +23,7 @@ auditoria_editorial:
 
 
 
-> **Serie «Vivienda y poder» (3/3).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos el modelo y en la [segunda](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) el auge y el desplome de la vivienda protegida. Cierro la serie con las medidas recientes, la **brecha de alquiler social** frente a Europa y una propuesta sencilla: contabilizar lo que de verdad llega a estar disponible.
+> **Serie «Vivienda y poder» (3/4).** En la [primera entrega](/posts/vivienda-como-poder-1978-2004/) vimos el modelo y en la [segunda](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/) el auge y el desplome de la vivienda protegida. Cierro la trilogía histórica con las medidas recientes, la **brecha de alquiler social** frente a Europa y una propuesta sencilla: contabilizar lo que de verdad llega a estar disponible.
 
 > **Nota metodológica.** Una vivienda anunciada, financiada, iniciada, terminada y disponible son cinco cosas distintas. La coincidencia temporal entre una medida y un resultado no prueba causalidad.
 
@@ -87,4 +87,4 @@ La vivienda es una cuestión de poder porque las reglas sobre suelo, financiaci�
 
 ---
 
-*Serie «Vivienda y poder»: [1/3](/posts/vivienda-como-poder-1978-2004/) · [2/3](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com) y el observatorio de amplificación FIMI.*
+*Serie «Vivienda y poder»: [1/4](/posts/vivienda-como-poder-1978-2004/) · [2/4](/posts/del-auge-al-desplome-vivienda-protegida-2004-2018/). Datos abiertos de vivienda en [vivienda.pruebapublica.com](https://vivienda.pruebapublica.com).*
