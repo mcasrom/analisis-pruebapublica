@@ -60,6 +60,11 @@ const calData = publishedPosts.map((p) => ({
 const calJson = JSON.stringify(calData).replace(/</g, '\\u003c');
 ---
 <aside class="space-y-8">
+  <section>
+    <h3 class="mb-3 border-b border-slate-200 pb-2 text-xs font-semibold uppercase tracking-widest text-slate-500 dark:border-slate-700 dark:text-slate-400">Avisos por email</h3>
+    <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-300">Una sola lista, con etiquetas por servicio. Elige análisis, vivienda, 29N o el resto del ecosistema.</p>
+    <a href="https://www.pruebapublica.com/suscribirse.html?service=analisis&utm_source=analisis&utm_medium=sidebar" class="mt-3 inline-block text-sm font-semibold text-accent-700 hover:underline dark:text-accent-400">Elegir temas →</a>
+  </section>
   <!-- Destacado -->
   {destacado && (
     <section>
