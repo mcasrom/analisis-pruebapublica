@@ -29,6 +29,7 @@ auditoria_editorial:
   contraste: 2
   causalidad: 2
   conclusiones: 2
+no_social: true
 draft: false
 ---
 
