@@ -6,7 +6,7 @@ author: "M. Castillo"
 assisted: "GenAI (documentación, contraste y redacción asistida)"
 tags: ["geopolítica", "Shenzhen", "nuevo orden mundial", "multipolaridad", "China", "Rusia", "Estados Unidos", "APEC", "Ucrania", "Europa"]
 categoria: "análisis"
-image: "/shenzhen-tablero-og.png"
+image: "/shenzhen-tablero-og-v2.png"
 image_alt: "Tarjeta editorial sobre la cumbre trilateral de Shenzhen; no es un mapa de alianzas."
 abstract_en: "The first trilateral summit between the US, Russia and China produced a four-point political declaration on UN reform, energy, state immunities and nuclear risk. It did not produce an agreement on Ukraine, Taiwan or arms control. The meeting shows direct great-power diplomacy, not a new alliance."
 resumen:
