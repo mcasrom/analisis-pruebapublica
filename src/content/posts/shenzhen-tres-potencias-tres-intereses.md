@@ -42,6 +42,14 @@ La Casa Blanca publicó el texto de la [Declaración de los jefes de Estado de E
 
 La diferencia entre una declaración política y un tratado internacional es fundamental. Una declaración expresa intenciones y posiciones. Un tratado crea obligaciones jurídicas y mecanismos de verificación. Shenzhen produjo lo primero.
 
+<figure style="margin:1.5rem 0;text-align:center">
+  <picture>
+    <source srcset="/tableroglobal.webp" type="image/webp">
+    <img src="/tableroglobal.png" alt="Piezas de ajedrez con banderas de EE. UU., Rusia y China sobre un mapamundi; aparecen etiquetados Europa, Ucrania y Taiwán, con iconos de petróleo, nuclear y chips. Ilustración conceptual, no mapa de alianzas." width="1536" height="1024" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px">
+  </picture>
+  <figcaption style="font-size:.85rem;color:#555;margin-top:.4rem">Ilustración conceptual generada para este artículo. Las piezas, líneas e iconos no representan alianzas, flujos comerciales ni despliegues verificados.</figcaption>
+</figure>
+
 ## La declaración, punto por punto
 
 El texto publicado contiene cuatro compromisos:
