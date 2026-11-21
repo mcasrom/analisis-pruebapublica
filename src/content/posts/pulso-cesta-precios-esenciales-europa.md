@@ -7,10 +7,10 @@ assisted: "GenAI (documentación, contraste y redacción asistida)"
 tags: ["Europa", "precios", "inflación", "coste de vida", "Eurostat", "Pulso del Bolsillo", "datos abiertos", "método", "economía"]
 categoria: "análisis"
 image: "/pulso-cesta-og.png"
-image_alt: "Infografía editorial sobre Pulso del Bolsillo y la evolución de la cesta esencial en cinco países europeos."
+image_alt: "Infografía editorial sobre Pulso del Bolsillo y la evolución de la cesta seleccionada de gastos cotidianos en cinco países europeos."
 abstract_en: "Pulso del Bolsillo is an experimental observatory that tracks the evolution of ten essential categories in five European countries using Eurostat data. This post explains what the Basic Cost Index measures, what it does not measure, and why it is not a cost-of-living index."
 resumen:
-  - "Pulso del Bolsillo mide la evolución de una cesta de diez categorías esenciales en España, Alemania, Francia, Italia y Portugal; no mide el coste de vida completo."
+  - "Pulso del Bolsillo mide la evolución de una cesta seleccionada de diez categorías de gasto cotidiano en España, Alemania, Francia, Italia y Portugal; no mide el coste de vida completo."
   - "El ICB usa índices y pesos HICP de Eurostat, base diciembre de 2025 = 100. En octubre de 2026 va de 101,311 en Alemania a 106,237 en Italia."
   - "La cesta cubre entre el 43,5 % y el 51,1 % del gasto HICP; el resto queda fuera. El indicador no permite comparar niveles absolutos entre países ni elaborar un ranking."
 faq:
@@ -31,11 +31,11 @@ no_social: true
 draft: false
 ---
 
-¿Cómo evolucionan los gastos esenciales en Europa? ¿Suben de la misma manera en España, Alemania, Francia, Italia y Portugal? ¿Qué categorías explican las diferencias? Son preguntas aparentemente sencillas, pero responderlas exige distinguir entre conceptos que a menudo se mezclan en el debate público: inflación, coste de vida, precios de consumo y capacidad adquisitiva.
+¿Cómo evolucionan los gastos cotidianos en Europa? ¿Suben de la misma manera en España, Alemania, Francia, Italia y Portugal? ¿Qué categorías explican las diferencias? Son preguntas aparentemente sencillas, pero responderlas exige distinguir entre conceptos que a menudo se mezclan en el debate público: inflación, coste de vida, precios de consumo y capacidad adquisitiva.
 
 Hablar de inflación es hablar de una variación estadística. Hablar del coste de vida es abordar una realidad mucho más amplia, condicionada por los ingresos, la vivienda, la composición de los hogares, el territorio y los hábitos de consumo. Entre ambas cuestiones existe un espacio interesante: observar cómo evolucionan determinados gastos que forman parte de la economía cotidiana.
 
-Con esa idea nace [Pulso del Bolsillo](https://pulso.pruebapublica.com/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026), un observatorio experimental e independiente que he diseñado para seguir la evolución de una cesta seleccionada de categorías esenciales en cinco países europeos.
+Con esa idea nace [Pulso del Bolsillo](https://pulso.pruebapublica.com/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026), un observatorio experimental e independiente que he diseñado para seguir la evolución de una cesta seleccionada de gastos cotidianos en cinco países europeos.
 
 ![Infografía de Pulso del Bolsillo con la evolución del ICB y los datos de octubre de 2026.](/pulso-cesta-interna.webp)
 
@@ -47,7 +47,7 @@ No pretendía sustituir los modelos económicos ni ofrecer una medición complet
 
 La idea de fondo resulta interesante: construir un indicador propio, comprensible y apoyado en datos para acercar una realidad económica al público.
 
-Pulso del Bolsillo parte de una inspiración semejante, aunque persigue un objetivo diferente. En lugar de comparar el precio de un producto concreto entre países, observa la evolución temporal de diez categorías de consumo seleccionadas. La pregunta ya no es cuánto cuesta una hamburguesa en distintos lugares, sino cómo han evolucionado determinados gastos esenciales desde una fecha de referencia.
+Pulso del Bolsillo parte de una inspiración semejante, aunque persigue un objetivo diferente. En lugar de comparar el precio de un producto concreto entre países, observa la evolución temporal de diez categorías de gasto cotidiano seleccionadas. La pregunta ya no es cuánto cuesta una hamburguesa en distintos lugares, sino cómo han evolucionado determinados gastos cotidianos desde una fecha de referencia.
 
 No es una versión doméstica del índice Big Mac ni pretende competir con los indicadores oficiales. Es otra forma de mirar los datos.
 
@@ -55,7 +55,7 @@ No es una versión doméstica del índice Big Mac ni pretende competir con los i
 
 El núcleo del proyecto es el **ICB, Índice de Coste Básico**. Sigue la evolución de una cesta de diez categorías en España, Alemania, Francia, Italia y Portugal.
 
-La información procede de Eurostat, concretamente de las series armonizadas de precios de consumo y de las ponderaciones correspondientes. La referencia temporal es diciembre de 2025, establecido como base 100. El último periodo incorporado en esta primera presentación es octubre de 2026. La [metodología completa](https://pulso.pruebapublica.com/metodologia/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026) y las [categorías y pesos](https://pulso.pruebapublica.com/categorias/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026#pesos) están publicados.
+La información procede de Eurostat, concretamente de las series armonizadas de precios de consumo y de las ponderaciones correspondientes. La referencia temporal es diciembre de 2025, establecido como base 100. El último periodo incorporado en esta primera presentación es octubre de 2026. La [metodología completa](https://pulso.pruebapublica.com/metodologia/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026#revision-cesta) y las [categorías y pesos](https://pulso.pruebapublica.com/categorias/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026#pesos) están publicados.
 
 La cesta comprende alimentación, bebidas no alcohólicas, vestido y calzado, vivienda, energía, mobiliario y equipamiento del hogar, mantenimiento del hogar, transporte, comunicaciones y cuidado personal y otros bienes y servicios.
 
@@ -87,6 +87,8 @@ También he querido hacer visibles las decisiones metodológicas. La composició
 
 El proyecto documenta estas decisiones en lugar de esconderlas detrás de una cifra aparentemente incuestionable.
 
+La **versión 1.1** abre la revisión metodológica de la cesta. **CP051 (muebles)** queda provisional, **CP131** se publica como alternativa a **CP13**, y **CP06 salud / CP10 educación** se mantienen en un escenario exploratorio, fuera del ICB principal. Los seis escenarios, el escenario de 12 categorías y la justificación de cada categoría están en la [revisión de la cesta](https://pulso.pruebapublica.com/metodologia/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026#revision-cesta).
+
 ## Lo que el indicador no pretende medir
 
 Es importante explicar también los límites.
@@ -109,7 +111,7 @@ La web permite consultar los resultados, explorar la evolución histórica, exam
 
 No utiliza inteligencia artificial para calcular el indicador: los resultados proceden de un proceso determinista basado en datos estadísticos y reglas documentadas.
 
-La versión pública 1.0 se presenta como experimental. La publicación no equivale a una validación académica ni institucional. Precisamente por eso he abierto una [página de revisión](https://pulso.pruebapublica.com/revision/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026) en la que cualquier persona interesada puede examinar el planteamiento, la fórmula, la selección de categorías, los resultados y las limitaciones.
+La versión pública 1.1 es una revisión metodológica; la serie ICB 1.0 sigue siendo experimental y no cambia sus datos. La publicación no equivale a una validación académica ni institucional. Precisamente por eso he abierto una [página de revisión](https://pulso.pruebapublica.com/revision/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026) en la que cualquier persona interesada puede examinar el planteamiento, la fórmula, la selección de categorías, los resultados y las limitaciones.
 
 La intención no es pedir adhesiones ni buscar una certificación. Es facilitar que el trabajo pueda leerse, discutirse y mejorarse.
 
