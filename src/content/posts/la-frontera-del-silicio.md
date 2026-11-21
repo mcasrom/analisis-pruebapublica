@@ -172,12 +172,6 @@ En la economía digital, el poder no está únicamente en quien desarrolla la te
 
 ---
 
-### Imagen de cabecera
-
-**Alt:** Centro de datos conectado a redes eléctricas y comunicaciones internacionales. La infraestructura de computación como elemento del poder geopolítico.
-
-**Pie:** La inteligencia artificial necesita algo más que algoritmos: electricidad, procesadores, redes e instalaciones físicas. Ilustración editorial creada para este artículo bajo dirección del autor; no representa una instalación concreta.
-
 ### Fuentes
 
 - [Reuters, 20-11-2026: declaración de Trump sobre centros de datos en el exterior](https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/).
