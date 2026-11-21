@@ -11,11 +11,11 @@ pm2 restart analisis-pub >/dev/null
 URL='https://analisis.pruebapublica.com/posts/participar-no-es-representar/'
 IMG='https://analisis.pruebapublica.com/participar-no-es-representar-og.png'
 ALT='Mapa provincial de participación en 2023 y título del análisis sobre territorio y escaños.'
-TXTM='Mañana: participación, territorio y escaños. El análisis completo, 22-N. He publicado un análisis sin pronóstico sobre cómo las circunscripciones y la distribución del voto transforman votos en escaños, con datos del Observatorio 29N.
+TXTM='Ya disponible: participación, territorio y escaños. El análisis completo, 22-N. He publicado un análisis sin pronóstico sobre cómo las circunscripciones y la distribución del voto transforman votos en escaños, con datos del Observatorio 29N.
 
 Post: https://analisis.pruebapublica.com/posts/participar-no-es-representar/
 Datos: https://elecciones29n.pruebapublica.com/'
-TXTB='Mañana: participación, territorio y escaños. El análisis completo, 22-N. Un análisis sin pronóstico sobre cómo las circunscripciones transforman votos en escaños. Datos del Observatorio 29N.
+TXTB='Ya disponible: participación, territorio y escaños. El análisis completo, 22-N. Un análisis sin pronóstico sobre cómo las circunscripciones transforman votos en escaños. Datos del Observatorio 29N.
 
 https://analisis.pruebapublica.com/posts/participar-no-es-representar/'
 cd "$SOCIAL"
