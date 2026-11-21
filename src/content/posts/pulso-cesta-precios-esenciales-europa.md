@@ -126,3 +126,9 @@ Ese es el propósito de Pulso del Bolsillo: no ofrecer una respuesta definitiva 
 **El observatorio está abierto a consulta.** Te invito a explorar los [resultados](https://pulso.pruebapublica.com/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026), revisar la [metodología](https://pulso.pruebapublica.com/metodologia/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026) y examinar también sus [límites](https://pulso.pruebapublica.com/revision/?utm_source=analisis&utm_medium=post&utm_campaign=pulso-cesta-2026).
 
 *Pulso del Bolsillo. Lo que sube la cesta. No lo que cuesta vivir.*
+
+---
+
+**M. Castillo** · @pruebapublica  
+*Prueba Pública · 21 de noviembre de 2026*
+
