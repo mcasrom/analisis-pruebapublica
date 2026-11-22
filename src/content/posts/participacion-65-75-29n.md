@@ -12,7 +12,7 @@ image: "/participacion-65-75-og.png"
 categoria: "análisis"
 author: "M. Castillo"
 assisted: "GenAI (documentación y edición asistida)"
-draft: true
+draft: false
 faq:
   - q: "¿Más participación beneficia siempre a un partido?"
     a: "No. Depende de quiénes son los nuevos votantes, cómo distribuyen su voto y en qué provincias se concentran."
