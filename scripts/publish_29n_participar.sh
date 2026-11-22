@@ -7,7 +7,7 @@ SOCIAL=/home/deploy/social-poster
 cd "$BLOG"
 sed -i '0,/^draft: true$/s//draft: false/' src/content/posts/participar-no-es-representar.md
 npm run build
-pm2 restart analisis-pub >/dev/null
+pm2 restart analisis-pub >/dev/null 2>&1 || true
 URL='https://analisis.pruebapublica.com/posts/participar-no-es-representar/'
 IMG='https://analisis.pruebapublica.com/participar-no-es-representar-og.png'
 ALT='Mapa provincial de participación en 2023 y título del análisis sobre territorio y escaños.'
