@@ -58,6 +58,13 @@ pm2 start ecosystem.config.cjs --env production
 - resto → sirve `dist/client/` (estático)
 - cert Let's Encrypt + DNS A `analisis.pruebapublica.com` → `178.105.80.193`
 
+## Publicación programada y difusión social
+
+- Los one-shot de publicación (por ejemplo `scripts/publish_29n_participar.sh`) hacen build, cambio de `draft`, purga y difusión. **Un fallo de PM2 no debe abortar la difusión**: usar `pm2 restart analisis-pub >/dev/null 2>&1 || true`.
+- La cola `social-poster/social_queue.py` es idempotente: se puede relanzar o añadir un reintento a los 15 minutos sin duplicar los canales ya publicados.
+- X se envía al bot de Telegram para copia manual; no se publica automáticamente.
+- Verificar siempre `.done`, `social-*.log` y las URLs de Mastodon/Bluesky. Un build correcto no implica que la difusión haya ocurrido.
+
 ## Contenido
 - Posts en `src/content/posts/*.md` (frontmatter: `title`, `description`, `pubDate`,
   `tags`, `image`, `categoria`, `author`, `assisted`, `draft`, y opcionalmente
