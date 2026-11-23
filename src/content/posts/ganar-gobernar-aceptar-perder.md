@@ -11,7 +11,7 @@ serie: "Democracia y legitimidad"
 serie_numero: 2
 image: "/ganar-gobernar-aceptar-perder-og.png"
 image_alt: "Tarjeta del análisis «Ganar, gobernar y aceptar perder»: las tres pruebas de la legitimidad democrática."
-draft: true
+draft: false
 auditoria_editorial:
   fecha: 2026-11-02
   tesis: 2
