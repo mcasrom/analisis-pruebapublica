@@ -28,7 +28,7 @@ auditoria_editorial:
   causalidad: 2
   conclusiones: 2
 no_social: true
-draft: true
+draft: false
 ---
 
 *La participación electoral no tiene un efecto automático sobre el resultado. En España, el tamaño de las circunscripciones, la distribución territorial del electorado y la concentración del voto condicionan cómo se transforman las preferencias políticas en representación parlamentaria.*
