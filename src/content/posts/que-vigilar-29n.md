@@ -11,11 +11,11 @@ image_alt: "Guía breve para vigilar el 29N: procedimiento, recuento y confianza
 abstract_en: "A short guide to what to watch in the final days before Spain's 29N election: procedure, postal vote, deepfakes, polls and the blackout. Signal, not attribution."
 resumen:
   - "El mensaje más peligroso no siempre es el más visible: un cambio de día, lugar u horario puede desmovilizar sin una operación sofisticada."
-  - "El radar mide compatibilidad y amplificación; no atribuye autoría. H3 es dominante en 2 de 160 clústeres y la atribución sigue siendo UNKNOWN en 159."
+  - "No se cita un clúster concreto: la instantánea pública del observatorio FIMI ya no está disponible; la guía se apoya en fuentes oficiales."
   - "En los últimos días, la fuente es la JEC, el BOE y los canales oficiales; en encuestas, la media con rango y el blackout del 24–28."
 faq:
   - q: "¿Hay una operación extranjera confirmada en el 29N?"
-    a: "No consta. El radar mide compatibilidad con hipótesis, no atribución. H3 es la hipótesis dominante en 2 de 160 clústeres y aparece con score ≥0,3 en 45, pero la atribución es UNKNOWN en 159 de 160. Una puntuación alta no identifica a un actor."
+    a: "No consta. No se cita un clúster concreto porque la instantánea pública del observatorio FIMI ya no está disponible: la URL responde 410. La regla práctica se apoya en fuentes oficiales, no en una referencia caída."
   - q: "¿Qué hago si veo un mensaje que cambia el día o el lugar de voto?"
     a: "No lo reenvíes. Comprueba día, lugar y horario en la JEC, el BOE o los canales oficiales del Ministerio del Interior. Si no coincide, descártalo aunque lo comparta alguien con muchos seguidores."
   - q: "¿Se pueden publicar encuestas durante el blackout?"
@@ -41,7 +41,7 @@ Quedan seis días para el 29N. No afirmo que haya una operación en marcha ni qu
 
 No hace falta una red sofisticada para desmovilizar. Basta con cambiar el día, el lugar o el horario.
 
-En el tema **España-elecciones** del radar hay un clúster —el **014**— que contiene un mensaje llamando a votar «el lunes 30» en una comisaría. El 29N es **domingo 29**. El clúster tiene **44 eventos y 6 autores** y mezcla ese mensaje con política general: no es un clúster monotemático ni una atribución.
+En el corpus apareció un mensaje que llamaba a votar «el lunes 30» en una comisaría. El 29N es **domingo 29**. No cito un clúster concreto porque la instantánea pública de FIMI ya no está disponible: la URL del tema responde 410. La regla práctica no necesita esa referencia: si un mensaje cambia día, lugar u horario, se descarta.
 
 La defensa es simple: **si un mensaje cambia el día, el lugar o el horario, se descarta**. La fuente es la [JEC](https://www.juntaelectoralcentral.es/), el [BOE](https://www.boe.es/) y los canales oficiales del Ministerio del Interior. No un vídeo, no una captura, no un influencer.
 
@@ -65,16 +65,11 @@ Cuando se pueda hablar de encuestas, la referencia es la **media con rango**, no
 
 El 29N circularán resultados parciales, actas y rumores a la vez. La [noche electoral](https://elecciones29n.pruebapublica.com/noche-electoral.html) tiene un plan: qué se publica, cuándo y con qué fuente. Hasta que haya datos oficiales, la prudencia es no convertir un error en un hecho.
 
-## Lo que dice el radar, y lo que no
+## Lo que no voy a hacer
 
-He revisado el tema **España-elecciones generales**: **160 clústeres**.
+No voy a convertir una instantánea no accesible en prueba. La instantánea pública del tema **España-elecciones** de FIMI ya no está disponible: la URL responde **410**. Por eso esta guía no usa cifras de clústeres como evidencia operativa.
 
-- **H3 (operación de influencia extranjera) es la hipótesis dominante en 2 de 160 clústeres.**
-- **H3 aparece con score ≥0,3 en 45 de 160**, como hipótesis secundaria.
-- **Atribución: UNKNOWN en 159 de 160; PROXY en 1.**
-- Lo dominante es la **sincronía doméstica (H2b)** y la **campaña doméstica (H2)**; el eco de prensa (H4) también pesa.
-
-Eso no significa que no haya riesgo. Significa que **lo que más se ve no es lo más peligroso**: el volumen y la sincronía doméstica dominan; la señal extranjera es minoritaria y no atribuible con los datos actuales. Una puntuación de compatibilidad no es una probabilidad ni una prueba.
+La conclusión práctica no cambia: la defensa está en la fuente oficial, en la verificación independiente y en no atribuir autoría sin prueba.
 
 ## Cierre
 
@@ -88,8 +83,7 @@ En el 29N, la mejor defensa no es una lista de enemigos: es saber **dónde está
 
 - [JEC](https://www.juntaelectoralcentral.es/) · [LOREG](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) · [Orden PCM/1030/2020](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13663).
 - [Observatorio 29N](https://elecciones29n.pruebapublica.com/) · [robustez del dato](https://elecciones29n.pruebapublica.com/robustez.html) · [noche electoral](https://elecciones29n.pruebapublica.com/noche-electoral.html).
-- [API del tema España-elecciones (FIMI)](https://fimi.viajeinteligencia.com/api/v1/tema/espana_elecciones).
 
-*Nota de elaboración: texto preparado con asistencia de IA para documentación, contraste y redacción, bajo criterio y revisión editorial humanos. Los datos del radar son una instantánea fechada; miden compatibilidad y amplificación, no atribución.*
+*Nota de elaboración: texto preparado con asistencia de IA para documentación, contraste y redacción, bajo criterio y revisión editorial humanos. No se cita una instantánea pública que ya no está disponible.*
 
 *@pruebapublica · analisis.pruebapublica.com*
