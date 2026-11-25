@@ -117,6 +117,13 @@ Durante el **blackout electoral** (24–28 de noviembre) no se publican ni difun
 
 > **Sigue esta línea de análisis.** [Recibe el siguiente análisis en tu correo](https://analisis.pruebapublica.com/suscribirse/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos).
 
+## Del voto al escaño
+
+Si después de la media quieres entender **cómo se convierte el voto en representación**, estos dos explicadores van al mecanismo:
+
+- [Cómo se reparten los 350 escaños: la ley D'Hondt paso a paso](/posts/como-se-reparten-los-escanos-ley-dhondt/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos)
+- [Por qué votamos con D'Hondt: el sistema que se escribió antes que la Constitución](/posts/por-que-votamos-con-dhondt/?utm_source=analisis&utm_medium=post&utm_campaign=observatorio-29n-media-de-sondeos)
+
 ## Para qué sirve
 
 Para un periodista, es una forma rápida de citar una media **con su rango y su n**. Para un docente, un caso práctico de incertidumbre y de diferencia entre dato y estimación. Para cualquier lector, una manera de no confundir una encuesta con un resultado.

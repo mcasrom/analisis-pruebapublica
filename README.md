@@ -28,6 +28,10 @@ dinámicos (likes/comentarios/suscripción) en Node, desplegado con Nginx + PM2.
 - **Cross-promo a Vivienda**: los posts de la serie **«Vivienda y poder»** añaden un
   bloque propio hacia `vivienda.pruebapublica.com` (también con UTM crosspromo).
 
+## Publicaciones y cambios
+
+- [Registro de publicaciones y cambios editoriales](docs/PUBLICACIONES.md).
+
 ## Local
 ```bash
 npm install

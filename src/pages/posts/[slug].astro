@@ -146,6 +146,7 @@ const shareMasto = `https://mastodon.social/share?text=${shareBody('mastodon')}`
 const shareHN = `https://news.ycombinator.com/submitlink?u=${encodeURIComponent(withUtm('hn'))}`;
 const shareLi = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(withUtm('linkedin'))}`;
 const waShare = `https://wa.me/?text=${encodeURIComponent(`${post.data.title} — ${withUtm('whatsapp')}`)}`;
+const shareTelegram = `https://t.me/share/url?url=${encodeURIComponent(withUtm('telegram'))}&text=${encodeURIComponent(post.data.title)}`;
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -287,6 +288,10 @@ const faqLd = faq.length
           <a href={waShare} target="_blank" rel="noopener noreferrer"
             class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-green-500 hover:text-green-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-green-400 dark:hover:text-green-400">
             📲 WhatsApp
+          </a>
+          <a href={shareTelegram} target="_blank" rel="noopener noreferrer"
+            class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-sky-500 hover:text-sky-600 dark:border-slate-700 dark:text-slate-300 dark:hover:border-sky-400 dark:hover:text-sky-400">
+            ✈️ Telegram
           </a>
           <a href={shareX} target="_blank" rel="noopener noreferrer"
             class="rounded-full border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition hover:border-black hover:text-black dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-300 dark:hover:text-white">
