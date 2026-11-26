@@ -60,22 +60,11 @@ Nada de esto demuestra que la veda sea inútil. Demuestra que su efecto depende 
 
 ## 3. Qué se puede leer durante la veda
 
-La veda no obliga a mirar una pantalla vacía. El agregador del 29N conserva el **último corte público** y permite leerlo como lo que es: una foto fechada, no una profecía.
+La veda no obliga a mirar una pantalla vacía, pero sí impide reproducir porcentajes y rangos de sondeos. Por eso este artículo no incluye la tabla de medias ni el gráfico de rangos: publicarlos ahora sería, precisamente, la difusión que la ley limita. La explicación del método y de los límites sigue siendo posible; la foto demoscópica se consulta cuando termine la veda.
 
-**Corte público: 23/11/2026, 15:49 CET.** 36 sondeos y 14 casas en la media principal.
+Lo que sí puede leerse es la estructura del dato: cuántas casas publican, cómo se calcula una media, qué significa el rango mínimo–máximo y por qué no es un intervalo de confianza. Para eso están la [guía para leer una encuesta](https://elecciones29n.pruebapublica.com/como-leer.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n), la [metodología del observatorio](https://elecciones29n.pruebapublica.com/metodologia.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n) y el [análisis territorial](https://elecciones29n.pruebapublica.com/territorio.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n).
 
-| Partido | Media | Rango mínimo–máximo |
-|---|---:|---:|
-| PP | 31,4 % | 29,3–33,1 % |
-| PSOE | 28,2 % | 25,6–31,6 % |
-| VOX | 18,5 % | 16,9–20,3 % |
-| SUMAR | 6,7 % | 5,3–9,2 % |
-
-![Rango mínimo y máximo de PP, PSOE, VOX y SUMAR en el último corte público](/silencio-sondeos-29n-range.svg)
-
-*Elaboración propia con el último corte público del agregador. El rango no es un intervalo de confianza ni un pronóstico de escaños.*
-
-El dato no dice “quién gana”. Dice cuánto se dispersan las casas antes del cierre y qué margen queda para que la foto cambie. Puedes consultar la [ficha de robustez](https://elecciones29n.pruebapublica.com/robustez.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n), la [guía para leer una encuesta](https://elecciones29n.pruebapublica.com/como-leer.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n) y los [datos abiertos](https://elecciones29n.pruebapublica.com/data/latest.json?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n).
+Una media no dice “quién gana”: dice cuánto se dispersan las casas antes del cierre y qué margen queda para que la foto cambie. Esa advertencia vale más durante la veda, cuando no hay una encuesta nueva que la actualice.
 
 ## 4. Comparación europea: no todos los países apagan igual
 
@@ -131,9 +120,8 @@ La herramienta más útil no es perseguir filtraciones opacas, sino conservar lo
 - [LOREG, artículo 69.7](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672).
 - [Code électoral francés, art. L52-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353523), [BWahlG, §32](https://www.gesetze-im-internet.de/bwahlg/__32.html) y [Representation of the People Act 1983, s. 66A](https://www.legislation.gov.uk/ukpga/1983/2/section/66A).
 - [LEAR consolidada de Portugal](https://www.cne.pt/sites/default/files/dl/legis_lear_consolidada_2026-07.pdf), artículo 60 revocado, y Lei 10/2000 sobre publicación de sondeos.
-- [Último corte público del agregador 29N](https://elecciones29n.pruebapublica.com/data/latest.json?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n): 36 sondeos, 14 casas, 23/11/2026.
-- [Robustez del dato](https://elecciones29n.pruebapublica.com/robustez.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n) y [cómo leer una encuesta](https://elecciones29n.pruebapublica.com/como-leer.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n).
+- [Cómo leer una encuesta](https://elecciones29n.pruebapublica.com/como-leer.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n), [metodología](https://elecciones29n.pruebapublica.com/metodologia.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n) y [análisis territorial](https://elecciones29n.pruebapublica.com/territorio.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=silencio-sondeos-29n).
 
-*Nota sobre el proceso de elaboración:* este análisis se apoya en la LOREG, la legislación electoral comparada y el último corte público del observatorio 29N. Lo he elaborado con asistencia de IA para el contraste y la redacción, bajo criterio y supervisión editorial humanos, con verificación manual de fuentes y cifras. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán.
+*Nota sobre el proceso de elaboración:* este análisis se apoya en la LOREG, la legislación electoral comparada y la documentación metodológica del observatorio 29N. No reproduce porcentajes ni rangos de sondeos durante la veda. Lo he elaborado con asistencia de IA para el contraste y la redacción, bajo criterio y supervisión editorial humanos, con verificación manual de fuentes y cifras. Los errores de hecho, si los hay, son responsabilidad del autor y se corregirán.
 
 *@pruebapublica · analisis.pruebapublica.com*
