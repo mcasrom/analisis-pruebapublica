@@ -55,6 +55,7 @@ const noindexPage = noindex || url.startsWith('/admin');
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={trimmedDesc} />
   <meta property="og:image" content={fullImage} />
+  <meta property="og:image:alt" content={title} />
   <meta property="og:url" content={fullUrl} />
   <meta property="og:type" content={type} />
   <meta property="og:locale" content="es_ES" />
@@ -64,6 +65,7 @@ const noindexPage = noindex || url.startsWith('/admin');
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={trimmedDesc} />
   <meta name="twitter:image" content={fullImage} />
+  <meta name="twitter:image:alt" content={title} />
 
   <link rel="canonical" href={fullUrl} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
