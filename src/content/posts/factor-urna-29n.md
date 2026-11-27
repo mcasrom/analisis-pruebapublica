@@ -53,7 +53,7 @@ Esa serie sirve para situar el listón, no para extrapolarlo. Un 29 de noviembre
 
 La circunscripción importa. En 2026, **Teruel** elige 3 escaños con **35.417 electores por escaño**; **Madrid** elige 38 con **145.708**. La diferencia es de más de cuatro veces.
 
-![Electores por escaño en una selección de provincias.](/factor-urna-territorio.svg)
+![Electores por escaño en una selección de provincias.](/factor-urna-territorio.svg?v=2)
 
 *Elaboración propia con el censo del INE y el Real Decreto 806/2026. La selección muestra extremos y mediana; no son las 52 provincias.*
 
