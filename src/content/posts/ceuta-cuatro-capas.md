@@ -32,7 +32,7 @@ He ordenado este análisis en cuatro capas —geografía, historia, economía y 
 
 ## 1. La coordenada no es la explicación
 
-Ceuta está en **35,8894° N, 5,3213° O**, en la orilla norteafricana del Estrecho de Gibraltar. Ocupa unos **19 km²** y tiene una población en torno a **80.000 habitantes**. Su posición frente a Algeciras y Gibraltar, y su cercanía al eje Tánger-Tetuán, la convierten en un nodo logístico y político.
+Ceuta está en **35,8894° N, 5,3213° O**, en la orilla norteafricana del Estrecho de Gibraltar. Ocupa aproximadamente **19 km²** y cuenta con **83.595 habitantes** según la cifra oficial del INE para 2025. Su posición frente a Algeciras y Gibraltar, y su cercanía al eje Tánger-Tetuán, la convierten en un nodo logístico y político.
 
 ![Esquema de localización de Ceuta y el Estrecho.](/ceuta-cuatro-capas-localizacion.svg)
 
@@ -48,7 +48,7 @@ La coordenada es el punto de partida. No es la conclusión.
 
 ## 2. La historia: capas jurídicas, no una frontera natural
 
-La configuración actual de Ceuta es el resultado de una sedimentación histórica y jurídica. La ciudad fue incorporada a la Corona portuguesa en **1415** y quedó vinculada a la Monarquía Hispánica; el **Tratado de Lisboa de 1668** ratificó esa vinculación. En **1986**, con la adhesión de España a las Comunidades Europeas, su perímetro terrestre adquirió una dimensión supranacional.
+La configuración actual de Ceuta es el resultado de una sedimentación histórica y jurídica. La ciudad fue incorporada a la Corona portuguesa en **1415** y quedó vinculada a la Monarquía Hispánica; el **Tratado de Lisboa de 1668** ratificó esa vinculación. En **1986**, con la adhesión de España a las Comunidades Europeas, Ceuta quedó incorporada al marco jurídico comunitario, con las particularidades previstas para su territorio. Posteriormente, la aplicación del acervo Schengen convirtió su frontera con Marruecos en una frontera exterior del espacio Schengen.
 
 ![Línea temporal: 1415, 1668, 1986 y 2026.](/ceuta-cuatro-capas-timeline.svg)
 
@@ -61,13 +61,13 @@ Esa doble capa —títulos históricos y frontera europea— explica por qué un
 
 ## 3. La economía: del porteo a la diversificación pendiente
 
-Durante décadas, la economía ceutí estuvo marcada por su fiscalidad diferenciada —el **IPSI**— y por el tránsito comercial informal conocido como **porteo**. Ese modelo generaba actividad, pero dependía de la permeabilidad de la frontera y quedaba expuesto a cierres y cambios regulatorios.
+Durante décadas, la economía ceutí estuvo marcada por su fiscalidad diferenciada —el **IPSI**— y por el comercio atípico transfronterizo, que incluía el **porteo**. Ese modelo generaba actividad, pero dependía de la permeabilidad de la frontera y quedaba expuesto a cierres y cambios regulatorios.
 
 La pandemia y la reordenación posterior de los flujos aceleraron una transición que sigue abierta:
 
-- **Puerto:** avituallamiento, servicios portuarios, pasajeros y logística, en competencia con Algeciras y Tánger Med.
-- **Sector público:** administración, defensa, educación y sanidad como estabilizadores del empleo.
-- **Diversificación:** servicios digitales, juego regulado, economía azul y turismo de proximidad.
+- **Puerto:** avituallamiento, servicios portuarios, pasajeros y logística. Su actividad se desarrolla en un entorno regional donde destacan los grandes nodos de Algeciras y Tánger Med, sin que los tres puertos tengan idénticas funciones ni dimensión.
+- **Actividad existente:** administración, defensa, educación, sanidad, comercio y puerto como estabilizadores del empleo.
+- **Diversificación potencial:** servicios digitales, juego regulado, economía azul y turismo de proximidad.
 - **Extrapeninsularidad:** sobrecostes de transporte que condicionan cualquier estrategia de autonomía económica.
 
 No voy a convertir esta sección en una gráfica sin serie verificable. El desglose económico disponible está en [La factura de la crisis de Ceuta](/posts/ceuta-factura-2026/), con sus fuentes y límites.
@@ -78,9 +78,9 @@ En Ceuta se cruzan al menos cinco actores:
 
 - **España:** soberanía, integridad territorial, estabilidad de la ciudad y relación de vecindad con Marruecos.
 - **Marruecos:** reivindicación pública sobre Ceuta y Melilla y cooperación variable en migración, seguridad y economía.
-- **Argelia:** rivalidad regional con Marruecos y efectos indirectos sobre el Magreb y el Sáhara.
+- **Argelia:** actor regional por su rivalidad con Marruecos y su peso en el Magreb y el Sáhara. No se le atribuye una actuación directa en la crisis sin documento específico.
 - **Unión Europea:** frontera exterior y marco de derechos, migración y cooperación.
-- **Aliados atlánticos:** OTAN y Estados Unidos, con atención al Estrecho, Gibraltar y las bases de Rota y Morón.
+- **Aliados atlánticos:** Estados Unidos y la OTAN forman parte del entorno estratégico del Estrecho por su cooperación militar con España y las instalaciones de Rota y Morón. Esa relación no equivale a una cobertura automática del artículo 5 de la OTAN para Ceuta: el ámbito geográfico de la defensa colectiva se delimita en el artículo 6 y no incluye ordinariamente su territorio. La OTAN es, sobre todo, un marco de consulta y cooperación.
 
 Nombrar actores no es atribuirles una acción. La diferencia entre **interés**, **capacidad**, **actuación documentada** e **intención supuesta** es la base del método. Las fichas están en [Actores e intereses](https://ceutawatch.pruebapublica.com/actores.html?utm_source=analisis&utm_medium=crosspromo&utm_campaign=ceuta-cuatro-capas).
 
@@ -90,7 +90,7 @@ CEUTA WATCH no es un mapa operativo. Es un archivo documental:
 
 - **36 PDF activos** del repositorio oficial de La Moncloa, con URL y SHA-256.
 - **4 comunicaciones sin URL propia en cuarentena**, fuera de la cronología y de la evidencia.
-- **36 testigos externos** en Internet Archive.
+- **36 capturas externas** de Internet Archive, una asociada a cada PDF activo, como trazabilidad adicional.
 - Una política de datos que excluye nombres y perfiles de personas migrantes.
 
 El archivo permite ordenar qué documento se emitió, cuándo y por quién. No permite, por sí solo, demostrar una intención estatal, una coordinación oculta ni una cifra única de fallecidos.
@@ -114,7 +114,7 @@ La utilidad de las cuatro capas no es adivinar. Es evitar que una sola explicaci
 ## Preguntas frecuentes
 
 **¿Ceuta es parte de la Unión Europea?**  
-Sí, forma parte de la UE, con un estatuto fiscal y aduanero específico. No conviene resumirlo como si fuera una frontera comunitaria ordinaria: su régimen tiene particularidades que deben verificarse en cada materia.
+Sí. Es territorio español y forma parte de la UE, pero no del territorio aduanero de la Unión ni del ámbito territorial del IVA; se aplica el IPSI. El acervo Schengen se aplica y su frontera con Marruecos es frontera exterior del espacio Schengen, con controles específicos hacia la península y otros territorios Schengen. Son tres dimensiones distintas: territorio, aduana y Schengen.
 
 **¿La crisis del 30J se explica por la geografía?**  
 No. La geografía ayuda a entender la posición; la crisis exige reconstruir documentos, decisiones y respuestas institucionales.
@@ -127,6 +127,10 @@ No. Ordena documentos públicos y separa hechos, atribuciones e hipótesis. La a
 - [Historia de Ceuta](https://ceutawatch.pruebapublica.com/historia.html) — CEUTA WATCH, con fuentes enlazadas.
 - [Tratado de Adhesión de España a las Comunidades Europeas](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:11985I/TXT).
 - [Fuentes y evidencia](https://ceutawatch.pruebapublica.com/fuentes.html) — qué mide cada cifra y qué falta.
+- [INE · población de Ceuta, 2025](https://www.ine.es/jaxiT3/Datos.htm?t=2852).
+- [Comisión Europea · territorios aduaneros](https://taxation-customs.ec.europa.eu/customs-4/customs-territories_en).
+- [Comisión Europea · espacio Schengen](https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/schengen-area_en).
+- [OTAN · Tratado de Washington](https://www.nato.int/cps/en/natohq/official_texts_17120.htm).
 - [La factura de la crisis de Ceuta](/posts/ceuta-factura-2026/).
 - [Geopolítica de las fronteras](/posts/geopolitica-fronteras-2026/).
 - [Ceuta y la zona gris: el volumen no es prueba](/posts/ceuta-zona-gris-volumen-no-es-prueba/).
